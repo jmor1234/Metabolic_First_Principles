@@ -1,3 +1,17 @@
+---
+title: "Methodology: Verifying Peat's Claims Against Modern Research"
+aliases:
+  - Methodology
+  - Process
+tags:
+  - structural/methodology
+  - framework/peat
+role: methodology
+connections:
+  - "[[System Overview]]"
+  - "[[Practical Convergence]]"
+---
+
 # Methodology: Verifying Peat's Claims Against Modern Research
 
 ## What This Is
@@ -86,48 +100,67 @@ Every topic has a different distortion pattern. Some have pharmaceutical interes
 
 ## Document Structure
 
-Each document should follow this structure:
+Each document uses Obsidian-native features and follows this structure:
 
+```yaml
+---
+title: "Topic: Descriptive Subtitle"
+aliases: [ShortName, AlternateName]
+tags: [topic/name, status/complete]
+role: topic-document
+claims: [list of claim identifiers]
+assessment-summary: "One-line overall verdict"
+connections: ["[[Other Topic]]"]
+peat-sources: ["https://raypeat.com/..."]
+---
 ```
+
+```markdown
 # [Topic]: [Descriptive Subtitle]
 
-## Overview
-What this topic is, why it matters within the framework, how it connects 
-to other documents in the series.
+[Brief overview with [[wikilinks]] to connected topics]
 
 ## Claim N: [Claim Title]
 
-### What Peat Actually Said
-His specific claims, mechanisms, reasoning, and cited research. 
-Direct quotes where available. Full context.
+### Peat's Position
+Merged narrative: what Peat said + first-principles logic in one section.
+Use > [!quote] callouts for direct quotes.
 
-### The First-Principles Logic
-How this claim follows from the framework's foundational premises.
-Why it's not arbitrary but structurally necessary.
+### Verification
+> [!success/tip/info/warning/question/failure] Assessment verdict
+> One-sentence summary
 
-[Repeat for each claim category]
+Research details. Brief for textbook confirmations. 
+Full contextual analysis for complex/surprising claims.
 
-## Research Verification
-
-### Claim N Verification: [Title] — [Assessment Level]
-What the modern research shows. Linked citations. 
-Contextual commentary on what the research measured, 
-what it compared, and what it can and cannot tell us.
+> [!example]- Pattern: [Name]
+> Brief note + link to [[System Overview#Pattern Name]]
 
 [Repeat for each claim]
 
-## What Makes This Topic Different (if applicable)
-Meta-observation about the research landscape, incentive structure, 
-or epistemic situation specific to this topic.
+## What Makes This Topic Different
+Meta-observation unique to this topic.
 
-## What This Means in Practice
-Actionable implications flowing from the analysis. 
-How this connects to the other documents' practical sections.
+## Practical Implications
+For the shared intervention framework, see [[Practical Convergence]].
+[Topic-specific additions only]
 
 ## Sources
-Complete list of cited research with URLs, journal names, 
-years, and one-line descriptions.
+Complete list with URLs, journal names, years, one-line descriptions.
 ```
+
+### Assessment Callout Mapping
+
+| Assessment Level | Callout | Visual |
+|---|---|---|
+| Confirmed | `> [!success]` | Green check |
+| Confirmed with nuance | `> [!tip]` | Cyan |
+| Partially supported | `> [!info]` | Blue |
+| Overstated | `> [!warning]` | Orange |
+| Speculative | `> [!question]` | Yellow |
+| Not supported | `> [!failure]` | Red |
+
+Additional: `> [!quote]` for Peat quotes, `> [!example]-` (foldable) for recurring pattern appearances.
 
 ---
 
@@ -151,37 +184,42 @@ years, and one-line descriptions.
 
 ## Recurring Patterns Discovered During Verification
 
-These patterns emerged from the work itself. Future agents should watch for them because they recur across topics and inform how to interpret evidence correctly.
+Six patterns emerged independently across multiple topics. They recur because they reflect structural features of how integrated reasoning and fragmented empiricism interact. Future agents should watch for them.
 
-### "Right Destination, Slightly Wrong Route"
+For the full treatment of each pattern with examples from every topic, see [[System Overview#Recurring Patterns]].
 
-Three times across the series, Peat identified the correct functional outcome but attributed it to the most direct mechanism available with his data, when the actual mechanism was more upstream or indirect:
+---
 
-- **Estrogen**: correct endpoint (glycolytic shift), attributed to direct Complex IV blockade, actual mechanism is AKT/ERR signaling cascades operating at physiological concentrations
-- **Progesterone/cortisol**: correct endpoint (anti-stress), attributed to substrate competition, actual mechanism is allopregnanolone/GABA/HPA axis modulation
-- **Serotonin/mitochondria**: correct concern (metabolic suppression), stated as blanket inhibition, actual effects are cell-type and dose-dependent
+## Obsidian Conventions
 
-In each case, the correcting studies used instruments (Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models) that didn't exist when Peat formulated his positions. When this pattern appears, it means Peat made the most logical inference from available data and subsequent technology refined the mechanism without overturning the conclusion. Flag it as a refinement, not a refutation.
+This vault uses Obsidian-native features to create an interconnected knowledge base. Future documents should follow these conventions.
 
-### The Acute/Chronic Distinction
+### Frontmatter
 
-Most biological signals are beneficial when pulsatile and pathological when chronic. This emerged independently in serotonin (acute neuronal mitochondrial enhancement vs chronic systemic metabolic suppression), CO2 (brainstem chemosensory activation vs peripheral serotonin suppression), lactate (acute exercise fuel shuttle vs chronic disease marker), and estrogen (acute neuroprotection vs chronic neurotoxicity). When mainstream research contradicts Peat by showing a substance has "beneficial effects," check whether the study measured the acute or chronic state. Peat's claims concern the chronic state. The acute findings are typically real but describe different physiology.
+Every document includes YAML frontmatter with: `title`, `aliases`, `tags`, `role` (topic-document, structural-note, or methodology), `claims` (list of identifiers), `assessment-summary`, `connections` (wikilinks to related docs), and `peat-sources` (raypeat.com URLs).
 
-### Context-Dependence
+### Wikilinks Over Redundancy
 
-Estrogen revealed that the same substance at the same dose can have opposite effects depending on the metabolic state of the organism. Estrogen amplifies the existing metabolic trajectory: beneficial in a healthy, well-oxidizing context, pathological in a compromised, glycolytic context. This principle may apply to other substances in the framework. When evidence appears genuinely mixed (some studies show benefit, some show harm), investigate whether the difference correlates with the metabolic context of the study population rather than assuming one set of studies is simply wrong.
+When a mechanism is explained canonically in one document, other documents link to it rather than re-explaining. Key canonical locations:
 
-### Chemical Conflation in the Literature
+- PUFA-serotonin loop → [[pufa#PUFA and Serotonin Promotion]]
+- PUFA-estrogen loop → [[pufa#PUFA-Estrogen Mutual Amplification]]
+- CO2-serotonin axis → [[serotonin#Claim 4]]
+- Estrogen-MAO-serotonin → [[serotonin#Claim 5]]
+- Thyroid downstream cascade → [[thyroid#Claim 1]]
+- Pregnenolone steal / progesterone depletion → [[progesterone#Why Progesterone Depletes]]
+- Recurring patterns → [[System Overview#Recurring Patterns]]
+- Shared interventions → [[Practical Convergence]]
 
-Research on "progesterone" frequently studies synthetic progestins (medroxyprogesterone acetate, norethindrone) — patentable molecules with different biological properties than bioidentical progesterone. The results are attributed to "progesterone" in both clinical guidelines and popular reporting. This creates a systematic misrepresentation: findings from a synthetic analogue are treated as evidence about the natural hormone. Watch for this with any substance that exists in both natural and pharmaceutical forms (thyroid: desiccated vs synthetic T4; estrogen: estradiol vs conjugated equine estrogens; fatty acids: natural vs modified forms).
+### Callouts
 
-### The Diagnostic Measurement Divergence
+Assessment verdicts use typed callouts (see the callout mapping table in Document Structure above). Direct Peat quotes use `> [!quote]`. Recurring pattern appearances use `> [!example]-` (foldable) with a link to the canonical treatment in [[System Overview]].
 
-TSH doesn't reliably indicate tissue thyroid status. Blood estrogen doesn't indicate tissue estrogen concentration. The measured variable diverges from the biologically relevant variable under exactly the conditions where accuracy matters most (stress, aging, chronic illness). When Peat challenges a diagnostic standard, the pattern to look for is: does the measured proxy diverge from tissue-level reality under the conditions the framework identifies as pathological? If so, the diagnostic system will systematically miss the population most affected.
+### Structural Notes
 
-### Fragmentation as the Default Finding
-
-At every topic, the mainstream literature contained the evidence for Peat's integrated picture in fragmented form across specialties that don't reference each other. This is not a finding about any single topic. It is a structural feature of how biomedical research is organized. The integration itself is the discovery. Future documents should explicitly identify which disciplines hold relevant evidence and search across all of them.
+Two structural notes serve the vault:
+- [[System Overview]] — MOC with the two attractors, feedback loops, recurring patterns, and assessment summary table
+- [[Practical Convergence]] — Shared interventions stated once, with links to topic-specific additions
 
 ---
 
@@ -189,13 +227,13 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 
 The following topics have been documented using this methodology:
 
-- **PUFA** (pufa.md) — Core thermodynamic chain + immunosuppression, serotonin promotion, estrogen amplification, lipofuscin, historical consumption shift
-- **Estrogen** (estrogen.md) — Stress hormone reframe, glycolytic shift mechanism, tissue-bound estrogen accumulation, estrogen-driven aging, brain toxicity, PUFA-estrogen bidirectional loop, context-dependence as unifying principle
-- **Progesterone** (progesterone.md) — Eight protective claims verified (7/8 confirmed), bioidentical vs synthetic progestin research context, depletion mechanisms, practical implications
-- **Thyroid** (thyroid.md) — Master throttle, diagnostic critique (TSH inadequacy), physiological markers, anti-thyroid environment, T3 vs T4 therapy
-- **Serotonin** (serotonin.md) — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique, acute/chronic distinction
-- **CO2** (co2.md) — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity (naked mole rats, bats), methylation/epigenetics (speculative)
-- **Lactate** (lactate.md) — Direct damage mechanism (histone lactylation), four named effects as continuum, Warburg convergence, CO2/lactate ratio as master diagnostic, endotoxin-induced aerobic glycolysis, brain lactate as aging hallmark
+- **[[pufa|PUFA]]** — Core thermodynamic chain + immunosuppression, serotonin promotion, estrogen amplification, lipofuscin, historical consumption shift
+- **[[estrogen|Estrogen]]** — Stress hormone reframe, glycolytic shift mechanism, tissue-bound estrogen accumulation, estrogen-driven aging, brain toxicity, context-dependence as unifying principle
+- **[[progesterone|Progesterone]]** — Eight protective claims verified (7/8 confirmed), bioidentical vs synthetic progestin research context, depletion mechanisms
+- **[[thyroid|Thyroid]]** — Master throttle, diagnostic critique (TSH inadequacy), physiological markers, anti-thyroid environment, T3 vs T4 therapy
+- **[[serotonin|Serotonin]]** — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique
+- **[[co2|CO2]]** — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity, methylation/epigenetics (speculative)
+- **[[lactate|Lactate]]** — Direct damage mechanism (histone lactylation), four named effects as continuum, Warburg convergence, CO2/lactate ratio as master diagnostic, endotoxin-induced aerobic glycolysis, brain lactate as aging hallmark
 
 ## Topics Not Yet Covered
 

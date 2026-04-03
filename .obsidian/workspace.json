@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40f25247cc021a05",
+        "id": "5c7bac55e051ca32",
         "type": "tabs",
         "children": [
           {
-            "id": "5372f6d94dc0c3f9",
+            "id": "ce203340474a87bf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,8 +176,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "5372f6d94dc0c3f9",
+  "active": "ce203340474a87bf",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "peat_claims_verified/progesterone.md",
+    "peat_claims_verified/lactate.md",
+    "peat_claims_verified/estrogen.md",
+    "peat_claims_verified/Practical Convergence.md",
+    "peat_claims_verified/System Overview.md",
     "peat_claims_verified/co2.md",
     "Welcome.md"
   ]
