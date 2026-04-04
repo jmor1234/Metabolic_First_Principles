@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c7bac55e051ca32",
+        "id": "b19766e9e4e1801e",
         "type": "tabs",
         "children": [
           {
-            "id": "ce203340474a87bf",
+            "id": "e4ddc4c8dfc0bd73",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,15 +176,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "dff05e6b98f543b9",
+  "active": "e4ddc4c8dfc0bd73",
   "lastOpenFiles": [
+    "peat_claims_verified/estrogen.md",
     "peat_claims_verified/AUDIT - Phase 2 Integrity Gap.md",
     "peat_claims_verified/histamine.md",
     "2026-04-04.md",
     "CLAUDE.md",
     "peat_claims_verified/progesterone.md",
     "peat_claims_verified/lactate.md",
-    "peat_claims_verified/estrogen.md",
     "peat_claims_verified/Practical Convergence.md",
     "peat_claims_verified/System Overview.md",
     "peat_claims_verified/co2.md",
