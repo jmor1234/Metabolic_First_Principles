@@ -239,12 +239,12 @@ The following topics have been documented using this methodology:
 
 - **[[pufa|PUFA]]** — Core thermodynamic chain + immunosuppression, serotonin promotion, estrogen amplification, lipofuscin, historical consumption shift. Phases 2/3 redone with sourced research context ($100B+ market, AHA-P&G history, DGAC conflicts, 2025 JMA meta-analysis).
 - **[[histamine|Histamine]]** — Stress mediator reframe, estrogen-histamine bidirectional loop, CO2/pH-dependent mast cell granule stability, PUFA peroxidation-triggered degranulation, progesterone and fructose diphosphate as stabilizers, cardiovascular damage (Kounis syndrome), opioid-histamine-cancer immunity, modern MCAS/histamine intolerance as metabolic failure. Produced under corrected methodology from the start.
+- **[[estrogen|Estrogen]]** — Stress hormone reframe (critical illness data: elevated estradiol predicts death in both sexes), glycolytic shift via PI3K/AKT not direct Complex IV blockade, tissue-bound estrogen confirmed (5-50x serum, ACOG doesn't recommend measuring), aging through estrogen dominance increase, selective brain toxicity via catechol estrogen free radicals. Context-dependence emerges as dominant pattern. Phases 2/3 redone with sourced research context (HRT market $18-40B, WHI chemical conflation with 230+ compound CEE, aromatase inhibitor market $4-5B, tissue-to-serum ratio studies).
 
 ### Phase 1 retained — Phases 2 and 3 awaiting redo
 
 These documents have Phase 1 content (Peat's Position sections, quotes, reasoning chains) intact. Phase 3 content (verification, assessment, sources) has been stripped. Phase 2 research context was never a standalone section in these docs and was removed along with Phase 3. See [[AUDIT - Phase 2 Integrity Gap]] for the full explanation.
 
-- **[[estrogen|Estrogen]]** — Stress hormone reframe, glycolytic shift mechanism, tissue-bound estrogen accumulation, estrogen-driven aging, brain toxicity
 - **[[progesterone|Progesterone]]** — Eight protective claims, bioidentical vs synthetic progestin research context (to be re-verified), depletion mechanisms
 - **[[thyroid|Thyroid]]** — Master throttle, diagnostic critique (TSH inadequacy), physiological markers, anti-thyroid environment, T3 vs T4 therapy
 - **[[serotonin|Serotonin]]** — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique

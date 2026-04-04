@@ -97,7 +97,7 @@ These changes prevent the same error in future topic production. This audit docu
 - [x] Methodology updated to prevent recurrence
 - [x] Histamine document produced under corrected methodology
 - [x] PUFA — Phases 2 and 3 redone. Key changes: MDA-Complex IV evidence now noted as mixed across tissues. Thyroid displacement nuanced (attenuated in vivo by albumin). Fish oil metastasis reclassified as cancer-type-specific (colon promotes, breast inhibits). SHBG displacement classified as debated rather than confirmed. Membrane pacemaker bird data acknowledged. Research context sourced with $100B+ market data, AHA-P&G history, 2025 JMA meta-analysis, DGAC conflicts.
-- [ ] Estrogen — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [x] Estrogen — Phases 2 and 3 redone. Key changes: glycolytic shift confirmed via PI3K/AKT signaling, not direct Complex IV blockade (ER-beta actually upregulates Complex IV). Tissue-bound estrogen confirmed with precise data (5-50x serum, r=0.452 correlation). Critical illness data confirms stress hormone reframe (estradiol predicts death in both sexes). WHI chemical conflation documented (230+ compounds in CEE, horse-specific estrogens). Context-dependence emerges as dominant pattern — estrogen amplifies existing metabolic trajectory. Research context sourced with HRT market data ($18-40B), aromatase inhibitor market ($4-5B), ACOG diagnostic guidelines, tissue-to-serum ratio studies.
 - [ ] Progesterone — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
 - [ ] Thyroid — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
 - [ ] Serotonin — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
