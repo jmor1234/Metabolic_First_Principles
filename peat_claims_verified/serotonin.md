@@ -6,7 +6,7 @@ aliases:
   - Tryptophan
 tags:
   - topic/serotonin
-  - status/complete
+  - status/phase1
 role: topic-document
 claims:
   - conservation-mediator
@@ -17,7 +17,7 @@ claims:
   - tryptophan-restriction
   - ssri-critique
   - protective-factors
-assessment-summary: "Fundamental reframe (stress mediator, not happiness chemical) supported by 2022 Moncrieff review. Fibrosis confirmed clinically. Metabolic suppression confirmed with cell-type nuance. SSRI critique substantially supported. CO2-serotonin more complex than stated (central/peripheral)."
+assessment-summary: "Phase 1 retained. Phases 2 and 3 awaiting redo."
 connections:
   - "[[co2]]"
   - "[[thyroid]]"
@@ -41,11 +41,9 @@ This is Peat's most radical inversion of mainstream consensus. He did not refine
 
 ### The Serotonin Hypothesis Has Been Formally Abandoned
 
-The [2022 Moncrieff et al. umbrella review in Molecular Psychiatry](https://www.nature.com/articles/s41380-022-01661-0), published by UCL researchers, systematically examined evidence across serotonin concentrations, receptor binding, transporter levels, tryptophan depletion studies, and gene associations. Their conclusion: "The main areas of serotonin research provide no consistent evidence of there being an association between serotonin and depression, and no support for the hypothesis that depression is caused by lowered serotonin activity or concentrations."
+Peat was stating in the 1990s and 2000s that there was no credible evidence linking low serotonin to depression. He argued the "chemical imbalance" narrative was a pharmaceutical marketing construct, not a scientific finding. The hypothesis was never proven -- it was assumed, commercialized, and defended through institutional inertia rather than evidence.
 
-Peat was stating in the 1990s and 2000s what the Moncrieff review confirmed in 2022. The significance is not the finding itself but what happened next: nothing. SSRIs continue to be prescribed at the same rate. Clinical guidelines were not revised. The hypothesis was abandoned academically while remaining commercially intact.
-
-The review generated criticism from researchers at King's College London, who argued it was methodologically limited. But the critics did not produce evidence that depression is caused by low serotonin. They argued the review was insufficient to disprove it. The burden of proof shifted from "prove serotonin causes depression" to "you can't prove it doesn't" -- a scientific retreat disguised as methodological critique.
+> *Awaiting Phase 3 -- verification evidence (Moncrieff 2022 umbrella review, institutional response, critical reception) to be rebuilt during verification.*
 
 Serotonin connects every other document in the series: [[pufa]] promotes serotonin. [[estrogen]] amplifies serotonin. [[progesterone]] opposes serotonin. [[thyroid]] determines whether serotonin or [[co2]] dominates. Serotonin suppresses the oxidative metabolism that produces CO2, completing the circle.
 
@@ -76,14 +74,7 @@ If health is efficient oxidative metabolism, and serotonin inhibits oxidative me
 
 ### Verification
 
-> [!success] Strongly Supported
-> Learned helplessness data, 95% gut production, and the Moncrieff review all confirm serotonin as a stress/conservation mediator rather than a happiness chemical.
-
-**Learned helplessness involves elevated serotonin.** [Increased 5-HT activity in the dorsal raphe nucleus plays a critical role in learned helplessness](https://pubmed.ncbi.nlm.nih.gov/7991722/). Serotonin plays "a central role in the neurochemistry of the learned helplessness animal model of depression." Stress increases serotonin release in hippocampus and prefrontal cortex correlating with helpless behavior.
-
-The critical nuance: [SSRIs also reverse learned helplessness](https://link.springer.com/article/10.1007/BF02244061) in animal models, which appears to contradict the "high serotonin = bad" thesis. However, a key finding resolved this apparent contradiction: [the antidepressant-like effect of SSRIs was found to be independent of their actions on either 5-HT1A receptor function or extracellular 5-HT](https://pubmed.ncbi.nlm.nih.gov/17141811/). The SSRIs reversed helplessness through mechanisms other than serotonin elevation. This is exactly what Peat argued -- SSRIs affect dopamine, noradrenaline, and allopregnanolone, and any antidepressant effect operates through those pathways, not through serotonin.
-
-**95% of serotonin is produced in the gut.** [Confirmed](https://pmc.ncbi.nlm.nih.gov/articles/PMC5526216/). Enterochromaffin cells produce up to 95% of total body serotonin. Gut serotonin is involved in motility, secretion, visceral sensation, and inflammation. [5-HT availability is increased in human inflammatory diseases and in animal models of gut inflammation](https://www.sciencedirect.com/science/article/abs/pii/S0300908418301652). Serotonin is not primarily a brain neurotransmitter. It is primarily a gut hormone with inflammatory and motility functions. The "brain happiness chemical" narrative requires ignoring 95% of the molecule's biology.
+> *Awaiting Phase 3*
 
 ---
 
@@ -110,16 +101,7 @@ Serotonin attacks oxidative metabolism from three directions simultaneously: red
 
 ### Verification
 
-> [!tip] Confirmed With Nuance
-> SSRIs inhibit mitochondrial respiration; serotonin's direct effects are cell-type dependent. Acute neuronal enhancement vs. chronic systemic suppression.
-
-**SSRIs inhibit mitochondrial respiration.** [Fluoxetine inhibits oxidative phosphorylation and decreases ATP synthase activity](https://www.sciencedirect.com/science/article/abs/pii/S0378427412012295) in rat brain mitochondria. This is consistent with Peat's claim that serotonin elevation suppresses cellular energy production.
-
-**Direct serotonin effects on mitochondria are complex.** A [2024 study in Molecular Psychiatry](https://www.nature.com/articles/s41380-024-02538-0) found serotonin's effects are cell-type dependent: it increased respiration in primary neurons while decreasing respiration in whole brain tissue and astrocytes. A [PNAS study](https://www.pnas.org/doi/10.1073/pnas.1821332116) showed serotonin can stimulate mitochondrial biogenesis in cortical neurons via the 5-HT2A receptor and SIRT1-PGC-1alpha axis.
-
-This creates a more complex picture than Peat's blanket statement that serotonin inhibits mitochondrial respiration. However, context matters: the studies showing serotonin enhancing mitochondrial function measured acute, controlled stimulation of specific receptor subtypes in isolated neurons. Peat's claim concerns chronic, systemic serotonin elevation across all tissues -- a different physiological scenario. A signaling molecule that stimulates mitochondrial biogenesis at low concentrations through specific receptors can simultaneously suppress metabolism when chronically elevated across the whole organism. Dose, duration, and systemic context determine the effect. The acute neuronal findings do not refute the chronic systemic claim, but they do require acknowledging that serotonin's metabolic effects are not unidirectionally negative in all contexts.
-
-**Serotonin causes vasoconstriction -- Confirmed.** Serotonin's vasoconstrictive properties are [well-established in the migraine literature](https://pmc.ncbi.nlm.nih.gov/articles/PMC4117050/). Raised serotonin levels during migraine attacks exert vasoconstrictive effects on intracerebral arteries, causing the aura phase and cerebral ischemia. Platelets release serotonin during aggregation, producing [concentration-dependent vascular effects](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/j.1526-4610.2012.02162.x): vasoconstriction at high concentrations, vasodilation when concentrations fall. The vasoconstrictive effect is the original reason serotonin was named ("sero-tonin" = serum tonic agent).
+> *Awaiting Phase 3*
 
 ---
 
@@ -141,17 +123,7 @@ Peat did not treat serotonin's inflammatory effects as side effects of excess. H
 
 ### Verification
 
-> [!success] Confirmed for Fibrosis
-> Carcinoid heart disease is the most powerful clinical proof: 50-70% of patients with carcinoid syndrome develop cardiac fibrosis from serotonin excess.
-
-> [!tip] More Complex Than Stated for Aging
-> Receptor/transporter decline with age may reflect compensatory downregulation from chronic overstimulation rather than contradicting Peat's claim.
-
-**Serotonin directly causes fibrosis -- Confirmed.** This is demonstrated most dramatically in [carcinoid heart disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC5144560/), where serotonin in high concentrations stimulates fibroblast growth and fibrogenesis, causing cardiac valve fibrosis. Serotonin increases synthesis and upregulates tissue growth factor-beta, stimulating collagen production by heart valve interstitial cells. 50-70% of patients with carcinoid syndrome develop carcinoid heart disease. The fibrotic activity extends beyond the heart: serotonin promotes fibrosis [through 5-HT2A and 5-HT2B receptors](https://link.springer.com/chapter/10.1007/978-3-030-55920-5_13) across multiple organ systems.
-
-Left heart valves are typically spared in carcinoid disease because the lung vasculature enzymatically inactivates serotonin -- exactly the lung clearance mechanism Peat described (indoleamine 2,3-dioxygenase). This clinical observation directly confirms the lung's role as a serotonin-clearing organ.
-
-**Serotonin increasing with aging -- More complex than stated.** Peat claimed brain serotonin increases with aging. The modern imaging literature shows that serotonin [receptors and transporters decline with age](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679764/). However, receptor downregulation is a standard biological response to chronic ligand excess -- cells reduce receptor expression when chronically overstimulated. Declining receptors with stable or rising serotonin levels would represent exactly the pattern Peat described: more serotonin activity driving compensatory receptor reduction. The imaging data (fewer receptors) does not directly contradict the functional claim (more serotonin activity) -- it may reflect the downstream adaptation to it. But the evidence for rising serotonin concentrations per se in the aging brain is not as clean as Peat stated. Whole blood serotonin shows [negative associations with functional brain activity in the elderly](https://www.sciencedirect.com/science/article/pii/S0301051121000429), suggesting serotonin excess may impair brain function in aging, but this is correlational.
+> *Awaiting Phase 3*
 
 ---
 
@@ -176,14 +148,7 @@ The system has two stable states: high-CO2/low-serotonin (the healthy, active, w
 
 ### Verification
 
-> [!info] Partially Supported -- Mechanism More Complex Than Stated
-> CO2-serotonin reciprocity confirmed peripherally, but brainstem serotonin neurons are actually *stimulated* by CO2 (chemosensory function). Central vs. peripheral distinction matters.
-
-**CO2 and serotonin interact reciprocally -- Confirmed, but direction is more complex than stated.** The relationship between CO2 and serotonin in the brainstem is well-established. [Serotonergic neurons in the medulla function as CO2/pH sensors](https://www.nature.com/articles/nrn1409) -- they are stimulated by increased CO2 (decreased pH). This means CO2 actually activates certain serotonergic neurons rather than inhibiting them, which appears to contradict Peat's claim that "carbon dioxide inhibits the release of serotonin."
-
-However, the brainstem chemosensory function (where serotonin neurons detect CO2 to regulate breathing) is mechanistically distinct from peripheral serotonin release from platelets, gut enterochromaffin cells, and mast cells. Peat's claim appears to apply primarily to peripheral serotonin release, where acidification (which CO2 produces) does [inhibit platelet aggregation and associated mediator release](https://pubmed.ncbi.nlm.nih.gov/35289412/). The central versus peripheral distinction matters: CO2 may activate brainstem serotonin neurons (respiratory chemosensation) while simultaneously inhibiting peripheral serotonin release (platelet and gut). These are different systems serving different functions.
-
-The broader framework claim -- that high CO2 states (reflecting adequate oxidative metabolism) correlate with lower systemic serotonin activity -- is supported by the clinical observation that hyperventilation (low CO2) triggers panic, migraine, and vasoconstriction, all serotonin-mediated phenomena. But the molecular mechanism is more complex than the simple statement "CO2 inhibits serotonin release."
+> *Awaiting Phase 3*
 
 ---
 
@@ -203,10 +168,7 @@ The estrogen-serotonin connection closes another loop in the framework. [[estrog
 
 ### Verification
 
-> [!success] Confirmed
-> One of the cleanest confirmations in the series. Molecular mechanism verified: estrogen inhibits MAO + increases TPH. 3x migraine prevalence in women tracks the sex difference in estrogen.
-
-**Estrogen inhibits MAO and increases serotonin synthesis -- Confirmed.** [Estradiol administration decreases MAO mRNA levels](https://pmc.ncbi.nlm.nih.gov/articles/PMC4117063/) while simultaneously increasing tryptophan hydroxylase (TPH) mRNA -- reducing serotonin breakdown while increasing serotonin production. This double mechanism explains the [3-fold higher migraine prevalence in women](https://pmc.ncbi.nlm.nih.gov/articles/PMC6520586/) and the hormonal timing of migraine attacks (menstruation, ovulation, perimenopause -- all periods of estrogen fluctuation). Estrogen's modulation of serotonin genes includes regulation of [TPH2, MAO-A and MAO-B, serotonin transporter, and 5-HT1A receptor](https://pmc.ncbi.nlm.nih.gov/articles/PMC6520586/).
+> *Awaiting Phase 3*
 
 ---
 
@@ -230,14 +192,7 @@ Tryptophan is the raw material for serotonin synthesis. Reducing the raw materia
 
 ### Verification
 
-> [!success] Confirmed
-> Tryptophan-restricted rats live longer with higher metabolic rate. Mechanism likely extends beyond serotonin alone (kynurenine pathway involvement).
-
-**Tryptophan-restricted rats live longer.** [Segall and Timiras studies confirmed](https://pubmed.ncbi.nlm.nih.gov/3374178/): average lifespan 36.3 months versus 30.5 months in controls. Reproduction maintained to 17-28 months versus sterility by 17 months. Delayed tumor onset, better coat condition, enhanced temperature regulation. A [recent review in Frontiers in Cell and Developmental Biology](https://pmc.ncbi.nlm.nih.gov/articles/PMC11096585/) confirms that tryptophan restriction is among the single-amino-acid restrictions that extend lifespan.
-
-**The mechanism is debated.** The researchers noted that "marked decreases in brain serotonin as the underlying mechanism was mostly ruled out as pharmacologic antagonists did not affect growth to the same extent as tryptophan restriction." This suggests tryptophan restriction may extend lifespan through mechanisms beyond serotonin reduction alone -- possibly through kynurenine pathway modulation, NAD+ metabolism, or other tryptophan metabolite effects. A [PNAS study](https://www.pnas.org/doi/10.1073/pnas.1203083109) showed that inhibiting tryptophan degradation (through the kynurenine pathway) also extends lifespan, suggesting the downstream metabolites of tryptophan, not just serotonin, are relevant.
-
-Peat attributed the lifespan extension primarily to serotonin reduction. The evidence suggests this is part of the mechanism but likely not the complete explanation. Tryptophan feeds multiple pathways beyond serotonin, and restriction affects all of them. The lifespan extension is confirmed. The attribution to serotonin reduction specifically is partially supported but overly narrow.
+> *Awaiting Phase 3*
 
 ---
 
@@ -266,14 +221,7 @@ The fact that SSRIs help some people does not refute this. They also increase al
 
 ### Verification
 
-> [!tip] Substantially Supported
-> Suicide risk data documented. Serotonin hypothesis formally abandoned. SSRIs' antidepressant effects shown to be independent of serotonin. Prescribing unchanged.
-
-**SSRI suicide risk is documented.** [Meta-analysis of observational studies shows a 58% increased risk of suicide-related outcomes on antidepressants versus placebo](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.880496/full). A [network meta-analysis in Psychiatry Research](https://www.sciencedirect.com/science/article/abs/pii/S0165178124002026) found suicide attempts 250% higher in people taking antidepressants versus placebo. The [FDA's own data analysis](https://psychiatryonline.org/doi/full/10.1176/appi.ajp.160.4.790) showed age-dependent risk, with increased suicidality in younger patients. Black box warnings now exist on all SSRIs for under-25 populations.
-
-**The critique has structural weight.** Peat's description of the German FDA's 1987 rejection of Prozac based on Eli Lilly's own data is historically documented. The delayed emergence of suicide data, the industry's resistance to black box warnings, and the financial incentive structure are matters of public record, not conspiracy theory. David Healy's research documenting these patterns has been published in peer-reviewed journals.
-
-**The mechanism question remains open.** SSRIs help some people. The question is whether they help through serotonin elevation or despite it. The learned helplessness data showing [SSRI antidepressant effects are independent of serotonin receptor function or extracellular serotonin](https://pubmed.ncbi.nlm.nih.gov/17141811/) supports Peat's position that the therapeutic effects, where they exist, operate through non-serotonin pathways (dopamine, noradrenaline, allopregnanolone). The serotonin hypothesis itself -- the entire theoretical foundation for SSRIs -- has been [formally abandoned by the umbrella review](https://www.nature.com/articles/s41380-022-01661-0) without the prescribing practice changing.
+> *Awaiting Phase 3*
 
 ---
 
@@ -298,62 +246,22 @@ Everything that supports oxidative metabolism opposes serotonin. The consistency
 
 ### Verification
 
-> [!success] Confirmed
-> Individual mechanisms are well-documented. The coherence of the list -- every item either supports oxidative metabolism or opposes a specific serotonin-elevating mechanism -- is the strongest evidence for the framework's internal consistency.
-
----
-
-> [!example]- Pattern: The Acute/Chronic Distinction
-> Acute, controlled, receptor-specific serotonin signaling can enhance neuronal mitochondria. Chronic, systemic elevation drives fibrosis, vasoconstriction, and metabolic suppression. Both are real -- they describe different physiology. See [[System Overview#The Acute-Chronic Distinction]] for the framework-wide treatment. The carcinoid data settles any ambiguity: when serotonin is massively and chronically elevated, the result is valve calcification, cardiac fibrosis, and death -- not enhanced well-being.
+> *Awaiting Phase 3*
 
 ---
 
 ## What Makes This Topic Different
 
-This is the topic where the pharmaceutical incentive structure is most visible and most consequential. The serotonin hypothesis generated tens of billions in SSRI revenue over four decades. The hypothesis has now been abandoned by its own field's systematic review. The drugs continue to be prescribed at the same rate. The marketing narrative ("chemical imbalance") continues to inform public understanding despite having no evidentiary support.
-
-The mainstream has caught up to Peat's negative claim (low serotonin doesn't cause depression) but has not yet engaged with his positive claim (high serotonin drives metabolic suppression that causes depression). The first claim required only reviewing existing literature. The second requires integrating across disciplines -- gut physiology, mitochondrial bioenergetics, endocrinology, and neuroscience -- in a way the institutional structure does not support.
-
-The research confirms the individual components of Peat's serotonin thesis with varying degrees of strength. The fundamental reframe (stress mediator, not happiness chemical) is supported by the Moncrieff review, the learned helplessness data, and the gut production data. The fibrosis evidence is clinically established. The estrogen-MAO connection is confirmed at the molecular level. The tryptophan-restriction longevity data is confirmed. The SSRI harm data is documented. The mitochondrial effects are confirmed for SSRIs and partially confirmed for serotonin itself, with the nuance that acute neuronal stimulation through specific receptors may differ from chronic systemic elevation. The CO2-serotonin axis is more complex than stated, with brainstem chemosensory neurons responding to CO2 in a direction Peat didn't address.
-
-The practical conclusion is unchanged by the nuances: chronic serotonin elevation is pathological, the conditions that elevate it ([[pufa|PUFA]], [[estrogen]], stress, hypothyroidism, excess tryptophan) are the same conditions the framework identifies as disease-promoting, and the interventions that reduce it ([[thyroid|thyroid]], [[progesterone]], saturated fat, gelatin, CO2-producing oxidative metabolism) are the same interventions the framework recommends.
+> *Awaiting Phase 3*
 
 ---
 
 ## What This Means in Practice
 
-**Question SSRIs from an informed position.** The serotonin hypothesis has been formally abandoned by its own field's systematic review. SSRIs carry documented suicide risk (58% increased risk; 250% higher attempts). Their antidepressant effects, where they exist, appear to operate through non-serotonin mechanisms. This does not mean SSRIs should be abruptly discontinued -- withdrawal effects are real and can be severe. It means the decision to start, continue, or taper SSRIs should be informed by the actual evidence rather than the "chemical imbalance" narrative that the field itself no longer supports.
-
-**Recognize depression as an energy problem.** If serotonin is a conservation signal elevated during metabolic failure, then depression is not a neurotransmitter imbalance to be corrected pharmacologically. It is a metabolic state to be resolved by restoring the conditions for adequate energy production. The behavioral symptoms of depression -- withdrawal, anhedonia, fatigue, cognitive slowing -- are the behavioral expression of a cellular energy crisis. The cell is doing what cells do when energy fails: conserving. Serotonin is the signal that mediates that conservation. Suppressing the signal without restoring the energy is treating the indicator while ignoring what it indicates.
-
-**Serotonin-specific interventions:**
-- Balance amino acid intake with gelatin/collagen alongside muscle meat (restore evolutionary tryptophan dilution)
-- Reduce [[pufa|PUFA]] tissue burden (breaks the PUFA-serotonin amplification loop; see [[pufa#PUFA and Serotonin Promotion]])
-- Sodium, glycine, caffeine, aspirin, niacinamide, theanine -- each opposes serotonin through specific mechanisms documented in Claim 8
-
-For the shared intervention framework, see [[Practical Convergence]].
+> *Awaiting Phase 3. For the shared intervention framework, see [[Practical Convergence]].*
 
 ---
 
 ## Sources
 
-- [The serotonin theory of depression: a systematic umbrella review of the evidence](https://www.nature.com/articles/s41380-022-01661-0) -- Molecular Psychiatry, 2022. No consistent evidence linking serotonin to depression.
-- [In vivo serotonin release and learned helplessness](https://pubmed.ncbi.nlm.nih.gov/7991722/) -- Psychiatry Research, 1994. Elevated serotonin in dorsal raphe during helplessness.
-- [Reversal of learned helplessness by SSRIs is not dependent on 5-HT availability](https://pubmed.ncbi.nlm.nih.gov/17141811/) -- Neuropharmacology, 2007. SSRI antidepressant effects independent of serotonin.
-- [Serotonergic Mechanisms Regulating the GI Tract](https://pmc.ncbi.nlm.nih.gov/articles/PMC5526216/) -- Handbook of Experimental Pharmacology, 2017. 95% gut production.
-- [Serotonin in the gut: Blessing or a curse](https://www.sciencedirect.com/science/article/abs/pii/S0300908418301652) -- Biochimie, 2019. Increased 5-HT in inflammatory bowel disease.
-- [In vitro inhibition of mitochondrial respiratory rate by antidepressants](https://www.sciencedirect.com/science/article/abs/pii/S0378427412012295) -- Toxicology Letters, 2012. Fluoxetine inhibits OXPHOS.
-- [Serotonin effects on human iPSC-derived neural cell functions](https://www.nature.com/articles/s41380-024-02538-0) -- Molecular Psychiatry, 2024. Cell-type dependent mitochondrial effects.
-- [Serotonin regulates mitochondrial biogenesis via 5-HT2A and SIRT1-PGC-1alpha](https://www.pnas.org/doi/10.1073/pnas.1821332116) -- PNAS, 2019. Acute neuronal mitochondrial enhancement.
-- [Serotonin and CGRP in Migraine](https://pmc.ncbi.nlm.nih.gov/articles/PMC4117050/) -- Headache, 2014. Serotonin vasoconstriction in migraine.
-- [Valvular Disorders in Carcinoid Heart Disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC5144560/) -- Heart, 2017. Serotonin-driven cardiac fibrosis.
-- [Serotonin and Fibrosis](https://link.springer.com/chapter/10.1007/978-3-030-55920-5_13) -- Springer, 2021. 5-HT2A/2B receptor-mediated fibrosis across organs.
-- [Reduced serotonin receptors and transporters in normal aging](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679764/) -- Neurobiology of Aging, 2019. Age-related receptor downregulation.
-- [Serotonergic neurons as CO2 sensors](https://www.nature.com/articles/nrn1409) -- Nature Reviews Neuroscience, 2004. Brainstem chemosensory function.
-- [Effects of estrogen on serotonergic system in trigeminal ganglia](https://pmc.ncbi.nlm.nih.gov/articles/PMC4117063/) -- BMC Neuroscience, 2014. MAO reduction and TPH increase by estradiol.
-- [Role of Estradiol in Expression of Genes Involved in Serotonin Neurotransmission](https://pmc.ncbi.nlm.nih.gov/articles/PMC6520586/) -- Current Neuropharmacology, 2019. Full gene regulation pathway.
-- [Histology and survival in age-delayed low-tryptophan-fed rats](https://pubmed.ncbi.nlm.nih.gov/3374178/) -- Mechanisms of Ageing and Development, 1988. Tryptophan restriction longevity data.
-- [Amino acid restriction, aging, and longevity: an update](https://pmc.ncbi.nlm.nih.gov/articles/PMC11096585/) -- GeroScience, 2024. Current review confirming tryptophan restriction extends lifespan.
-- [Delaying aging by inhibition of tryptophan degradation](https://www.pnas.org/doi/10.1073/pnas.1203083109) -- PNAS, 2012. Kynurenine pathway involvement.
-- [Risk of Suicidal Behaviors and Antidepressant Exposure: Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9178080/) -- Frontiers in Psychiatry, 2022. 58% increased suicide risk on antidepressants.
-- [Effects of SSRIs on suicide: network meta-analysis](https://www.sciencedirect.com/science/article/abs/pii/S0165178124002026) -- Psychiatry Research, 2024. 250% higher suicide attempts vs placebo.
+> *Awaiting Phase 3. Sources to be rebuilt during verification.*

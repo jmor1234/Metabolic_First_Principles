@@ -233,14 +233,21 @@ Two structural notes serve the vault:
 
 The following topics have been documented using this methodology:
 
-- **[[pufa|PUFA]]** — Core thermodynamic chain + immunosuppression, serotonin promotion, estrogen amplification, lipofuscin, historical consumption shift
-- **[[estrogen|Estrogen]]** — Stress hormone reframe, glycolytic shift mechanism, tissue-bound estrogen accumulation, estrogen-driven aging, brain toxicity, context-dependence as unifying principle
-- **[[progesterone|Progesterone]]** — Eight protective claims verified (7/8 confirmed), bioidentical vs synthetic progestin research context, depletion mechanisms
+### Complete (produced or redone under corrected Phase 2 methodology)
+
+- **[[pufa|PUFA]]** — Core thermodynamic chain + immunosuppression, serotonin promotion, estrogen amplification, lipofuscin, historical consumption shift. Phases 2/3 redone with sourced research context ($100B+ market, AHA-P&G history, DGAC conflicts, 2025 JMA meta-analysis).
+- **[[histamine|Histamine]]** — Stress mediator reframe, estrogen-histamine bidirectional loop, CO2/pH-dependent mast cell granule stability, PUFA peroxidation-triggered degranulation, progesterone and fructose diphosphate as stabilizers, cardiovascular damage (Kounis syndrome), opioid-histamine-cancer immunity, modern MCAS/histamine intolerance as metabolic failure. Produced under corrected methodology from the start.
+
+### Phase 1 retained — Phases 2 and 3 awaiting redo
+
+These documents have Phase 1 content (Peat's Position sections, quotes, reasoning chains) intact. Phase 3 content (verification, assessment, sources) has been stripped. Phase 2 research context was never a standalone section in these docs and was removed along with Phase 3. See [[AUDIT - Phase 2 Integrity Gap]] for the full explanation.
+
+- **[[estrogen|Estrogen]]** — Stress hormone reframe, glycolytic shift mechanism, tissue-bound estrogen accumulation, estrogen-driven aging, brain toxicity
+- **[[progesterone|Progesterone]]** — Eight protective claims, bioidentical vs synthetic progestin research context (to be re-verified), depletion mechanisms
 - **[[thyroid|Thyroid]]** — Master throttle, diagnostic critique (TSH inadequacy), physiological markers, anti-thyroid environment, T3 vs T4 therapy
 - **[[serotonin|Serotonin]]** — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique
-- **[[co2|CO2]]** — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity, methylation/epigenetics (speculative)
-- **[[lactate|Lactate]]** — Direct damage mechanism (histone lactylation), four named effects as continuum, Warburg convergence, CO2/lactate ratio as master diagnostic, endotoxin-induced aerobic glycolysis, brain lactate as aging hallmark
-- **[[histamine|Histamine]]** — Stress mediator reframe, estrogen-histamine bidirectional loop, CO2/pH-dependent mast cell granule stability, PUFA peroxidation-triggered degranulation, progesterone and fructose diphosphate as stabilizers, cardiovascular damage (Kounis syndrome), opioid-histamine-cancer immunity, modern MCAS/histamine intolerance as metabolic failure
+- **[[co2|CO2]]** — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity, methylation/epigenetics
+- **[[lactate|Lactate]]** — Direct damage mechanism, four named effects as continuum, Warburg convergence, CO2/lactate ratio as master diagnostic, endotoxin-induced aerobic glycolysis, brain lactate as aging hallmark
 
 ## Topics Not Yet Covered
 

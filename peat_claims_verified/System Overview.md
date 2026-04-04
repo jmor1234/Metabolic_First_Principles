@@ -133,15 +133,15 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 
 ## Assessment Summary
 
-| Topic | Claims | Confirmed | Nuanced | Partial | Overstated | Speculative | Not Supported |
-|---|---|---|---|---|---|---|---|
-| [[pufa\|PUFA]] | 9+ | Core chain (all links) | Bird data mixed | — | Zero EFA requirement, 1000x metastasis | — | — |
-| [[thyroid\|Thyroid]] | 5 | T3 as master regulator, downstream cascade, anti-thyroid environment | TSH critique, T3 vs T4 therapy | TSH as direct pathogen | — | — | — |
-| [[estrogen\|Estrogen]] | 5 | Stress hormone, tissue-bound estrogen, HPA amplification | Glycolytic shift (mechanism refined), brain toxicity | Aging/fibrosis (complex), vascular effects | — | — | — |
-| [[progesterone\|Progesterone]] | 8 | 7 of 8 (respiration, temperature, anti-excitation, anti-edema, anti-inflammatory, differentiation, neuroprotection) | Cortisol reduction (mechanism refined) | — | — | — | — |
-| [[serotonin\|Serotonin]] | 8 | Stress mediator, fibrosis, estrogen-MAO, tryptophan restriction, SSRI critique | Metabolic suppression (cell-type dependent) | CO2-serotonin (central/peripheral) | Aging serotonin increase | — | — |
-| [[co2\|CO2]] | 8 | ROS inhibition, Bohr effect, neuroprotection, RQ/fuel selection, hyperventilation pathology | CO2-serotonin (peripheral confirmed, central complex) | Permissive hypercapnia (benefit vs tolerance) | — | Methylation/epigenetics | — |
-| [[lactate\|Lactate]] | 6 | Direct tissue damage (histone lactylation), Warburg as cancer hallmark, brain lactate as aging marker, endotoxin-induced aerobic glycolysis | Excitotoxicity (acute/chronic), Ringer's (nuanced) | — | — | — | — |
-| [[histamine\|Histamine]] | 8 | Estrogen-histamine loop (both directions), glycolytic activation, cardiovascular (Kounis syndrome), opioid-histamine-cancer, progesterone/FDP as stabilizers | PUFA-mast cell (peroxidation confirmed, intact PUFAs complex), CO2-pH (mechanism confirmed, direct CO2 link inferred) | — | — | CO2→granule pH chain (mechanistically sound, not directly tested) | — |
+| Topic | Claims | Status | Assessment |
+|---|---|---|---|
+| [[pufa\|PUFA]] | 13 | **Complete** (redone under corrected methodology) | Core chain confirmed. MDA-Complex IV mixed. Membrane pacemaker strong in mammals, challenged in birds. Thyroid displacement attenuated in vivo. Edge claims overstated. $100B+ industry context sourced. |
+| [[thyroid\|Thyroid]] | 5 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[estrogen\|Estrogen]] | 5 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[progesterone\|Progesterone]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[serotonin\|Serotonin]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[co2\|CO2]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[lactate\|Lactate]] | 6 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[histamine\|Histamine]] | 8 | **Complete** (produced under corrected methodology) | Estrogen-histamine loop confirmed both directions. pH-dependent storage confirmed. PUFA peroxidation confirmed with acute/chronic nuance. CO2→granule pH mechanistically sound but not directly tested. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].

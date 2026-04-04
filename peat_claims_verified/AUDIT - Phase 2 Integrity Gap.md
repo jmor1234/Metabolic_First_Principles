@@ -97,11 +97,11 @@ These changes prevent the same error in future topic production. This audit docu
 - [x] Methodology updated to prevent recurrence
 - [x] Histamine document produced under corrected methodology
 - [x] PUFA — Phases 2 and 3 redone. Key changes: MDA-Complex IV evidence now noted as mixed across tissues. Thyroid displacement nuanced (attenuated in vivo by albumin). Fish oil metastasis reclassified as cancer-type-specific (colon promotes, breast inhibits). SHBG displacement classified as debated rather than confirmed. Membrane pacemaker bird data acknowledged. Research context sourced with $100B+ market data, AHA-P&G history, 2025 JMA meta-analysis, DGAC conflicts.
-- [ ] Estrogen — Phases 2 and 3 to be redone
-- [ ] Progesterone — Phases 2 and 3 to be redone
-- [ ] Thyroid — Phases 2 and 3 to be redone
-- [ ] Serotonin — Phases 2 and 3 to be redone
-- [ ] CO2 — Phases 2 and 3 to be redone
-- [ ] Lactate — Phases 2 and 3 to be redone
+- [ ] Estrogen — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [ ] Progesterone — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [ ] Thyroid — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [ ] Serotonin — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [ ] CO2 — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
+- [ ] Lactate — Phase 3 stripped, Phase 1 retained. Phases 2 and 3 to be redone.
 - [ ] System Overview — Update assessment table after all redos complete
 - [ ] Practical Convergence — Review for any changes after all redos complete

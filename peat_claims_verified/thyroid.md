@@ -6,7 +6,7 @@ aliases:
   - Thyroid Hormone
 tags:
   - topic/thyroid
-  - status/complete
+  - status/phase1
 role: topic-document
 claims:
   - master-metabolic-regulator
@@ -14,7 +14,7 @@ claims:
   - physiological-markers
   - anti-thyroid-environment
   - t3-vs-t4-therapy
-assessment-summary: "Every claim confirmed by mainstream research. No mechanistic correction needed. The integration across siloed specialties is Peat's contribution."
+assessment-summary: "Phase 1 retained. Phases 2 and 3 awaiting redo."
 connections:
   - "[[pufa]]"
   - "[[estrogen]]"
@@ -69,18 +69,7 @@ If health is efficient oxidative metabolism, and T3 determines the rate of oxida
 
 ### Verification
 
-> [!success] Confirmed — Textbook Endocrinology
-> T3 controls respiratory enzyme expression at both nuclear and mitochondrial genome levels. This is established.
-
-T3 regulates mitochondrial activity and biogenesis by modulating expression of proteins encoded by [both the nuclear and mitochondrial genome](https://pmc.ncbi.nlm.nih.gov/articles/PMC4543916/). It acts through nuclear thyroid receptors (TRalpha and TRbeta) that are constitutively bound to thyroid hormone response elements, stimulating or inhibiting gene transcription when T3 binds. It also indirectly activates respiratory gene transcription by upregulating intermediate factors (NRF-1, NRF-2, PGC1-alpha). And it acts directly on the mitochondrial genome through a mitochondrial matrix receptor (p43) that [binds to TREs of the mitochondrial DNA and induces transcription of oxidative phosphorylation genes](https://pubmed.ncbi.nlm.nih.gov/11174855/) in parallel with nuclear gene transcription.
-
-The connection to metabolic rate is directly confirmed: [increased plasma free T3 is associated with increased resting metabolic rate](https://pmc.ncbi.nlm.nih.gov/articles/PMC4543916/). [Thyroid hormones are critical in regulating basal metabolic rate and thermoregulation](https://www.ncbi.nlm.nih.gov/books/NBK500006/), with an inverse correlation between TSH levels and BMR confirmed across thyroid function states.
-
-**Downstream cascade confirmations:**
-
-**Cholesterol.** Thyroid hormone [increases expression of CYP7A1 (cholesterol 7-alpha-hydroxylase)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6129606/), converting cholesterol into bile acids, and upregulates LDL receptors via SREBP-2. In hypothyroidism, bile acid flow slows, cholesterol secretion into bile decreases markedly, and hepatic cholesterol uptake from circulation falls. The [prevalence of hypothyroidism is 1.4-13% in patients with hyperlipidemia](https://link.springer.com/article/10.1007/s12020-023-03420-9), confirming that a substantial fraction of "high cholesterol" cases are undiagnosed thyroid insufficiency. Peat's claim that elevated cholesterol was the original reliable diagnostic marker for hypothyroidism in the 1930s is historically accurate.
-
-**Serotonin-CO2 axis.** Peat's claim that "carbon dioxide and serotonin are regulated most importantly by thyroid function" and that "carbon dioxide inhibits the release of serotonin" is mechanistically supported. Thyroid drives oxidative metabolism, oxidative metabolism produces [[co2|CO2]], CO2 suppresses [[serotonin]]. When thyroid fails, this chain reverses. The connection between hypothyroidism and elevated serotonin is documented in the context of [nonthyroidal illness](https://www.ncbi.nlm.nih.gov/books/NBK285570/) and psychiatric conditions.
+> *Awaiting Phase 3*
 
 ---
 
@@ -117,16 +106,7 @@ If the organism's metabolic state is the thing that matters, and TSH is a pituit
 
 ### Verification
 
-> [!tip] Substantially Supported
-> The TSH reference range debate, euthyroid sick syndrome, and stress-mediated TSH suppression are all documented in mainstream endocrinology. The core critique is validated.
-
-**The reference range controversy is real and ongoing.** The [National Academy of Clinical Biochemistry has advocated narrowing the upper TSH limit to 2.5 mIU/L](https://pmc.ncbi.nlm.nih.gov/articles/PMC8453656/), which would reclassify an [additional 9.7% of the US population (20.6 million Americans)](https://www.sciencedirect.com/science/article/abs/pii/S1530891X20431362) as subclinically hypothyroid. Other experts argue for maintaining the wider range. The controversy itself validates Peat's core point: the "normal" range is not settled science. It is an ongoing debate in which the difference between positions represents millions of potentially undertreated people.
-
-**Factors that suppress TSH independently of thyroid status — Confirmed.** This is recognized formally as [euthyroid sick syndrome / nonthyroidal illness syndrome](https://www.ncbi.nlm.nih.gov/books/NBK482219/). Approximately 75% of hospitalized patients show thyroid test alterations. The most common pattern is low T3 with low or normal TSH. High cortisol, cytokines (IL-1, IL-6, TNF-alpha), and medications (glucocorticoids, dopamine) all suppress TSH independently. In acute hospital settings, [as many as 3% of patients have TSH below 0.1 mU/L attributable to nonthyroidal illness or medication rather than genuine hyperthyroidism](https://joe.bioscientifica.com/view/journals/joe/205/1/1.xml).
-
-The clinical implication is exactly what Peat described: a stressed, sick, cortisol-elevated person with low T3 and suppressed TSH will test as "normal" or even "hyperthyroid" on TSH screening while being functionally hypothyroid by every physiological measure. The medical literature acknowledges this in the hospital setting but does not extend the same logic to outpatients with chronic subclinical stress, [[pufa|PUFA]] burden, and cortisol elevation — the population Peat argued was most commonly affected.
-
-**TSH as a direct pathogen — Partially supported.** TSH receptors are expressed on [mast cells, fibroblasts, fat cells, and other extrathyroidal tissues](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449760/). TSH triggers mast cell degranulation and stimulates orbital fibroblast proliferation and glycosaminoglycan synthesis in Graves' orbitopathy. The evidence for TSH as pathogenic in these tissues comes primarily from the Graves' disease literature, where TSH receptor stimulation drives inflammatory orbital disease. Whether baseline TSH at the upper end of "normal" produces clinically meaningful inflammatory effects in healthy tissue is less established. Peat's claim that pituitary-deficient dwarf mice (lacking TSH) live longer is accurate and documented, but the mice also lack growth hormone and prolactin, making it impossible to attribute the longevity specifically to TSH absence.
+> *Awaiting Phase 3*
 
 ---
 
@@ -160,18 +140,7 @@ Every physiological marker Peat identified measures the consequence of thyroid h
 
 ### Verification
 
-> [!tip] Supported With Acknowledged Limitations
-> Temperature-thyroid correlation is established. The combination of temperature + pulse has face validity but lacks formal clinical trial validation against TSH-guided treatment. The persistent symptom data powerfully validates the diagnostic critique.
-
-**Temperature correlates with thyroid function.** Before TSH testing existed, [basal metabolic rate measured through temperature was used to diagnose thyroid disease](https://ospublishers.com/Hypothyroidism-The-Underdiagnosed-Metabolic-Disorder.html). An [inverse correlation between TSH and BMR has been confirmed](https://www.researchgate.net/publication/397530822_Evaluating_the_Effect_of_Hypothyroidism_on_Basal_Metabolic_Rate_and_Body_Temperature_Regulation), with significant differences in BMR across thyroid function groups. Decreased core body temperature with hypothyroidism and increased temperature with hyperthyroidism are described as "hallmark clinical features" in standard physiology references.
-
-The mainstream position is that temperature is not sensitive or specific enough to be the "gold standard" for diagnosis. This is likely true as a standalone measure — Peat himself identified the limitations (climate confounds, adrenaline compensation, electric blankets). But the mainstream rejects temperature monitoring largely because TSH testing exists, not because temperature was demonstrated to be inferior in head-to-head comparison with physiological outcomes as the reference standard. The studies that would test "does temperature-guided treatment produce better patient outcomes than TSH-guided treatment" have not been conducted. There is no commercial incentive to conduct them.
-
-**The combination of temperature and pulse is more informative than either alone.** This claim has face validity within physiology (temperature reflects heat production, pulse reflects both metabolic rate and sympathetic tone) but has not been formally validated against TSH in clinical trials. It exists in a space where absence of evidence reflects absence of funding, not absence of plausibility.
-
-**Persistent symptoms despite normal TSH validate the diagnostic critique.** This is where the mainstream literature inadvertently confirms Peat's position most powerfully. [Approximately 15-25% of hypothyroid patients on levothyroxine report persistent symptoms despite normal TSH](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824691/). These patients report decreased quality of life, fatigue, weight gain, cognitive impairment, and mood changes. The [Endocrine Society has acknowledged](https://www.endocrine.org/news-and-advocacy/news-room/2018/patients-on-levothyroxine-continue-to-experience-symptoms-despite-normal-thyroid-hormone-levels) that "some patients on levothyroxine continue to experience symptoms despite normal thyroid hormone levels."
-
-The mainstream response to this is puzzlement and speculation about non-thyroidal causes. Peat's framework provides a direct explanation: these patients have normalized their TSH (which is what T4 does) without restoring adequate tissue T3 (which requires conversion that may be impaired). They are "treated" by the test and untreated by their biology. The persistent symptoms are not mysterious. They are the predictable consequence of measuring feedback rather than function.
+> *Awaiting Phase 3*
 
 ---
 
@@ -195,14 +164,7 @@ The convergence of all these suppressors explains why hypothyroidism is so commo
 
 ### Verification
 
-> [!success] Confirmed Across All Suppressors
-> Every suppression pathway Peat identified is documented in mainstream endocrinology. The euthyroid sick syndrome is itself a confirmation of the anti-thyroid environment thesis.
-
-**Cortisol inhibits T4 to T3 conversion — Confirmed.** [Glucocorticoids decrease conversion of thyroxine to triiodothyronine](https://pubmed.ncbi.nlm.nih.gov/7053919/) in isolated renal tubules. High cortisol promotes type 3 deiodinase activity (converting T4 to inactive reverse T3) while inhibiting type 1 and type 2 deiodinase (which convert T4 to active T3). This is a well-established mechanism in the endocrine literature, not a contested claim.
-
-**PUFA impairs thyroid transport and conversion — Confirmed.** As documented in the [[pufa|PUFA]] analysis, [arachidonic acid inhibits T4 binding to transthyretin](https://pubmed.ncbi.nlm.nih.gov/7488876/), and plasma free fatty acids during nonthyroidal illness act as thyroid hormone binding inhibitors. PUFA interference with thyroid function operates at transport (carrier protein displacement), conversion (deiodinase competition), and end-organ (mitochondrial membrane) levels simultaneously.
-
-**The nonthyroidal illness syndrome is itself confirmation of the anti-thyroid environment thesis.** The medical literature describes a condition — [euthyroid sick syndrome](https://www.ncbi.nlm.nih.gov/books/NBK482219/) — in which stress, illness, cytokines, cortisol, and free fatty acids suppress T3 while TSH remains normal or low. This is exactly the pattern Peat described: the modern metabolic environment (stress, PUFA, inflammation) creates functional hypothyroidism that TSH testing does not detect. The difference is that the mainstream restricts this diagnosis to acutely hospitalized patients, while Peat argued the same mechanisms operate chronically at lower intensity in the general population.
+> *Awaiting Phase 3*
 
 ---
 
@@ -239,57 +201,22 @@ If T3 is the active hormone and conversion from T4 is impaired by the same envir
 
 ### Verification
 
-> [!tip] Supported by Emerging Evidence
-> T4-only therapy produces subnormal T3 in a significant fraction of patients. DIO2 polymorphism data proves conversion impairment is real and genetically variable.
-
-**T4-only therapy produces lower T3 than endogenous production.** [7.2% of hypothyroid patients on levothyroxine have free T4 above the upper normal limit, and 15.2% have free T3 below the lower normal limit](https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/). This means a substantial fraction of "adequately treated" patients have subnormal T3 despite supranormal T4. The T4 is present. The conversion to active T3 is not occurring at the physiological rate. This is precisely the conversion problem Peat identified.
-
-**Patient preference favors combination therapy.** Across blinded trials, [46.2% of patients preferred combination T4/T3 therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/). In studies comparing T4 monotherapy, T4/T3 combination, and desiccated thyroid extract, satisfaction was lowest with T4 alone and highest with desiccated thyroid. [Overall, 52% of patients preferred combination therapy, 24% preferred T4 monotherapy, and 24% had no preference](https://www.thyroid.org/patient-thyroid-information/ct-for-patients/february-2025/vol-18-issue-2-p-5-6/).
-
-**The trial results are mixed — but the context matters.** Meta-analyses generally show "no significant difference" between T4 monotherapy and combination therapy on quality of life measures. However, context is critical here. Most trials [included hypothyroid patients irrespective of persistent symptoms](https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/) rather than targeting the subset who are poor converters. If 15-25% of patients have impaired conversion, and a trial enrolls all comers, the signal from the responders is diluted by the 75-85% who convert adequately and don't benefit from added T3. This is exactly the RCT averaging problem: a targeted intervention helping a specific subgroup looks like noise in population data.
-
-**The DIO2 polymorphism identifies the mechanism.** Patients carrying combined MCT10 and DIO2 gene polymorphisms (affecting T4-to-T3 conversion efficiency) [showed preference for combination therapy at rates of 42%, 63%, and 100% respectively](https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/) depending on polymorphism count. This directly confirms that impaired conversion is a real, genetically variable trait that determines response to T3 addition. Peat attributed impaired conversion primarily to environmental suppressors ([[pufa|PUFA]], cortisol, [[estrogen]]). The DIO2 data adds a genetic layer: some people are constitutively poor converters, and these are the people who benefit most from T3. Both mechanisms (genetic and environmental) predict the same clinical observation: a subset of patients who are undertreated by T4 alone.
+> *Awaiting Phase 3*
 
 ---
 
 ## What Makes This Topic Different
 
-The [[estrogen]], [[progesterone]], and [[pufa|PUFA]] analyses each identified places where Peat's mechanism was slightly off while his conclusion was correct — the right destination reached by a slightly wrong route. Thyroid is different. There is no mechanistic correction to make. T3 governs respiratory enzyme transcription at both genome levels. Cortisol inhibits T4-to-T3 conversion. [[pufa|PUFA]] displaces thyroid from its carriers. TSH is suppressed by stress independently of thyroid status. 15.2% of T4-treated patients have subnormal T3. 15-25% of treated patients report persistent symptoms. The DIO2 polymorphism proves conversion impairment is real. Every individual claim is confirmed by the mainstream's own research.
-
-The difference is that the mainstream contains these findings in separate silos. The endocrinologists debating TSH reference ranges do not reference the geneticists studying DIO2 polymorphisms. The critical care physicians managing euthyroid sick syndrome do not connect their findings to the outpatient persistent symptom literature. The researchers documenting 15.2% subnormal T3 on levothyroxine do not cite the reference range studies suggesting 20.6 million additional Americans may be subclinically hypothyroid. Each finding lives in its own journal, its own subspecialty, its own clinical context.
-
-Peat read across all of them and saw one picture: a master metabolic regulator systematically suppressed by the modern environment, inadequately measured by a feedback signal that diverges from tissue reality under stress, and inadequately treated by a prohormone that requires the same suppressed conversion machinery to become active. The institutional structure produces fragments. He produced integration. The research does not need to be reinterpreted to support his position. It needs only to be read together.
+> *Awaiting Phase 3*
 
 ---
 
 ## Practical Implications
 
-**Monitor function, not feedback.** Temperature + pulse + their response to meals measure what thyroid hormone is doing in tissue. TSH measures what the pituitary is doing in response to circulating T4. These are different questions with different answers.
-
-**T3 matters — the conversion problem.** If thyroid supplementation is indicated, T4-only therapy may be insufficient. Measuring T3 directly, or monitoring physiological response (temperature, pulse, symptom resolution) to titrate dose, addresses the biology rather than the feedback signal.
-
-**Cholesterol is a readout, not a target.** Elevated cholesterol in the context of hypothyroid signs (low temperature, fatigue, slow reflexes) likely indicates insufficient thyroid-driven cholesterol conversion, not cardiovascular risk requiring statin therapy. Treating the thyroid rather than the cholesterol addresses the cause rather than the downstream marker.
-
-**The meal test protocol.** Take temperature and pulse before and after breakfast. Both should rise. If temperature drops after eating, suspect adrenaline-compensated hypothyroidism: the pre-meal temperature was being maintained by stress hormones, and food reduced the stimulus for their production.
-
-For the shared intervention framework, see [[Practical Convergence]].
+> *Awaiting Phase 3. For the shared intervention framework, see [[Practical Convergence]].*
 
 ---
 
 ## Sources
 
-- [Regulation of skeletal muscle mitochondrial activity by thyroid hormones](https://pmc.ncbi.nlm.nih.gov/articles/PMC4543916/) — Frontiers in Physiology, 2015. T3 regulation of nuclear and mitochondrial gene transcription for respiratory enzymes.
-- [Thyroid hormone action in mitochondria](https://pubmed.ncbi.nlm.nih.gov/11174855/) — Journal of Bioenergetics and Biomembranes, 2001. T3 direct mitochondrial genome activation via p43 receptor.
-- [A Renewed Focus on the Association Between Thyroid Hormones and Lipid Metabolism](https://pmc.ncbi.nlm.nih.gov/articles/PMC6129606/) — Frontiers in Endocrinology, 2018. CYP7A1, LDL receptor regulation, bile acid flow.
-- [Hypothyroidism, lipids, and lipidomics](https://link.springer.com/article/10.1007/s12020-023-03420-9) — Endocrine, 2023. 1.4-13% hypothyroidism prevalence in hyperlipidemia patients.
-- [A Clinical Debate: Subclinical Hypothyroidism](https://pmc.ncbi.nlm.nih.gov/articles/PMC8453656/) — Frontiers in Endocrinology, 2021. TSH reference range controversy, NACB 2.5 recommendation.
-- [TSH Reference Limits: New Concepts and Implications](https://www.sciencedirect.com/science/article/abs/pii/S1530891X20431362) — Endocrine Practice, 2020. 20.6 million additional Americans at narrowed cutoff.
-- [Euthyroid Sick Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK482219/) — StatPearls, 2024. 75% of hospitalized patients show thyroid test alterations, low T3 with normal/low TSH.
-- [Mechanisms behind the non-thyroidal illness syndrome](https://joe.bioscientifica.com/view/journals/joe/205/1/1.xml) — Journal of Endocrinology, 2010. 3% of hospitalized patients with TSH <0.1 from nonthyroidal causes.
-- [Thyroid Hormone, Thyroid Hormone Metabolites and Mast Cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449760/) — Frontiers in Cellular Neuroscience, 2019. TSH receptor expression on mast cells, degranulation.
-- [Glucocorticoids decrease conversion of thyroxine into triiodothyronine](https://pubmed.ncbi.nlm.nih.gov/7053919/) — Acta Endocrinologica, 1981. Cortisol inhibition of 5'-monodeiodination.
-- [Persistent hypothyroid symptoms in a patient with normal TSH](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824691/) — BMJ Case Reports, 2018. 15-25% persistent symptom rate.
-- [The enigma of persistent symptoms in hypothyroid patients treated with levothyroxine](https://onlinelibrary.wiley.com/doi/10.1111/cen.14473) — Clinical Endocrinology, 2023.
-- [T4+T3 Combination Therapy: An Unsolved Problem of Increasing Magnitude and Complexity](https://pmc.ncbi.nlm.nih.gov/articles/PMC8566135/) — Thyroid, 2021. 15.2% subnormal T3 on T4 therapy, DIO2 polymorphism data, patient preference meta-analysis.
-- [Hypothyroid Symptoms in Levothyroxine-Treated Patients](https://pmc.ncbi.nlm.nih.gov/articles/PMC8127082/) — Frontiers in Endocrinology, 2021.
-- [Influence of nonesterified fatty acids on thyroxine binding to TBG and transthyretin](https://pubmed.ncbi.nlm.nih.gov/7488876/) — European Journal of Endocrinology, 1995. PUFA displacement of thyroid hormone from carriers.
+> *Awaiting Phase 3. Sources to be rebuilt during verification.*
