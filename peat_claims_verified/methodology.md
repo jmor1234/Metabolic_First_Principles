@@ -240,6 +240,7 @@ The following topics have been documented using this methodology:
 - **[[serotonin|Serotonin]]** — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique
 - **[[co2|CO2]]** — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity, methylation/epigenetics (speculative)
 - **[[lactate|Lactate]]** — Direct damage mechanism (histone lactylation), four named effects as continuum, Warburg convergence, CO2/lactate ratio as master diagnostic, endotoxin-induced aerobic glycolysis, brain lactate as aging hallmark
+- **[[histamine|Histamine]]** — Stress mediator reframe, estrogen-histamine bidirectional loop, CO2/pH-dependent mast cell granule stability, PUFA peroxidation-triggered degranulation, progesterone and fructose diphosphate as stabilizers, cardiovascular damage (Kounis syndrome), opioid-histamine-cancer immunity, modern MCAS/histamine intolerance as metabolic failure
 
 ## Topics Not Yet Covered
 

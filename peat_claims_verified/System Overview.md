@@ -17,6 +17,7 @@ connections:
   - "[[Serotonin]]"
   - "[[CO2]]"
   - "[[Lactate]]"
+  - "[[Histamine]]"
 ---
 
 # System Overview
@@ -38,6 +39,7 @@ The foundational premise: ==health is efficient oxidative metabolism of glucose 
 | **[[serotonin\|Serotonin]]** | The conservation signal — suppresses oxidative metabolism, promotes torpor |
 | **[[co2\|CO2]]** | The protective output — product of successful metabolism that sustains itself |
 | **[[lactate\|Lactate]]** | The convergence point — every degenerative pathway terminates here |
+| **[[histamine\|Histamine]]** | The mast cell output — released by estrogen, PUFA, alkaline pH; a parallel mediator to serotonin |
 
 ---
 
@@ -74,6 +76,8 @@ The transition between attractors is not gradual. Multiple positive feedback loo
 7. **Stress-Pregnenolone Loop** — Stress → cortisol → pregnenolone steal → less progesterone → less estrogen opposition → more glycolysis → more stress. See [[progesterone#Why Progesterone Depletes]].
 
 8. **Estrogen-Aromatase Loop** — Estrogen → increases aromatase expression → more local estrogen production → more aromatase. See [[estrogen#Claim 3|Estrogen Claim 3]].
+
+9. **Estrogen-Histamine Loop** — Estrogen → mast cell degranulation via non-genomic ER-alpha/Ca2+ influx → histamine release → histamine stimulates estradiol secretion via H1 receptor → more estrogen. See [[histamine#Claim 2|Histamine Claim 2]].
 
 This is why no single intervention is sufficient and why the [[Practical Convergence|practical framework]] addresses multiple inputs simultaneously.
 
@@ -138,5 +142,6 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[serotonin\|Serotonin]] | 8 | Stress mediator, fibrosis, estrogen-MAO, tryptophan restriction, SSRI critique | Metabolic suppression (cell-type dependent) | CO2-serotonin (central/peripheral) | Aging serotonin increase | — | — |
 | [[co2\|CO2]] | 8 | ROS inhibition, Bohr effect, neuroprotection, RQ/fuel selection, hyperventilation pathology | CO2-serotonin (peripheral confirmed, central complex) | Permissive hypercapnia (benefit vs tolerance) | — | Methylation/epigenetics | — |
 | [[lactate\|Lactate]] | 6 | Direct tissue damage (histone lactylation), Warburg as cancer hallmark, brain lactate as aging marker, endotoxin-induced aerobic glycolysis | Excitotoxicity (acute/chronic), Ringer's (nuanced) | — | — | — | — |
+| [[histamine\|Histamine]] | 8 | Estrogen-histamine loop (both directions), glycolytic activation, cardiovascular (Kounis syndrome), opioid-histamine-cancer, progesterone/FDP as stabilizers | PUFA-mast cell (peroxidation confirmed, intact PUFAs complex), CO2-pH (mechanism confirmed, direct CO2 link inferred) | — | — | CO2→granule pH chain (mechanistically sound, not directly tested) | — |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].
