@@ -7,7 +7,7 @@ aliases:
   - Linoleic Acid
 tags:
   - topic/pufa
-  - status/phase2-complete
+  - status/complete
 role: topic-document
 claims:
   - cardiolipin-remodeling
@@ -23,7 +23,7 @@ claims:
   - pufa-estrogen-loop
   - lipofuscin
   - historical-consumption-shift
-assessment-summary: "Phase 2 complete (verified research context). Phase 3 awaiting redo."
+assessment-summary: "Core thermodynamic chain confirmed at every link (cardiolipin remodeling, 4-HNE Complex IV inhibition at IC50 8.3μM, cross-species longevity in mammals). MDA-Complex IV evidence mixed across tissues. Membrane pacemaker strong in mammals, challenged in birds. Thyroid displacement confirmed in vitro but attenuated in vivo by albumin binding. Three edge claims overstated (zero EFA, 1000x metastasis cancer-type-specific not universal, PUFAs universally required for cancer). Research context reveals $100B+ PUFA industry, AHA-P&G institutional capture, 20+ reviews since 2010 finding no CV benefit from saturated fat restriction. Practical conclusions unchanged."
 connections:
   - "[[estrogen]]"
   - "[[serotonin]]"
@@ -107,7 +107,83 @@ Three claims extend the core chain to its logical extremes:
 
 ## What the Research Shows
 
-> *Awaiting Phase 3 — to be redone through the verified Research Context lens above.*
+### Cardiolipin Remodeling With Aging
+
+> [!success] Confirmed
+> In [aged rat hearts](https://pmc.ncbi.nlm.nih.gov/articles/PMC1402292/), linoleic acid in cardiolipin dropped 28% (from 5,525 to 3,965 nmol/g) while arachidonic acid increased 99% (79 to 178 nmol/g) and DHA increased 195% (104 to 307 nmol/g). These changes were specific to cardiolipin, not observed in other phospholipid classes or in plasma, indicating active remodeling rather than a general shift in fatty acid availability.
+
+[Inhibition of delta-6 desaturase](https://pmc.ncbi.nlm.nih.gov/articles/PMC4111632/) reversed cardiolipin remodeling and prevented contractile dysfunction in aged mouse hearts without altering mitochondrial respiratory function — demonstrating that the fatty acid composition change itself, not just aging per se, drives the cardiac dysfunction. A [2025 review](https://www.sciencedirect.com/science/article/abs/pii/S1388198125000952) confirms that age-related cardiolipin fatty acid changes have functional consequences for mitochondrial bioenergetics.
+
+### Lipid Peroxidation Products Poison Complex IV
+
+> [!tip] Confirmed for 4-HNE; MDA Evidence Is Mixed
+> [4-HNE inhibits cytochrome c oxidase](https://pubmed.ncbi.nlm.nih.gov/17925093/) with an IC50 of 8.3 micromolar, forming covalent adducts with subunit I. GSH prevents both adduct formation and inhibition. Following ischemia-reperfusion, [Complex IV activity was reduced to 59% of control](https://pubmed.ncbi.nlm.nih.gov/11708837/) with corresponding HNE-Complex IV adducts.
+
+MDA was shown to [form adducts with cytochrome c oxidase subunits IV and V in ethanol-exposed rat livers](https://pubmed.ncbi.nlm.nih.gov/10798592/), inhibiting the enzyme. However, a [2009 study on rat brain mitochondria](https://pubmed.ncbi.nlm.nih.gov/19023656/) found MDA inhibited Complex I, II, and PDH but "did not have any toxic effects on complex III and IV activities" in the concentration range tested. The discrepancy may reflect tissue-specific differences or methodology. 4-HNE's inhibition of Complex IV is firmly established; MDA's direct Complex IV effects require further clarification. Both are [extensively documented in aging-related disorders](https://pmc.ncbi.nlm.nih.gov/articles/PMC6115986/) with tissue concentrations increasing with age.
+
+### Cross-Species Membrane Unsaturation and Longevity
+
+> [!tip] Strongly Supported in Mammals; Challenged in Birds
+> [Naked mole rats](https://pubmed.ncbi.nlm.nih.gov/18029129/) have 2-6% DHA in their phospholipids compared to 27-57% in similarly sized mice. They live 28+ years versus 3-4 years. DHA is [peroxidized at 8 times the rate of linoleic acid and 320 times that of oleic acid](https://pubmed.ncbi.nlm.nih.gov/17077193/).
+
+Across [eight mammal species](https://pubmed.ncbi.nlm.nih.gov/9788245/), mitochondrial membrane peroxidizability index is inversely correlated with maximum lifespan. The [ocean quahog clam (507 years)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7570520/) maintains peroxidation-resistant membranes. The [echidna](https://www.sciencedirect.com/science/article/abs/pii/S0531556508001629), another exceptionally long-lived mammal, shows the same pattern.
+
+However, as flagged in the Research Context, [2021 bird data](https://www.fightaging.org/archives/2021/05/evidence-against-the-membrane-pacemaker-hypothesis-of-aging-in-bird-species/) found no support when controlling for body mass and phylogeny. The mammalian data remains strong; the theory's universality across all taxa is genuinely debated. This is honest complexity, not a refutation of the mammalian evidence.
+
+### Caloric Restriction Works Through Membrane Composition
+
+> [!success] Confirmed
+> Caloric restriction [prevents the age-related accumulation of highly unsaturated fatty acids](https://pubmed.ncbi.nlm.nih.gov/10832054/) (22:4 and 22:5) in membrane phospholipids, maintains higher linoleic acid content, and reduces the peroxidizability index. CR also [inhibits age-related increases in malondialdehyde production and lipid hydroperoxides](https://link.springer.com/article/10.1007/BF03327396) in liver mitochondrial and microsomal membranes.
+
+The connection between CR and membrane composition is now recognized: "lifespan extension by calorie-restriction can also be explained by changes in membrane fatty acid composition which result in membranes [more resistant to peroxidation](https://link.springer.com/article/10.1007/s11357-008-9055-2)." CR animals maintain high metabolic rates while keeping membranes youthfully saturated — the membrane composition change, not caloric deficit, appears to be the mechanistically relevant variable.
+
+### EFA-Deficient Animals Resist Shock
+
+> [!success] Confirmed Dramatically
+> [Normal rats showed 88% mortality from endotoxin](https://pubmed.ncbi.nlm.nih.gov/394879/) while EFA-deficient rats showed only 18% mortality. Adding arachidonic acid to EFA-deficient rats restored full susceptibility (100% mortality). [Thromboxane B2 was undetectable](https://pmc.ncbi.nlm.nih.gov/articles/PMC371359/) in endotoxin-treated EFA-deficient rats while reaching ~2,054 pg/ml in normal rats. Pretreatment with a thromboxane synthetase inhibitor reduced mortality from 100% to 50% in arachidonate-supplemented EFA-deficient rats.
+
+[EFA-deficient rats also resisted endotoxin-induced increases in vascular permeability](https://pubmed.ncbi.nlm.nih.gov/2188748/) and manifested less severe hepatic and lysosomal damage. The mechanism is exactly what Peat described: without PUFA substrate, the inflammatory cascade cannot fire.
+
+### Dietary PUFA Required for Alcoholic Liver Disease
+
+> [!success] Confirmed With Remarkable Specificity
+> [Dietary linoleic acid is required](https://pubmed.ncbi.nlm.nih.gov/2915600/) for the development of experimental alcoholic liver injury, with severity correlating to the amount of LA in the diet. [Saturated fat (palm oil, MCT oil) not only prevents but reverses](https://pubmed.ncbi.nlm.nih.gov/7615205/) established fibrosis, necrosis, and inflammation even with continued alcohol consumption. A [2016 comprehensive review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4808795/) confirmed that diets containing polyunsaturated fatty acids with ethanol promote liver injury, in contrast to the protective effects of MCTs and saturated fats.
+
+[Linoleic acid's oxidized metabolites](https://pmc.ncbi.nlm.nih.gov/articles/PMC5808136/) exacerbate ethanol-induced liver injury through hepatic proinflammatory response induction. In epidemiological data, dietary saturated fat intake is associated with lower alcoholic cirrhosis mortality, while unsaturated fat intake is associated with higher mortality. This is causal demonstration by substitution: remove the PUFA, the disease resolves; add it back, the disease returns.
+
+### PUFA Displaces Thyroid Hormone From Carrier Proteins
+
+> [!tip] Confirmed In Vitro; In Vivo Magnitude Attenuated
+> [Unsaturated NEFAs inhibit T4 binding to thyroxine-binding globulin](https://pubmed.ncbi.nlm.nih.gov/7488876/), while saturated NEFAs were inactive. Arachidonic acid specifically inhibited T4 binding to transthyretin. The displacement efficiency correlates with degree of unsaturation, as Peat stated.
+
+However, an important nuance the original assessment did not capture: the T4-displacing effects are "markedly attenuated by [the NEFAs'] extensive binding to albumin." The mean unbound percentages of linoleic, EPA, and DHA in undiluted normal human serum were 0.001-0.005%. The in vitro effect is real; the in vivo magnitude under normal physiological conditions may be smaller than the laboratory data suggests. Under stress conditions when free fatty acid levels are elevated (catecholamine release, PUFA-loaded adipose mobilization), the displacement could become physiologically significant — but this specific scenario has not been directly tested.
+
+> [!example]- Pattern: Diagnostic Measurement Divergence
+> Standard thyroid blood tests measure circulating T4/T3 levels. If PUFA displaces thyroid hormone from carriers, the hormone is present in blood but less available to tissues. Blood tests would appear normal while tissue thyroid status is functionally impaired. See [[System Overview#Diagnostic Measurement Divergence]].
+
+### Fish Oil Produces the Highest Mitochondrial Oxidative Stress
+
+> [!success] Confirmed in Direct Comparison
+> [Cardiac mitochondria from rats fed coconut oil showed the lowest oxidized proteins and peroxidized lipids](https://pubmed.ncbi.nlm.nih.gov/20691812/), while fish oil produced the highest oxidative stress. A diet enriched in saturated fatty acids offers "strong advantages for the protection against oxidative stress in heart mitochondria." The effect was partly preventable by the antioxidant probucol.
+
+The same study confirmed that fish oil improved plasma lipid markers — the endpoint divergence flagged in the Research Context. A [meta-analysis of omega-3 supplementation](https://www.sciencedirect.com/science/article/abs/pii/S1043661819311910) showed increased serum total antioxidant capacity and decreased MDA in supplemented groups — but these are systemic serum markers, not mitochondrial-specific measurements. The [dietary supplementation of EPA or DHA increases n-3 PUFA acyl chains within mitochondrial membranes](https://www.sciencedirect.com/science/article/pii/S2161831322012315), leading to "membrane disorganization and potentially increased electron leakage." If you measure serum antioxidants, fish oil looks protective. If you measure mitochondrial membrane peroxidation, it looks harmful. The endpoint determines the conclusion.
+
+### Edge Claims Assessment
+
+**"Optimal EFA intake might be close to zero"**
+
+> [!warning] Overstated — Practically Irrelevant
+> EFA deficiency occurs in TPN patients with specific symptoms (dermatitis, poor wound healing) that resolve with [linoleic acid at 1-2% of total calories](https://aspenjournals.onlinelibrary.wiley.com/doi/full/10.1002/ncp.11278). Individual variation is significant — [some patients require more than standard amounts](https://pmc.ncbi.nlm.nih.gov/articles/PMC11879921/). A whole-foods diet without seed oils provides 2-4% of calories from linoleic acid, exceeding the minimum threshold. Both positions lead to identical practical behavior.
+
+**"Fish oil promotes metastasis up to 1000-fold"**
+
+> [!info] Partially Supported — Cancer-Type Specific, Not Universal
+> One colon cancer study found fish oil [induced 10-fold more metastases in number and 1000-fold in volume](https://pubmed.ncbi.nlm.nih.gov/11467768/) in rat liver — the specific data point Peat cited. However, breast cancer studies show fish oil [prevents metastasis to bone](https://pubmed.ncbi.nlm.nih.gov/20971068/) and [reduces pulmonary nodules](https://www.sciencedirect.com/science/article/abs/pii/S0304383597004278). A [2025 prostate cancer RCT](https://pubmed.ncbi.nlm.nih.gov/39671538/) showed reduced Ki-67 index with high omega-3 diet. The effects are cancer-type specific. Nearly all studies compare fish oil to omega-6 seed oils — the PUFA-vs-PUFA comparison trap flagged in the Research Context.
+
+**"PUFAs are required for cancer to develop"**
+
+> [!warning] Supported in Some Models, Too Absolute as Stated
+> [Linoleic acid promotes mammary tumor growth and metastasis to brain and lung](https://pubmed.ncbi.nlm.nih.gov/40472600/) in mice (2025). [High-LA diets accelerate breast tumor growth](https://pubmed.ncbi.nlm.nih.gov/8402646/) with more pulmonary metastases in nude mice. The mechanism involves [FABP5-mediated growth pathway activation](https://news.weill.cornell.edu/news/2025/04/omega-6-fatty-acid-promotes-the-growth-of-an-aggressive-type-of-breast-cancer). But as an absolute claim, "required for cancer" goes further than the evidence supports. PUFA-mediated mitochondrial damage may be a significant contributing mechanism without being a universal requirement.
 
 ---
 
@@ -119,11 +195,23 @@ The elevated metabolic rate observed in "EFA-deficient" animals, which Burr inte
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!tip] B Vitamin Confound Confirmed Historically — But Linoleic Acid Requirement Also Confirmed
+> [Hume and Smith (1931)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4274059/) in London confirmed that rats on a fat-free diet develop scaly tail but attributed it to a B vitamin deficiency present in yeast, not to fat absence. The B vitamin confound was real — [skin symptoms attributed to fat deficiency were reproducible with B6 and B5 deficiency](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471758/) alone. In 1929, most B vitamins had not been identified.
+
+However, [later work by Hume et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4274059/) reproduced more of the EFA deficiency syndrome and demonstrated that methyl linoleate cured the disease, confirming Burr's core conclusion. The honest reading: Peat was correct that the original experiment was confounded and that some symptoms attributed to fat deficiency reflected B vitamin deficiency. But linoleic acid does have a genuine, nonzero biological requirement confirmed by subsequent work and by modern TPN experience. The confound was real AND the requirement is real — both are true simultaneously.
+
+EFA deficiency remains [extremely rare outside TPN settings](https://www.merckmanuals.com/professional/nutritional-disorders/undernutrition/essential-fatty-acid-deficiency) and requires the complete absence of fat intake to produce. This is consistent with a very low requirement exceeded by any normal diet.
 
 ---
 
-> *Overall Assessment — Awaiting Phase 3*
+> [!abstract] Overall Assessment
+> The core thermodynamic argument — PUFA accumulates in cardiolipin, peroxidizes, produces toxic aldehydes (4-HNE confirmed at IC50 8.3μM; MDA evidence mixed), and degrades mitochondrial respiration in a self-amplifying loop — is confirmed at every link by modern research. The cardiolipin remodeling data is quantitatively precise. The cross-species longevity correlation is strong in mammals (with genuine complexity in birds). The caloric restriction mechanism via membrane composition is confirmed. The EFA-deficiency shock resistance, alcoholic liver disease reversal, and fish oil mitochondrial damage data are among the strongest individual findings in the vault.
+>
+> The research context reveals that the institutional landscape (AHA-industry ties, DGAC conflicts, $100B+ combined PUFA market) has maintained dietary policy recommending PUFA despite 20+ independent reviews since 2010 finding no cardiovascular benefit from saturated fat restriction and despite the PURE study finding saturated fat associated with *lower* total mortality. The endpoint divergence (blood lipids vs. mitochondrial damage) remains the critical blind spot.
+>
+> Where Peat overreached: zero EFA requirement (evidence confirms a low but nonzero minimum, and Burr's core finding was replicated despite the confound), fish oil universally promoting cancer (cancer-type specific — promotes colon metastasis, inhibits breast metastasis in animal models), PUFAs absolutely required for all cancer (supported in some models but too absolute). The thyroid displacement claim is confirmed in vitro but attenuated in vivo by albumin binding — a nuance the original assessment missed. The MDA-Complex IV inhibition has conflicting evidence across studies.
+>
+> The practical conclusion is unchanged by these nuances: eliminate seed oils, favor saturated fats, and the incidental PUFA in whole animal foods provides whatever minimal requirement exists.
 
 ---
 
@@ -158,7 +246,11 @@ The immune system is one of the most energy-intensive systems in the body. If PU
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!success] Soybean Oil Emulsion Immunosuppression — Confirmed and Clinically Recognized
+> [Soybean oil emulsion decreased lymphocyte proliferation and provoked lymphocyte apoptosis and necrosis](https://pubmed.ncbi.nlm.nih.gov/16517956/) in a dose-dependent manner. [Both soybean oil-based emulsions inhibited lymphocyte proliferation](https://pubmed.ncbi.nlm.nih.gov/16843362/) in a concentration- and time-dependent manner. The immunosuppressive effect is so well-established that [lower rates of graft-vs-host disease](https://www.sciencedirect.com/topics/medicine-and-dentistry/soybean-oil-emulsion) were found in bone marrow transplant patients using soybean oil-based parenteral nutrition — the immunosuppression was clinically useful for transplant outcomes. The clinical nutrition field has moved toward alternative lipid formulations specifically to reduce this effect.
+
+> [!tip] Fish Oil Suppresses Immune Function — Confirmed, Framed as Anti-Inflammatory
+> [Soybean oil emulsion amplifies, and EPA supplementation reduces, the stress response and stress-induced immunosuppression](https://pubmed.ncbi.nlm.nih.gov/10024108/). Fish oil reduces pro-inflammatory cytokines including TNF-alpha, IL-1, and IL-2. The mainstream frames this as "anti-inflammatory." Peat's critical distinction — that suppressing immune function and reducing inflammation are not the same thing — is largely absent from the research literature. No study we found measured whether fish oil's reduction in inflammatory markers reflected genuine resolution of tissue damage versus disabled surveillance.
 
 ---
 
@@ -186,7 +278,17 @@ The immune system is one of the most energy-intensive systems in the body. If PU
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!success] Albumin-Tryptophan Displacement — Confirmed as Mechanism
+> [85-90% of circulating tryptophan is albumin-bound](https://www.sciencedirect.com/science/article/abs/pii/0026049574900274), and free fatty acids competitively displace it. Only free tryptophan crosses the blood-brain barrier. Tryptophan hydroxylase is unsaturated at normal brain concentrations, meaning serotonin synthesis is directly supply-dependent. [Free fatty acids from adipose tissue induce mental fatigue via serotonin](https://pubmed.ncbi.nlm.nih.gov/15052485/) during exercise through this displacement mechanism. A [high-fat diet inhibits liver tryptophan degradation and promotes serotonin synthesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4029732/) by increasing brain tryptophan.
+
+> [!success] PUFA Deficiency Reduces Serotonin Synthetic Machinery — Confirmed
+> [Omega-3 fatty acid deficiency decreases tryptophan hydroxylase-2 expression](https://pubmed.ncbi.nlm.nih.gov/25713056/) in adult rat brains, reducing serotonin concentrations in the frontal cortex. The mainstream reads this as "omega-3s are needed for healthy serotonin function." The framework inverts the interpretation: PUFA upregulates the machinery that produces serotonin, and that upregulation is itself the problem.
+
+> [!success] Serotonin Promotes Lipolysis — Confirmed
+> [Serotonin signaling in white adipocytes promotes lipolysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC6624793/), releasing stored fatty acids into circulation. This closes one half of the feedback loop: PUFA → tryptophan displacement → serotonin → FFA release → more tryptophan displacement.
+
+> [!tip] Complete Loop — Each Link Confirmed; Not Tested as Integrated System
+> No single study has tested the complete PUFA-serotonin feedback cycle as an integrated system. Each link has independent confirmation. The synthesis is Peat's contribution.
 
 ---
 
@@ -210,7 +312,14 @@ The mutual amplification means neither can be understood in isolation. A person 
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!success] Estrogen Increases DHA and PUFA Circulation — Confirmed
+> Women of reproductive age convert more ALA into DHA than men. [Estrogen enhances expression of PUFA elongase Elovl2 via ERα](https://pmc.ncbi.nlm.nih.gov/articles/PMC5082882/), and [HRT increases erythrocyte DHA by 11%](https://pubmed.ncbi.nlm.nih.gov/33710263/) in postmenopausal women. These differences are hormonally mediated — confirmed by transgender studies and oral contraceptive data. The mainstream frames this as beneficial adaptation for fetal brain development. The framework reads it as estrogen loading female tissues with the most peroxidation-vulnerable fatty acid in biology.
+
+> [!info] PUFA Displaces Estrogen From SHBG — Mechanism Exists, Clinical Significance Debated
+> Unsaturated fatty acids displace estrogen from sex steroid-binding globulin, increasing biologically available estradiol. However, [one study found no difference in free estradiol fraction or concentration](https://www.sciencedirect.com/topics/medicine-and-dentistry/sex-hormone-binding-globulin) in women with higher free fatty acid levels, concluding dietary fat effects are "unlikely to be mediated by free fatty acids inhibiting the binding of sex steroids." Peat did not present SHBG displacement as an isolated mechanism — it was one input in a bidirectional system. A small SHBG effect combined with increased DHA synthesis and phospholipase activation may still produce meaningful net amplification, but the SHBG pathway alone is weaker than Peat implied.
+
+> [!success] Parallel Biological Effects — Confirmed by Mechanism
+> Both PUFA and estrogen suppress mitochondrial respiration, promote water uptake and cellular edema, activate phospholipase A2, and antagonize vitamin E. The parallel effects are mechanistically convergent: both feed into the same downstream pathways (arachidonic acid liberation, prostaglandin synthesis, lipid peroxidation, respiratory suppression).
 
 ---
 
@@ -237,7 +346,10 @@ Lipofuscin, the brown "age pigment" that accumulates in aging tissues, is the di
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!success] Composition and PUFA-Dependence — Confirmed
+> Lipofuscin is [formed by peroxidation of polyunsaturated fatty acids, reaction of lipid peroxidation end-products with proteins to form fluorescent polymerized compounds](https://pubmed.ncbi.nlm.nih.gov/7001991/). The rate of formation is [increased by vitamin E deficiency and by increased intake of polyunsaturated fatty acids](https://pubmed.ncbi.nlm.nih.gov/7001991/). DHA is [exquisitely sensitive to oxidative damage](https://link.springer.com/article/10.1016/S1734-1140(13)71005-3) owing to six double bonds, and is uniquely concentrated in nervous system membranes. [Lipofuscin accumulates with age across brain regions](https://pmc.ncbi.nlm.nih.gov/articles/PMC12699879/) and is now recognized as a potential "timebomb" in Alzheimer's disease, contributing through oxidative stress, lysosomal dysfunction, and inhibition of proteasomal degradation.
+
+The [mechanism involves](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00464/full) peroxyl radical propagation from PUFA double bonds, producing secondary products (MDA, 4-HNE) that cross-link proteins into indigestible aggregates. Once formed, lipofuscin generates more free radicals and hydrogen peroxide — the self-amplifying accumulation Peat described. Lipofuscin composition is approximately two-thirds protein and one-third lipid.
 
 ---
 
@@ -259,16 +371,94 @@ The historical context reframes the question. The current level of PUFA consumpt
 
 ### Verification
 
-> *Awaiting Phase 3*
+> [!success] Linoleic Acid Consumption Increase — Confirmed With Precise Data
+> [Per capita soybean oil consumption rose from 0.009 kg/year in 1909 to 11.64 kg/year in 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC3076650/) — a 1000-fold increase. [Linoleic acid intake rose from approximately 2 g/day in 1865 to 29 g/day in 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC10386285/), a roughly 15-fold increase. By 2005, 86% of added fats in the American diet came from seed oils, compared to 1% in 1909.
+
+> [!success] Adipose Tissue Reflects the Dietary Shift — Confirmed
+> [Adipose tissue linoleic acid increased 136% over the last half century](https://pubmed.ncbi.nlm.nih.gov/26567191/), directly confirming that the dietary change has altered human tissue composition at the population level. This increase is "highly correlated with an increase in dietary LA intake over the same period."
+
+> [!success] Industrial-to-Food Pipeline — Confirmed Historically
+> The AHA's adoption of the vegetable oil recommendation in 1961 followed [P&G's $1.7 million contribution in 1948](https://pmc.ncbi.nlm.nih.gov/articles/PMC9794145/). The narrative Peat described — seed oils as industrial products repurposed for food — is documented in the historical literature. [A 2025 UC Riverside study](https://news.ucr.edu/articles/2025/11/26/study-links-americas-favorite-cooking-oil-obesity) confirmed that soybean oil's linoleic acid is converted to oxylipins associated with inflammation and fat accumulation, providing a modern mechanistic link between the historical dietary shift and the chronic disease epidemic.
+
+> [!tip] Temporal Correlation With Chronic Disease — Documented, Causation Being Established
+> The Nutrients review explicitly identifies correlations between increased LA intake and the rise of obesity, type 2 diabetes, cardiovascular disease, and cancer while acknowledging confounding variables. The scale of the shift (1000-fold soybean oil increase, 136% tissue LA increase, 86% seed oil dominance) makes PUFA difficult to dismiss as a minor variable. The oxylipin mechanism provides a causal pathway beyond correlation.
 
 ---
 
 ## What This Means in Practice
 
-> *Awaiting Phase 3. For the shared intervention framework, see [[Practical Convergence]].*
+The organism's mitochondrial membranes are the most consequential structural target in the body for dietary influence. Their fatty acid composition determines respiratory efficiency, peroxidation vulnerability, and aging rate.
+
+- **Favor saturated fats** — beef, lamb, butter, coconut oil, dairy. These are chemically stable, support mitochondrial integrity, and in multiple experimental models reverse pathology caused by PUFA. Select ruminant animals (beef, lamb, goat, dairy) whose digestive systems hydrogenate unsaturated fats before absorption. Pork, poultry, and farmed fish reflect their feed composition directly.
+- **Eliminate seed oils** — soybean, corn, canola, sunflower, safflower, cottonseed, grapeseed. They deliver pharmacological doses of linoleic acid directly into the system that determines aging rate.
+- **You do not need to seek out omega-3s.** A whole-foods diet of beef, butter, eggs, and dairy provides 2-4% of calories from linoleic acid, exceeding the minimum clinical threshold (~1-2%) without deliberate PUFA consumption. There is nothing to supplement.
+- **The omega-3/omega-6 ratio is the wrong question.** The entire ratio paradigm exists because seed oil consumption created a massive omega-6 excess. The solution is not to add more PUFA from the omega-3 side — fish oil produces the [highest mitochondrial oxidative stress](https://pubmed.ncbi.nlm.nih.gov/20691812/) while improving the blood lipid markers that clinicians measure. Remove the seed oils and the ratio question disappears.
+
+For the shared intervention framework, see [[Practical Convergence]].
 
 ---
 
 ## Sources
 
-> *Awaiting Phase 3. Sources to be rebuilt during verification.*
+### Core Chain
+- [Selective remodeling of cardiolipin fatty acids in the aged rat heart](https://pmc.ncbi.nlm.nih.gov/articles/PMC1402292/) — Lipids in Health and Disease, 2006. Quantitative cardiolipin composition changes with aging.
+- [Inhibition of delta-6 desaturase reverses cardiolipin remodeling](https://pmc.ncbi.nlm.nih.gov/articles/PMC4111632/) — PLoS ONE, 2014. Reversal prevents contractile dysfunction in aged hearts.
+- [Oxidative modifications of cardiac mitochondria and inhibition of cytochrome c oxidase by 4-HNE](https://pubmed.ncbi.nlm.nih.gov/17925093/) — Free Radical Research, 2007. IC50 8.3μM, subunit I adducts.
+- [Inhibition of COX activity by HNE: role of HNE adduct formation](https://pubmed.ncbi.nlm.nih.gov/9555085/) — Free Radical Biology and Medicine, 1998. Subunit-specific adduct formation.
+- [4-HNE modification of cytochrome c oxidase in ischemia/reperfusion](https://pubmed.ncbi.nlm.nih.gov/11708837/) — Journal of Biological Chemistry, 2001. Complex IV reduced to 59%.
+- [MDA adducts in livers: ethanol-mediated inhibition of cytochrome c oxidase](https://pubmed.ncbi.nlm.nih.gov/10798592/) — Hepatology, 2000. MDA-COX adduct formation.
+- [Neuronal mitochondrial toxicity of malondialdehyde](https://pubmed.ncbi.nlm.nih.gov/19023656/) — Life Sciences, 2009. MDA inhibits Complex I/II/PDH but not Complex III/IV in brain — conflicting with liver data.
+- [Lipid Peroxidation-Derived Aldehydes in Aging-Related Disorders](https://pmc.ncbi.nlm.nih.gov/articles/PMC6115986/) — Free Radical Biology and Medicine, 2018. Tissue accumulation with aging.
+- [Membrane phospholipid composition and naked mole-rat longevity](https://pubmed.ncbi.nlm.nih.gov/18029129/) — Experimental Gerontology, 2008. DHA 2-6% vs 27-57%.
+- [Oxidation-resistant membrane phospholipids explain longevity differences](https://pubmed.ncbi.nlm.nih.gov/17077193/) — Journal of Gerontology, 2006. DHA peroxidized at 8x linoleic, 320x oleic.
+- [Mitochondrial membrane peroxidizability index inversely related to lifespan](https://pubmed.ncbi.nlm.nih.gov/9788245/) — Journal of Lipid Research, 1998. Cross-species correlation.
+- [The Lipidome Fingerprint of Longevity](https://pmc.ncbi.nlm.nih.gov/articles/PMC7570520/) — Molecules, 2020. Cross-phylum analysis.
+- [Caloric restriction alters muscle membrane fatty acid content](https://pubmed.ncbi.nlm.nih.gov/10832054/) — Experimental Gerontology, 2000. CR prevents PUFA accumulation.
+- [Dietary restriction and phospholipid fatty acid composition](https://link.springer.com/article/10.1007/BF03327396) — Aging Clinical and Experimental Research, 1996. CR reduces MDA and lipid hydroperoxides.
+- [Explaining longevity: membrane fatty acid composition](https://link.springer.com/article/10.1007/s11357-008-9055-2) — GeroScience, 2008. CR and membrane pacemaker theory.
+- [Resistance of EFA-deficient rats to endotoxic shock](https://pubmed.ncbi.nlm.nih.gov/394879/) — Prostaglandins and Medicine, 1978. 88% vs 18% mortality.
+- [Elevated thromboxane in endotoxic shock: EFA deficiency protection](https://pmc.ncbi.nlm.nih.gov/articles/PMC371359/) — Journal of Clinical Investigation, 1980. Thromboxane mechanism.
+- [EFA-deficient rats resist endotoxin-induced vascular permeability](https://pubmed.ncbi.nlm.nih.gov/2188748/) — Circulatory Shock, 1990.
+- [Dietary linoleic acid required for alcoholic liver injury](https://pubmed.ncbi.nlm.nih.gov/2915600/) — Hepatology, 1989.
+- [Saturated fatty acids reverse alcoholic liver disease](https://pubmed.ncbi.nlm.nih.gov/7615205/) — Gastroenterology, 1995.
+- [Alcoholic Liver Disease: Update on the Role of Dietary Fat](https://pmc.ncbi.nlm.nih.gov/articles/PMC4808795/) — Biomolecules, 2016.
+- [Linoleic acid oxidized metabolites exacerbate liver injury](https://pmc.ncbi.nlm.nih.gov/articles/PMC5808136/) — American Journal of Pathology, 2018.
+- [Influence of NEFAs on thyroxine binding to TBG and transthyretin](https://pubmed.ncbi.nlm.nih.gov/7488876/) — European Journal of Endocrinology, 1995.
+- [Dietary fatty acids and oxidative stress in heart mitochondria](https://pubmed.ncbi.nlm.nih.gov/20691812/) — Mitochondrion, 2010. Coconut oil lowest, fish oil highest oxidative stress.
+- [Dietary fatty acids regulate mitochondrial structure-function](https://www.sciencedirect.com/science/article/pii/S2161831322012315) — Advances in Nutrition, 2022. EPA/DHA increase membrane disorganization.
+
+### Edge Claims
+- [EFA deficiency in parenteral nutrition](https://aspenjournals.onlinelibrary.wiley.com/doi/full/10.1002/ncp.11278) — Nutrition in Clinical Practice, 2025. Historical perspective and modern solutions.
+- [Promotion of colon cancer metastases by fish oil diet](https://pubmed.ncbi.nlm.nih.gov/11467768/) — Clinical and Experimental Metastasis, 2001. 10x number, 1000x volume.
+- [Fish oil prevents breast cancer metastasis to bone](https://pubmed.ncbi.nlm.nih.gov/20971068/) — BMC Cancer, 2010.
+- [Linoleic acid promotes mammary tumor growth and metastasis](https://pubmed.ncbi.nlm.nih.gov/40472600/) — 2025.
+- [CAPFISH-3: high omega-3 diet reduces prostate cancer Ki-67](https://pubmed.ncbi.nlm.nih.gov/39671538/) — JAMA Oncology, 2025.
+- [FABP5 mediates LA-driven breast cancer growth](https://news.weill.cornell.edu/news/2025/04/omega-6-fatty-acid-promotes-the-growth-of-an-aggressive-type-of-breast-cancer) — Weill Cornell, 2025.
+
+### Extended Claims
+- [Soybean oil emulsion toxicity on lymphocytes and neutrophils](https://pubmed.ncbi.nlm.nih.gov/16517956/) — JPEN, 2006.
+- [Inhibition of lymphocyte proliferation by lipid emulsions](https://pubmed.ncbi.nlm.nih.gov/16843362/) — Clinical Nutrition, 2006.
+- [Soybean oil emulsion vs EPA on stress response](https://pubmed.ncbi.nlm.nih.gov/10024108/) — Surgery, 1999.
+- [Free fatty acids displace tryptophan from albumin](https://www.sciencedirect.com/science/article/abs/pii/0026049574900274) — Metabolism, 1974.
+- [n-3 fatty acids and exercise fatigue via serotonin](https://pubmed.ncbi.nlm.nih.gov/15052485/) — Medicine and Science in Sports, 2004.
+- [PUFA deficiency reduces TPH2 expression](https://pubmed.ncbi.nlm.nih.gov/25713056/) — FASEB Journal, 2015.
+- [Serotonin promotes lipolysis in white adipocytes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6624793/) — Endocrine Reviews, 2019.
+- [Estrogen enhances Elovl2 expression via ERα](https://pmc.ncbi.nlm.nih.gov/articles/PMC5082882/) — PLoS ONE, 2016.
+- [HRT increases erythrocyte DHA in postmenopausal women](https://pubmed.ncbi.nlm.nih.gov/33710263/) — American Journal of Clinical Nutrition, 2021.
+- [Lipofuscin: PUFA peroxidation and age pigment formation](https://pubmed.ncbi.nlm.nih.gov/7001991/) — Annales de Biologie Clinique, 1981.
+- [Lipofuscin as potential timebomb in Alzheimer's](https://pmc.ncbi.nlm.nih.gov/articles/PMC12699879/) — PMC, 2025.
+- [An overview of lipofuscin in age-related neurodegeneration](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00464/full) — Frontiers in Neuroscience, 2018.
+- [Soybean oil consumption 1000-fold increase, LA 158% increase](https://pmc.ncbi.nlm.nih.gov/articles/PMC3076650/) — American Journal of Clinical Nutrition, 2011.
+- [LA effects of increased intake in Standard American Diet](https://pmc.ncbi.nlm.nih.gov/articles/PMC10386285/) — Nutrients, 2023.
+- [Adipose tissue LA increased 136% over half century](https://pubmed.ncbi.nlm.nih.gov/26567191/) — Advances in Nutrition, 2015.
+- [Soybean oil linked to obesity via oxylipins](https://news.ucr.edu/articles/2025/11/26/study-links-americas-favorite-cooking-oil-obesity) — UC Riverside, 2025.
+
+### Research Context
+- [A short history of saturated fat: making and unmaking a scientific consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC9794145/) — PMC, 2022. AHA-P&G history, DGAC conflicts, 20+ reviews since 2010.
+- [Saturated fat restriction: systematic review and meta-analysis of RCTs](https://www.jmaj.jp/detail.php?id=10.31662/jmaj.2024-0324) — JMA Journal, 2025. No significant reduction in CV mortality or all-cause mortality.
+- [Bird species: evidence against membrane pacemaker hypothesis](https://www.fightaging.org/archives/2021/05/evidence-against-the-membrane-pacemaker-hypothesis-of-aging-in-bird-species/) — Fight Aging, 2021.
+- [Linoleic acid-rich oil alters circulating cardiolipin in adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC9540417/) — Lipids in Health and Disease, 2022. Dietary fat changes human cardiolipin.
+
+### Burr Experiment
+- [Discovery of essential fatty acids](https://pmc.ncbi.nlm.nih.gov/articles/PMC4274059/) — Journal of Lipid Research, 2014. Historical review including Hume/Smith B vitamin critique and confirmation.
+- [Essential Fatty Acids: The Work of George and Mildred Burr](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471758/) — Journal of Biological Chemistry, 2012.
