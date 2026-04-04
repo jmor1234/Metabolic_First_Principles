@@ -66,6 +66,8 @@ Every topic has a different distortion pattern. Some have pharmaceutical interes
 
 5. **What is the institutional and disciplinary fragmentation?** Peat's claims typically integrate findings from 3-5 disciplines that don't reference each other. Identify which disciplines hold relevant evidence and search across all of them, not just the dominant one. The gut physiologist studying serotonin, the cardiologist studying carcinoid valve disease, the gerontologist studying tryptophan restriction, and the psychiatrist studying SSRIs all have pieces of the serotonin picture. No single discipline has the whole picture.
 
+7. **Stop.** Review the research context analysis before proceeding to verification. The distortion patterns identified here shape how Phase 3 evidence is interpreted. If the context is wrong, the verification will be systematically biased. Confirm the identified distortions are accurate and complete before searching.
+
 ---
 
 ### Phase 3: Verify Against Research With Full Context
