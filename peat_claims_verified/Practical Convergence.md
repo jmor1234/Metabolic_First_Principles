@@ -16,11 +16,12 @@ connections:
   - "[[Serotonin]]"
   - "[[CO2]]"
   - "[[Lactate]]"
+  - "[[Histamine]]"
 ---
 
 # Practical Convergence
 
-All seven topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all seven degenerative pathways simultaneously.
+All eight topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all seven degenerative pathways simultaneously.
 
 No single intervention is sufficient because no single cause produces the lactate-dominant state on its own. It is the combined weight of PUFA, estrogen, serotonin, hypothyroidism, stress, and endotoxin that pushes the system past the threshold where oxidative metabolism can maintain itself. The interventions must address multiple inputs to cross the threshold back.
 
@@ -50,16 +51,16 @@ The single highest-leverage dietary change. [[pufa|PUFA]] damages mitochondrial 
 
 [[estrogen|Estrogen]] reprograms cells toward glycolysis, amplifies stress responses, promotes PUFA retention, and drives tissue remodeling. [[progesterone|Progesterone]] opposes it at every mechanistic point: supports mitochondrial respiration, raises temperature, stabilizes cells, prevents edema, reduces inflammation, promotes differentiation. The estrogen-progesterone ratio determines which metabolic state dominates.
 
-**In practice:** Address the conditions that make estrogen dominant: support thyroid (drives progesterone synthesis and estrogen clearance), reduce PUFA (reduces estrogen amplification), reduce chronic stress (reduces pregnenolone steal toward cortisol). Progesterone supplementation, when appropriate, directly restores the protective signal — but without upstream corrections, the conditions that deplete progesterone remain active.
+**In practice:** Address the conditions that make estrogen dominant: support thyroid (drives progesterone synthesis and estrogen clearance), reduce PUFA (reduces estrogen amplification), reduce chronic stress (chronic cortisol/CRH suppresses gonadal progesterone production via GnRH/LH inhibition — see [[progesterone#Why Progesterone Depletes]]). Progesterone supplementation, when appropriate, directly restores the protective signal — but without upstream corrections, the conditions that deplete progesterone remain active.
 
 > [!tip] Topic-specific detail
 > See [[estrogen#Practical Implications]] for the HRT critique and tissue-bound estrogen measurement gap. See [[progesterone#Practical Implications]] for supplementation principles and the depletion mechanisms.
 
 ### 4. Reduce Chronic Stress
 
-Chronic stress drives cortisol, which consumes pregnenolone (depleting progesterone), inhibits T4-to-T3 conversion, mobilizes PUFA from adipose tissue, increases serotonin through tryptophan displacement, and shifts metabolism toward fat oxidation (reducing CO2 production). The [[System Overview#The Interlocking Feedback Loops|stress-pregnenolone loop]] is self-reinforcing.
+Chronic stress drives cortisol/CRH, which suppresses GnRH/LH (depleting gonadal progesterone production), inhibits T4-to-T3 conversion (promoting reverse T3), mobilizes PUFA from adipose tissue, increases serotonin through tryptophan displacement, and shifts metabolism toward fat oxidation (reducing CO2 production). The [[System Overview#The Interlocking Feedback Loops|stress-progesterone loop]] is self-reinforcing.
 
-**In practice:** This includes psychological, relational, financial, and physiological stressors (overtraining, sleep deprivation, caloric restriction). The pregnenolone steal is not a metaphor — it is a substrate competition at a real enzymatic branch point.
+**In practice:** This includes psychological, relational, financial, and physiological stressors (overtraining, sleep deprivation, caloric restriction). The mechanism is HPA axis suppression of gonadal function — cortisol/CRH directly inhibits the GnRH/LH pulse generator that drives progesterone synthesis. (Note: the "pregnenolone steal" substrate competition model has been corrected — see [[progesterone#Why Progesterone Depletes]]. The clinical outcome is the same: chronic stress depletes progesterone.)
 
 ### 5. Favor Glucose Oxidation
 

@@ -43,7 +43,7 @@ This is Peat's most radical inversion of mainstream consensus. He did not refine
 
 Peat was stating in the 1990s and 2000s that there was no credible evidence linking low serotonin to depression. He argued the "chemical imbalance" narrative was a pharmaceutical marketing construct, not a scientific finding. The hypothesis was never proven -- it was assumed, commercialized, and defended through institutional inertia rather than evidence.
 
-> *Awaiting Phase 3 -- verification evidence (Moncrieff 2022 umbrella review, institutional response, critical reception) to be rebuilt during verification.*
+The [Moncrieff 2022 umbrella review](https://pubmed.ncbi.nlm.nih.gov/35854107/) found "no convincing evidence from any field of research that depression is associated with lowered serotonin concentration or activity." The review was [methodologically criticized](https://pmc.ncbi.nlm.nih.gov/articles/PMC10618084/) but the core finding has not been overturned. See Claim 1 verification below for full treatment.
 
 Serotonin connects every other document in the series: [[pufa]] promotes serotonin. [[estrogen]] amplifies serotonin. [[progesterone]] opposes serotonin. [[thyroid]] determines whether serotonin or [[co2]] dominates. Serotonin suppresses the oxidative metabolism that produces CO2, completing the circle.
 

@@ -22,13 +22,13 @@ connections:
 
 # System Overview
 
-This vault documents a single metabolic system from seven angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
+This vault documents a single metabolic system from eight angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
 
 The foundational premise: ==health is efficient oxidative metabolism of glucose to CO2. Disease is the progressive failure of that metabolism.== Everything else is mechanism.
 
 ---
 
-## The Seven Topics
+## The Eight Topics
 
 | Topic | Role in the System |
 |---|---|
@@ -71,9 +71,9 @@ The transition between attractors is not gradual. Multiple positive feedback loo
 
 5. **Thyroid-Everything Loop** — Low thyroid → low CO2, high serotonin, high estrogen, low progesterone, high cholesterol → all further suppress thyroid. See [[thyroid#Claim 4|Thyroid Claim 4]].
 
-6. **Lactate Self-Amplification** — Lactate → excitotoxicity, fibrosis, immune suppression → more metabolic failure → more lactate. See [[lactate#Claim 1|Lactate Claim 1]].
+6. **Lactate Self-Amplification** — Lactate → fibrosis (via lactylation), immune suppression (via HIF-1α/M2 macrophage shift), blood rheology impairment → more metabolic failure → more lactate. Note: the excitotoxicity component originally attributed to lactate has been contradicted — acute brain lactate is neuroprotective. See [[lactate#Claim 1|Lactate Claim 1]].
 
-7. **Stress-Pregnenolone Loop** — Stress → cortisol → pregnenolone steal → less progesterone → less estrogen opposition → more glycolysis → more stress. See [[progesterone#Why Progesterone Depletes]].
+7. **Stress-Progesterone Loop** — Stress → cortisol/CRH → HPA axis suppression of GnRH/LH → reduced gonadal progesterone synthesis → less estrogen opposition → more glycolysis → more stress. Note: the "pregnenolone steal" substrate competition mechanism has been corrected — the actual mechanism is regulatory (HPA suppresses gonadal function), not substrate diversion. The clinical outcome (stress depletes progesterone) is the same. See [[progesterone#Why Progesterone Depletes]].
 
 8. **Estrogen-Aromatase Loop** — Estrogen → increases aromatase expression → more local estrogen production → more aromatase. See [[estrogen#Claim 3|Estrogen Claim 3]].
 
@@ -89,13 +89,16 @@ These patterns emerged independently across multiple topics during verification.
 
 ### Right Destination, Slightly Wrong Route
 
-Three times across the series, Peat identified the correct functional outcome but attributed it to the most direct mechanism available with his data, when the actual mechanism was more upstream or indirect:
+Across the series, Peat repeatedly identified the correct functional outcome but attributed it to the most direct mechanism available with his data, when the actual mechanism was more upstream, indirect, or metabolite-mediated:
 
-- **[[estrogen|Estrogen]]**: correct endpoint (glycolytic shift), attributed to direct Complex IV blockade, actual mechanism is AKT/ERR signaling cascades at physiological concentrations
-- **[[progesterone|Progesterone]]/cortisol**: correct endpoint (anti-stress), attributed to substrate competition, actual mechanism is allopregnanolone/GABA/HPA axis modulation
-- **[[serotonin|Serotonin]]/mitochondria**: correct concern (metabolic suppression), stated as blanket inhibition, actual effects are cell-type and dose-dependent
+- **[[estrogen|Estrogen]]**: correct endpoint (glycolytic shift), attributed to direct Complex IV blockade, actual mechanism is PI3K/AKT signaling cascades at physiological concentrations — ER-beta actually upregulates Complex IV
+- **[[progesterone|Progesterone]]/cortisol**: correct endpoint (anti-stress), attributed to substrate competition ("pregnenolone steal"), actual mechanism is allopregnanolone/GABA/HPA axis modulation — no shared adrenal pregnenolone pool exists
+- **[[progesterone|Progesterone]]/excitation**: correct endpoint (anti-excitatory), attributed to direct membrane stabilization, actual mechanism is allopregnanolone → GABA-A receptor modulation
+- **[[progesterone|Progesterone]]/PLA2**: correct endpoint (anti-inflammatory fatty acid release), attributed to direct enzyme inhibition, actual mechanism is progesterone-induced proteins (PIBF, uteroglobin)
+- **[[serotonin|Serotonin]]/mitochondria**: correct concern (metabolic suppression), stated as blanket inhibition, actual effects are cell-type and dose-dependent (acute neuronal enhancement vs. chronic systemic suppression)
+- **[[thyroid|Thyroid]]/brain T3**: correct observation (brain prioritizes T3), attributed to active T3 concentration from serum, actual mechanism is T4 crosses BBB preferentially then is converted locally by D2 in astrocytes
 
-In each case, the correcting studies used instruments (Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models) that didn't exist when Peat formulated his positions. Flag as refinement, not refutation.
+In each case, the correcting studies used instruments or approaches (Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models, mass spectrometry proteomics) that didn't exist when Peat formulated his positions. Flag as refinement, not refutation.
 
 ### The Acute-Chronic Distinction
 
@@ -103,8 +106,8 @@ Most biological signals are beneficial when pulsatile and pathological when chro
 
 - **[[serotonin|Serotonin]]**: acute neuronal mitochondrial enhancement vs. chronic systemic metabolic suppression
 - **[[co2|CO2]]**: acute brainstem chemosensory activation vs. chronic peripheral serotonin suppression
-- **[[lactate|Lactate]]**: acute exercise fuel shuttle vs. chronic disease marker and cause
-- **[[estrogen|Estrogen]]**: acute neuroprotection vs. chronic neurotoxicity
+- **[[lactate|Lactate]]**: acute exercise fuel shuttle and brain neuroprotectant vs. chronic disease marker, fibrosis driver (via lactylation), and immune suppressor — the most dramatic instance of opposite effects at different timescales
+- **[[estrogen|Estrogen]]**: acute neuroprotection vs. chronic neurotoxicity; the "healthy cell bias" (estrogen helps healthy cells, harms compromised cells)
 
 When mainstream research contradicts Peat by showing a substance has "beneficial effects," check whether the study measured the acute or chronic state. Peat's claims concern the chronic state.
 
@@ -114,16 +117,22 @@ When mainstream research contradicts Peat by showing a substance has "beneficial
 
 ### Chemical Conflation
 
-Research on "progesterone" frequently studies synthetic progestins (medroxyprogesterone acetate, norethindrone) — patentable molecules with different biological properties. Results are attributed to "progesterone" in clinical guidelines and popular reporting. Watch for this with any substance that exists in both natural and pharmaceutical forms. See [[progesterone#Research Context]].
+Research on biologically active molecules frequently studies chemically distinct substitutes, with results attributed to the original molecule:
+
+- **[[progesterone|Progesterone]]**: Most clinical research studies synthetic progestins (MPA, norethindrone) — patentable molecules with different biological properties. A meta-analysis of 86,881 women found natural progesterone associated with lower breast cancer risk than synthetic progestins. See [[progesterone#Research Context]].
+- **[[estrogen|Estrogen]]**: The WHI tested conjugated equine estrogens (230+ compounds from horse urine, including horse-specific estrogens acting through ER-beta) combined with MPA. Results were generalized to "estrogen + progesterone" for two decades. The estrogen-only arm showed no breast cancer increase — suggesting MPA drove the finding. See [[estrogen#Research Context]].
+- **[[thyroid|Thyroid]]**: T4 (levothyroxine) is treated as equivalent to "thyroid replacement," collapsing the distinction between a prohormone and the active hormone (T3). 80% of T3 depends on peripheral conversion that is impaired in 12-30% of the population (DIO2 polymorphism). See [[thyroid#Claim 5]].
+
+Watch for this with any substance where a patentable analog or precursor has displaced the biologically active form in research and clinical practice.
 
 ### Diagnostic Measurement Divergence
 
 The measured variable diverges from the biologically relevant variable under exactly the conditions where accuracy matters most:
 
-- **[[thyroid|TSH]]** doesn't reliably indicate tissue thyroid status (suppressed by stress, cortisol, illness)
-- **Blood [[estrogen]]** doesn't indicate tissue concentration (tissues 20-50x higher than plasma)
-- **Blood lipids** don't indicate mitochondrial membrane integrity (fish oil improves lipids while damaging mitochondria)
-- **Inflammatory markers** don't distinguish genuine anti-inflammation from immunosuppression
+- **[[thyroid|TSH]]** doesn't reliably indicate tissue thyroid status (suppressed by stress, cortisol, illness via NTIS). ETCO2 detects a metabolic deficit in hypothyroidism that [TSH and fT4 do not correlate with](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/). TSH produces both overdiagnosis (21M potentially unnecessary Rx from seasonal variation) and underdiagnosis (10-25% persistent symptoms despite normal TSH).
+- **Blood [[estrogen]]** doesn't indicate tissue concentration (tissues 5-50x higher than plasma, correlation r=0.452). ACOG does not recommend measuring serum estradiol for menopause diagnosis or HRT monitoring. Malignant tissue has the highest levels regardless of menopausal status.
+- **Blood lipids** don't indicate mitochondrial membrane integrity (fish oil improves lipids while producing highest mitochondrial oxidative stress)
+- **Inflammatory markers** don't distinguish genuine anti-inflammation from immunosuppression ([[pufa|PUFA]]/fish oil reduces inflammatory markers by disabling immune surveillance, not by resolving tissue damage)
 
 ### Fragmentation as the Default Finding
 
@@ -141,7 +150,7 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[progesterone\|Progesterone]] | 8 | **Complete** (redone under corrected methodology) | All eight protective claims confirmed. Mechanisms more metabolite-mediated than stated (allopregnanolone/GABA, PGRMC1). Pregnenolone steal mechanism wrong but observation correct. Chemical conflation with progestins is defining distortion. |
 | [[serotonin\|Serotonin]] | 8 | **Complete** (redone under corrected methodology) | Conservation mediator confirmed: lowers brain ATP, promotes glycolysis, causes hypothermia, drives 5-HT2B valve fibrosis. Serotonin hypothesis formally challenged. SSRI-allopregnanolone mechanism confirmed. Brain serotonin aging claim NOT confirmed. CO2-serotonin axis mechanistically sound but untested as system. |
 | [[co2\|CO2]] | 8 | **Complete** (redone under corrected methodology) | Active protectant confirmed: ROS suppression, neuroprotection, pH-dependent mediator sequestration. Carbamino protection hypothesis compelling but untested. Hyperventilation seizure provocation dramatic. Henderson's therapy historically sourced. Methylation claim speculative. |
-| [[lactate\|Lactate]] | 6 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[lactate\|Lactate]] | 6 | **Complete** (redone under corrected methodology) | Convergence point confirmed. Lactylation (2019) provides stronger mechanism than Peat described. Excitotoxicity claim contradicted (acute lactate is neuroprotective). Methylglyoxal direction reversed. Lactate shuttle real — acute/chronic distinction essential. Warburg effect bidirectional. |
 | [[histamine\|Histamine]] | 8 | **Complete** (produced under corrected methodology) | Estrogen-histamine loop confirmed both directions. pH-dependent storage confirmed. PUFA peroxidation confirmed with acute/chronic nuance. CO2→granule pH mechanistically sound but not directly tested. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].

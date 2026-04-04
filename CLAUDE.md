@@ -15,8 +15,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 - `peat_claims_verified/System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
 - `peat_claims_verified/Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
 - `peat_claims_verified/methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
-- `peat_claims_verified/AUDIT - Phase 2 Integrity Gap.md` — Documents an integrity issue discovered during production and the ongoing remediation. Read this if any topic document has `status/phase1` in its frontmatter.
-- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine). Check each document's frontmatter `status` tag — `status/complete` means fully verified, `status/phase1` means Phase 1 retained but Phases 2 and 3 are awaiting redo.
+- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
 
 ## Obsidian Conventions
 
@@ -27,7 +26,7 @@ This vault uses Obsidian-flavored markdown. Key rules:
 - **Callouts for assessments.** `[!success]` = confirmed, `[!tip]` = confirmed with nuance, `[!info]` = partial, `[!warning]` = overstated, `[!question]` = speculative, `[!failure]` = not supported. `[!quote]` for Peat quotes. `[!example]-` for recurring pattern appearances.
 - **No cross-document redundancy.** If it's explained fully somewhere, link to it. Don't re-explain.
 - **File naming.** Topic documents use lowercase (`pufa.md`, `co2.md`). Structural notes use title case (`System Overview.md`). Wikilinks use the actual filename casing.
-- **Tag taxonomy.** Topics: `topic/[name]`, `status/complete` or `status/phase1` (see audit doc). Structural notes: `structural/moc`, `structural/practical`, `structural/methodology`, `structural/audit`. All files: `framework/peat`.
+- **Tag taxonomy.** Topics: `topic/[name]`, `status/complete`. Structural notes: `structural/moc`, `structural/practical`, `structural/methodology`. All files: `framework/peat`.
 
 ## Assessment Honesty
 
