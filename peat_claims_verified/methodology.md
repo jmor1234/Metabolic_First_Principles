@@ -215,7 +215,7 @@ When a mechanism is explained canonically in one document, other documents link 
 - CO2-serotonin axis → [[serotonin#Claim 4]]
 - Estrogen-MAO-serotonin → [[serotonin#Claim 5]]
 - Thyroid downstream cascade → [[thyroid#Claim 1]]
-- Pregnenolone steal / progesterone depletion → [[progesterone#Why Progesterone Depletes]]
+- Stress-induced progesterone depletion → [[progesterone#Why Progesterone Depletes]]
 - Recurring patterns → [[System Overview#Recurring Patterns]]
 - Shared interventions → [[Practical Convergence]]
 
