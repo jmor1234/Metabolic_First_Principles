@@ -138,7 +138,7 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[pufa\|PUFA]] | 13 | **Complete** (redone under corrected methodology) | Core chain confirmed. MDA-Complex IV mixed. Membrane pacemaker strong in mammals, challenged in birds. Thyroid displacement attenuated in vivo. Edge claims overstated. $100B+ industry context sourced. |
 | [[thyroid\|Thyroid]] | 5 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
 | [[estrogen\|Estrogen]] | 5 | **Complete** (redone under corrected methodology) | Stress hormone reframe supported by critical illness data. Glycolytic shift confirmed via PI3K/AKT, not direct Complex IV blockade. Tissue-bound estrogen confirmed (5-50x serum). Context-dependence is the dominant pattern. |
-| [[progesterone\|Progesterone]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
+| [[progesterone\|Progesterone]] | 8 | **Complete** (redone under corrected methodology) | All eight protective claims confirmed. Mechanisms more metabolite-mediated than stated (allopregnanolone/GABA, PGRMC1). Pregnenolone steal mechanism wrong but observation correct. Chemical conflation with progestins is defining distortion. |
 | [[serotonin\|Serotonin]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
 | [[co2\|CO2]] | 8 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |
 | [[lactate\|Lactate]] | 6 | **Phase 1 only** — Phases 2/3 awaiting redo | *Previous assessment produced through unverified Phase 2 lens* |

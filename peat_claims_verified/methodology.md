@@ -245,7 +245,7 @@ The following topics have been documented using this methodology:
 
 These documents have Phase 1 content (Peat's Position sections, quotes, reasoning chains) intact. Phase 3 content (verification, assessment, sources) has been stripped. Phase 2 research context was never a standalone section in these docs and was removed along with Phase 3. See [[AUDIT - Phase 2 Integrity Gap]] for the full explanation.
 
-- **[[progesterone|Progesterone]]** — Eight protective claims, bioidentical vs synthetic progestin research context (to be re-verified), depletion mechanisms
+- **[[progesterone|Progesterone]]** — All eight protective claims confirmed in direction. Pregnenolone steal mechanism corrected (HPA axis suppression, not substrate competition). Mechanisms more metabolite-mediated than Peat described (allopregnanolone/GABA, PGRMC1/PR-M, PIBF/uteroglobin). Chemical conflation with synthetic progestins sourced ($6.9B progestin market, 86,881-woman meta-analysis). Phase III TBI trial failures attributed to design. Phases 2/3 redone with sourced research context.
 - **[[thyroid|Thyroid]]** — Master throttle, diagnostic critique (TSH inadequacy), physiological markers, anti-thyroid environment, T3 vs T4 therapy
 - **[[serotonin|Serotonin]]** — Fundamental reframe from happiness chemical to conservation mediator, metabolic suppression, fibrosis/aging, CO2-serotonin axis, estrogen-MAO connection, tryptophan restriction longevity, SSRI critique
 - **[[co2|CO2]]** — Protective output, Bohr effect, carbamino bonds and protein stability, serotonin opposition, respiratory quotient and fuel selection, hyperventilation pathology, comparative longevity, methylation/epigenetics
