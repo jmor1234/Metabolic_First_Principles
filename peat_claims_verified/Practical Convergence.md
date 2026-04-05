@@ -17,11 +17,12 @@ connections:
   - "[[CO2]]"
   - "[[Lactate]]"
   - "[[Histamine]]"
+  - "[[Endotoxin]]"
 ---
 
 # Practical Convergence
 
-All eight topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all seven degenerative pathways simultaneously.
+All nine topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
 
 No single intervention is sufficient because no single cause produces the lactate-dominant state on its own. It is the combined weight of PUFA, estrogen, serotonin, hypothyroidism, stress, and endotoxin that pushes the system past the threshold where oxidative metabolism can maintain itself. The interventions must address multiple inputs to cross the threshold back.
 
@@ -73,9 +74,12 @@ Glucose oxidation produces more [[co2|CO2]] per oxygen consumed than fat oxidati
 
 ### 6. Support Gut Integrity / Reduce Endotoxin
 
-Bacterial endotoxin from the gut suppresses thyroid, increases serotonin and estrogen, impairs liver function, and can induce aerobic glycolysis in otherwise healthy tissue. Gut motility depends on metabolic rate, which depends on thyroid. Hypothyroidism slows the gut, increases endotoxin exposure, and endotoxin further suppresses thyroid — another self-reinforcing loop.
+Bacterial [[endotoxin]] from the gut is the gateway stressor — it activates [[serotonin]], [[histamine]], [[estrogen]], and cortisol simultaneously while directly producing aerobic glycolysis and [[lactate]]. The gut barrier is energy-dependent: when enterocyte ATP falls, tight junctions fail and endotoxin enters the portal circulation. Endotoxin inhibits liver glucuronidation, allowing estrogen to accumulate, which further impairs gut motility and liver function — a self-reinforcing loop. Hypothyroidism produces 2.2-2.7x the risk of small intestinal bacterial overgrowth (SIBO), and levothyroxine treatment reduces that risk. Every intervention in this document simultaneously reduces endotoxin burden: PUFA reduction disarms the inflammatory cascade, thyroid support restores motility and barrier energy, estrogen opposition restores motility and liver clearance, glucose oxidation maintains liver glycogen and produces the FDP that stabilizes mast cells against endotoxin-triggered degranulation.
 
-**In practice:** Support gut motility through adequate thyroid and metabolic rate. Reduce bacterial overgrowth. Activated charcoal (intermittent) absorbs endotoxin in the gut. Raw carrots (insoluble fiber) may reduce endotoxin reabsorption.
+**In practice:** Support gut motility through adequate thyroid and metabolic rate — this is the highest-leverage gut intervention. Reduce bacterial overgrowth through motility correction rather than antibiotics alone. Activated charcoal (intermittent) absorbs endotoxin in the gut. Raw carrot salad (grated, with salt and vinegar or coconut oil) provides non-fermentable, antibacterial fiber that accelerates transit and binds estrogen for excretion. Cascara sagrada (emodin) restores intestinal barrier integrity by increasing mitochondrial respiration while inhibiting the NO that endotoxin uses to damage barrier cells. Glycine/gelatin protects the liver against endotoxin-induced injury through TLR4 downregulation and chloride channel stabilization. Avoid excessive fermentable fibers (FOS, pectins, inulin) in a metabolically compromised state — they may increase bacterial toxin production even if plasma markers appear to improve.
+
+> [!tip] Topic-specific detail
+> See [[endotoxin#Claim 8|Endotoxin Claim 8]] for the full evidence on each intervention, including the fructose dose-response complication and the carrot fiber evidence gap.
 
 ### 7. Balance Amino Acid Intake
 

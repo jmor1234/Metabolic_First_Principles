@@ -218,6 +218,9 @@ When a mechanism is explained canonically in one document, other documents link 
 - Estrogen-MAO-serotonin → [[serotonin#Claim 5]]
 - Thyroid downstream cascade → [[thyroid#Claim 1]]
 - Stress-induced progesterone depletion → [[progesterone#Why Progesterone Depletes]]
+- Endotoxin barrier vicious circle → [[endotoxin#Claim 2]]
+- Endotoxin-estrogen-liver circuit → [[endotoxin#Claim 3]]
+- Gut-thyroid-motility circuit → [[endotoxin#Claim 4]]
 - Recurring patterns → [[System Overview#Recurring Patterns]]
 - Shared interventions → [[Practical Convergence]]
 
@@ -247,13 +250,13 @@ The following topics have been documented using this methodology:
 - **[[serotonin|Serotonin]]** — Conservation mediator role confirmed (brain ATP fall, hypothermia, 5-HT2B fibrosis). Serotonin hypothesis formally challenged (Moncrieff 2022). SSRI critique: German BGA rejection sourced, Kirsch placebo (82% duplication), allopregnanolone as alternative mechanism. SSRI non-selectivity claim NOT supported. Brain serotonin aging NOT confirmed. CO2-serotonin pH mechanism confirmed at each link but untested as system. Tryptophan restriction confirmed with caveats. Sourced research context (antidepressant market $17-20B).
 - **[[co2|CO2]]** — Active protectant confirmed (ROS suppression, neuroprotection, pH-dependent mediator sequestration). Carbamino chemistry confirmed proteome-wide; aldehyde protection hypothesis compelling but untested. Hyperventilation seizure provocation dramatic (87-100%). Henderson's therapy historically sourced. Queen bee longevity corrected — membrane composition not CO2. Methylation claim speculative. Institutional neglect as defining distortion.
 - **[[lactate|Lactate]]** — Convergence point confirmed. Lactylation (2019) provides stronger epigenetic mechanism than Peat described. HIF-1α/NF-κB confirmed. Excitotoxicity claim contradicted (acute lactate is neuroprotective). Methylglyoxal direction reversed. Lactate shuttle real — honest integration via acute/chronic distinction. Warburg effect bidirectional. Genuine scientific advance as defining context.
+- **[[endotoxin|Endotoxin]]** — Gateway stressor confirmed: produces aerobic glycolysis in healthy humans, triggers serotonin/histamine/cortisol/estrogen simultaneously. Barrier energy-dependence confirmed at molecular level (ATP-tight junction, NO mechanism). Endotoxin-estrogen-liver circuit confirmed (glucuronidation inhibition, estrobolome, antibiotics reduce estrogen). Gut-thyroid-motility circuit now mainstream (2.2-2.7x SIBO risk, levothyroxine reduces it). PUFA amplifies tissue damage (confirmed) but saturated fat may facilitate LPS entry via chylomicrons. Fructose protective at physiological doses, harmful in excess. Fermentable fiber claim partially supported. Glycine and emodin dramatically confirmed. Commercial misdirection toward complexity ($70-114B probiotics market) as defining distortion.
 
 ## Topics Not Yet Covered
 
 Potential future topics that could receive this treatment (non-exhaustive):
 
 - Sugar and the Randle cycle
-- Endotoxin and gut barrier function
 - Aspirin as anti-metabolic-stress agent
 - Vitamin E and lipid peroxidation protection
 - Calcium and cellular structure

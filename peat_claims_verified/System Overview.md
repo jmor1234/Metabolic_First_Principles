@@ -18,17 +18,18 @@ connections:
   - "[[CO2]]"
   - "[[Lactate]]"
   - "[[Histamine]]"
+  - "[[Endotoxin]]"
 ---
 
 # System Overview
 
-This vault documents a single metabolic system from eight angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
+This vault documents a single metabolic system from nine angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
 
 The foundational premise: ==health is efficient oxidative metabolism of glucose to CO2. Disease is the progressive failure of that metabolism.== Everything else is mechanism.
 
 ---
 
-## The Eight Topics
+## The Nine Topics
 
 | Topic | Role in the System |
 |---|---|
@@ -40,6 +41,7 @@ The foundational premise: ==health is efficient oxidative metabolism of glucose 
 | **[[co2\|CO2]]** | The protective output — product of successful metabolism that sustains itself |
 | **[[lactate\|Lactate]]** | The convergence point — every degenerative pathway terminates here |
 | **[[histamine\|Histamine]]** | The mast cell output — released by estrogen, PUFA, alkaline pH; a parallel mediator to serotonin |
+| **[[endotoxin\|Endotoxin]]** | The gateway stressor — gut-derived LPS activates every disease-attractor mediator simultaneously |
 
 ---
 
@@ -49,11 +51,11 @@ The system has two self-reinforcing stable states. Once sufficiently established
 
 ### The Healthy Attractor (CO2-Dominant)
 
-[[thyroid|T3]] adequate → high oxidative metabolism → high [[co2|CO2]] → [[serotonin|serotonin]] suppressed → oxygen delivered (Bohr effect) → proteins protected (carbamino bonds) → [[progesterone]] maintained → [[estrogen]] opposed → glucose fully oxidized → minimal [[lactate]] → **the loop sustains itself**
+[[thyroid|T3]] adequate → high oxidative metabolism → high [[co2|CO2]] → [[serotonin|serotonin]] suppressed → oxygen delivered (Bohr effect) → proteins protected (carbamino bonds) → [[progesterone]] maintained → [[estrogen]] opposed → glucose fully oxidized → minimal [[lactate]] → gut barrier maintained → [[endotoxin]] contained → liver clears estrogen/serotonin efficiently → **the loop sustains itself**
 
 ### The Disease Attractor (Lactate-Dominant)
 
-[[thyroid|T3]] suppressed → low oxidative metabolism → low [[co2|CO2]] → [[serotonin]] released → vasoconstriction + metabolic suppression → [[estrogen]] dominant → glycolytic shift → [[pufa|PUFA]] peroxidizing → Complex IV damaged → more [[lactate]] → **the loop degrades itself**
+[[thyroid|T3]] suppressed → low oxidative metabolism → low [[co2|CO2]] → [[serotonin]] released → vasoconstriction + metabolic suppression → [[estrogen]] dominant → glycolytic shift → [[pufa|PUFA]] peroxidizing → Complex IV damaged → more [[lactate]] → gut barrier fails → [[endotoxin]] enters → liver overwhelmed → estrogen/serotonin accumulate → **the loop degrades itself**
 
 ---
 
@@ -78,6 +80,12 @@ The transition between attractors is not gradual. Multiple positive feedback loo
 8. **Estrogen-Aromatase Loop** — Estrogen → increases aromatase expression → more local estrogen production → more aromatase. See [[estrogen#Claim 3|Estrogen Claim 3]].
 
 9. **Estrogen-Histamine Loop** — Estrogen → mast cell degranulation via non-genomic ER-alpha/Ca2+ influx → histamine release → histamine stimulates estradiol secretion via H1 receptor → more estrogen. See [[histamine#Claim 2|Histamine Claim 2]].
+
+10. **Endotoxin-Barrier Loop** — Endotoxin → NO-mediated barrier cell energy failure → increased intestinal permeability → more endotoxin enters → more barrier damage. The vicious circle where the barrier is damaged by the substance it should exclude. See [[endotoxin#Claim 2|Endotoxin Claim 2]].
+
+11. **Endotoxin-Estrogen-Liver Loop** — Endotoxin → inhibits liver glucuronidation → estrogen accumulates → estrogen reduces gut motility (via NO) and further impairs liver → more endotoxin exposure → more liver impairment. Antibiotics break this loop by reducing endotoxin, causing estrogen to fall and progesterone to rise. See [[endotoxin#Claim 3|Endotoxin Claim 3]].
+
+12. **Gut-Thyroid-Motility Loop** — Hypothyroidism → slow gut motility → bacterial overgrowth → endotoxin → liver damage → impaired T4-to-T3 conversion → more hypothyroidism. Confirmed: hypothyroidism produces 2.2-2.7x SIBO risk; levothyroxine treatment reduces it. See [[endotoxin#Claim 4|Endotoxin Claim 4]].
 
 This is why no single intervention is sufficient and why the [[Practical Convergence|practical framework]] addresses multiple inputs simultaneously.
 
@@ -152,5 +160,6 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[co2\|CO2]] | 8 | **Complete** | Active protectant confirmed: ROS suppression, neuroprotection, pH-dependent mediator sequestration. Carbamino protection hypothesis compelling but untested. Hyperventilation seizure provocation dramatic. Henderson's therapy historically sourced. Methylation claim speculative. |
 | [[lactate\|Lactate]] | 6 | **Complete** | Convergence point confirmed. Lactylation (2019) provides stronger mechanism than Peat described. Excitotoxicity claim contradicted (acute lactate is neuroprotective). Methylglyoxal direction reversed. Lactate shuttle real — acute/chronic distinction essential. Warburg effect bidirectional. |
 | [[histamine\|Histamine]] | 8 | **Complete** | Estrogen-histamine loop confirmed both directions. pH-dependent storage confirmed. PUFA peroxidation confirmed with acute/chronic nuance. CO2→granule pH mechanistically sound but not directly tested. |
+| [[endotoxin\|Endotoxin]] | 8 | **Complete** | Gateway stressor confirmed: produces aerobic glycolysis in healthy humans, triggers full mediator cascade. Barrier energy-dependence confirmed (ATP-tight junction, NO mechanism). Endotoxin-estrogen-liver circuit confirmed (glucuronidation inhibition, estrobolome). Gut-thyroid-motility circuit now mainstream (2.2-2.7x SIBO risk). PUFA amplifies tissue damage but saturated fat may facilitate LPS entry. Fructose protective at physiological doses, harmful in excess. Chronic subclinical endotoxemia unmeasurable with current assays. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].

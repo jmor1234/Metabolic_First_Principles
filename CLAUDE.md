@@ -81,6 +81,7 @@ Key corrections an agent should know exist (details in the topic files):
 - **Estrogen:** Glycolytic shift real but mechanism is PI3K/AKT signaling, not direct Complex IV blockade.
 - **Thyroid:** Barnes 30-40% prevalence unsupported by modern validation.
 - **CO2:** Queen bee longevity supports membrane pacemaker theory, not CO2. Methylation claim speculative.
+- **Endotoxin:** PUFA amplifies LPS tissue damage (confirmed) but saturated fat may facilitate LPS *entry* via chylomicrons. Fructose protective at physiological doses but excess fructose damages barrier and liver. Fermentable fiber claim partially supported — modern prebiotic data trends opposite on systemic markers. Carrot fiber lacks formal studies.
 
 ### Task-Specific Navigation (The Four Layers)
 
@@ -155,6 +156,11 @@ When you need a specific mechanism, go directly to its canonical treatment inste
 | Warburg effect (bidirectional) | `lactate.md#Claim 3` |
 | Carbamino protection hypothesis | `co2.md#Claim 3` |
 | Estrogen tissue accumulation | `estrogen.md#Claim 3` |
+| Endotoxin barrier vicious circle | `endotoxin.md#Claim 2` |
+| Endotoxin-estrogen-liver circuit | `endotoxin.md#Claim 3` |
+| Gut-thyroid-motility circuit | `endotoxin.md#Claim 4` |
+| PUFA-endotoxin synergy | `endotoxin.md#Claim 5` |
+| Endotoxin practical reduction | `endotoxin.md#Claim 8` |
 
 Full canonical locations table: `methodology.md#Obsidian Conventions`.
 
