@@ -24,6 +24,8 @@ The goal is not to summarize Peat's work. Summaries exist elsewhere. The goal is
 
 ## The Three-Phase Process
 
+**General rule: Write to the file, not the chat.** Every phase produces content that belongs in the topic document. When you complete a phase, write the output directly into the `.md` file using the document structure template below. Do not present completed phase work as chat messages for the user to review — the user reviews the file itself. Brief status updates in chat are fine ("Phase 1 written to `estrogen.md`, ready for your review"), but the substance goes in the document.
+
 ### Phase 1: Extract and Understand Peat's Actual Position
 
 **This phase must be completed fully before any verification begins.**
@@ -44,7 +46,7 @@ The most common failure mode is jumping to research verification before understa
 
 6. **Write the first-principles logic for each claim.** After documenting what Peat said and the mechanism he described, add a section explaining how this claim follows from the framework's foundational premises. This is what separates extraction from mere quotation. The logic section shows why the claim is not arbitrary but follows from the thermodynamic and biochemical principles the framework is built on.
 
-7. **Stop.** Do not proceed to verification until the user has reviewed the extraction and confirmed it captures the full context. Premature verification against an incomplete understanding of the original position produces shallow analysis.
+7. **Write to the file, then stop.** Write everything from this phase directly into the topic `.md` file (frontmatter, claims, Peat's Position sections, source list). Then notify the user that Phase 1 is written and ready for review. Do not proceed to Phase 2 until the user confirms the extraction captures the full context. Premature verification against an incomplete understanding of the original position produces shallow analysis.
 
 ---
 
@@ -72,7 +74,7 @@ Every topic has a different distortion pattern. Some have pharmaceutical interes
 
 6. **What does the modern literature actually say about mechanisms the framework identifies?** Before assuming a mechanism is unstudied, search for it. The research landscape may have evolved since Peat wrote, and modern studies may confirm, complicate, or contradict the framework's predictions in ways that training knowledge cannot capture. For example, a claim that "PUFA destabilizes mast cells" must be checked against the current PUFA-mast cell literature, which may show multiple mechanisms operating in different directions depending on context.
 
-7. **Stop.** Review the research context analysis before proceeding to verification. The distortion patterns identified here shape how Phase 3 evidence is interpreted. If the context is wrong, the verification will be systematically biased. Confirm the identified distortions are accurate and complete before searching.
+7. **Write to the file, then stop.** Write the Research Context section directly into the topic `.md` file. Then notify the user that Phase 2 is written and ready for review. Do not proceed to Phase 3 until the user confirms the distortion patterns are accurate and complete. If the context is wrong, the verification will be systematically biased.
 
 ---
 
