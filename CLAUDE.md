@@ -4,7 +4,9 @@ This is an Obsidian vault containing a systematic verification of Ray Peat's bio
 
 ## Before Doing Anything
 
-Read `peat_claims_verified/methodology.md` first. It defines the three-phase process, the document structure, the assessment scale, and the Obsidian conventions that every document follows. Do not create or modify topic documents without understanding the methodology.
+**If you need to understand the vault:** Start with the navigation strategy in [Navigating This Vault](#navigating-this-vault-context-efficient-agent-strategy) below. Do NOT read every file — the vault is designed for layered access.
+
+**If you need to create or modify topic documents:** Read `peat_claims_verified/methodology.md` first. It defines the three-phase process, the document structure, the assessment scale, and the Obsidian conventions that every document follows.
 
 ## Core Principle
 
@@ -34,17 +36,63 @@ The methodology requires calibrated assessment, not advocacy. Some claims are co
 
 ## Navigating This Vault (Context-Efficient Agent Strategy)
 
-Do not read full topic files. The Obsidian structure enables layered navigation — get maximum understanding for minimum context consumed.
+Do not read full topic files unless you are producing new content. The vault is ~150KB total. The strategies below achieve 85-95% of that understanding for ~15-25KB. The vault was architectured so that structural files capture the system and topic files provide the evidence.
 
-### The Four Layers
+### Deep Understanding Path (~20KB → ~90% comprehension)
 
-**Layer 1 (~10KB — start here always):** Read `peat_claims_verified/System Overview.md`. Gets the full architecture (two attractors, 9 feedback loops, 6 recurring patterns, assessment summary table) for ~3% of total vault context.
+When you need to genuinely understand the framework — not just look up a fact, but hold the architecture in working memory — read these three resources in order:
+
+1. **`System Overview.md` (~10KB)** — The two metabolic attractors, 9 interlocking feedback loops, 6 recurring patterns, and the assessment summary table showing what was confirmed/refined/contradicted per topic. This alone is ~75% of the conceptual understanding. **Always start here.**
+
+2. **`Practical Convergence.md` (~3KB)** — The practical synthesis: what the verified claims mean for intervention (the 7 core interventions), and the monitoring framework (temperature + pulse + ETCO2 + lactate). Completes the "so what" that System Overview doesn't cover.
+
+3. **`methodology.md` "Topics Completed" section (~3KB)** — Scroll to the `## Topics Completed` heading (around line 236). Each topic gets 2-3 sentences capturing the key findings, mechanism corrections, AND defining research distortions. This is more informative per token than any other summary in the vault. Do NOT read methodology.md from the top for understanding — the process documentation is only needed when producing new topics.
+
+These three reads give ~90% understanding at ~16KB.
+
+### Going Deeper on Specific Topics
+
+Each topic document contains high-value summary sections that are far cheaper than a full read (~500-800 words per topic vs ~4000-6000 words full):
+
+- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 8 costs ~3KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
+  ```
+  Grep for "[!abstract]" across peat_claims_verified/*.md
+  ```
+
+- **`## What Makes This Topic Different`** — A ~100-word section near the bottom of each topic file identifying its unique contribution to the vault. These explain why estrogen's dominant pattern is context-dependence, why lactate is where the framework is most honestly challenged, why histamine is the most testable integration claim, etc.
+
+- **`## Research Context`** — The industry/incentive analysis near the top of each topic file. These are NOT summarized in any structural file. If you need to understand WHY the research landscape looks the way it does for a topic (the $100B PUFA industry, the $17B antidepressant market, the WHI chemical conflation with 230+ compound horse urine extract), you must read the topic's Research Context section directly. ~800-1200 words each.
+
+### Finding Corrections and Contradictions
+
+To find where Peat was wrong or overstated without reading full files:
+
+```
+Grep for "[!warning]" — overstated claims
+Grep for "[!failure]" — not supported claims
+Grep for "[!question]" — speculative claims
+Grep for "NOT confirmed" or "NOT supported" or "CONTRADICTED" — explicit corrections in verification text
+```
+
+Key corrections an agent should know exist (details in the topic files):
+- **Lactate:** Brain excitotoxicity claim contradicted — acute lactate is neuroprotective. Methylglyoxal direction reversed.
+- **Progesterone:** Pregnenolone steal mechanism wrong — HPA axis suppression, not substrate competition. Clinical outcome correct.
+- **Serotonin:** SSRI non-selectivity NOT supported. Brain serotonin aging NOT confirmed by imaging.
+- **Estrogen:** Glycolytic shift real but mechanism is PI3K/AKT signaling, not direct Complex IV blockade.
+- **Thyroid:** Barnes 30-40% prevalence unsupported by modern validation.
+- **CO2:** Queen bee longevity supports membrane pacemaker theory, not CO2. Methylation claim speculative.
+
+### Task-Specific Navigation (The Four Layers)
+
+For answering specific questions or working on targeted sections:
+
+**Layer 1 (~10KB):** Read `System Overview.md`. Always start here.
 
 **Layer 2 (~2KB total):** Scan frontmatter for any doc's metadata without reading body text.
 ```bash
 obsidian properties file="thyroid" format=json
 ```
-Returns title, claims list, connections, assessment-summary as structured JSON. Or use `Grep for assessment-summary` across all files for the vault-wide index in one call.
+Returns title, claims list, connections, assessment-summary as structured JSON. Or Grep for `assessment-summary` across all files for the vault-wide index in one call.
 
 **Layer 3 (~0.5KB per doc):** Get a document's heading tree before reading content.
 ```bash
@@ -54,7 +102,7 @@ Returns the full heading structure. Navigate to the specific section needed.
 
 **Layer 4 (targeted):** Read only the specific section you need. Follow wikilinks to specific headings. Use native Read with offset/limit.
 
-**Example:** "How does estrogen relate to serotonin?" costs ~6KB through this vault (System Overview → wikilink to `serotonin.md#Claim 5` → read that section), not ~300KB (reading all files).
+**Example:** "How does estrogen relate to serotonin?" costs ~6KB (System Overview → wikilink to `serotonin.md#Claim 5` → read that section), not ~150KB (reading all files).
 
 ### Obsidian CLI Commands (Requires Obsidian Running)
 
@@ -89,12 +137,24 @@ When you need a specific mechanism, go directly to its canonical treatment inste
 |---|---|
 | System architecture | `System Overview.md` |
 | Shared interventions | `Practical Convergence.md` |
+| Topic summaries (2-3 lines each) | `methodology.md#Topics Completed` |
 | PUFA-serotonin loop | `pufa.md#PUFA and Serotonin Promotion` |
 | PUFA-estrogen loop | `pufa.md#PUFA-Estrogen Mutual Amplification` |
+| PUFA immunosuppression | `pufa.md#PUFA and Immunosuppression` |
 | CO2-serotonin axis | `serotonin.md#Claim 4` |
 | Estrogen-MAO-serotonin | `serotonin.md#Claim 5` |
+| SSRI critique + allopregnanolone | `serotonin.md#Claim 7` |
 | Thyroid downstream cascade | `thyroid.md#Claim 1` |
-| Pregnenolone steal | `progesterone.md#Why Progesterone Depletes` |
+| TSH diagnostic critique | `thyroid.md#Claim 2` |
+| T3 vs T4 therapy / DIO2 | `thyroid.md#Claim 5` |
+| Pregnenolone steal (corrected) | `progesterone.md#Why Progesterone Depletes` |
+| Estrogen-histamine loop | `histamine.md#Claim 2` |
+| pH-dependent mast cell storage | `histamine.md#Claim 3` |
+| MCAS as metabolic failure | `histamine.md#Claim 8` |
+| Lactate shuttle (honest integration) | `lactate.md#The Lactate Shuttle Question` |
+| Warburg effect (bidirectional) | `lactate.md#Claim 3` |
+| Carbamino protection hypothesis | `co2.md#Claim 3` |
+| Estrogen tissue accumulation | `estrogen.md#Claim 3` |
 
 Full canonical locations table: `methodology.md#Obsidian Conventions`.
 
