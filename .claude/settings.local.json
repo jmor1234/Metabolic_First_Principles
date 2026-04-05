@@ -1,7 +1,7 @@
 {
   "permissions": {
-    "defaultMode": "bypassPermissions",
-    "allow": [
-    ]
-  }
+    "allow": [],
+    "defaultMode": "bypassPermissions"
+  },
+  "outputStyle": "default"
 }
