@@ -21,11 +21,12 @@ connections:
   - "[[Liver]]"
   - "[[Sugar]]"
   - "[[Iron]]"
+  - "[[Vitamin E]]"
 ---
 
 # Practical Convergence
 
-All twelve topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
+All thirteen topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
 
 No single intervention is sufficient because no single cause produces the lactate-dominant state on its own. It is the combined weight of PUFA, estrogen, serotonin, hypothyroidism, stress, and endotoxin that pushes the system past the threshold where oxidative metabolism can maintain itself. The interventions must address multiple inputs to cross the threshold back.
 
@@ -40,7 +41,7 @@ The single highest-leverage dietary change. [[pufa|PUFA]] damages mitochondrial 
 **In practice:** Eliminate seed oils (soybean, corn, canola, sunflower, safflower, cottonseed). Favor saturated fats (beef, lamb, butter, coconut oil, dairy). The incidental PUFA in whole animal foods (2-4% of calories) exceeds the minimum clinical threshold (~1%). There is nothing to supplement. Prefer ruminant animal fats (cattle, sheep, goat, dairy) because rumen bacteria hydrogenate unsaturated fats before absorption. Pork, poultry, and farmed fish reflect their feed composition directly.
 
 > [!tip] Topic-specific detail
-> See [[pufa#Practical Implications]] for the full fat strategy, the omega-3/6 ratio critique, and why fish oil supplementation is counterproductive.
+> See [[pufa#Practical Implications]] for the full fat strategy, the omega-3/6 ratio critique, and why fish oil supplementation is counterproductive. [[vitamin-e|Vitamin E]] (preferably mixed tocopherols including gamma) is the chain-breaking antioxidant that terminates PUFA peroxidation chains — but its protection is partial, and reducing PUFA is more effective than supplementing vitamin E. See [[vitamin-e#Claim 3]].
 
 ### 2. Support Thyroid Function
 
