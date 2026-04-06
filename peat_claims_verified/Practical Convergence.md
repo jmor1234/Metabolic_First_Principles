@@ -24,11 +24,12 @@ connections:
   - "[[Vitamin E]]"
   - "[[Aspirin]]"
   - "[[Calcium]]"
+  - "[[Circadian]]"
 ---
 
 # Practical Convergence
 
-All fifteen topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
+All sixteen topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]], [[circadian|Circadian]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
 
 No single intervention is sufficient because no single cause produces the lactate-dominant state on its own. It is the combined weight of PUFA, estrogen, serotonin, hypothyroidism, stress, and endotoxin that pushes the system past the threshold where oxidative metabolism can maintain itself. The interventions must address multiple inputs to cross the threshold back.
 
@@ -95,6 +96,15 @@ Tryptophan is the precursor to [[serotonin]]. Reducing dietary tryptophan concen
 
 > [!tip] Topic-specific detail
 > See [[serotonin#Practical Implications]] for the SSRI informed-consent point, the depression-as-energy-problem reframe, and anti-serotonin substances.
+
+### 8. Maximize Light, Minimize Darkness Stress
+
+Light is the primary environmental input that determines how much time the organism spends in the [[System Overview#The Healthy Attractor|healthy attractor]] vs. the [[System Overview#The Disease Attractor|disease attractor]]. Every intervention above is reinforced by adequate light: [[pufa|PUFA]] reduction makes light exposure safe (by removing the photosensitization substrate), [[thyroid]] support provides the metabolic capacity light activates, [[progesterone]] is increased by bright light, and glucose at bedtime suppresses the nocturnal stress cascade that darkness drives.
+
+**In practice:** Morning bright light exposure (30-60 minutes within the first hour of waking) achieves both circadian entrainment (via melanopsin/blue-sensitive retinal cells) and mitochondrial activation (via red/NIR wavelengths activating cytochrome c oxidase). Natural sunlight provides both simultaneously and is free. Minimize blue/white light after sunset to avoid circadian disruption; use red or incandescent light in the evening. Bedtime nutrition (milk with honey/sugar, salt) suppresses the nocturnal hypoglycemia → cortisol → FFA cascade. More thyroid may be needed in winter at high latitudes, when extended darkness amplifies the conservation program.
+
+> [!tip] Topic-specific detail
+> See [[circadian#Claim 3|Circadian Claim 3]] for the photobiomodulation mechanism (670nm light reducing blood glucose 27.7% in humans). See [[circadian#Claim 6|Circadian Claim 6]] for the PUFA-light photosensitization triad — why PUFA reduction must precede increased light exposure. See [[circadian#Claim 7|Circadian Claim 7]] for thyroid as the foundation of circadian resilience.
 
 ---
 

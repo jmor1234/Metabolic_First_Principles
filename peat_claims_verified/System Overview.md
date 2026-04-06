@@ -25,17 +25,18 @@ connections:
   - "[[Vitamin E]]"
   - "[[Aspirin]]"
   - "[[Calcium]]"
+  - "[[Circadian]]"
 ---
 
 # System Overview
 
-This vault documents a single metabolic system from fifteen angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
+This vault documents a single metabolic system from sixteen angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]], [[circadian|Circadian]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
 
 The foundational premise: ==health is efficient oxidative metabolism of glucose to CO2. Disease is the progressive failure of that metabolism.== Everything else is mechanism.
 
 ---
 
-## The Fifteen Topics
+## The Sixteen Topics
 
 | Topic | Role in the System |
 |---|---|
@@ -54,6 +55,7 @@ The foundational premise: ==health is efficient oxidative metabolism of glucose 
 | **[[vitamin-e\|Vitamin E]]** | The chain-breaking defense — terminates iron-initiated PUFA peroxidation chains, opposes estrogen at every mechanistic point, protects mitochondrial respiration |
 | **[[aspirin\|Aspirin]]** | The upstream regulator — inhibits PUFA liberation and prostaglandin synthesis, activates AMPK, opposes estrogen via aromatase suppression, prevents cancer metastasis via platelet TXA2/T cell immunity |
 | **[[calcium\|Calcium]]** | The cellular readout — energy-dependent ion whose distribution between extracellular (health) and intracellular (disease) directly reflects metabolic state; PTH as systemic disease mediator; CO2 as master calcium regulator |
+| **[[circadian\|Circadian]]** | The temporal dimension — darkness deploys the conservation program nightly via serotonin→melatonin; light reverses it via respiratory enzyme activation and circadian entrainment; the 24-hour oscillation between attractors that every other topic exists within |
 
 ---
 
@@ -98,6 +100,8 @@ The transition between attractors is not gradual. Multiple positive feedback loo
 11. **Endotoxin-Estrogen-Liver Loop** — Endotoxin → inhibits liver glucuronidation → estrogen accumulates → estrogen reduces gut motility (via NO) and further impairs liver → more endotoxin exposure → more liver impairment. Antibiotics break this loop by reducing endotoxin, causing estrogen to fall and progesterone to rise. See [[endotoxin#Claim 3|Endotoxin Claim 3]].
 
 12. **Gut-Thyroid-Motility Loop** — Hypothyroidism → slow gut motility → bacterial overgrowth → endotoxin → liver damage → impaired T4-to-T3 conversion → more hypothyroidism. Confirmed: hypothyroidism produces 2.2-2.7x SIBO risk; levothyroxine treatment reduces it. See [[endotoxin#Claim 4|Endotoxin Claim 4]].
+
+13. **Darkness-Conservation Loop** — Darkness → melatonin (from serotonin) → thyroid suppressed, progesterone suppressed, estrogen/prolactin unopposed, FFA mobilized → metabolic rate falls → less capacity to resist the conservation program → deeper suppression. Light breaks this loop daily; insufficient light (winter, shift work, high latitude) allows it to deepen into the seasonal or chronic disease state. See [[circadian#Claim 1|Circadian Claim 1]] and [[circadian#Claim 4|Circadian Claim 4]].
 
 This is why no single intervention is sufficient and why the [[Practical Convergence|practical framework]] addresses multiple inputs simultaneously.
 
@@ -179,5 +183,7 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[aspirin\|Aspirin]] | 6 | **Complete** | Metabolic regulator beyond COX confirmed (AMPK, NF-κB, CBP/p300, ATP elevation). Estrogen antagonism confirmed via COX-independent aromatase suppression (2025). Colorectal cancer prevention robust (20-30% reduction). Anti-metastatic mechanism confirmed at molecular level (platelet TXA2/T cell immunity, Nature 2025). BUT ASPREE cancer mortality increase in elderly (HR 1.14) is genuine challenge — context-dependence most extreme in vault. Neuroprotection mechanistically strong but clinically failed. Salicylic acid gastroprotection and gastric adaptation confirmed; GI risk real but amplified vs replacement drugs. Acetaminophen replacement: #1 cause US acute liver failure. "Shifts toward glucose" claim contradicted at mitochondrial level by AMPK data. Risk amplification as displacement strategy as defining distortion. |
 | [[vitamin-e\|Vitamin E]] | 7 | **Complete** | Regulatory identity confirmed over antioxidant identity — estrogen antagonism via PKC/COX/LOX/lysosomal stabilization, all independent of antioxidant activity. PUFA-iron-vitamin E triad textbook; ferroptosis independently validates the mechanism, with vitamin E metabolite controlling 15-LOX via iron center reduction. Gamma-tocopherol provides COX-2 inhibition (IC50 7.5μM) and reactive nitrogen trapping alpha lacks — explaining trial failures. PIVENS (natural form, NASH) only major positive trial. Anti-fibrotic confirmed across tissues. Lipofuscin as aging endpoint confirmed. Tocotrienol caution NOT supported. Premature closure via meta-analysis as defining distortion (ATBC 42.6% weighting; removal eliminates significance). |
 | [[calcium\|Calcium]] | 8 | **Complete** | Energy-dependent calcium exclusion confirmed (10,000:1 gradient, Mg-ATP, mitochondrial overload → glycolysis). Membrane pump rejection NOT supported — SERCA/PMCA are well-characterized; functional outcome (energy-dependence) identical. Calcium paradox now recognized research field ("bone-vascular axis"). PTH systemic metabolic effects confirmed as emerging field; acute/chronic distinction essential (teriparatide builds bone). CO2/bicarbonate calcium regulation confirmed (hyperventilation tetany textbook, bicarbonate increases Klotho). Carbonate in bone mineral confirmed (6-9%); "carbonate first" sequence overstated. Osteopetrosis is osteoclast failure, not CO2-driven formation. Phosphate-aging confirmed via Klotho/FGF23 axis; additives doubled since 1990s. Estrogen damage mechanisms individually confirmed but 20-40% fracture reduction resists full inversion. Progesterone stimulates osteoblasts in vitro; large trials lacking. Nocturnal resorption confirmed; bedtime calcium doesn't abolish it. $15B+ drug market built on resorption suppression validated by atypical fractures. Disciplinary fragmentation most extreme in vault — five specialties study the same calcium independently. |
+
+| [[circadian\|Circadian]] | 8 | **Complete** | Adds the temporal dimension — the 24-hour oscillation between metabolic attractors. PBM/cytochrome c oxidase mechanism now established field; 670nm reduces blood glucose 27.7% in humans (strongest direct metabolic proof in vault). SAD light therapy guideline-level. Circadian disruption as cardiometabolic risk factor (AHA Scientific Statement). Seasonal thyroid variation confirmed. Melatonin framing requires significant correction: thyroid suppression and FFA mobilization confirmed, but anti-estrogenic at tissue level (not pro-estrogenic), rejuvenates aged thymus (not immunosuppressive), no in vivo pro-oxidant activity. Blue light drives circadian entrainment via melanopsin (not simply harmful). GH protects gut barrier (contradicts Peat). White light outperforms red for SAD — two independent pathways. PUFA photosensitization confirmed. Melatonin paradox (three incompatible commercial/scientific framings) as defining distortion. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].
