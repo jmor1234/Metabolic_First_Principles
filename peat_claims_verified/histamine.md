@@ -313,6 +313,8 @@ Progesterone may also upregulate DAO activity. Serum DAO levels are [significant
 
 **Aspirin opposes histamine — confirmed within broader anti-inflammatory profile.** Aspirin's anti-tumor and anti-inflammatory effects are well-documented (see [[pufa]] sources). Its specific anti-histamine mechanism operates partly through COX inhibition reducing prostaglandin-mediated mast cell activation and partly through direct effects on inflammatory signaling cascades.
 
+**Taurine stabilizes mast cells — confirmed.** [Taurine inhibits histamine release induced by ionophore A23187](https://pubmed.ncbi.nlm.nih.gov/17073151/) in rat peritoneal mast cells, demonstrating selective mast cell stabilization. The mechanism operates through [calcium homeostasis and membrane stabilization](https://pmc.ncbi.nlm.nih.gov/articles/PMC8558634/) rather than GABA-A receptor modulation. Taurine also [prevents intestinal damage from allergen sensitization](https://www.elsevier.es/en-revista-allergologia-et-immunopathologia-105-avance-resumen-taurine-administration-prevents-intestine-from-S0301054618301216) in murine food allergy models. This adds taurine alongside progesterone, FDP, and saturated fats as a mast cell stabilizer — and connects to the [[liver#Claim 4|liver doc's]] bile acid conjugation (taurine is the secondary conjugation amino acid at a 1:3 taurine:glycine ratio).
+
 **Gelatin/histidine restriction — speculative.** Peat raised the question of whether histidine restriction might promote longevity, analogous to [[serotonin#Claim 6|tryptophan restriction]]. No studies have directly tested histidine restriction for lifespan effects. Gelatin's low histidine content is documented but its effect on histamine production rates has not been measured.
 
 ---
