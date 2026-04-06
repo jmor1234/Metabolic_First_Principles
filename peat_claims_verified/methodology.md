@@ -251,6 +251,12 @@ When a mechanism is explained canonically in one document, other documents link 
 - Vitamin E anti-inflammatory and anti-fibrotic → [[vitamin-e#Claim 5]]
 - Vitamin E and lipofuscin/aging → [[vitamin-e#Claim 6]]
 - Forms of vitamin E → [[vitamin-e#Claim 7]]
+- Aspirin beyond COX — metabolic regulator → [[aspirin#Claim 1]]
+- Aspirin as estrogen antagonist → [[aspirin#Claim 2]]
+- Aspirin and cancer → [[aspirin#Claim 3]]
+- Aspirin and neuroprotection → [[aspirin#Claim 4]]
+- Aspirin inverted safety narrative → [[aspirin#Claim 5]]
+- Regulatory triad (aspirin + vitamin E + progesterone) → [[aspirin#Claim 6]]
 - Recurring patterns → [[System Overview#Recurring Patterns]]
 - Shared interventions → [[Practical Convergence]]
 
@@ -287,10 +293,11 @@ The following topics have been documented using this methodology:
 
 - **[[vitamin-e|Vitamin E]]** — Regulatory identity confirmed over antioxidant identity. Estrogen antagonism via PKC/COX/LOX/lysosomal stabilization — all independent of antioxidant activity. PUFA-iron-vitamin E triad is textbook biochemistry; ferroptosis (discovered 2012) independently validates the exact mechanism at molecular resolution, with vitamin E metabolite αTHQ controlling 15-LOX via iron center reduction (regulatory, not chemical). Gamma-tocopherol provides COX-2 inhibition (IC50 7.5μM) and reactive nitrogen species trapping that alpha-tocopherol lacks — explaining clinical trial failures with isolated synthetic alpha. Alpha-tocopherol depletes gamma via hepatic CYP3a/CYP4F2. PIVENS (natural RRR-alpha-tocopherol, NASH) is the one major positive trial and the one that used the natural form — AASLD guideline recommended 800 IU/day. Anti-fibrotic confirmed across liver, lung, radiation tissue. Lipofuscin as aging endpoint confirmed with "garbage catastrophe" feedback more severe than Peat described. Tocotrienol caution NOT supported by current safety data (GRAS status, safe to 3.2g/day). Premature closure via meta-analysis as defining distortion: the entire negative consensus rests on the ATBC study (42.6% weighting in Cochrane review); removing it eliminates statistical significance. 481 zero-mortality trials excluded. Chemical conflation the most extreme in the vault — "vitamin E" subsumes 8+ biologically distinct molecules with partially opposing effects.
 
+- **[[aspirin|Aspirin]]** — Metabolic regulator identity confirmed beyond COX inhibition — AMPK activation by salicylate, NF-κB inhibition via IKKβ, CBP/p300 acetyltransferase inhibition, direct mitochondrial ATP elevation in neurons (Complex I-III). Estrogen antagonism confirmed via novel COX-independent aromatase suppression through adenylate cyclase/AKT/mTOR (2025 FASEB). Cancer prevention strongest clinical application: colorectal 20-30% risk reduction with 5-10 years use, anti-metastatic mechanism confirmed at molecular level — platelet TXA2 suppression of T cell immunity (Nature 2025). ASPREE trial (healthy elderly ≥70) found increased cancer mortality (HR 1.14) without increased incidence — the most dramatic instance of context-dependence in the vault, where the same substance protects in younger populations and may harm in elderly with compromised immune surveillance. Neuroprotection mechanistically strong (ATP elevation, excitotoxicity prevention) but clinically failed (AD Phase 3, ASPREE dementia substudy). Salicylic acid gastroprotection paradox confirmed (protects against other NSAIDs' gastric damage); gastric adaptation confirmed (increased blood flow, EGF, mucus secretion). GI bleeding real (NNH ~500-816/year) but amplified relative to replacement drugs: acetaminophen replacement is #1 cause of US acute liver failure (50% of cases, 500 deaths/year). Specific "shifts toward glucose oxidation" claim contradicted at mitochondrial level (AMPK increases fatty acid oxidation), though net systemic effect may approximate. Mead acid surrogate hypothesis untested. Regulatory triad (aspirin + vitamin E + progesterone) confirmed in mechanism at each level — upstream/midstream/regulatory — untested as integrated intervention. Risk amplification as displacement strategy as defining distortion: real risks amplified to replace cheap generic with patented alternatives that proved more dangerous.
+
 ## Topics Not Yet Covered
 
 Potential future topics that could receive this treatment (non-exhaustive):
-- Aspirin as anti-metabolic-stress agent
 - Calcium and cellular structure
 - Light, melatonin, and circadian metabolism
 - Altitude and metabolic optimization
