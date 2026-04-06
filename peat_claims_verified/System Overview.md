@@ -20,17 +20,18 @@ connections:
   - "[[Histamine]]"
   - "[[Endotoxin]]"
   - "[[Liver]]"
+  - "[[Sugar]]"
 ---
 
 # System Overview
 
-This vault documents a single metabolic system from ten angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
+This vault documents a single metabolic system from eleven angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
 
 The foundational premise: ==health is efficient oxidative metabolism of glucose to CO2. Disease is the progressive failure of that metabolism.== Everything else is mechanism.
 
 ---
 
-## The Ten Topics
+## The Eleven Topics
 
 | Topic | Role in the System |
 |---|---|
@@ -44,6 +45,7 @@ The foundational premise: ==health is efficient oxidative metabolism of glucose 
 | **[[histamine\|Histamine]]** | The mast cell output — released by estrogen, PUFA, alkaline pH; a parallel mediator to serotonin |
 | **[[endotoxin\|Endotoxin]]** | The gateway stressor — gut-derived LPS activates every disease-attractor mediator simultaneously |
 | **[[liver\|Liver]]** | The metabolic hub — where every pathway physically converges; energy-dependent clearance, conversion, and synthesis |
+| **[[sugar\|Sugar]]** | The preferred substrate — glucose oxidation defines the healthy state; the Randle cycle is the mechanism that blocks it |
 
 ---
 
@@ -164,5 +166,6 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[histamine\|Histamine]] | 8 | **Complete** | Estrogen-histamine loop confirmed both directions. pH-dependent storage confirmed. PUFA peroxidation confirmed with acute/chronic nuance. CO2→granule pH mechanistically sound but not directly tested. |
 | [[endotoxin\|Endotoxin]] | 8 | **Complete** | Gateway stressor confirmed: produces aerobic glycolysis in healthy humans, triggers full mediator cascade. Barrier energy-dependence confirmed (ATP-tight junction, NO mechanism). Endotoxin-estrogen-liver circuit confirmed (glucuronidation inhibition, estrobolome). Gut-thyroid-motility circuit now mainstream (2.2-2.7x SIBO risk). PUFA amplifies tissue damage but saturated fat may facilitate LPS entry. Fructose protective at physiological doses, harmful in excess. Chronic subclinical endotoxemia unmeasurable with current assays. |
 | [[liver\|Liver]] | 8 | **Complete** | Energy-dependent hub confirmed by resmetirom — first FDA-approved NASH drug is a THR-β agonist. Glycogen-glucuronidation confirmed (80% loss when depleted). PUFA required for alcoholic liver injury; saturated fat reverses it. Cholesterol-as-substrate confirmed (hypothyroidism causes hypercholesterolemia). Statin mitochondrial effects confirmed; statin mortality data more complex than blanket critique. Albumin as mortality predictor stronger than age. Fibrosis reversal now mainstream. Two converging pharmaceutical paradigms ($16B statin + $34B NASH drug markets) as defining distortion. |
+| [[sugar\|Sugar]] | 7 | **Complete** | Glucose as preferred substrate confirmed (RQ 1.0, textbook). Randle cycle confirmed as "enduringly relevant" (2025 Nature Reviews Endocrinology) yet clinically unused. Sugar suppresses cortisol in humans. Diabetes-as-metabolic-failure mechanistically sound but glucolipotoxicity complicates beta cell claim, SSB dose-response (20-27%) cannot be dismissed. Fructose dual nature confirmed. Low-carb cortisol increase confirmed short-term. Sucrose lower GI than starch confirmed. Sugar consumption paradox (declining sugar, 1000-fold PUFA increase) favors PUFA-causation. Multi-directional commercial distortion ($120B+ combined) as defining context. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].
