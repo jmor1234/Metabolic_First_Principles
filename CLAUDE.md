@@ -17,7 +17,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 - `peat_claims_verified/System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
 - `peat_claims_verified/Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
 - `peat_claims_verified/methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
-- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar, iron, vitamin-e, aspirin). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
+- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar, iron, vitamin-e, aspirin, calcium). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
 
 ## Obsidian Conventions
 
@@ -87,6 +87,7 @@ Key corrections an agent should know exist (details in the topic files):
 - **Iron:** Iron hypothesis of CVD sex differences plausible but not proven over hormonal explanation — both likely contribute. Copper-iron age trajectory more complex than simple depletion (compensatory ceruloplasmin increases in neurodegeneration). Iron fortification × PUFA promotion interaction never tested epidemiologically. Blood donation cardiovascular evidence mixed. Ferritin as acute phase reactant confounds iron-mortality studies.
 - **Aspirin:** ASPREE trial found aspirin INCREASED cancer mortality (HR 1.14) in healthy elderly without increasing incidence — most dramatic context-dependence in the vault. Neuroprotection mechanistically strong but failed clinically (AD Phase 3, ASPREE dementia). "Shifts toward glucose oxidation" claim contradicted at mitochondrial level — AMPK activation increases fatty acid oxidation. GI bleeding risk real (NNH ~500-816/year), not fabricated. Mead acid surrogate hypothesis untested. Fertility improvement evidence mixed.
 - **Vitamin E:** Tocotrienol caution NOT supported — modern data shows GRAS status, safety to 3.2g/day, hepatoprotective in NAFLD. EFA deficiency "intensifying" mitochondrial energy production stronger than evidence warrants — confirmed finding is damage resistance, not enhancement. Anti-estrogenic identity is isoform-dependent: alpha-tocopherol opposes estrogen, but delta-tocopherol can activate estrogen-responsive genes. Desaturase activation by vitamin E deficiency claim unverified in current literature.
+- **Calcium:** Membrane pump rejection NOT supported — SERCA/PMCA are well-characterized with crystal structures and 2025 Nature atomic-resolution mechanism; energy-dependent calcium exclusion is correct but the mechanism IS the pumps, not bulk water structure. "Carbonate first, phosphate later" bone mineral sequence overstated — bone mineral is carbonated apatite from the start (6-9% carbonate within apatitic structure). Osteopetrosis interpretation overstated — mechanism is osteoclast failure to acidify resorption zone, not CO2-driven bone formation; resulting bone is dense but structurally abnormal and fracture-prone. Estrogen fracture reduction (20-40%) resists full inversion despite confirmed damage mechanisms. Bedtime calcium does NOT abolish nocturnal bone resorption peak. PTH's role in nocturnal resorption is contributory, not sole driver. Teriparatide (intermittent PTH) is FDA-approved bone builder — acute/chronic distinction essential.
 
 ### Task-Specific Navigation (The Four Layers)
 
@@ -202,6 +203,14 @@ When you need a specific mechanism, go directly to its canonical treatment inste
 | Aspirin neuroprotection | `aspirin.md#Claim 4` |
 | Aspirin inverted safety narrative | `aspirin.md#Claim 5` |
 | Regulatory triad (aspirin + vitamin E + progesterone) | `aspirin.md#Claim 6` |
+| Calcium distribution energy-dependence | `calcium.md#Claim 1` |
+| The calcium paradox | `calcium.md#Claim 2` |
+| PTH as systemic disease mediator | `calcium.md#Claim 3` |
+| CO2/bicarbonate as calcium regulator | `calcium.md#Claim 4` |
+| Bone as metabolic organ | `calcium.md#Claim 5` |
+| Phosphate as aging accelerator | `calcium.md#Claim 6` |
+| Estrogen bone damage / progesterone bone building | `calcium.md#Claim 7` |
+| Nocturnal stress-calcium cycle | `calcium.md#Claim 8` |
 
 Full canonical locations table: `methodology.md#Obsidian Conventions`.
 

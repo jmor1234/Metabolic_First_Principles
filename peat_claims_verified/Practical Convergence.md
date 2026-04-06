@@ -23,11 +23,12 @@ connections:
   - "[[Iron]]"
   - "[[Vitamin E]]"
   - "[[Aspirin]]"
+  - "[[Calcium]]"
 ---
 
 # Practical Convergence
 
-All fourteen topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
+All fifteen topics in this vault — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]] — converge on the same set of interventions. This is not coincidence. It is a structural consequence of the [[System Overview#The Two Attractors|two-attractor architecture]]: every damage agent pushes toward lactate/glycolysis, every protective agent pushes toward CO2/oxidation. The interventions address the shared upstream causes that feed all degenerative pathways simultaneously.
 
 No single intervention is sufficient because no single cause produces the lactate-dominant state on its own. It is the combined weight of PUFA, estrogen, serotonin, hypothyroidism, stress, and endotoxin that pushes the system past the threshold where oxidative metabolism can maintain itself. The interventions must address multiple inputs to cross the threshold back.
 

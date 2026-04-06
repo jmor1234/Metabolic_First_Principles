@@ -24,17 +24,18 @@ connections:
   - "[[Iron]]"
   - "[[Vitamin E]]"
   - "[[Aspirin]]"
+  - "[[Calcium]]"
 ---
 
 # System Overview
 
-This vault documents a single metabolic system from fourteen angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
+This vault documents a single metabolic system from fifteen angles. Each topic — [[pufa|PUFA]], [[thyroid|Thyroid]], [[estrogen|Estrogen]], [[progesterone|Progesterone]], [[serotonin|Serotonin]], [[co2|CO2]], [[lactate|Lactate]], [[histamine|Histamine]], [[endotoxin|Endotoxin]], [[liver|Liver]], [[sugar|Sugar]], [[iron|Iron]], [[vitamin-e|Vitamin E]], [[aspirin|Aspirin]], [[calcium|Calcium]] — is a node in one architecture. The [[methodology]] describes how each document was produced.
 
 The foundational premise: ==health is efficient oxidative metabolism of glucose to CO2. Disease is the progressive failure of that metabolism.== Everything else is mechanism.
 
 ---
 
-## The Twelve Topics
+## The Fifteen Topics
 
 | Topic | Role in the System |
 |---|---|
@@ -52,6 +53,7 @@ The foundational premise: ==health is efficient oxidative metabolism of glucose 
 | **[[iron\|Iron]]** | The peroxidation catalyst — Fenton chemistry initiates the PUFA chain reactions that damage every system |
 | **[[vitamin-e\|Vitamin E]]** | The chain-breaking defense — terminates iron-initiated PUFA peroxidation chains, opposes estrogen at every mechanistic point, protects mitochondrial respiration |
 | **[[aspirin\|Aspirin]]** | The upstream regulator — inhibits PUFA liberation and prostaglandin synthesis, activates AMPK, opposes estrogen via aromatase suppression, prevents cancer metastasis via platelet TXA2/T cell immunity |
+| **[[calcium\|Calcium]]** | The cellular readout — energy-dependent ion whose distribution between extracellular (health) and intracellular (disease) directly reflects metabolic state; PTH as systemic disease mediator; CO2 as master calcium regulator |
 
 ---
 
@@ -176,5 +178,6 @@ At every topic, the mainstream literature contained the evidence for Peat's inte
 | [[iron\|Iron]] | 8 | **Complete** | Fenton reaction → PUFA peroxidation chain textbook. Ferroptosis (iron-dependent cell death via PUFA membrane peroxidation) independently discovered 2012, now leading cancer research frontier — confirms framework's damage mechanism at molecular resolution. Iron accumulates with aging; caloric restriction attenuates and extends lifespan. Brain iron in AD/PD confirmed. Menstrual iron loss confirmed; iron hypothesis of CVD sex differences plausible but not proven over hormonal explanation. Pemba Island: supplementation increased child mortality. Coffee reduces absorption 60-90%. Vitamin E as chain-breaker textbook. Fortification × PUFA interaction never tested. Institutional momentum toward supplementation as defining distortion. |
 | [[aspirin\|Aspirin]] | 6 | **Complete** | Metabolic regulator beyond COX confirmed (AMPK, NF-κB, CBP/p300, ATP elevation). Estrogen antagonism confirmed via COX-independent aromatase suppression (2025). Colorectal cancer prevention robust (20-30% reduction). Anti-metastatic mechanism confirmed at molecular level (platelet TXA2/T cell immunity, Nature 2025). BUT ASPREE cancer mortality increase in elderly (HR 1.14) is genuine challenge — context-dependence most extreme in vault. Neuroprotection mechanistically strong but clinically failed. Salicylic acid gastroprotection and gastric adaptation confirmed; GI risk real but amplified vs replacement drugs. Acetaminophen replacement: #1 cause US acute liver failure. "Shifts toward glucose" claim contradicted at mitochondrial level by AMPK data. Risk amplification as displacement strategy as defining distortion. |
 | [[vitamin-e\|Vitamin E]] | 7 | **Complete** | Regulatory identity confirmed over antioxidant identity — estrogen antagonism via PKC/COX/LOX/lysosomal stabilization, all independent of antioxidant activity. PUFA-iron-vitamin E triad textbook; ferroptosis independently validates the mechanism, with vitamin E metabolite controlling 15-LOX via iron center reduction. Gamma-tocopherol provides COX-2 inhibition (IC50 7.5μM) and reactive nitrogen trapping alpha lacks — explaining trial failures. PIVENS (natural form, NASH) only major positive trial. Anti-fibrotic confirmed across tissues. Lipofuscin as aging endpoint confirmed. Tocotrienol caution NOT supported. Premature closure via meta-analysis as defining distortion (ATBC 42.6% weighting; removal eliminates significance). |
+| [[calcium\|Calcium]] | 8 | **Complete** | Energy-dependent calcium exclusion confirmed (10,000:1 gradient, Mg-ATP, mitochondrial overload → glycolysis). Membrane pump rejection NOT supported — SERCA/PMCA are well-characterized; functional outcome (energy-dependence) identical. Calcium paradox now recognized research field ("bone-vascular axis"). PTH systemic metabolic effects confirmed as emerging field; acute/chronic distinction essential (teriparatide builds bone). CO2/bicarbonate calcium regulation confirmed (hyperventilation tetany textbook, bicarbonate increases Klotho). Carbonate in bone mineral confirmed (6-9%); "carbonate first" sequence overstated. Osteopetrosis is osteoclast failure, not CO2-driven formation. Phosphate-aging confirmed via Klotho/FGF23 axis; additives doubled since 1990s. Estrogen damage mechanisms individually confirmed but 20-40% fracture reduction resists full inversion. Progesterone stimulates osteoblasts in vitro; large trials lacking. Nocturnal resorption confirmed; bedtime calcium doesn't abolish it. $15B+ drug market built on resorption suppression validated by atypical fractures. Disciplinary fragmentation most extreme in vault — five specialties study the same calcium independently. |
 
 For the full assessment methodology, see [[methodology#Phase 3|Phase 3 of the methodology]].
