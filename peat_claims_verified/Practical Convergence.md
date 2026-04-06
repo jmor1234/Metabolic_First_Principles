@@ -74,10 +74,10 @@ Chronic stress drives cortisol/CRH, which suppresses GnRH/LH (depleting gonadal 
 
 Glucose oxidation produces more [[co2|CO2]] per oxygen consumed than fat oxidation (RQ 1.0 vs 0.7). The shift from glucose to fat oxidation — driven by PUFA, stress hormones, and hypothyroidism — directly reduces CO2 production, losing all CO2-dependent protective effects. PUFA peroxidation consumes oxygen without producing either ATP or CO2 — a pure metabolic loss.
 
-**In practice:** Adequate carbohydrate from fruit, sugar, milk, honey. Avoid chronic low-carb and ketogenic approaches that force sustained fat oxidation. Sugar is not the metabolic villain — it is the preferred fuel whose complete oxidation produces the most CO2 per breath.
+**In practice:** Adequate carbohydrate from fruit, sugar, milk, honey. Avoid chronic low-carb and ketogenic approaches that force sustained fat oxidation. Sugar is not the metabolic villain — it is the preferred fuel whose complete oxidation produces the most CO2 per breath. Note: favoring glucose oxidation increases the demand for thiamine (vitamin B1), the [essential cofactor for pyruvate dehydrogenase](https://pmc.ncbi.nlm.nih.gov/articles/PMC10731935/) — the gatekeeper enzyme at the metabolic fork where pyruvate either enters the mitochondria (→ CO2) or diverts to [[lactate]]. Without adequate B1, increased carbohydrate intake produces more pyruvate that cannot be oxidized, paradoxically increasing lactate. B1 also serves alpha-ketoglutarate dehydrogenase (citric acid cycle) and transketolase (pentose phosphate pathway). Adequate B1 from whole foods, or supplementation, ensures the "favor glucose" intervention produces CO2 rather than lactate.
 
 > [!tip] Topic-specific detail
-> See [[co2#Practical Implications]] for breathing techniques, baking soda, salt, and altitude considerations.
+> See [[co2#Practical Implications]] for breathing techniques, baking soda, salt, and altitude considerations. See [[sugar#Claim 2]] for the Randle cycle mechanism and B1/PDH cofactor requirement.
 
 ### 6. Support Gut Integrity / Reduce Endotoxin
 

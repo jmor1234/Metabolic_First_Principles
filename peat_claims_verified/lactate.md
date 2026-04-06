@@ -266,6 +266,7 @@ This claim is confirmed by cross-reference to the completed vault documents. Eac
 - **[[thyroid|Hypothyroidism]]** → reduced respiratory enzyme expression → reduced oxidative capacity → lactate. See [[thyroid#Claim 1]].
 - **Cortisol** → FFA mobilization → Randle effect → glucose oxidation inhibited → lactate + reduced CO2.
 - **Endotoxin** → direct mitochondrial suppression → aerobic glycolysis → lactate (confirmed in [[thyroid#Claim 4]]).
+- **Thiamine (B1) deficiency** → [PDH cannot function without its TPP cofactor](https://pmc.ncbi.nlm.nih.gov/articles/PMC10731935/) → pyruvate shunted to lactate regardless of substrate availability. Also blocks alpha-ketoglutarate dehydrogenase (citric acid cycle) — glucose oxidation fails at multiple points simultaneously. See [[sugar#Claim 2]].
 
 The convergence is the framework's architectural contribution: no single pathway dominates, but all terminate in the same metabolic endpoint. The [[Practical Convergence]] intervention strategy follows from this convergence — addressing multiple inputs simultaneously because multiple inputs feed the same output.
 
