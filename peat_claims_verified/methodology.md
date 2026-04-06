@@ -221,6 +221,14 @@ When a mechanism is explained canonically in one document, other documents link 
 - Endotoxin barrier vicious circle → [[endotoxin#Claim 2]]
 - Endotoxin-estrogen-liver circuit → [[endotoxin#Claim 3]]
 - Gut-thyroid-motility circuit → [[endotoxin#Claim 4]]
+- Liver energy-dependent hub → [[liver#Claim 1]]
+- Glycogen-glucuronidation connection → [[liver#Claim 2]]
+- Glucuronidation master pathway → [[liver#Claim 3]]
+- Cholesterol as substrate (statin critique) → [[liver#Claim 4]]
+- Liver portal gatekeeper → [[liver#Claim 5]]
+- PUFA-liver toxicity → [[liver#Claim 6]]
+- Albumin as protective output → [[liver#Claim 7]]
+- Liver regeneration and fibrosis reversal → [[liver#Claim 8]]
 - Recurring patterns → [[System Overview#Recurring Patterns]]
 - Shared interventions → [[Practical Convergence]]
 
@@ -251,6 +259,7 @@ The following topics have been documented using this methodology:
 - **[[co2|CO2]]** — Active protectant confirmed (ROS suppression, neuroprotection, pH-dependent mediator sequestration). Carbamino chemistry confirmed proteome-wide; aldehyde protection hypothesis compelling but untested. Hyperventilation seizure provocation dramatic (87-100%). Henderson's therapy historically sourced. Queen bee longevity corrected — membrane composition not CO2. Methylation claim speculative. Institutional neglect as defining distortion.
 - **[[lactate|Lactate]]** — Convergence point confirmed. Lactylation (2019) provides stronger epigenetic mechanism than Peat described. HIF-1α/NF-κB confirmed. Excitotoxicity claim contradicted (acute lactate is neuroprotective). Methylglyoxal direction reversed. Lactate shuttle real — honest integration via acute/chronic distinction. Warburg effect bidirectional. Genuine scientific advance as defining context.
 - **[[endotoxin|Endotoxin]]** — Gateway stressor confirmed: produces aerobic glycolysis in healthy humans, triggers serotonin/histamine/cortisol/estrogen simultaneously. Barrier energy-dependence confirmed at molecular level (ATP-tight junction, NO mechanism). Endotoxin-estrogen-liver circuit confirmed (glucuronidation inhibition, estrobolome, antibiotics reduce estrogen). Gut-thyroid-motility circuit now mainstream (2.2-2.7x SIBO risk, levothyroxine reduces it). PUFA amplifies tissue damage (confirmed) but saturated fat may facilitate LPS entry via chylomicrons. Fructose protective at physiological doses, harmful in excess. Fermentable fiber claim partially supported. Glycine and emodin dramatically confirmed. Commercial misdirection toward complexity ($70-114B probiotics market) as defining distortion.
+- **[[liver|Liver]]** — Energy-dependent metabolic hub confirmed by resmetirom (first FDA-approved NASH drug is a THR-β agonist — pharma's own R&D validates the framework). Glycogen-glucuronidation connection confirmed at molecular level (glycogenolysis is the specific source; 80% loss in glycogen-depleted cells). PUFA as specific liver toxin confirmed for inflammatory damage (required for alcoholic liver injury, saturated fat reverses established cirrhosis); NAFLD steatosis literature complicates with saturated fat increasing fat accumulation in hypercaloric feeding. Cholesterol-as-substrate confirmed (hypothyroidism → hypercholesterolemia via reduced LDL receptor and bile flow). Statin mitochondrial CoQ10 depletion confirmed; statin mortality data more nuanced than blanket rejection. Albumin as mortality predictor stronger than age. Fibrosis reversal now mainstream (efruxifermin 2025). Coffee 35% fibrosis risk reduction. Glycine confirmed in animals, emerging human data. Progesterone evidence for liver fibrosis limited. Defining distortion: two converging pharmaceutical paradigms ($16B statins + $34B NASH drugs). Defining diagnostic gap: "LFTs" don't measure liver function.
 
 ## Topics Not Yet Covered
 
@@ -265,6 +274,4 @@ Potential future topics that could receive this treatment (non-exhaustive):
 - Water, cellular swelling, and the structured state
 - Gelatin, glycine, and amino acid balance
 - Pregnenolone and DHEA as neurosteroids
-- Liver function and detoxification
 - Iron and oxidative damage
-- Cholesterol as protective substrate

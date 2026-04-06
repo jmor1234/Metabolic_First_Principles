@@ -17,7 +17,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 - `peat_claims_verified/System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
 - `peat_claims_verified/Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
 - `peat_claims_verified/methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
-- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
+- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
 
 ## Obsidian Conventions
 
@@ -54,7 +54,7 @@ These three reads give ~90% understanding at ~16KB.
 
 Each topic document contains high-value summary sections that are far cheaper than a full read (~500-800 words per topic vs ~4000-6000 words full):
 
-- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 8 costs ~3KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
+- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 10 costs ~4KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
   ```
   Grep for "[!abstract]" across peat_claims_verified/*.md
   ```
@@ -82,6 +82,7 @@ Key corrections an agent should know exist (details in the topic files):
 - **Thyroid:** Barnes 30-40% prevalence unsupported by modern validation.
 - **CO2:** Queen bee longevity supports membrane pacemaker theory, not CO2. Methylation claim speculative.
 - **Endotoxin:** PUFA amplifies LPS tissue damage (confirmed) but saturated fat may facilitate LPS *entry* via chylomicrons. Fructose protective at physiological doses but excess fructose damages barrier and liver. Fermentable fiber claim partially supported — modern prebiotic data trends opposite on systemic markers. Carrot fiber lacks formal studies.
+- **Liver:** Statin critique confirmed for mitochondrial effects (CoQ10 depletion, liver mitochondrial dysfunction) but statin all-cause mortality data more complex than blanket rejection — meta-analyses show mortality benefit. PUFA required for alcoholic liver injury (confirmed) but NAFLD feeding studies show saturated fat increases steatosis — endpoint distinction (fat accumulation vs inflammatory destruction) resolves the contradiction. Progesterone evidence for liver fibrosis reversal specifically is limited. UGT aging decline more genetically variable than Peat implied.
 
 ### Task-Specific Navigation (The Four Layers)
 
@@ -161,6 +162,14 @@ When you need a specific mechanism, go directly to its canonical treatment inste
 | Gut-thyroid-motility circuit | `endotoxin.md#Claim 4` |
 | PUFA-endotoxin synergy | `endotoxin.md#Claim 5` |
 | Endotoxin practical reduction | `endotoxin.md#Claim 8` |
+| Liver energy-dependent hub | `liver.md#Claim 1` |
+| Glycogen-glucuronidation connection | `liver.md#Claim 2` |
+| Glucuronidation master pathway | `liver.md#Claim 3` |
+| Cholesterol as substrate (statin critique) | `liver.md#Claim 4` |
+| Liver portal gatekeeper | `liver.md#Claim 5` |
+| PUFA-liver toxicity | `liver.md#Claim 6` |
+| Albumin as protective output | `liver.md#Claim 7` |
+| Liver regeneration / fibrosis reversal | `liver.md#Claim 8` |
 
 Full canonical locations table: `methodology.md#Obsidian Conventions`.
 
