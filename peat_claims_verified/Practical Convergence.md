@@ -92,10 +92,12 @@ Bacterial [[endotoxin]] from the gut is the gateway stressor — it activates [[
 
 Tryptophan is the precursor to [[serotonin]]. Reducing dietary tryptophan concentration (not total protein) reduces serotonin production. Gelatin/collagen protein contains no tryptophan and is rich in glycine (which opposes serotonin's inflammatory effects). Traditional diets using whole animals provided ~50% of protein from collagen, naturally diluting tryptophan. Modern muscle-meat-only consumption concentrates it.
 
-**In practice:** Include gelatin or collagen alongside muscle meat. Bone broth, slow-cooked joints and tendons, and supplemental gelatin/collagen all restore the evolutionary amino acid balance.
+Glycine's protective effects extend well beyond tryptophan dilution. It is a required substrate for [glutathione synthesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4905320/) (glycine + cysteine + glutamate → GSH), and glutathione is the essential cofactor for [GPX4 — the primary enzymatic defense against ferroptosis](https://www.sciencedirect.com/science/article/pii/S0753332224003962) (iron-dependent cell death via [[pufa|PUFA]] membrane peroxidation, documented in [[iron#Claim 1]]). Glycine is also the primary amino acid consumed in [bile acid conjugation](https://pubmed.ncbi.nlm.nih.gov/8034703/) (3:1 glycine:taurine ratio in human bile), connecting amino acid balance to [[liver]] bile flow and cholesterol conversion. And glycine [promotes sleep via NMDA receptors in the SCN](https://pmc.ncbi.nlm.nih.gov/articles/PMC4397399/), supporting the [[circadian]] intervention through a circadian-specific, non-sedative mechanism.
+
+**In practice:** Include gelatin or collagen alongside muscle meat. Bone broth, slow-cooked joints and tendons, and supplemental gelatin/collagen all restore the evolutionary amino acid balance. The benefits operate at four levels: (1) tryptophan dilution → reduced [[serotonin]], (2) glycine → glutathione → GPX4 → ferroptosis defense, (3) glycine → bile acid conjugation → [[liver]] function, (4) glycine → SCN/NMDA → [[circadian]] sleep quality.
 
 > [!tip] Topic-specific detail
-> See [[serotonin#Practical Implications]] for the SSRI informed-consent point, the depression-as-energy-problem reframe, and anti-serotonin substances.
+> See [[serotonin#Practical Implications]] for the SSRI informed-consent point, the depression-as-energy-problem reframe, and anti-serotonin substances. See [[iron#Claim 8]] for the GPX4/glutathione/glycine connection to ferroptosis defense.
 
 ### 8. Maximize Light, Minimize Darkness Stress
 

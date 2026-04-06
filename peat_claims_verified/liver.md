@@ -338,7 +338,7 @@ The mainstream treats elevated cholesterol as a pathological accumulation requir
 > [!quote] Peat on cholesterol synthesis and conversion
 > "In healthy organisms, cholesterol is constantly being synthesized, and constantly converted into steroid hormones, and, in the liver, into the bile salts that are secreted to emulsify fats in the intestine."
 
-Cholesterol is raw material, not waste. The liver converts it in two directions: downstream to pregnenolone (→ progesterone, DHEA, cortisol, other steroids) and downstream to bile salts (for fat digestion and toxin excretion). Both conversions require energy, [[thyroid|thyroid]] hormone, and vitamin A:
+Cholesterol is raw material, not waste. The liver converts it in two directions: downstream to pregnenolone (→ progesterone, DHEA, cortisol, other steroids) and downstream to bile salts (for fat digestion and toxin excretion). Both conversions require energy, [[thyroid|thyroid]] hormone, and vitamin A. The bile salt pathway requires an additional substrate: bile acids are [conjugated with glycine or taurine](https://pubmed.ncbi.nlm.nih.gov/8034703/) by bile acid-CoA:amino acid N-acyltransferase (BAAT) before secretion. In humans, the glycine:taurine conjugation ratio is [approximately 3:1](https://pmc.ncbi.nlm.nih.gov/articles/PMC1185955/), making glycine the primary amino acid consumed in bile acid processing — another mechanism connecting the amino acid balance intervention ([[Practical Convergence#7. Balance Amino Acid Intake|gelatin/collagen intake]]) to liver function:
 
 > [!quote] Peat on the conversion requirements
 > "Thyroid hormone and vitamin A are used in the process of converting cholesterol into pregnenolone, the immediate precursor of progesterone and DHEA."
