@@ -17,7 +17,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 - `peat_claims_verified/System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
 - `peat_claims_verified/Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
 - `peat_claims_verified/methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
-- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
+- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar, iron). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
 
 ## Obsidian Conventions
 
@@ -54,7 +54,7 @@ These three reads give ~90% understanding at ~16KB.
 
 Each topic document contains high-value summary sections that are far cheaper than a full read (~500-800 words per topic vs ~4000-6000 words full):
 
-- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 11 costs ~4KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
+- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 12 costs ~5KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
   ```
   Grep for "[!abstract]" across peat_claims_verified/*.md
   ```
@@ -84,6 +84,7 @@ Key corrections an agent should know exist (details in the topic files):
 - **Endotoxin:** PUFA amplifies LPS tissue damage (confirmed) but saturated fat may facilitate LPS *entry* via chylomicrons. Fructose protective at physiological doses but excess fructose damages barrier and liver. Fermentable fiber claim partially supported — modern prebiotic data trends opposite on systemic markers. Carrot fiber lacks formal studies.
 - **Liver:** Statin critique confirmed for mitochondrial effects (CoQ10 depletion, liver mitochondrial dysfunction) but statin all-cause mortality data more complex than blanket rejection — meta-analyses show mortality benefit. PUFA required for alcoholic liver injury (confirmed) but NAFLD feeding studies show saturated fat increases steatosis — endpoint distinction (fat accumulation vs inflammatory destruction) resolves the contradiction. Progesterone evidence for liver fibrosis reversal specifically is limited. UGT aging decline more genetically variable than Peat implied.
 - **Sugar:** Glucolipotoxicity complicates "sugar protects beta cells" claim — glucose + FFA together MORE toxic than FFA alone. SSB dose-response (20-27% increased diabetes risk per serving) cannot be dismissed. Low-carb diets DO improve HbA1c short-term. GI not "useless" — low-GI diets show modest clinical benefits. Whole grains show 21-25% diabetes protection (complicating blanket anti-starch). Long-term keto adaptation may normalize the cortisol increase seen short-term. PUFA-insulin resistance evidence genuinely mixed.
+- **Iron:** Iron hypothesis of CVD sex differences plausible but not proven over hormonal explanation — both likely contribute. Copper-iron age trajectory more complex than simple depletion (compensatory ceruloplasmin increases in neurodegeneration). Iron fortification × PUFA promotion interaction never tested epidemiologically. Blood donation cardiovascular evidence mixed. Ferritin as acute phase reactant confounds iron-mortality studies.
 
 ### Task-Specific Navigation (The Four Layers)
 
@@ -178,6 +179,14 @@ When you need a specific mechanism, go directly to its canonical treatment inste
 | Sugar-stress hormone cascade | `sugar.md#Claim 5` |
 | Starch vs sugar distinction | `sugar.md#Claim 6` |
 | Glycemic index critique | `sugar.md#Claim 7` |
+| Iron-PUFA Fenton catalyst | `iron.md#Claim 1` |
+| Iron accumulation with aging | `iron.md#Claim 2` |
+| Menstruation as iron regulation | `iron.md#Claim 3` |
+| Iron fortification concerns | `iron.md#Claim 4` |
+| Iron and infection/immunity | `iron.md#Claim 5` |
+| Iron liver/brain damage | `iron.md#Claim 6` |
+| Copper-iron antagonism | `iron.md#Claim 7` |
+| Iron practical reduction | `iron.md#Claim 8` |
 
 Full canonical locations table: `methodology.md#Obsidian Conventions`.
 
