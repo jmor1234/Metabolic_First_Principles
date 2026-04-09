@@ -1,6 +1,6 @@
 # Metabolic Foundations Vault
 
-A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 13 documents, ~55K words, 333 cross-references, 342 sourced citations.
+A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents, ~55K words, 333+ cross-references, 342+ sourced citations.
 
 ## Before Doing Anything
 
@@ -19,7 +19,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 | **1. Structural** | `Foundation.md`, `The System.md` | WHAT health/disease are, HOW the system works |
 | **2. Mechanisms** | 9 mechanism docs (see below) | The detailed biology of each component |
 | **3. Application** | `Practice.md` | What to do: interventions, monitoring, sequence |
-| **4. Meta** | `Methodology.md` | How the vault works: standards, navigation, expansion |
+| **4. Meta** | `Methodology.md`, `Verification Methodology.md` | How the vault works: standards, navigation, expansion, and how evidence is evaluated and changes are governed |
 
 ### Mechanism Documents (Tier 2)
 
@@ -119,6 +119,12 @@ For a specific mechanism, go directly to its canonical location:
 | **Confidence calibration** | `Methodology.md#Confidence Calibration` |
 | **Document template** | `Methodology.md#The Document Template` |
 | **Expansion process** | `Methodology.md#How to Expand the Vault` |
+| **Default position (vault correct until proven)** | `Verification Methodology.md#The Default Position` |
+| **Three hypotheses for contradictions** | `Verification Methodology.md#The Three Hypotheses In Order` |
+| **Bar for changing the vault** | `Verification Methodology.md#The Bar for Changing the Vault` |
+| **Verification sequence (6 steps)** | `Verification Methodology.md#The Verification Sequence` |
+| **Three rules (acute/chronic, context, pass/fail)** | `Verification Methodology.md#The Three Rules` |
+| **Research standards** | `Verification Methodology.md#Research Standards` |
 
 ### Finding Corrections and Challenges
 
@@ -127,7 +133,9 @@ All honest calibration uses `[!warning]` callouts:
 Grep for "[!warning]" across metabolic_foundations/*.md
 ```
 
-Key corrections an agent should know exist:
+Key corrections and additions an agent should know exist:
+- **M1/M2 macrophages:** M1 (pathogen-killing) are glycolytic; M2 (tissue repair) use OXPHOS — corrected in Foundation.md. Acute glycolytic burst serves immune defense (controlled deployment).
+- **Iron→ERα degradation:** Iron accumulation at menopause degrades estrogen receptor alpha via Mdm2-mediated proteolysis (Xiao et al., eLife 2023) — explains HRT timing hypothesis. Added to Membrane Damage and Defense and The Hormonal Axis.
 - **Lactate:** Excitotoxicity contradicted — acute lactate is neuroprotective
 - **Estrogen:** Glycolytic shift via PI3K/AKT, not direct Complex IV blockade
 - **Progesterone:** Pregnenolone steal wrong — HPA axis suppression, not substrate competition
@@ -137,6 +145,8 @@ Key corrections an agent should know exist:
 - **Sugar:** Glucolipotoxicity complicates beta cell claim; SSB dose-response cannot be dismissed
 - **Iron:** CVD sex difference plausible but not proven over hormonal explanation
 - **Vitamin E:** Tocotrienol caution NOT supported; anti-estrogenic identity is isoform-dependent
+
+**Critical instruction for agents:** Before proposing any change to the vault, read `Verification Methodology.md`. The vault is an integration — apparent contradictions frequently dissolve when the vault is deeply understood rather than read at face value. The default position is that the vault is correct until proven otherwise with verified, replicated evidence that directly measures the variables the vault's claims operate on. See the Three Hypotheses and the Bar for Changing the Vault.
 
 ## Obsidian Conventions
 

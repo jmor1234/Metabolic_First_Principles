@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: foundation
 confidence: high
-last-verified: 2026-04-08
+last-verified: 2026-04-09
 scope: foundational
 connections:
   - "[[The System]]"

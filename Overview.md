@@ -64,7 +64,7 @@ This is what the Metabolic Foundations vault is. Not a rewrite of the Peat vault
 
 **Location:** `metabolic_foundations/`
 
-**What it is:** A first-principles understanding of what health and disease are at the metabolic level. 13 documents, ~55,000 words, 333 cross-references, 342 sourced citations. Zero references to Ray Peat or any single person's framework.
+**What it is:** A first-principles understanding of what health and disease are at the metabolic level. 14 documents, ~55,000 words, 333+ cross-references, 342+ sourced citations. Zero references to Ray Peat or any single person's framework. Includes a verification methodology governing how the vault is tested, evaluated, and changed.
 
 **How it's organized:** Four tiers.
 

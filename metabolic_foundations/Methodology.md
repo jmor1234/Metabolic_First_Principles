@@ -117,9 +117,10 @@ Read in order for the logical flow: throttle → substrate → fork → damage �
 
 - [[Practice]] — What to do. Interventions, monitoring, sequence.
 
-**Tier 4: Meta (this document)**
+**Tier 4: Meta**
 
-- [[Methodology]] — How the vault works. You are here.
+- [[Methodology]] — How the vault works: evidence standards, confidence calibration, document template, expansion process.
+- [[Verification Methodology]] — How the vault is tested and changed: default position, three hypotheses, bar for changes, verification sequence, research standards, three rules for evaluating contradictions.
 
 > [!tip] Following wikilinks
 > Mechanism docs reference each other extensively. Follow wikilinks to the canonical treatment of any mechanism mentioned in passing — don't re-read what a wikilink can navigate to. Grouped mechanism docs have aliases for their component topics: [[PUFA]], [[Iron]], [[Vitamin E]], [[Ferroptosis]] all resolve to [[Membrane Damage and Defense]]. [[Serotonin]] and [[Histamine]] resolve to [[Conservation Signaling]]. Use the natural topic name — the aliases handle routing.
