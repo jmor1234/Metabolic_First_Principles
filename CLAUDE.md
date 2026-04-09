@@ -2,6 +2,8 @@
 
 This workspace contains two independent Obsidian vaults. Each has its own CLAUDE.md with vault-specific navigation, conventions, and agent instructions.
 
+**For the full project narrative** — what the project is, why it was built this way, what it found, and how the two vaults relate — read `Overview.md` in this directory.
+
 ## Metabolic Foundations (`metabolic_foundations/`)
 
 A first-principles understanding of what health and disease are at the metabolic level. 13 documents, ~55K words. Verified against peer-reviewed research, organized around biology itself, independent of any single person's framework.
