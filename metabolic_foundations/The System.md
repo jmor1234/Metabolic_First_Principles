@@ -72,26 +72,25 @@ Crossing from one attractor to the other requires **sufficient perturbation acro
 
 ## The Components
 
-Sixteen components compose this system. Each plays a specific role in the architecture. None operates independently — every component feeds into and receives from every other through the feedback loops described below. The mechanism documents treat each in full detail.
+Fifteen components compose this system, documented across nine mechanism documents grouped by biological reality. Each plays a specific role in the architecture. None operates independently — every component feeds into and receives from every other through the feedback loops described below.
 
 | Role | Component | What It Does in the System |
 |---|---|---|
-| **The Throttle** | [[Thyroid]] (T3) | Sets the metabolic rate by controlling respiratory enzyme expression at both nuclear and mitochondrial genomes |
-| **The Preferred Substrate** | [[Glucose]] | Produces maximum CO₂ per O₂ consumed (RQ 1.0 vs. 0.7 for fat oxidation) |
-| **The Hardware Damage Layer** | [[PUFA]] | Accumulates in mitochondrial cardiolipin, peroxidizes via iron catalysis, poisons Complex IV |
-| **The Peroxidation Catalyst** | [[Iron]] | Fenton chemistry (Fe²⁺ + H₂O₂ → hydroxyl radical) ignites PUFA chain reactions; ferroptosis |
-| **The Chain-Breaking Defense** | [[Vitamin E]] | Terminates iron-initiated PUFA peroxidation chains; regulatory identity beyond antioxidant function |
-| **The Upstream Regulator** | [[Aspirin]] | Blocks PUFA liberation from membranes (COX), activates AMPK, suppresses aromatase |
-| **The Metabolic Amplifier** | [[Estrogen]] | Reprograms cells toward glycolysis via PI3K/AKT; effect depends on metabolic context |
-| **The Primary Brake** | [[Progesterone]] | Opposes estrogen at every mechanistic point; supports mitochondrial respiration |
-| **The Conservation Signal** | [[Serotonin]] | Suppresses oxidative metabolism, promotes vasoconstriction and torpor; deployed by darkness |
-| **The Parallel Mediator** | [[Histamine]] | Released by estrogen, PUFA peroxidation, and alkaline pH; amplifies inflammatory cascade |
-| **The Protective Output** | [[CO2]] | Product of successful oxidation that actively sustains the conditions for more oxidation |
-| **The Convergence Marker** | [[Lactate]] | Product of failed oxidation that actively deepens the conditions for more failure |
-| **The Gateway Stressor** | [[Endotoxin]] | Gut-derived LPS that activates every disease-attractor mediator simultaneously |
-| **The Metabolic Hub** | [[Liver]] | The organ where every pathway physically converges — not another node, but the hub through which every node passes |
-| **The Cellular Readout** | [[Calcium]] | Energy-dependent ion distribution (10,000:1 gradient) that directly reflects cellular metabolic state |
-| **The Temporal Dimension** | [[Circadian]] | The 24-hour oscillation between attractors via light/dark cycle and serotonin/melatonin axis |
+| **The Throttle** | [[The Master Throttle|Thyroid (T3)]] | Sets the metabolic rate by controlling respiratory enzyme expression at both nuclear and mitochondrial genomes |
+| **The Preferred Substrate** | [[The Preferred Substrate|Glucose]] | Produces maximum CO₂ per O₂ consumed (RQ 1.0 vs. 0.7 for fat oxidation) |
+| **The Hardware Damage Layer** | [[Membrane Damage and Defense|PUFA]] | Accumulates in mitochondrial cardiolipin, peroxidizes via iron catalysis, poisons Complex IV |
+| **The Peroxidation Catalyst** | [[Membrane Damage and Defense|Iron]] | Fenton chemistry (Fe²⁺ + H₂O₂ → hydroxyl radical) ignites PUFA chain reactions; ferroptosis |
+| **The Chain-Breaking Defense** | [[Membrane Damage and Defense|Vitamin E]] | Terminates iron-initiated PUFA peroxidation chains; regulatory identity beyond antioxidant function |
+| **The Metabolic Amplifier** | [[The Hormonal Axis|Estrogen]] | Reprograms cells toward glycolysis via PI3K/AKT; effect depends on metabolic context |
+| **The Primary Brake** | [[The Hormonal Axis|Progesterone]] | Opposes estrogen at every mechanistic point; supports mitochondrial respiration |
+| **The Conservation Signal** | [[Conservation Signaling|Serotonin]] | Suppresses oxidative metabolism, promotes vasoconstriction and torpor; deployed by darkness |
+| **The Parallel Mediator** | [[Conservation Signaling|Histamine]] | Released by estrogen, PUFA peroxidation, and alkaline pH; amplifies inflammatory cascade |
+| **The Protective Output** | [[The Metabolic Fork|CO₂]] | Product of successful oxidation that actively sustains the conditions for more oxidation |
+| **The Convergence Marker** | [[The Metabolic Fork|Lactate]] | Product of failed oxidation that actively deepens the conditions for more failure |
+| **The Gateway Stressor** | [[The Gut-Liver Axis|Endotoxin]] | Gut-derived LPS that activates every disease-attractor mediator simultaneously |
+| **The Metabolic Hub** | [[The Gut-Liver Axis|Liver]] | The organ where every pathway physically converges — not another node, but the hub through which every node passes |
+| **The Cellular Readout** | [[The Cellular Readout|Calcium]] | Energy-dependent ion distribution (10,000:1 gradient) that directly reflects cellular metabolic state |
+| **The Temporal Dimension** | [[The Temporal Dimension|Circadian]] | The 24-hour oscillation between attractors via light/dark cycle and serotonin/melatonin axis |
 
 The liver deserves special emphasis. Every other component describes a node in the system — a substance, signal, or process that pushes toward one attractor or the other. The liver is where all of these nodes physically meet. It is the anatomical site where endotoxin is intercepted, estrogen is conjugated, serotonin is cleared, T4 is converted to T3, cholesterol becomes hormones and bile, glycogen buffers metabolic stress, and albumin is manufactured. When the liver fails, every substance it should clear accumulates and every substance it should produce diminishes. Every feedback loop in this system passes through the liver.
 
