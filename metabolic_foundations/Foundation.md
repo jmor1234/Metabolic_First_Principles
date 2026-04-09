@@ -44,7 +44,7 @@ The two endpoints of this metabolic fork — CO₂ and lactate — are not passi
 - **Ion gradients** across membranes — the basis of all electrical signaling and the 10,000:1 calcium exclusion ratio that defines a living cell — require ATP-dependent pumps running continuously
 - **Protein synthesis** requires ATP at every step: amino acid activation, ribosomal translation, chaperone-assisted folding, and quality control degradation of misfolded proteins
 - **DNA repair** — the continuous correction of the ~10,000-100,000 DNA lesions that occur per cell per day — requires ATP
-- **Immune surveillance** requires ATP, and the form of metabolism determines immune function: macrophages running oxidative phosphorylation (M1) eliminate pathogens; macrophages running glycolysis (M2) suppress immunity and promote tissue remodeling. The metabolic switch IS the immune switch
+- **Immune surveillance** requires ATP, and the form of metabolism determines immune function: macrophages running glycolysis (M1) mount the acute inflammatory response that eliminates pathogens — a controlled glycolytic burst with built-in resolution; macrophages running oxidative phosphorylation (M2) perform tissue maintenance but, when driven by chronic lactate via HIF-1α, shift to an immunosuppressive phenotype that promotes tumor immune evasion and fibrosis. The metabolic switch IS the immune switch — and the acute/chronic distinction applies here as everywhere else in the system
 - **Hormone synthesis, neurotransmitter packaging, muscle contraction, bile production, kidney filtration** — all ATP-dependent, no exceptions
 
 A human body produces and consumes roughly 40 kg of ATP per day — approaching its own body weight. This is not a side process. It is the central activity of being alive.
