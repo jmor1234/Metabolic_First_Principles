@@ -6,7 +6,7 @@ This is an Obsidian vault containing a systematic verification of Ray Peat's bio
 
 **If you need to understand the vault:** Start with the navigation strategy in [Navigating This Vault](#navigating-this-vault-context-efficient-agent-strategy) below. Do NOT read every file — the vault is designed for layered access.
 
-**If you need to create or modify topic documents:** Read `peat_claims_verified/methodology.md` first. It defines the three-phase process, the document structure, the assessment scale, and the Obsidian conventions that every document follows.
+**If you need to create or modify topic documents:** Read `methodology.md` first. It defines the three-phase process, the document structure, the assessment scale, and the Obsidian conventions that every document follows.
 
 ## Core Principle
 
@@ -14,10 +14,10 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 
 ## Vault Architecture
 
-- `peat_claims_verified/System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
-- `peat_claims_verified/Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
-- `peat_claims_verified/methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
-- `peat_claims_verified/*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar, iron, vitamin-e, aspirin, calcium). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
+- `System Overview.md` — Entry point. The two metabolic attractors, feedback loops, recurring patterns, and assessment summary across all topics.
+- `Practical Convergence.md` — Shared interventions stated once. Topic docs link here instead of restating common recommendations.
+- `methodology.md` — The three-phase process, document structure template, Obsidian conventions, and canonical wikilink locations.
+- `*.md` — Topic documents (PUFA, thyroid, estrogen, progesterone, serotonin, CO2, lactate, histamine, endotoxin, liver, sugar, iron, vitamin-e, aspirin, calcium). All topics are `status/complete` — fully verified under the corrected three-phase methodology with sourced Phase 2 research context.
 
 ## Obsidian Conventions
 
@@ -56,7 +56,7 @@ Each topic document contains high-value summary sections that are far cheaper th
 
 - **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 12 costs ~5KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
   ```
-  Grep for "[!abstract]" across peat_claims_verified/*.md
+  Grep for "[!abstract]" across *.md
   ```
 
 - **`## What Makes This Topic Different`** — A ~100-word section near the bottom of each topic file identifying its unique contribution to the vault. These explain why estrogen's dominant pattern is context-dependence, why lactate is where the framework is most honestly challenged, why histamine is the most testable integration claim, etc.
