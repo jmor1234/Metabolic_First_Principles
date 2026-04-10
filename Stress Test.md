@@ -267,9 +267,34 @@ On reading `Verification Methodology.md`, this concern is already handled — mo
 
 ---
 
+## Carry-Forward Items
+
+Open questions and unresolved angles from completed layers that have been deferred to later layers or flagged for future resolution. Each item notes where it's expected to be addressed. **Review this section when starting any new layer** so these items get integrated into the new layer's analysis rather than forgotten.
+
+### From Layer 1
+
+**CF-1.A.1 — Reading C: tautology vs substance.** Reading C ("metabolism is the universal convergence point for chronic disease") is borderline derivable from textbook biology: if cells require ATP and chronic disease affects cellular function, metabolism is necessarily involved somewhere in the chain. The *substantive* version — that metabolism is the **dominant** level of convergence, not one of many — was not rigorously tested in Sub-test 1.A. Huntington's confirmed mechanistic involvement, but the CoQ10 trial failure is a hint that single-point metabolic intervention does NOT dominate HD progression. The "dominant vs one of many" question matters because it's the difference between a substantive ontological claim and a near-tautology. **Address in:** Layer 3 (attractor architecture — does metabolism genuinely dominate other levels?) and Layer 4 (cross-disease convergence — rigorous empirical test across disease categories, not just one test case).
+
+**CF-1.B.1 — Free T3 adaptive vs pathological.** The deepest unresolved Sub-test 1.B question. [Luukkonen 2020](https://www.pnas.org/doi/10.1073/pnas.1922344117) shows −21% Free T3 on 6-day keto. Interpretation is genuinely contested: adaptive downregulation matched to reduced substrate throughput, or pathological reduction at the tissue level. Direct measurement of T3 receptor occupancy or downstream T3-target gene expression in adapted keto humans has not been performed. The vault's framework considers T3 the master throttle, so a 21% reduction is non-trivial if it reflects functional hypothyroidism. **Address when:** new primary literature provides tissue-level T3 signaling data in adapted keto humans, or when reaching the Practice / clinical implications phase. Requires data that doesn't currently exist — flag rather than chase.
+
+**CF-1.B.2 — PDH-upstream CO₂ production subtlety.** Glucose oxidation produces 2/6 CO₂ from pyruvate dehydrogenase upstream of Krebs; ketone body oxidation produces 100% of its CO₂ from Krebs enzymes only (isocitrate DH, α-KG DH). The CO₂ molecules themselves are biochemically identical, but the subcellular location of production differs. Whether this yields meaningful microdomain effects (local pH gradients, compartment-specific carbamino formation, subcellular signaling) is a deeper biochemical question not probed in current literature. **Could in principle preserve a "glucose specifically" claim at a level not currently tested.** Agent 1's observation during Layer 1B triangulation. **Address in:** Layer 2 (product-activity claim at the tissue/subcellular level) — natural place to examine whether CO₂ effects depend on specific subcellular production loci.
+
+**CF-1.B.3 — Hepatic ketogenesis shunt long-term.** The shunt is mechanistically validated (PNAS 2020 isotope tracer, 6-day keto in NAFLD) and clinically beneficial in that specific population. Whether chronic operation of this pathway in **healthy adults** has long-term costs (mitochondrial wear from altered redox state, disrupted hepatic signaling, eventual hepatocyte decline) is unknown. No study has measured long-term hepatic mitochondrial function under sustained ketogenic conditions in healthy adults. **Address if:** Layer 3 or Practice phase encounters longitudinal hepatic data, or if new research emerges on long-term adapted keto hepatology.
+
+**CF-1.B.4 — Under-measured vault metrics in adapted keto cohorts.** The vault's preferred diagnostic metrics (body temperature, resting pulse, blood lactate at rest, absolute V'CO₂ in properly matched cohorts, RQ with ketone-body accounting, mitochondrial function markers in multiple tissues) have not been measured comprehensively in adapted keto populations. The meta-question — *what does adapted keto physiology actually look like on the vault's own metrics?* — remains empirically under-tested. Both independent agent reports during Layer 1.B triangulation converged on the same next-experiment recommendation: a full-panel metabolic-ward crossover study in fully adapted (≥12 weeks) keto vs matched mixed-diet controls, measuring all vault metrics simultaneously. **Address if:** such a study appears in literature, or when reaching the Practice phase.
+
+---
+
 ## Working Log
 
 *Dated entries as we progress. Most recent at top.*
+
+### 2026-04-10 — Layer 1 housekeeping before Layer 2
+
+- Added **Carry-Forward Items** section to track unresolved Layer 1 questions deferred to later layers (CF-1.A.1 through CF-1.B.4). Each item notes where it should be addressed — primarily Layer 2 (PDH-subtlety) and Layer 3 (tautology-vs-substance of Reading C), with one item flagged as requiring literature that doesn't currently exist (CF-1.B.1, Free T3 adaptive vs pathological).
+- Research Brief doc deleted after serving its one-shot purpose (committed in `1af310a`). Git history preserves the briefing for future structural reference.
+- Honest completeness check on Layer 1: substantive classification is stable, refinements are actionable, open questions are best addressed by running Layers 2–4 rather than piling more effort on Layer 1.
+- Ready to begin Layer 2.
 
 ### 2026-04-10 — Layer 1 completed (Sub-tests 1.A PASS, 1.B REFINEMENT)
 
