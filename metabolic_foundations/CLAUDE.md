@@ -2,11 +2,19 @@
 
 A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents, ~55K words, 333+ cross-references, 342+ sourced citations.
 
+## Read This Vault as an Integration, Not a Database
+
+This vault is a connected system. The meaning of any single statement depends on its connections to other documents through the wikilink network. Surface terms have deep implications: "metabolic rate" is not raw throughput but the rate that emerges from intact hardware; "estrogen amplifies disease" means it amplifies whatever trajectory is in motion, not that it is categorically harmful; "the disease attractor is self-reinforcing" means feedback loops deepen the state when engaged but require specific conditions to engage.
+
+Reading individual statements at face value — without tracing how they connect through the wikilink network — produces shallow conclusions and false contradictions that the vault does not actually contain. Before evaluating evidence against the vault, proposing changes, or answering complex questions about it, trace the reasoning chain through the connections. If you cannot trace it, you do not understand the vault well enough to draw conclusions yet.
+
+The discipline for doing this rigorously is documented in `Verification Methodology.md`. Read it before any work that might modify the vault. The default position: the vault is correct until proven otherwise with verified evidence that survives a deep reading of its logic.
+
 ## Before Doing Anything
 
 **If you need to understand the vault:** Follow the Deep Understanding Path below. Do NOT read every file — the vault is designed for layered access. Foundation + System (~8K words) gives ~80% comprehension.
 
-**If you need to modify or expand:** Read `Methodology.md` first. It defines evidence standards, confidence calibration, the document template, and the expansion process.
+**If you need to modify, expand, or evaluate evidence against the vault:** Read `Verification Methodology.md` first. It defines the default position, the three hypotheses for evaluating apparent contradictions, the bar for changing the vault, and the verification sequence. Then read `Methodology.md` for evidence standards, confidence calibration, the document template, and the expansion process.
 
 ## Core Principle
 

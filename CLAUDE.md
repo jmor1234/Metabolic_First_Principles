@@ -21,3 +21,7 @@ The verification archive. Systematic claim-by-claim verification of Ray Peat's b
 The Metabolic Foundations vault was built FROM the Peat verification vault. The verification vault is the audit trail — raw claim extractions, research landscape analysis, individual assessments, corrections. The foundations vault is the extracted knowledge — organized by biology, not by claims.
 
 The two vaults are independent. Do not cross-link between them. Each has its own conventions, callout types, frontmatter fields, and navigation strategy. When working in one vault, use that vault's CLAUDE.md.
+
+## How to Approach Both Vaults
+
+Both vaults are integrations, not databases. The meaning of any specific claim depends on its connections to others through the wikilink network within that vault. Reading individual statements at face value produces shallow conclusions and false contradictions. Before evaluating evidence, proposing changes, or answering complex questions, trace the reasoning chain through the connections — and if you cannot, study the vault more deeply before drawing conclusions. Each vault's CLAUDE.md provides the specific discipline for doing this properly.

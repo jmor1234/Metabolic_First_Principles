@@ -125,3 +125,9 @@ The Metabolic Foundations vault is designed to expand. The methodology defines e
 The Peat vault remains as the verification archive — the audit trail showing how the knowledge was produced and where the evidence led.
 
 Both vaults are living documents. The `last-verified` date on every document signals when its evidence was last checked. As new research emerges, documents are updated. Corrections are features, not failures. The project improves by finding where it's wrong, not by defending where it might be right.
+
+## A Note on How to Read This
+
+Both vaults are integrations. The meaning of any specific claim emerges from its connections to other claims through the wikilink network — not from the words of any single statement read in isolation. Surface terms have deep implications that only become visible when the reasoning chain is traced through the connections. Reading individual statements at face value, without that tracing, produces conclusions the vault does not actually support — and proposed "corrections" that would make the vault less accurate, not more.
+
+The Metabolic Foundations vault includes a `Verification Methodology.md` document codifying the discipline for evaluating evidence and proposing changes without degrading the integration. It exists because the project learned that the cost of wrongly changing the vault is higher than the cost of wrongly leaving it unchanged: a wrong change degrades an integration that took rigorous work to build, while a wrong non-change leaves a possible improvement unmade — but the vault can always be updated later when the evidence is clear. The asymmetry favors caution. The framework is designed to be corrected, but the bar for correction is high.
