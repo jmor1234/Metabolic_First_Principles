@@ -115,8 +115,58 @@ Attacking these would mean overturning mainstream biochemistry. If they fall, bi
 
 5. **What does "efficient" mean quantitatively?** Inefficient oxidation still produces ATP. Where's the threshold between healthy and diseased in actual measurable terms? Can the vault specify it?
 
-**Status:** NOT STARTED
-**Findings:** —
+**Status:** COMPLETE — REFINEMENT (substantial)
+**Findings:** See Sub-tests 1.A and 1.B below.
+
+### Sub-test 1.A — Ontological Reduction (non-metabolic-origin diseases)
+
+**Executed:** 2026-04-10
+**Classification:** PASS
+
+Deep re-read of Foundation.md revealed the vault's actual claim is Reading C (metabolism as universal convergence point), not Reading A (strong ontological reduction). The qualifier "at the cellular level" and explicit statements like "operates through metabolic capacity" and "the level at which all other levels converge" establish Reading C. Huntington's disease test case confirmed this mechanistically: mutant huntingtin (mHTT) has a mitochondrial targeting sequence in its first 17 amino acids, directly targets the TIM23 translocase complex, disrupts mitochondrial protein import and OXPHOS — "early mitochondrial dysfunction" proximal to the mutation in the pathogenic cascade. The vault's "operates through metabolism" framing holds even for monogenic non-metabolic-origin disease.
+
+**Observations (not breaks, flagged for possible minor refinement):**
+- Foundation.md uses DIO2 polymorphism as its example of "genetics operating through metabolism" — this is circular because DIO2 directly affects metabolism by design. Huntington's (mHTT → TIM23 → mitochondrial protein import disruption) would be a stronger non-circular example of a gene with non-metabolic primary function operating through metabolism.
+- CoQ10 clinical trial failure in HD (CARE-HD, 2CARE halted for futility) is consistent with the vault's "single interventions fail" prediction but raises a Layer 3/Practice question about whether multi-loop intervention can ever shift an attractor when the upstream driver is a persistent non-metabolic molecule. Preserved for later testing.
+
+### Sub-test 1.B — Glucose Specificity via the CO₂ Argument
+
+**Executed:** 2026-04-10
+**Classification:** REFINEMENT (substantial, multi-component)
+
+Triangulated via our own research + two independent agent analyses (`agent_respone_1.md`, `agent_response_2.md`). Both agents independently classified as REFINEMENT with convergent reasoning. The vault's core ontological commitment (efficient oxidative metabolism producing CO₂ via Krebs cycle is foundational to health) survives. Its quantitative and mechanism-specific arguments for glucose specificity need substantial tightening.
+
+**R1.B.1 — The "40% more CO₂" quantitative claim is overstated.** Theoretical maximum at pure substrate endpoints, never achieved in humans. [Talpers et al.](https://pubmed.ncbi.nlm.nih.gov/1643946/) predict only ~22% V'CO₂ reduction even at theoretical complete isocaloric swap. Empirically, V'CO₂ at isocaloric matched conditions in ventilated patients does not differ significantly across 40%–75% CHO (205/203/211 ml/min). Real-world adapted keto shows ~2–15% differential depending on adaptation duration.
+
+**R1.B.2 — Ketone bodies are a biochemically distinct third fuel category.** Modern ATP yields (P/O 2.5 NADH, 1.5 FADH₂) give: glucose ~32 ATP → CO₂/ATP ≈ **0.188**; palmitate ~106 ATP → **0.151**; β-hydroxybutyrate ~21.5 ATP → **0.186**; acetoacetate ~19 ATP → **0.211**. **BHB is essentially equivalent to glucose in CO₂/ATP; acetoacetate exceeds glucose; palmitate is clearly lower.** The vault's "fat oxidation produces less CO₂" framing is accurate only for raw long-chain fatty acid β-oxidation as final pathway (unfed fasting, Randle pathology) and NOT for adapted ketogenic physiology where peripheral tissues oxidize ketone bodies via the Krebs cycle at CO₂/ATP ratios matching or exceeding glucose.
+
+**R1.B.3 — Randle pathology ≠ adapted ketosis.** Randle pathology requires TWO conditions simultaneously: (i) FFA excess inhibiting PDH AND (ii) glucose availability providing pyruvate to divert. Adapted keto has (i) but not (ii), so no pyruvate-to-lactate shunting occurs. Resting lactate in adapted keto is typically normal or low, directly unlike Randle pathology. The vault currently collapses two biochemically distinct states under "fat oxidation" and applies Randle-pathology concerns to both.
+
+**R1.B.4 — Cerebral perfusion prediction is empirically refuted for dietary keto.** [BHB infusion](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190556) increases cerebral blood flow +27% (40.9 → 52.0 ml/100g/min) with arterial CO₂ and pH unchanged; a 3-week ketogenic diet in healthy adults increases global CBF +22% and BDNF +47%. Authors explicitly state the CBF increase "could not be explained by alterations in CO₂ tension or pH." The vault's CO₂ vasoreactivity physiology is real but does not dominate under dietary keto adaptation. **Caveat (Agent 2):** high-dose exogenous ketone monoester studies show CBF CAN decrease along with ETCO₂ — context-dependent, so CO₂ vasoreactivity still matters in specific interventions.
+
+**R1.B.5 — Hepatic ketogenesis shunt is mechanistically validated but clinically inverted.** [PNAS 2020 isotope tracer study](https://www.pnas.org/doi/10.1073/pnas.1922344117) confirms that on 6-day ketogenic diet, hepatic mitochondrial redox state increases +167%, inhibiting citrate synthase, diverting acetyl-CoA from Krebs toward ketogenesis. Local liver CO₂ production decreases. But this same mechanism drives NAFLD reversal in 6 days, with improvements in hepatic steatosis and insulin sensitivity. The vault's concern about hepatic CO₂ is mechanistically real; the implication that reduced hepatic CO₂ is universally pathological is inverted in the NAFLD population where the shunt is the recovery mechanism.
+
+**R1.B.6 — Free T3 reduction (−21%, Luukkonen 2020) on 6-day keto is the deepest unresolved question.** Adaptive vs pathological is genuinely contested. Direct measurement of tissue-level T3 signaling (receptor occupancy, downstream gene expression) has not been performed in adapted keto humans. This is the remaining open question where the vault's concerns may or may not hold — and the highest-value single measurement for resolving it.
+
+**Proposed vault edits (both agents converge on essentially the same prescription):**
+- Distinguish **Randle pathology** from **adapted ketosis** explicitly in the main text of `The Preferred Substrate.md` and `The Metabolic Fork.md` — these are biochemically distinct states the vault currently conflates
+- Reframe Core Claim 1 to emphasize "efficient mitochondrial oxidative metabolism producing CO₂ via the Krebs cycle" as the invariant, with **glucose as preferred substrate under normal conditions** rather than as the sole/exclusive foundational substrate
+- Add ketone bodies as a **third fuel category** distinct from glucose and raw fat in the vault's fuel taxonomy
+- Correct the "40% more CO₂" claim to realistic values with Talpers quantitative context
+- Update cerebral perfusion claims to reflect that CBF can rise on dietary keto via non-CO₂ mechanisms, with the exogenous ketone monoester nuance preserved
+- Migrate "long-term keto unresolved" from warning callouts into main text
+- Flag Free T3 reduction as the deepest remaining unresolved question for future measurement
+
+**Candidate subtlety preserved (Agent 1's observation):** Glucose oxidation produces 2/6 CO₂ from PDH upstream of Krebs; ketone body oxidation produces 100% of its CO₂ from Krebs enzymes only. The CO₂ molecules themselves are biochemically identical, but the subcellular location of production differs. Whether this yields meaningful microdomain effects (local pH gradients, carbamino formation, compartment-specific signaling) is a deeper biochemical question not probed in current literature. Could, in principle, preserve a "glucose specifically" claim at a level not currently tested. Not enough evidence to change the classification but worth flagging as a future research avenue.
+
+### Layer 1 Overall Classification
+
+**REFINEMENT (substantial)**
+
+- Sub-test 1.A: **PASS**
+- Sub-test 1.B: **REFINEMENT** (substantial, six specific refinements)
+
+The vault's core ontological commitment — that health is efficient oxidative metabolism producing CO₂ — survives. The "of glucose" specificity and the quantitative CO₂-output argument need substantial tightening. Core claim can be preserved in rephrased form that distinguishes **Krebs-cycle CO₂ production as the invariant** from the specific substrate being oxidized (glucose preferred under normal conditions, ketones biochemically equivalent at the CO₂/ATP level once in Krebs, raw fat distinct).
 
 ---
 
@@ -220,6 +270,19 @@ On reading `Verification Methodology.md`, this concern is already handled — mo
 ## Working Log
 
 *Dated entries as we progress. Most recent at top.*
+
+### 2026-04-10 — Layer 1 completed (Sub-tests 1.A PASS, 1.B REFINEMENT)
+
+- **Sub-test 1.A (ontological reduction):** PASS. Deep re-read showed vault claims Reading C (convergence point), not Reading A (strong ontological reduction). Huntington's test case confirmed "operates through metabolism" holds mechanistically for non-metabolic-origin diseases via mHTT → TIM23 → mitochondrial dysfunction. Observations: DIO2 example in Foundation.md is circular; HD would be a stronger non-circular example; CoQ10 clinical trial failures flag a Layer 3/Practice question preserved for later.
+- **Sub-test 1.B (glucose specificity):** REFINEMENT (substantial). Triangulated via own research + two independent agent analyses — both converged on REFINEMENT with matching reasoning. Six specific refinements identified (R1.B.1 through R1.B.6). Core claim survives; "of glucose" specificity needs softening toward "Krebs-flux-producing-CO₂-as-invariant + glucose-preferred-under-normal-conditions," with ketone bodies as a distinct third fuel category.
+- **Factual corrections to own prior analysis** (caught by agent review):
+  - ATP yields used were outdated. Modern P/O ratios (2.5 NADH, 1.5 FADH₂) give glucose ~32 ATP (not 36), palmitate ~106 ATP (not 129), BHB ~21.5 ATP.
+  - BHB CO₂/ATP (0.186) is essentially equivalent to glucose (0.188), NOT clearly higher as initially claimed. Only acetoacetate is clearly higher than glucose.
+  - Hepatocytes lack **SCOT/OXCT1** (succinyl-CoA:3-oxoacid-CoA transferase), not HMG-CoA lyase. Hepatocytes have HMG-CoA lyase — it's used for ketogenesis (cleaving HMG-CoA to acetoacetate). SCOT is the enzyme needed to re-activate acetoacetate for oxidation, and its absence in hepatocytes is why the liver makes ketones but can't burn them back.
+  - CBF change on BHB infusion is +27% (from primary source: 40.9 → 52.0 ml/100g/min), not +30%.
+  - "Most peripheral tissues oxidize ketones, not raw fat" was too broad. Heart and muscle still use substantial fatty acids in ketogenic states.
+- **Research Brief** (`Research Brief - Layer 1B Glucose Specificity.md`) created and used successfully for independent agent consultation. Updated with the factual corrections above.
+- **Next:** Begin Layer 2 stress test — the product-activity claim (CO₂ and lactate as active products driving positive feedback). Note: the Layer 1 CBF finding (keto increases CBF via non-CO₂ mechanisms) already bears on Layer 2's "CO₂ is active" claim and should be carried forward into the Layer 2 analysis.
 
 ### 2026-04-10 — Methodology integration
 - Read `Methodology.md` and `Verification Methodology.md` in full.
