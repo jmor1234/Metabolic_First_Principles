@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: methodology
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-10
 scope: meta
 connections:
   - "[[Foundation]]"
@@ -17,7 +17,7 @@ connections:
   - "[[Practice]]"
 ---
 
-Every other document in this vault answers questions about biology. This document answers questions about the vault itself: how the knowledge was produced, what standards govern it, how to navigate it, how to evaluate its claims, and how it grows. It is the meta-layer — the document that makes the vault trustworthy rather than merely interesting.
+Every other document in this vault answers questions about biology. This document answers questions about the vault itself: how the knowledge was produced, what standards govern it, how to navigate it, how to evaluate its claims, and how it grows. It is one of two meta-layer documents — the one covering evidence standards, navigation, and the expansion process. Its companion [[Verification Methodology]] governs how the vault is tested, verified, and changed. Together they make the vault trustworthy rather than merely interesting.
 
 ---
 

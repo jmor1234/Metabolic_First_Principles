@@ -86,8 +86,9 @@ This is what the Metabolic Foundations vault is. Not a rewrite of the Peat vault
 **Tier 3 — Application.** One document translating the biology into action:
 - *Practice* — Eight interventions ordered by leverage, aspirin as detailed pharmacological profile, unified monitoring framework, and implementation sequence distinguishing what matters most from what you can start today.
 
-**Tier 4 — Meta.** One document making the vault self-documenting:
+**Tier 4 — Meta.** Two documents making the vault self-documenting:
 - *Methodology* — Evidence standards, confidence calibration, navigation strategy, document template, and the process for expansion.
+- *Verification Methodology* — How the vault is tested, verified, and changed: the default position, three hypotheses for evaluating apparent contradictions, the bar for changes, the six-step verification sequence, three rules for handling acute/chronic and context-dependence, and research standards. Distilled from stress-testing the vault's architecture and protecting its integration from degradation during revision.
 
 **How it differs from the Peat vault:**
 - No claim-by-claim structure — organized by mechanism

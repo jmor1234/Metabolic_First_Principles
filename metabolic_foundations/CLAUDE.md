@@ -59,7 +59,7 @@ Each mechanism doc has high-value sections cheaper than a full read:
 
 - **Opening paragraphs** (no heading, first 2-3 paragraphs) — The mechanism's role in the system. ~200 words per doc, ~1.8K total for all 9.
 - **`## System Connections`** — Table of connections to every other mechanism doc. ~200 words per doc.
-- **`## Where the Evidence Is Complex`** — Honest calibration: what's textbook vs uncertain. 43 `[!warning]` items across the vault.
+- **`## Where the Evidence Is Complex`** — Honest calibration: what's textbook vs uncertain. 40 `[!warning]` callouts across the vault (some contain multiple sub-claims).
 - **`## Research Context`** — Funding distortions, chemical conflation, why the picture is fragmented.
 
 To get the key insight from each mechanism doc without reading in full (~500 words per doc instead of ~4,000):
