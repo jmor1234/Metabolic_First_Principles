@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: practice
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-10
 scope: practical
 connections:
   - "[[Foundation]]"
@@ -200,7 +200,7 @@ The CO2/lactate ratio is the master readout ([[The Cellular Readout]]). These ar
 
 ### Clinical Measures
 
-**End-tidal CO2 (ETCO2).** Should approach 5-6% of expired air when thyroid-driven glucose oxidation is adequate. The most direct single measurement of metabolic state. No correlation with TSH or free T4 — it measures what the system is actually doing, not what a pituitary hormone says it should be doing.
+**End-tidal CO2 (ETCO2).** Should approach 5-6% of expired air when thyroid-driven glucose oxidation is adequate. ETCO2 reflects the production-ventilation balance — distinct from V'CO2 (the direct CO2 production rate measured by indirect calorimetry, the gold standard for oxidative metabolism output). Both measurements capture metabolic state that TSH does not. ETCO2 is widely available; indirect calorimetry is more direct but requires a metabolic cart. ETCO2 is most useful as an individual trend marker — falling ETCO2 over time within a person reflects their own metabolic trajectory, where interpretation across populations is complicated by ventilation pattern variability.
 
 **Blood lactate.** Normal: <2 mmol/L. Mild elevation: 2-4. Severe: >4. In combination with ETCO2, this captures the metabolic fork directly — the ratio between the two products of the pyruvate branch point ([[The Metabolic Fork]]). Falling lactate with rising CO2 over months is the clearest objective confirmation that the system is shifting attractors.
 

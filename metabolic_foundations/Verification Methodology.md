@@ -12,7 +12,7 @@ tags:
   - framework/metabolic
 role: methodology
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-10
 scope: meta
 connections:
   - "[[Methodology]]"
@@ -196,12 +196,16 @@ For any case where the framework faces an apparent contradiction, a new claim to
 
 Before identifying a contradiction, trace the vault's full reasoning chain. Follow wikilinks. Read System Connections tables. Ask: what does the vault's own logic predict when I follow it all the way through? If you cannot trace it, you do not understand the vault well enough to assess whether a contradiction exists.
 
+**Unpack the prediction chain link by link.** The vault's prediction is rarely a single claim — it is usually a chain of premises leading to a conclusion. For example, "ETCO2 reflects oxidative metabolism" decomposes into: T3 → mitochondrial activity → CO2 production → ETCO2 (in exhaled breath). Each link is a separate testable claim with its own evidentiary status. Write out the full chain. For each link, mark whether it is textbook, well-supported, contested, or inferred. Concentrate verification effort on contested and inferred links. Searching for evidence on textbook links wastes effort and misses the actual question.
+
+**List adjacent measurements before searching.** The vault uses specific terms for measurements. The broader scientific literature may use related terms whose evidence is more direct or more abundant. Before searching, list ALL measurements that could test the vault's claim — not just the term the vault uses. For "CO2 production," that means listing V'CO2, indirect calorimetry, basal metabolic rate, RQ, resting energy expenditure — not just ETCO2. Each adjacent measurement is a search target. Anchoring on the vault's vocabulary instead of the underlying physiology produces searches that miss the strongest available evidence and surface only what the vault already cites.
+
 ### Step 2: Check the Framework's Own Metrics
 
 What do the vault's diagnostic variables predict should happen in this case, and what do actual measurements show?
 
 The vault's core measurement framework is:
-- CO2 production (ETCO2)
+- CO2 production: V'CO2 by indirect calorimetry (gold standard) or ETCO2 by capnography (accessible proxy that reflects production-ventilation balance, distinct from V'CO2)
 - Blood lactate
 - Respiratory quotient (RQ)
 - Body temperature
@@ -228,6 +232,8 @@ For every load-bearing claim, search for the actual evidence:
 - **What was NOT measured?** The most important information is often what the study didn't assess.
 
 Apply the same rigor to evidence that SUPPORTS the resolution as to evidence that CHALLENGES it. Evidence that conveniently confirms what you want to conclude is exactly the evidence that needs the hardest pull.
+
+**Distinguish citation accuracy from claim accuracy.** A vault citation can be inaccurate while the underlying claim is supported by other evidence the vault did not cite. These are different problems with different fixes. When you find that the vault's cited paper does not support what the vault says it does, do not immediately collapse this into "the vault is wrong." First check whether OTHER evidence supports the broader claim. The vault may be making a true claim with a weak or misread citation — in which case the fix is to update the citation, not retract the claim. Check citation accuracy and claim accuracy as separate questions, in that order. The citation problem is local. The claim problem, if there is one, is structural.
 
 ### Step 6: Construct and Stress-Test the Resolution
 

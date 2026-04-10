@@ -11,7 +11,7 @@ tags:
   - framework/metabolic
 role: mechanism
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-10
 scope: mechanistic
 connections:
   - "[[Foundation]]"
@@ -116,7 +116,7 @@ The acute/chronic distinction resolves the apparent contradiction completely:
 
 The metabolic fork translates into clinical numbers.
 
-**End-tidal CO2 (ETCO2).** Should approach 5-6% of expired air in a healthy, well-fed, thyroid-sufficient individual. [ETCO2 is lower in both subclinical and overt hypothyroidism](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/) with [no correlation to TSH or fT4](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/) -- meaning ETCO2 captures metabolic information the standard thyroid workup misses. It reflects the metabolic fork directly: how much consumed oxygen produced CO2 versus how much was lost to incomplete oxidation and PUFA peroxidation.
+**End-tidal CO2 (ETCO2).** Should approach 5-6% of expired air in a healthy, well-fed, thyroid-sufficient individual. [ETCO2 is lower in both subclinical and overt hypothyroidism](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/) -- a finding consistent with the framework's broader prediction that hypothyroidism reduces oxidative metabolism, though the original authors interpret it specifically as hyperventilation rather than reduced CO2 production. ETCO2 reflects the alveolar gas equilibrium: PaCO2 ≈ V'CO2 / V'A (alveolar ventilation). It is distinct from V'CO2 (the direct CO2 production rate measured by indirect calorimetry, which is the gold standard for what mitochondria are producing). Both measurements capture aspects of the metabolic fork that standard thyroid workup misses; ETCO2 is more accessible, V'CO2 is more direct.
 
 **Blood lactate.** Above 2 mmol/L indicates tissue hypoperfusion in critical care; above 4 mmol/L indicates severe metabolic failure. [Lactate clearance rate is prognostic in sepsis](https://www.sciencedirect.com/topics/medicine-and-dentistry/lactated-ringers-solution) -- the speed of normalization predicts survival better than absolute level. In outpatient settings, resting lactate captures the chronic metabolic state -- the slow, progressive glycolytic shift that precedes clinical disease.
 

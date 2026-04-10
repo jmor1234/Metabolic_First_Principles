@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: foundation
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-10
 scope: foundational
 connections:
   - "[[The System]]"
@@ -107,8 +107,8 @@ The metabolic level does not deny these other levels. It explains *how* they aff
 
 ### Measurable Predictions
 
-> [!example] End-Tidal CO₂ Detects What Standard Tests Miss
-> End-tidal CO₂ (ETCO2) — the concentration of CO₂ in exhaled breath — directly measures the metabolic fork: how much glucose is being fully oxidized to CO₂ versus diverted to lactate. [ETCO2 is lower in both subclinical and overt hypothyroidism](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/) with no correlation to TSH or free T4 — the standard thyroid tests. Standard tests measure hormone levels in blood. ETCO2 measures whether cells are actually oxidizing glucose. It is already measured routinely in clinical settings as a ventilation parameter — and not interpreted as a metabolic indicator.
+> [!example] Functional Metabolic Markers Detect What Hormone Tests Miss
+> [Basal metabolic rate falls ~40% in overt hypothyroidism](https://www.ncbi.nlm.nih.gov/books/NBK500006/) — a directly measurable reduction in oxidative metabolism that TSH-based diagnosis does not capture. [A 2021 case used indirect calorimetry to detect undiagnosed hypothyroidism](https://pubmed.ncbi.nlm.nih.gov/33689191/) when measured resting energy expenditure was 39% below predicted, triggering thyroid evaluation that confirmed the diagnosis. Indirect calorimetry directly measures V'CO2 (CO2 production rate) and V'O2 (oxygen consumption) — the gold standard for what mitochondria are doing. End-tidal CO2 (ETCO2), measured by capnography, is a related but distinct quantity: the partial pressure of CO2 in exhaled breath, reflecting CO2 production AND ventilation pattern together. [ETCO2 is lower in subclinical and overt hypothyroidism](https://pmc.ncbi.nlm.nih.gov/articles/PMC3056328/) — though the original authors interpret this as hyperventilation rather than reduced production, and direct V'CO2 measurement to distinguish the mechanisms has not been performed. Standard tests measure hormone levels in blood. Functional measurements measure outputs — already available clinically but rarely interpreted for metabolic state.
 
 > [!example] 670nm Light Reduces Blood Glucose 27.7%
 > In 2024, [Powner and Jeffery at University College London](https://pubmed.ncbi.nlm.nih.gov/38378043/) demonstrated that exposure to 670nm red light reduced blood glucose by 27.7% in healthy humans during an oral glucose tolerance test. The mechanism: 670nm light is absorbed directly by cytochrome c oxidase (Complex IV of the electron transport chain), improving mitochondrial respiration. Improve the core process — oxidative phosphorylation — and the metabolic output improves immediately and measurably. Published in the *Journal of Biophotonics*.
@@ -166,7 +166,7 @@ Five structural factors explain the fragmentation. None require conspiracy — t
 
 **Financial architecture.** The revenue structures of multiple industries depend on disease existing in its current fragmented form. The PUFA/seed oil industry exceeds $100 billion annually. The diabetes drug market is $101 billion. The antidepressant market is $17-20 billion. The NASH drug market is projected at $34 billion. No entity in these markets profits from demonstrating that cheap, generic, unpatentable interventions — dietary change, thyroid optimization, aspirin, progesterone, vitamin E — address upstream metabolic causes common to multiple disease categories simultaneously.
 
-**Diagnostic infrastructure measures proxies.** TSH measures pituitary response to thyroid hormone, not tissue thyroid status — and can appear normal during critical illness even when tissues are functionally hypothyroid. Blood estrogen doesn't predict tissue concentration (tissues accumulate 5-50x serum levels). "Liver function tests" measure hepatocyte death, not liver function — cirrhosis can produce normal transaminases. CO₂ production — the most direct measure of oxidative efficiency — is already measured clinically as ETCO2 but not interpreted as a metabolic indicator.
+**Diagnostic infrastructure measures proxies.** TSH measures pituitary response to thyroid hormone, not tissue thyroid status — and can appear normal during critical illness even when tissues are functionally hypothyroid. Blood estrogen doesn't predict tissue concentration (tissues accumulate 5-50x serum levels). "Liver function tests" measure hepatocyte death, not liver function — cirrhosis can produce normal transaminases. CO₂ production (V'CO2) — the direct measure of oxidative efficiency captured by indirect calorimetry — is rarely deployed for thyroid evaluation despite being the gold standard, while end-tidal CO2 (ETCO2) — a related but distinct measurement that reflects the production-ventilation balance — is routinely measured as a ventilation parameter without being interpreted as a metabolic indicator.
 
 **Chemical conflation.** Research on biologically distinct molecules is routinely attributed to the natural substance they replace. Synthetic progestins are studied as "progesterone" despite having different receptor profiles and opposite clinical effects — a meta-analysis of 86,881 women found natural progesterone associated with lower breast cancer risk than synthetic progestins. Conjugated equine estrogens (230+ compounds from horse urine) were studied as "estrogen" in the Women's Health Initiative, and results were generalized to human estrogen for two decades. Levothyroxine (T4, a prohormone) is treated as "thyroid replacement" despite 12-30% of the population carrying a polymorphism that impairs conversion to the active hormone (T3).
 

@@ -153,6 +153,7 @@ Key corrections and additions an agent should know exist:
 - **Sugar:** Glucolipotoxicity complicates beta cell claim; SSB dose-response cannot be dismissed
 - **Iron:** CVD sex difference plausible but not proven over hormonal explanation
 - **Vitamin E:** Tocotrienol caution NOT supported; anti-estrogenic identity is isoform-dependent
+- **ETCO2:** Distinct from V'CO2 (CO2 production rate measured by indirect calorimetry, the gold standard). ETCO2 reflects production AND ventilation, not just production. Ansarin 2011 (the vault's only direct ETCO2-in-hypothyroidism citation) authors interpret lower ETCO2 as hyperventilation, not reduced production — vault now reflects both interpretations and the unresolved mechanism. Broader claim that hypothyroidism reduces CO2 production is independently established by ~40% BMR reduction and Hahn & Brody 2021 indirect calorimetry case finding (REE 39% below predicted). Corrected in Foundation, The Master Throttle, The Metabolic Fork, Practice.
 
 **Critical instruction for agents:** Before proposing any change to the vault, read `Verification Methodology.md`. The vault is an integration — apparent contradictions frequently dissolve when the vault is deeply understood rather than read at face value. The default position is that the vault is correct until proven otherwise with verified, replicated evidence that directly measures the variables the vault's claims operate on. See the Three Hypotheses and the Bar for Changing the Vault.
 
