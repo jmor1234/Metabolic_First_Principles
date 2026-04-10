@@ -42,7 +42,9 @@ The protocol is valuable when you've **earned the right to consult**: you've don
 
 **Self-contained context is non-negotiable.** If the briefing doc isn't comprehensive enough for an agent with zero prior context, the agent will fill gaps with assumptions and the entire triangulation becomes worthless. Over-include context rather than under-include.
 
-**Don't bias the agents.** Present findings as facts, not as interpretations. Share open questions honestly. Explicitly request that they reach different conclusions than you if the evidence warrants — and mean it.
+**The briefing is a research document, not a letter to an agent.** Write it to stand alone as a research brief that any researcher or LLM could read cold and understand what to analyze. Do NOT write sections addressed to "the agent" with phrases like "you are being asked" or "we want you to" — that meta-framing confuses agents who don't have context that they are part of a multi-agent consultation process. The substance should be identical, but phrased as research objectives and tasks rather than as instructions to a consultant. If the brief reads naturally when you imagine handing it to a stranger who asks "what is this?", it's framed correctly.
+
+**Don't bias the framing.** Present findings as facts, not as interpretations. Share open questions honestly. Include an explicit statement in the brief that if the evidence leads to a different conclusion than the current position, that conclusion should be stated — but frame it as an epistemic principle for the analysis, not as a "we welcome your disagreement" meta-statement addressed to a consultant.
 
 **Critical assessment is where the value lives.** Writing the briefing and receiving reports is the cheap part. The expensive, load-bearing work is evaluating what the agents said against first principles and against your own understanding. Skipping this phase defeats the entire purpose.
 
@@ -54,9 +56,9 @@ The briefing must be **self-contained** — an agent reading it cold, with no ot
 
 Required sections, in this order:
 
-### 1. Purpose of This Document
+### 1. Research Objective
 
-State clearly that the agent is being asked for **independent first-principles analysis, not confirmation**. Emphasize that the reader should reason from evidence and first principles, not from what the document implies the answer should be. Tell them their value is fresh critical thinking.
+State the substantive question the brief is asking to analyze and why it matters. Frame it as a research goal, not as an address to an agent. The section should read as "we need first-principles analysis of X because Y" — not "you are being asked to analyze X." Explicitly state, as an epistemic principle, that if the evidence leads to a conclusion contradicting the framing in the brief, that is the correct answer and should be stated with reasoning. Keep it neutral: the brief should work as a self-contained research document handed to any researcher or LLM cold, not as a letter addressed to a consultant.
 
 ### 2. Project Context
 
@@ -114,19 +116,20 @@ State the central question precisely, followed by 3–6 specific sub-questions t
 
 What you know you don't know. Being honest about your own uncertainty is important — it prevents the agent from reverse-engineering your position from what you left out, and it signals that you're genuinely asking rather than confirming.
 
-### 9. What We Want From the Agent
+### 9. Research Tasks
 
-Explicit requests:
-1. Independent verification of facts (including the briefing's own calculations)
-2. First-principles reasoning, not summary
-3. Honest steelmanning of both sides — not pro forma
-4. Classification using the vault's framework (typically Pass / Refinement / Fail)
-5. Flag what we missed
-6. Flag any factual errors in the briefing itself
-7. Epistemic humility about what they're confident in vs uncertain about
+List the specific analytical tasks the brief requires, framed as research objectives rather than as instructions to a consultant. Standard tasks include:
+
+1. Independent verification of facts (including the brief's own calculations)
+2. First-principles reasoning, not summary of literature
+3. Steelman both sides — actually make the strongest version of each, not pro forma
+4. Classification using the framework's criteria (typically Pass / Refinement / Fail)
+5. Additional literature not already covered
+6. Factual errors in the brief itself
+7. Epistemic calibration — explicit about what is confident vs uncertain
 8. Prioritization: the single most important finding, the biggest remaining uncertainty, the most valuable next test
 
-Tell them explicitly that **reaching a different conclusion than the one implied by the document is valuable, not unwelcome**. If our reasoning is flawed, we want to know. Mean it.
+State in the brief that if the evidence leads to a conclusion different from the framing, that conclusion should be stated with reasoning. Frame this as an epistemic research principle ("factual accuracy and mechanistic correctness are what we need"), not as a meta-statement addressed to a consultant ("we welcome your disagreement"). The former is a research principle that stands on its own; the latter implies a consultation context the reader may not have.
 
 ### 10. Methodology Notes
 
@@ -141,34 +144,43 @@ The methodological principles the agent should apply. These may vary by question
 
 This lets the agent apply the same rigor you would.
 
-### 11. How to Report Back
+### 11. Response Format
 
-Specify the desired report structure so results are actionable:
+Specify the desired response structure so results are actionable:
 - Classification with specific reasoning
 - Strongest single finding (the one piece of evidence that most informs the classification)
 - Biggest remaining uncertainty (what would need to be measured to resolve it)
-- Specific edits they would recommend (if Refinement) — concrete text, not vague directions
-- Factual errors in the briefing itself
-- What should be tested next
+- Specific edits recommended (if Refinement) — concrete text, not vague directions
+- Factual errors in the brief itself
+- Additional literature not covered
+- Most valuable next test
 
-Tell them: detailed enough to show reasoning, concise enough to be actionable.
+Specify that the response should be detailed enough to show reasoning, concise enough to be actionable. Frame this as format guidance for the analysis, not as instructions addressed to a consultant.
 
 ### 12. Sources Already Used
 
 Full URL list. Lets the agent verify primary sources and avoid duplicating searches already performed.
 
-### 13. Final Note
+### 13. Note on Epistemic Stance (Optional)
 
-Restate the core: we want independent reasoning, not confirmation. If they reach different conclusions, they should say so. Their value is catching what we missed.
+Optionally include a brief closing note stating that the framework is willing to be corrected, that prior self-corrections are concrete evidence of this, and that a classification of Fail (if the evidence warrants) is as useful as Refinement. Frame this as epistemic context for the analysis, not as a consultation preamble. Keep it short — two or three sentences. Skip this section entirely if the Research Objective (Section 1) already conveys the epistemic stance clearly — duplication reads as meta-framing.
 
 ---
 
 ## Phase 2: Running the Consultation
 
+Two workflows are valid for dispatching agents. The protocol works agnostically for both — the difference is only in who spawns the agents and how the responses arrive.
+
+**Workflow A — Main assistant dispatches directly.** The main assistant spawns multiple independent sub-agents in parallel via its Agent tool, each given the same briefing file and running with no knowledge of the others. Responses come back through the tool and are saved to temporary files for critical assessment. Use this when the main assistant has agent-dispatching tools and the user is comfortable delegating the running.
+
+**Workflow B — User runs external agents and pastes responses back.** The user takes the briefing document and feeds it to external agents (separate Claude sessions, other models, or a mix). Agents analyze independently. Their responses are pasted back into the conversation with the main assistant, who then performs the critical assessment phase. Use this when the user wants direct control over which agents are consulted, wants to use models the main assistant cannot dispatch, or wants to verify each agent's thinking before it enters the synthesis step.
+
+In either workflow, the core principles are identical:
+
 - **Multiple agents in parallel where possible.** Two independent perspectives are meaningfully stronger than one; three is the practical upper bound before diminishing returns. Each agent gets the same briefing with **no knowledge of the others**.
 - **No interaction during reasoning.** Don't feed agents intermediate results or each other's outputs. The independence is the whole point.
 - **Don't read any agent output while your own analysis is in flight.** Hold your own position first, so the agents' reports don't anchor you before you've finished your own work.
-- **Save agent responses to temporary files** so they can be read and critically assessed properly, then deleted after synthesis. Don't leave them as permanent workspace clutter.
+- **Preserve agent responses as temporary files** during the critical assessment phase so they can be re-read as needed. In Workflow A the main assistant writes them after dispatch; in Workflow B the main assistant may write them to disk for record-keeping after the user pastes them. Delete after synthesis — don't leave them as permanent workspace clutter.
 
 ---
 
@@ -273,13 +285,14 @@ Integrate the agents' findings with your own analysis:
 - [ ] Are there identifiable open angles I can't resolve alone?
 
 **Constructing the briefing:**
-- [ ] Is it self-contained for an agent with no prior context?
+- [ ] Is it self-contained for a reader with no prior context?
+- [ ] Does it read as a research document, not a letter addressed to an agent? ("We need analysis of X" not "You are being asked to analyze X.")
 - [ ] Are findings presented as data, not interpretations?
 - [ ] Have I included first-principles verification material with actual numbers?
-- [ ] Have I represented the vault's reasoning fairly (not as a straw man)?
-- [ ] Have I explicitly invited disagreement with my current view?
-- [ ] Have I included methodology principles the agent should apply?
-- [ ] Have I specified the report format I want back?
+- [ ] Have I represented the framework's reasoning fairly (not as a straw man)?
+- [ ] Have I stated that different conclusions are valid, framed as an epistemic principle (not as a "we welcome your disagreement" meta-statement)?
+- [ ] Have I included methodology principles for the analysis to apply?
+- [ ] Have I specified the response format expected?
 
 **Running the consultation:**
 - [ ] Am I holding my own position before reading any agent output?

@@ -235,6 +235,15 @@ Apply the same rigor to evidence that SUPPORTS the resolution as to evidence tha
 
 **Distinguish citation accuracy from claim accuracy.** A vault citation can be inaccurate while the underlying claim is supported by other evidence the vault did not cite. These are different problems with different fixes. When you find that the vault's cited paper does not support what the vault says it does, do not immediately collapse this into "the vault is wrong." First check whether OTHER evidence supports the broader claim. The vault may be making a true claim with a weak or misread citation — in which case the fix is to update the citation, not retract the claim. Check citation accuracy and claim accuracy as separate questions, in that order. The citation problem is local. The claim problem, if there is one, is structural.
 
+**Citation deployment audit — go beyond topical relevance.** A stronger sub-practice learned from Sub-test 2.A: check the *deployment context* of each load-bearing citation, not just its topical relevance. A paper can be correctly cited at the title/abstract level but mis-deployed if the vault's specific claim differs from the paper's specific scenario. Ask four questions for every load-bearing citation:
+
+1. **Species match.** Does the paper test the organism the vault's claim operates on? (Canine airway models can look like human respiratory findings at the title level.)
+2. **Scenario match.** Does the paper test the physiological scenario the vault is claiming? (An in vitro study of *stimulated* exocytosis with thrombin or ionophore is not a test of *spontaneous release at rest* under physiological pH variation, even if both involve "pH-dependent release.")
+3. **Endpoint match.** Does the paper measure what the vault's claim operates on? (Bronchial hyperreactivity to exogenous histamine is not the same as endogenous systemic histamine release. ETCO₂ is not the same as V'CO₂. Serum markers are not the same as tissue-level measurements.)
+4. **Proposed-mechanism match.** Does the paper's authors attribute the finding to the same mechanism the vault invokes? (Airway drying / osmolality is not the same as systemic CO₂/pH chemistry, even if both follow hyperventilation.)
+
+If any of these differ, the citation may still be useful but needs explicit recontextualization in the vault — not uncritical reuse as support for a claim the paper doesn't actually test. Sub-test 2.A identified two vault citations (Pollard 1977 and Freed 2001) as topically relevant but deployment-mismatched on scenario, endpoint, species, and proposed mechanism respectively. This pattern is likely not isolated; budget for citation-deployment audits on every load-bearing claim during stress testing, not just the ones that happen to surface contradictions through other routes.
+
 ### Step 6: Construct and Stress-Test the Resolution
 
 Only after Steps 1-5 are complete, construct the resolution. Then immediately stress-test it:
