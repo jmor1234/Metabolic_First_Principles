@@ -10,7 +10,7 @@ The project is currently mid stress test of `metabolic_foundations/`. The single
 
 **→ `metabolic_refinements/Current State.md`**
 
-Read it before doing anything else. It is small by design (under 5 min read), it points to the right files for picking up the work, and it is the only file in the project guaranteed to reflect the current active state.
+Read it before doing anything else. It is small by design, it points to the right files for picking up the work, and it is the only file in the project guaranteed to reflect the current active state.
 
 The three sub-vault CLAUDE.mds and `Overview.md` describe the project's *structure and history*. `Current State.md` describes the *active work*. Both kinds of orientation are needed — but if you only have time for one before acting, read `Current State.md`.
 

@@ -87,30 +87,30 @@ The only edit applied to `metabolic_foundations/` from the entire stress test so
 
 If you are picking this up and need to understand the full state, read in this order:
 
-### 1. Project orientation (~5 min)
+### 1. Project orientation
 - `CLAUDE.md` (workspace root) — three-vault structure, the asymmetry principle
 - `Overview.md` (workspace root) — full project narrative
 
-### 2. This vault's structure (~3 min)
+### 2. This vault's structure
 - `metabolic_refinements/CLAUDE.md` — vault purpose, conventions, refinement document template, status semantics
 
-### 3. Active stress test state (~10–15 min)
+### 3. Active stress test state
 - `Stress Test.md` (this vault) — the live investigation log. Read in full for first-time pickup. Sections to focus on: Strategy, Protocol, Layer 1, Layer 2, Carry-Forward Items, Working Log
 - `Refinement Diff Catalog.md` (this vault) — the diff-form catalog. Skim for understanding of the precise file/passage-level changes each refinement represents
 - `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
-### 4. Substantive findings as standalone knowledge (~15–20 min)
+### 4. Substantive findings as standalone knowledge
 - `Convergence Point Reading.md` (this vault) — Sub-test 1.A
 - `Krebs-Cycle Invariance and Ketone Bodies.md` (this vault) — Sub-test 1.B (six findings consolidated)
 - `Loop 7 — Metabolism-Mediator Coupling.md` (this vault) — Sub-test 2.A
 
-### 5. Framework context (~15–20 min)
+### 5. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
 - `metabolic_foundations/CLAUDE.md` — vault structure, navigation strategy
 - `metabolic_foundations/Foundation.md` — the thesis and first-principles argument (~3,500 words)
 - `metabolic_foundations/The System.md` — the architecture, two attractors, 13 feedback loops (~4,500 words)
 
-### 6. Methodology (~10 min)
+### 6. Methodology
 Required reading before attempting any new sub-test or proposing any change:
 - `metabolic_foundations/Verification Methodology.md` — the discipline. Three Hypotheses, Six-Step Verification Sequence, Three Rules, Default Position, citation deployment audit (CF-2.A.4 addition).
 
@@ -147,4 +147,4 @@ Update this file whenever:
 - A pending decision changes status
 - A significant commit lands
 
-Keep it small. If a section grows beyond a few paragraphs, the substance belongs in `Stress Test.md` or a refinement document, not here. This file's job is to be the *pointer*, not the substance. A new agent should be able to read this in under 5 minutes and know what to do next.
+Keep it small. If a section grows beyond a few paragraphs, the substance belongs in `Stress Test.md` or a refinement document, not here. This file's job is to be the *pointer*, not the substance.

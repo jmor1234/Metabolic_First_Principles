@@ -61,7 +61,7 @@ Each refinement document follows this template:
 
 ### Live state (read first)
 
-- **`Current State.md`** — the single canonical source for what is being actively worked on right now, what just happened, what's next, and what's blocking. Small (under 5 min read), updated as work progresses. **A new agent picking this work up reads this file first.** It is also the entry point pointed to from the workspace root `CLAUDE.md`.
+- **`Current State.md`** — the single canonical source for what is being actively worked on right now, what just happened, what's next, and what's blocking. Small, updated as work progresses. **A new agent picking this work up reads this file first.** It is also the entry point pointed to from the workspace root `CLAUDE.md`.
 
 ### Working files (audit trail)
 
