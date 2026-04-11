@@ -16,7 +16,7 @@ The three sub-vault CLAUDE.mds and `Overview.md` describe the project's *structu
 
 ## Metabolic Foundations (`metabolic_foundations/`)
 
-A first-principles understanding of what health and disease are at the metabolic level. 14 documents, ~55K words. Verified against peer-reviewed research, organized around biology itself, independent of any single person's framework. Includes a verification methodology governing how the vault is tested and changed.
+A first-principles understanding of what health and disease are at the metabolic level. 14 documents, ~58K words. Verified against peer-reviewed research, organized around biology itself, independent of any single person's framework. Includes a verification methodology governing how the vault is tested and changed.
 
 **Start here:** `metabolic_foundations/CLAUDE.md`
 

@@ -107,8 +107,8 @@ If you are picking this up and need to understand the full state, read in this o
 ### 5. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
 - `metabolic_foundations/CLAUDE.md` — vault structure, navigation strategy
-- `metabolic_foundations/Foundation.md` — the thesis and first-principles argument (~3,500 words)
-- `metabolic_foundations/The System.md` — the architecture, two attractors, 13 feedback loops (~4,500 words)
+- `metabolic_foundations/Foundation.md` — the thesis and first-principles argument
+- `metabolic_foundations/The System.md` — the architecture, two attractors, 13 feedback loops
 
 ### 6. Methodology
 Required reading before attempting any new sub-test or proposing any change:

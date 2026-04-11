@@ -1,6 +1,6 @@
 # Metabolic Foundations Vault
 
-A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents, ~55K words, 333+ cross-references, 342+ sourced citations.
+A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents, ~58K words, 333+ cross-references, 342+ sourced citations.
 
 ## Read This Vault as an Integration, Not a Database
 
@@ -12,7 +12,7 @@ The discipline for doing this rigorously is documented in `Verification Methodol
 
 ## Before Doing Anything
 
-**If you need to understand the vault:** Follow the Deep Understanding Path below. Do NOT read every file — the vault is designed for layered access. Foundation + System (~8K words) gives ~80% comprehension.
+**If you need to understand the vault:** Follow the Deep Understanding Path below. Do NOT read every file — the vault is designed for layered access. Foundation + System (~7K words) gives ~80% comprehension.
 
 **If you need to modify, expand, or evaluate evidence against the vault:** Read `Verification Methodology.md` first. It defines the default position, the three hypotheses for evaluating apparent contradictions, the bar for changing the vault, and the verification sequence. Then read `Methodology.md` for evidence standards, confidence calibration, the document template, and the expansion process.
 
@@ -45,11 +45,11 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 
 ## Navigating This Vault (Context-Efficient Agent Strategy)
 
-### Deep Understanding Path (~8K words → ~80% comprehension)
+### Deep Understanding Path (~7K words → ~80% comprehension)
 
 1. **`Foundation.md`** (~3,500 words) — The thesis, the first-principles argument, the evidence, the challenges, why the integration doesn't exist in mainstream medicine. **Always start here.**
 
-2. **`The System.md`** (~4,500 words) — The two attractors, 15 components by role, 13 feedback loops in 5 architectural layers, emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), and the temporal oscillation.
+2. **`The System.md`** (~3,600 words) — The two attractors, 15 components by role, 13 feedback loops in 5 architectural layers, emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), and the temporal oscillation.
 
 These two documents alone provide the complete conceptual architecture.
 
