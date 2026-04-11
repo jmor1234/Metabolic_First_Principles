@@ -24,7 +24,7 @@ A first-principles understanding of what health and disease are at the metabolic
 
 The refinements layer. Captures refinements to the Metabolic Foundations framework discovered through stress testing and other independent triangulation, presented as standalone knowledge. **Does not modify Metabolic Foundations** — the original integration stays intact, and the refinements sit beside it as a separate epistemic layer. A reader who wants the most current understanding reads both vaults.
 
-Contains the live stress test working files (`Stress Test.md`, `Vault Edit Proposal.md`) plus standalone refinement documents derived from each completed sub-test.
+Contains the live stress test working files (`Stress Test.md`, `Refinement Diff Catalog.md`) plus standalone refinement documents derived from each completed sub-test.
 
 **Start here:** `metabolic_refinements/CLAUDE.md`
 

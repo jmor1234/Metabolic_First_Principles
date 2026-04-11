@@ -113,7 +113,7 @@ The framework's directional concerns about chronic fat oxidation are not refuted
 
 **Core Claim 1 is preserved in refined form.** The ontological commitment — that efficient oxidative metabolism producing CO₂ via the Krebs cycle is foundational to health — survives. What changes is the substrate specificity: from "of glucose" exclusively to "Krebs-cycle CO₂ production as the invariant, with glucose preferred under normal conditions."
 
-**Three documents in metabolic_foundations carry passages affected by this refinement.** See `Vault Edit Proposal.md` for the precise diffs that would be required if the original were overwritten:
+**Three documents in metabolic_foundations carry passages affected by this refinement.** See `Refinement Diff Catalog.md` for the precise diffs that would be required if the original were overwritten:
 
 - `Foundation.md` — the core "of glucose" framing (paragraph in "From First Principles")
 - `The Preferred Substrate.md` — opening quantitative claim, plus a new "Ketone Bodies: The Third Fuel Category" subsection
@@ -136,4 +136,4 @@ The framework's directional concerns about chronic fat oxidation are not refuted
 ## Audit Trail
 
 - `Stress Test.md` → "Layer 1 — The Ontological Move" → "Sub-test 1.B — Glucose Specificity via the CO₂ Argument"
-- `Vault Edit Proposal.md` → "Layer 1 Edits — Sub-tests 1.A and 1.B" → Edits L1-B1 through L1-B5
+- `Refinement Diff Catalog.md` → "Layer 1 Edits — Sub-tests 1.A and 1.B" → Edits L1-B1 through L1-B5

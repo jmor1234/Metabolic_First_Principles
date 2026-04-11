@@ -26,7 +26,7 @@ The three vaults are independent. Each captures a different epistemic stance and
 
 - **Wikilinks within this vault**: yes, encouraged
 - **Wikilinks across vault boundaries** (to `metabolic_foundations/` files): **no**
-- **Prose references to metabolic_foundations files by name and section**: yes — this is how refinement documents point at what they refine, consistent with how `Stress Test.md` and `Vault Edit Proposal.md` already reference them
+- **Prose references to metabolic_foundations files by name and section**: yes — this is how refinement documents point at what they refine, consistent with how `Stress Test.md` and `Refinement Diff Catalog.md` already reference them
 - **The metabolic_foundations vault should not link back to this vault either** — it must remain standalone
 
 ### Refinement document structure
@@ -38,7 +38,7 @@ Each refinement document follows this template:
 3. **Refined Claim** — the standalone refined version, readable without flipping back to the original
 4. **Structural Consequences** — what else this refinement affects, including the architecture-level implications
 5. **Open Questions** — carry-forward items, dependencies, what evidence would resolve outstanding questions
-6. **Audit Trail** — pointer to the relevant section in `Stress Test.md` and `Vault Edit Proposal.md`
+6. **Audit Trail** — pointer to the relevant section in `Stress Test.md` and `Refinement Diff Catalog.md`
 
 ### Frontmatter fields
 
@@ -66,7 +66,7 @@ Each refinement document follows this template:
 ### Working files (audit trail)
 
 - **`Stress Test.md`** — the active investigation log. Layer-by-layer adversarial probes against metabolic_foundations' load-bearing claims. Includes sub-test results, classifications, carry-forward items. This is where the work happens.
-- **`Vault Edit Proposal.md`** — the diff-form catalog of edits the stress test would apply *if* the decision were to overwrite metabolic_foundations. **These edits are not going to be applied.** The proposal is preserved here as the precise reference for what each refinement consists of at the file/passage level. Useful for anyone who wants to see exactly which words would change in which file.
+- **`Refinement Diff Catalog.md`** — the diff-form catalog of edits the stress test would apply *if* the decision were to overwrite metabolic_foundations. **These edits are not going to be applied.** The proposal is preserved here as the precise reference for what each refinement consists of at the file/passage level. Useful for anyone who wants to see exactly which words would change in which file.
 
 ### Methodology
 
@@ -85,7 +85,7 @@ Each refinement document follows this template:
 The discipline follows the metabolic_foundations Verification Methodology, adapted for this vault's role:
 
 1. **Stress test the load-bearing claim.** Document the probe and findings in `Stress Test.md`. Apply the six-step verification sequence, the three hypotheses (in order), and the three rules (acute/chronic, context-dependence, pass/refinement/fail). If the sub-test uses independent agent triangulation, follow `Independent Agent Research Protocol.md`.
-2. **Draft proposed edits in diff form** in `Vault Edit Proposal.md`. This is the precise file/passage-level reference — preserved here regardless of whether anything is overwritten in metabolic_foundations.
+2. **Draft proposed edits in diff form** in `Refinement Diff Catalog.md`. This is the precise file/passage-level reference — preserved here regardless of whether anything is overwritten in metabolic_foundations.
 3. **Synthesize as a standalone refinement document** in this vault following the template above. The refinement document is the knowledge object — it presents the refined claim with full reasoning, readable without flipping back to the original.
 4. **Mark status `proposed`** until reviewed; promote to `accepted` once finalized.
 5. **Update `Current State.md`.** Move the completed sub-test out of the "What's Next" section and into "What Just Happened"; advance the immediate next move; update the layer status table; update the recent commits list. This is the single most important maintenance step — `Current State.md` is the only file guaranteed to reflect live work and is the entry point for any new agent picking up the project.
@@ -96,7 +96,7 @@ The original metabolic_foundations vault is never modified. Its `last-verified` 
 
 The split matters:
 
-- **Working files** (`Stress Test.md`, `Vault Edit Proposal.md`) are process artifacts. They preserve *how* the refinements were derived. Someone auditing the work, running the next sub-test, or wanting the precise file-level diff starts here.
+- **Working files** (`Stress Test.md`, `Refinement Diff Catalog.md`) are process artifacts. They preserve *how* the refinements were derived. Someone auditing the work, running the next sub-test, or wanting the precise file-level diff starts here.
 - **Standalone refinements** (the topic-named documents) are knowledge artifacts. They present *what* the refinement is, in a form a reader can engage with without following the entire investigation chain. Someone who wants to understand "what is the current refined view of Loop 7" starts here.
 
 Both are needed. Neither replaces the other. The working files generate the refinement documents; the refinement documents stand on their own.

@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-04-11
 
-This is the single canonical source for what is being actively worked on in this project right now. It is small by design and updated as work progresses. Other files (`Stress Test.md`, the refinement documents, `Vault Edit Proposal.md`) are the substance; this file is the pointer.
+This is the single canonical source for what is being actively worked on in this project right now. It is small by design and updated as work progresses. Other files (`Stress Test.md`, the refinement documents, `Refinement Diff Catalog.md`) are the substance; this file is the pointer.
 
 If you are a new agent picking this up, read this file first, then follow the "Where to Read for Context" pointers at the bottom.
 
@@ -32,7 +32,7 @@ Three refinements have landed so far. All are documented as standalone refinemen
 
 **Structural consequence:** Loop 7 was the only formalized loop in the 13-loop architecture where CO₂ was the causal driver. After this refinement, **no formalized loop has CO₂ as causal variable.** The framework's "CO₂ is an active product" claim survives biologically (Bohr effect, carbamino, neuroprotection) but loses its sole formalized loop support.
 
-**Most recent project action (2026-04-11, commit 6112d5b):** The `metabolic_refinements/` vault was created. Stress test findings now live here as a parallel knowledge layer. `Stress Test.md` and `Vault Edit Proposal.md` were moved into this vault. Three standalone refinement documents were created. Workspace orientation files (root `CLAUDE.md`, `Overview.md`) were updated to describe the three-vault structure. **`metabolic_foundations/` was not modified.**
+**Most recent project action (2026-04-11, commit 6112d5b):** The `metabolic_refinements/` vault was created. Stress test findings now live here as a parallel knowledge layer. `Stress Test.md` and `Refinement Diff Catalog.md` were moved into this vault. Three standalone refinement documents were created. Workspace orientation files (root `CLAUDE.md`, `Overview.md`) were updated to describe the three-vault structure. **`metabolic_foundations/` was not modified.**
 
 ---
 
@@ -77,7 +77,7 @@ See `Stress Test.md` → "Carry-Forward Items" for full list.
 
 ## Active Decisions Pending Review
 
-**None.** The Vault Edit Proposal exists in this vault as the precise file/passage-level reference for what each refinement consists of, but it is **not going to be applied** to `metabolic_foundations/` — that decision has been made (the refinements live in this vault as parallel knowledge instead).
+**None.** The Refinement Diff Catalog exists in this vault as the precise file/passage-level reference for what each refinement consists of, but it is **not going to be applied** to `metabolic_foundations/` — that decision has been made (the refinements live in this vault as parallel knowledge instead).
 
 The only edit applied to `metabolic_foundations/` from the entire stress test so far is the **CF-2.A.4 methodology improvement** (citation deployment audit added to `metabolic_foundations/Verification Methodology.md` Step 5). This is a methodology improvement, not a claim change.
 
@@ -96,7 +96,7 @@ If you are picking this up and need to understand the full state, read in this o
 
 ### 3. Active stress test state (~10–15 min)
 - `Stress Test.md` (this vault) — the live investigation log. Read in full for first-time pickup. Sections to focus on: Strategy, Protocol, Layer 1, Layer 2, Carry-Forward Items, Working Log
-- `Vault Edit Proposal.md` (this vault) — the diff-form catalog. Skim for understanding of the precise file/passage-level changes each refinement represents
+- `Refinement Diff Catalog.md` (this vault) — the diff-form catalog. Skim for understanding of the precise file/passage-level changes each refinement represents
 - `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
 ### 4. Substantive findings as standalone knowledge (~15–20 min)

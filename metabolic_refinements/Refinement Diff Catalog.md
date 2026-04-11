@@ -1,8 +1,8 @@
-# Vault Edit Proposal — Stress Test Findings
+# Refinement Diff Catalog — Stress Test Findings
 
-**Status:** Draft for review. No vault files have been modified yet. Commit pending approval.
+**Status:** Reference document. The edits in this catalog are **not going to be applied** to `metabolic_foundations/`. The decision was made to preserve the original integration as written and present the refinements as standalone knowledge in this vault — see `Convergence Point Reading.md`, `Krebs-Cycle Invariance and Ketone Bodies.md`, and `Loop 7 — Metabolism-Mediator Coupling.md`. This catalog is preserved as the precise file/passage-level reference for what each refinement consists of in the source text.
 
-**Coverage:** This proposal contains every edit drafted from the stress test so far — Layer 1 (Sub-tests 1.A and 1.B) and Layer 2.A. Layer 2.B (lactate-active claim / Loop 9 / histone lactylation causality) has not yet been run; Layers 3–5 have not started. The proposal will continue to grow as later stress-test layers produce additional refinements. The file was renamed from "Vault Edit Proposal - Sub-test 2A.md" to reflect its broader scope.
+**Coverage:** This catalog contains every file/passage-level diff drafted from the stress test so far — Layer 1 (Sub-tests 1.A and 1.B) and Layer 2.A. Layer 2.B (lactate-active claim / Loop 9 / histone lactylation causality) has not yet been run; Layers 3–5 have not started. The catalog will continue to grow as later stress-test layers produce additional refinements.
 
 **Review history:** A post-draft review pass was applied 2026-04-10 on the Layer 2.A edits — it hedged the Loop 7 main text to match the warning callout's epistemic level, expanded the review checklist, and expanded the deferred section with the CF-2.A.5 dependency and the deeper OXPHOS stoichiometric-coupling implication. Layer 1 edits were drafted 2026-04-10 after that review pass, from the Sub-test 1.A and 1.B findings documented in `Stress Test.md`. See **Post-Draft Review Notes** at the end of this document for the full summary and commit recommendation.
 

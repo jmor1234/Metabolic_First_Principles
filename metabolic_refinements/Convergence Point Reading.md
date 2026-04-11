@@ -59,4 +59,4 @@ The supporting example for "genetics operating through metabolism" should be Hun
 ## Audit Trail
 
 - `Stress Test.md` → "Layer 1 — The Ontological Move" → "Sub-test 1.A — Ontological Reduction (non-metabolic-origin diseases)"
-- `Vault Edit Proposal.md` → "Edit L1-A1 — Foundation.md genetics example (Sub-test 1.A observation)"
+- `Refinement Diff Catalog.md` → "Edit L1-A1 — Foundation.md genetics example (Sub-test 1.A observation)"

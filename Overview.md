@@ -129,7 +129,7 @@ Across both vaults, the investigation arrived at findings that transcend any sin
 
 **How it's organized:** Working files (audit trail) plus standalone refinement documents (knowledge artifacts).
 
-- **Working files** preserve *how* the refinements were derived: `Stress Test.md` (the live investigation log, layer-by-layer adversarial probes against the framework's load-bearing claims) and `Vault Edit Proposal.md` (the diff-form catalog of edits the stress test would apply if the original were overwritten — preserved here as the precise file/passage-level reference).
+- **Working files** preserve *how* the refinements were derived: `Stress Test.md` (the live investigation log, layer-by-layer adversarial probes against the framework's load-bearing claims) and `Refinement Diff Catalog.md` (the diff-form catalog of edits the stress test would apply if the original were overwritten — preserved here as the precise file/passage-level reference).
 - **Standalone refinement documents** present *what* each refinement is, in a form a reader can engage with without following the entire investigation chain. Each follows a six-section template: original claim → what was found → refined claim → structural consequences → open questions → audit trail.
 
 **Current contents (refinement documents so far):**

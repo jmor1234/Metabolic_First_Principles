@@ -109,7 +109,7 @@ CO₂ remains a reliable *readout* of OXPHOS rate with real biological effects (
 
 ### Five documents in metabolic_foundations carry passages affected by this refinement.
 
-See `Vault Edit Proposal.md` for the precise diffs that would be required if the original were overwritten:
+See `Refinement Diff Catalog.md` for the precise diffs that would be required if the original were overwritten:
 
 - `The System.md` — Loop 7 narrative in both the CO₂-dominant and lactate-dominant attractor descriptions, plus the standalone Loop 7 description in "System-Wide Regulation"
 - `The Metabolic Fork.md` — "Inflammatory mediator sequestration" subsection and "self-reinforcing loop" paragraph
@@ -162,4 +162,4 @@ The pattern of two load-bearing citations that were both topically relevant but 
 ## Audit Trail
 
 - `Stress Test.md` → "Layer 2 — The Product-Activity Claim" → "Sub-test 2.A — Loop 7 (CO₂-Serotonin Loop) Mechanism"
-- `Vault Edit Proposal.md` → "Layer 2 Edits — Sub-test 2.A" → Edits 1.1 through 5.1
+- `Refinement Diff Catalog.md` → "Layer 2 Edits — Sub-test 2.A" → Edits 1.1 through 5.1
