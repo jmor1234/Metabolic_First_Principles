@@ -215,7 +215,7 @@ This is why light exposure, bedtime nutrition (suppressing the nocturnal hypogly
 ## What Follows
 
 > [!tip] Where to Go From Here
-> This document described the architecture — two attractors, sixteen components, thirteen feedback loops, emergent properties, and the daily oscillation between states. The mechanism documents and [[Practice]] translate this architecture into biology and action.
+> This document described the architecture — two attractors, fifteen components, thirteen feedback loops, emergent properties, and the daily oscillation between states. The mechanism documents and [[Practice]] translate this architecture into biology and action.
 
 **Mechanism documents** provide the detailed biology for each component listed above. Each explains: what the mechanism is, how it works, what the evidence shows, where it is uncertain, and how it connects to every other mechanism in the system.
 

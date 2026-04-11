@@ -36,32 +36,32 @@ The methodology requires calibrated assessment, not advocacy. Some claims are co
 
 ## Navigating This Vault (Context-Efficient Agent Strategy)
 
-Do not read full topic files unless you are producing new content. The vault is ~150KB total. The strategies below achieve 85-95% of that understanding for ~15-25KB. The vault was architectured so that structural files capture the system and topic files provide the evidence.
+Do not read full topic files unless you are producing new content. The vault is large; the strategies below achieve most of the conceptual understanding for a small fraction of the full read. The vault was architectured so that structural files capture the system and topic files provide the evidence.
 
-### Deep Understanding Path (~20KB → ~90% comprehension)
+### Deep Understanding Path
 
 When you need to genuinely understand the framework — not just look up a fact, but hold the architecture in working memory — read these three resources in order:
 
-1. **`System Overview.md` (~10KB)** — The two metabolic attractors, 9 interlocking feedback loops, 6 recurring patterns, and the assessment summary table showing what was confirmed/refined/contradicted per topic. This alone is ~75% of the conceptual understanding. **Always start here.**
+1. **`System Overview.md`** — The two metabolic attractors, 9 interlocking feedback loops, 6 recurring patterns, and the assessment summary table showing what was confirmed/refined/contradicted per topic. This alone provides most of the conceptual understanding. **Always start here.**
 
-2. **`Practical Convergence.md` (~3KB)** — The practical synthesis: what the verified claims mean for intervention (the 7 core interventions), and the monitoring framework (temperature + pulse + ETCO2 + lactate). Completes the "so what" that System Overview doesn't cover.
+2. **`Practical Convergence.md`** — The practical synthesis: what the verified claims mean for intervention (the 7 core interventions), and the monitoring framework (temperature + pulse + ETCO2 + lactate). Completes the "so what" that System Overview doesn't cover.
 
-3. **`methodology.md` "Topics Completed" section (~3KB)** — Scroll to the `## Topics Completed` heading (around line 236). Each topic gets 2-3 sentences capturing the key findings, mechanism corrections, AND defining research distortions. This is more informative per token than any other summary in the vault. Do NOT read methodology.md from the top for understanding — the process documentation is only needed when producing new topics.
+3. **`methodology.md` "Topics Completed" section** — Scroll to the `## Topics Completed` heading. Each topic gets 2-3 sentences capturing the key findings, mechanism corrections, AND defining research distortions. This is more informative per token than any other summary in the vault. Do NOT read methodology.md from the top for understanding — the process documentation is only needed when producing new topics.
 
-These three reads give ~90% understanding at ~16KB.
+These three reads give the bulk of the framework understanding without requiring full topic reads.
 
 ### Going Deeper on Specific Topics
 
-Each topic document contains high-value summary sections that are far cheaper than a full read (~500-800 words per topic vs ~4000-6000 words full):
+Each topic document contains high-value summary sections that are far cheaper than a full read:
 
-- **`> [!abstract] Overall Assessment`** — A calibrated ~200-word summary near the bottom of each topic file. Reading all 12 costs ~5KB total and gives the complete verified verdict per topic with specific findings named. Find them with:
+- **`> [!abstract] Overall Assessment`** — A calibrated summary near the bottom of each topic file. Reading them all gives the complete verified verdict per topic with specific findings named. Find them with:
   ```
   Grep for "[!abstract]" across *.md
   ```
 
-- **`## What Makes This Topic Different`** — A ~100-word section near the bottom of each topic file identifying its unique contribution to the vault. These explain why estrogen's dominant pattern is context-dependence, why lactate is where the framework is most honestly challenged, why histamine is the most testable integration claim, etc.
+- **`## What Makes This Topic Different`** — A short section near the bottom of each topic file identifying its unique contribution to the vault. These explain why estrogen's dominant pattern is context-dependence, why lactate is where the framework is most honestly challenged, why histamine is the most testable integration claim, etc.
 
-- **`## Research Context`** — The industry/incentive analysis near the top of each topic file. These are NOT summarized in any structural file. If you need to understand WHY the research landscape looks the way it does for a topic (the $100B PUFA industry, the $17B antidepressant market, the WHI chemical conflation with 230+ compound horse urine extract), you must read the topic's Research Context section directly. ~800-1200 words each.
+- **`## Research Context`** — The industry/incentive analysis near the top of each topic file. These are NOT summarized in any structural file. If you need to understand WHY the research landscape looks the way it does for a topic (the $100B PUFA industry, the $17B antidepressant market, the WHI chemical conflation with 230+ compound horse urine extract), you must read the topic's Research Context section directly.
 
 ### Finding Corrections and Contradictions
 
@@ -93,15 +93,15 @@ Key corrections an agent should know exist (details in the topic files):
 
 For answering specific questions or working on targeted sections:
 
-**Layer 1 (~10KB):** Read `System Overview.md`. Always start here.
+**Layer 1:** Read `System Overview.md`. Always start here.
 
-**Layer 2 (~2KB total):** Scan frontmatter for any doc's metadata without reading body text.
+**Layer 2:** Scan frontmatter for any doc's metadata without reading body text.
 ```bash
 obsidian properties file="thyroid" format=json
 ```
 Returns title, claims list, connections, assessment-summary as structured JSON. Or Grep for `assessment-summary` across all files for the vault-wide index in one call.
 
-**Layer 3 (~0.5KB per doc):** Get a document's heading tree before reading content.
+**Layer 3:** Get a document's heading tree before reading content.
 ```bash
 obsidian outline file="estrogen"
 ```
@@ -109,7 +109,7 @@ Returns the full heading structure. Navigate to the specific section needed.
 
 **Layer 4 (targeted):** Read only the specific section you need. Follow wikilinks to specific headings. Use native Read with offset/limit.
 
-**Example:** "How does estrogen relate to serotonin?" costs ~6KB (System Overview → wikilink to `serotonin.md#Claim 5` → read that section), not ~150KB (reading all files).
+**Example:** "How does estrogen relate to serotonin?" navigates System Overview → wikilink to `serotonin.md#Claim 5` → read that section, instead of reading every file.
 
 ### Obsidian CLI Commands (Requires Obsidian Running)
 

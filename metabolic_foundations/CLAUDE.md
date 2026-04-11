@@ -1,6 +1,6 @@
 # Metabolic Foundations Vault
 
-A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents, ~58K words, 333+ cross-references, 342+ sourced citations.
+A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents organized in four tiers.
 
 ## Read This Vault as an Integration, Not a Database
 
@@ -12,7 +12,7 @@ The discipline for doing this rigorously is documented in `Verification Methodol
 
 ## Before Doing Anything
 
-**If you need to understand the vault:** Follow the Deep Understanding Path below. Do NOT read every file — the vault is designed for layered access. Foundation + System (~7K words) gives ~80% comprehension.
+**If you need to understand the vault:** Follow the Deep Understanding Path below. Do NOT read every file — the vault is designed for layered access. Foundation + System together give the bulk of the conceptual understanding.
 
 **If you need to modify, expand, or evaluate evidence against the vault:** Read `Verification Methodology.md` first. It defines the default position, the three hypotheses for evaluating apparent contradictions, the bar for changing the vault, and the verification sequence. Then read `Methodology.md` for evidence standards, confidence calibration, the document template, and the expansion process.
 
@@ -45,24 +45,24 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 
 ## Navigating This Vault (Context-Efficient Agent Strategy)
 
-### Deep Understanding Path (~7K words → ~80% comprehension)
+### Deep Understanding Path
 
-1. **`Foundation.md`** (~3,500 words) — The thesis, the first-principles argument, the evidence, the challenges, why the integration doesn't exist in mainstream medicine. **Always start here.**
+1. **`Foundation.md`** — The thesis, the first-principles argument, the evidence, the challenges, why the integration doesn't exist in mainstream medicine. **Always start here.**
 
-2. **`The System.md`** (~3,600 words) — The two attractors, 15 components by role, 13 feedback loops in 5 architectural layers, emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), and the temporal oscillation.
+2. **`The System.md`** — The two attractors, 15 components by role, 13 feedback loops in 5 architectural layers, emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), and the temporal oscillation.
 
 These two documents alone provide the complete conceptual architecture.
 
-### Going Deeper (~2-3K per doc)
+### Going Deeper
 
 Each mechanism doc has high-value sections cheaper than a full read:
 
-- **Opening paragraphs** (no heading, first 2-3 paragraphs) — The mechanism's role in the system. ~200 words per doc, ~1.8K total for all 9.
-- **`## System Connections`** — Table of connections to every other mechanism doc. ~200 words per doc.
-- **`## Where the Evidence Is Complex`** — Honest calibration: what's textbook vs uncertain. 40 `[!warning]` callouts across the vault (some contain multiple sub-claims).
+- **Opening paragraphs** (no heading, first 2-3 paragraphs) — The mechanism's role in the system.
+- **`## System Connections`** — Table of connections to every other mechanism doc.
+- **`## Where the Evidence Is Complex`** — Honest calibration: what's textbook vs uncertain. Marked with `[!warning]` callouts.
 - **`## Research Context`** — Funding distortions, chemical conflation, why the picture is fragmented.
 
-To get the key insight from each mechanism doc without reading in full (~500 words per doc instead of ~4,000):
+To get the key insight from each mechanism doc without reading in full:
 ```
 Read the opening paragraphs + System Connections table
 ```

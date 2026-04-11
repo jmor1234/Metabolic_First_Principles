@@ -93,8 +93,8 @@ The vault is organized in tiers. Read top-down for understanding, or enter at an
 
 **Tier 1: Foundation (start here)**
 
-- [[Foundation]] — What health and disease are. The thesis. The evidence. The challenges. ~3,500 words.
-- [[The System]] — How the system produces two stable states. The architecture. ~3,600 words.
+- [[Foundation]] — What health and disease are. The thesis. The evidence. The challenges.
+- [[The System]] — How the system produces two stable states. The architecture.
 - These two documents provide ~80% of the conceptual understanding. Always start here.
 
 **Tier 2: Mechanisms (the detailed biology)**
