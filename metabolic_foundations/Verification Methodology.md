@@ -12,7 +12,7 @@ tags:
   - framework/metabolic
 role: methodology
 confidence: high
-last-verified: 2026-04-10
+last-verified: 2026-04-11
 scope: meta
 connections:
   - "[[Methodology]]"
@@ -221,6 +221,24 @@ Many apparent contradictions dissolve after Steps 1-2. If the contradiction surv
 ### Step 4: Identify What a Resolution Would Depend On
 
 Before committing to any resolution, explicitly list: what specific evidence claims would need to be true for this resolution to hold? Write them down. Each is a load-bearing claim. If any one collapses, the resolution collapses.
+
+**Causal independence audit — check whether the named causal variable can be an independent causal participant at all.** A second sub-practice learned from Sub-test 2.A, applied at Step 4 before Step 5 verifies specific evidence. When a feedback-loop resolution names a metabolite as a causal driver, check whether the metabolite could *in principle* be an independent causal participant — whether its causal role is not reducible to the role of a stoichiometrically co-produced partner acting through a different mechanism on the same target. This is the Pearl screening-off question (Pearl 2009 *Causality*) applied to biochemical networks, with the conservation-relations framework from Metabolic Control Analysis (Reder 1988; Heinrich & Schuster 1996; Palsson 2003 on the left null space of the stoichiometric matrix) as the formal machinery for identifying when two metabolites are stoichiometrically locked. The audit asks four sub-checks:
+
+1. **Conservation check.** Is the metabolite in a conserved moiety pool or otherwise stoichiometrically locked to another variable under the physiological regime the loop is claimed to operate in? This is a diagnostic flag, not a verdict — proceed to the other checks.
+
+2. **Mechanism specificity check.** Does the metabolite act on the loop's downstream target through a named molecular mechanism — a specific binding site, substrate role, or covalent modification — that its stoichiometric partner does not share? Or does the mechanism rely on a *non-specific* bulk effect (bulk pH, bulk osmolality, bulk thermal) the partner would also produce? Non-specific mechanism + partner with a specific mechanism = parallel marker.
+
+3. **Realizable intervention check.** Is there a physiologically realizable intervention that dissociates the metabolite from its partner with differential downstream effects? Examples: carbonic anhydrase inhibition dissociates bicarbonate from ATP at soluble adenylyl cyclase; UCP activation dissociates CO₂ from ATP at the cellular level; non-linear amplification via the adenylate kinase equilibrium makes AMP quantitatively dissociable from ATP across physiological ranges.
+
+4. **Quantitative dominance check.** At the concentrations, timescales, and tissue locations where the loop is claimed to operate, does the metabolite's effect magnitude exceed its stoichiometric partner's?
+
+Classification: **independent driver** (specific mechanism or quantitative dominance), **parallel marker** (fails mechanism specificity when a partner has a specific mechanism), **gated driver** (parallel marker at baseline, independent driver when coupling breaks — e.g., proton gradient under UCP uncoupling), **co-driver** (mutually independent participants via distinct mechanisms — e.g., Ca²⁺ and IP3 in PLC oscillations), or **indeterminate**.
+
+**Worked example — the original Loop 7 error.** The framework's original Loop 7 mechanism (extracellular CO₂ → carbonic acid → granule pH → mediator release) fails the mechanism specificity check: the claimed mechanism is bulk pH, and ATP has a specific mechanism at the same target (V-ATPase is ATP-specific at its catalytic site, actively maintains a ~1.9-unit pH gradient across the granule membrane, and the V₁-V₀ domain couples granule pH to exocytosis readiness). The audit correctly classifies original CO₂ as a parallel marker and refined ATP as an independent driver. This is the refinement Sub-test 2.A produced.
+
+**Worked counterexample — soluble adenylyl cyclase.** CO₂/bicarbonate is stoichiometrically co-produced with ATP at OXPHOS, but in the soluble adenylyl cyclase (sAC) pathway (Acin-Perez et al. 2009 *Cell Metabolism*; Valsecchi et al. 2014 *BBA* PMC4257896; Kleinboelting et al. 2014 *PNAS* crystal structures) bicarbonate binds sAC directly at a specific allosteric site (Arg176 with salt bridge disruption and active-site closure), and ATP functions as substrate not allosteric activator. Bicarbonate therefore passes the mechanism specificity check and is classified as an independent driver despite stoichiometric coupling to ATP. The case establishes that **stoichiometric coupling alone does not disqualify a metabolite** from independent causal status — the audit must always check mechanism specificity before declaring parallel-marker status. (The sAC pathway is currently framed in the literature as feedforward metabolic matching rather than closed positive feedback, and is not currently a formalized loop in the vault. But it illustrates that "stoichiometrically coupled → parallel marker" is an over-generalization the audit must avoid.)
+
+**Not a novel principle.** This sub-practice is a biochemical application of existing tools (Pearl's do-calculus and screening-off test; MCA conservation relations and flux/concentration control coefficients — Kacser & Burns 1973; Heinrich & Rapoport 1974; Reder 1988; Heinrich & Schuster 1996; Palsson 2003). Where the vault's feedback-loop analysis becomes quantitative (loop gain, formal bistability), MCA's control coefficients are the appropriate formal machinery to reach for. Individual sub-tests citing this audit should cite back to the existing work, not to this document as if it originated the concept.
 
 ### Step 5: Verify Each Dependency Against Primary Sources
 

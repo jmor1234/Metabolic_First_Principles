@@ -52,7 +52,7 @@ Four refinements have landed so far. All are documented as standalone refinement
 2. ✅ **Triangulate the audit tool via two independent agents.** DONE — both classified as Refinement; counterexamples (sAC, AMPK) identified; existing-literature duplication caught; Pearl's screening-off + Palsson's null space confirmed as the right formal grounding.
 3. ✅ **Verify sAC counterexample against primary sources.** DONE — Valsecchi 2014 (PMC4257896) confirmed bicarbonate as specific allosteric activator with ATP as substrate; pathway framed as feedforward metabolic matching rather than closed positive feedback (narrowing the counterexample's directness but preserving its structural point).
 4. ✅ **Rewrite and rename the document.** DONE — `Causal Independence in Feedback Loops.md` replaces `Co-Production and Independence.md`. Grounded in existing frameworks, six-category taxonomy, four-check operational audit.
-5. **Integrate the refined audit into `metabolic_foundations/Verification Methodology.md` as a sub-practice under Step 4** (Identify what a resolution would depend on). The integration must cite MCA conservation relations (Reder 1988; Heinrich & Schuster 1996; Palsson 2003) and Pearl's screening-off test (Pearl 2009) as the formal machinery, not present the audit as a novel principle. This is the second methodology improvement produced by Sub-test 2.A (first was CF-2.A.4 citation deployment audit).
+5. ✅ **Integrate the refined audit into `metabolic_foundations/Verification Methodology.md` as a sub-practice under Step 4** (Identify what a resolution would depend on). DONE — added as a substantial sub-practice block mirroring CF-2.A.4's citation deployment audit. Cites Pearl 2009 *Causality*, Reder 1988, Heinrich & Schuster 1996, Palsson 2003, Kacser & Burns 1973, Heinrich & Rapoport 1974 as the formal machinery. Includes the four-check audit, six-category taxonomy, Loop 7 as worked example, sAC as worked counterexample, and an explicit "not a novel principle" closing paragraph. `last-verified` updated to 2026-04-11. This is the second methodology improvement produced by Sub-test 2.A (first was CF-2.A.4). Both are now in the methodology.
 6. **Run the causal-independence audit across all 13 formalized loops in `The System.md`** using the refined four-check operational audit. Produce a classified inventory.
 7. **Run the citation deployment audit (CF-2.A.4) across all 13 loops** in the same pass where possible.
 8. **Triangulate the audited loop inventory** via independent agents (Round 2 triangulation, separate from Round 1 which triangulated the audit tool itself).
@@ -99,7 +99,12 @@ See `Stress Test.md` → "Carry-Forward Items" for full list.
 
 **None.** The Refinement Diff Catalog exists in this vault as the precise file/passage-level reference for what each refinement consists of, but it is **not going to be applied** to `metabolic_foundations/` — that decision has been made (the refinements live in this vault as parallel knowledge instead).
 
-The only edit applied to `metabolic_foundations/` from the entire stress test so far is the **CF-2.A.4 methodology improvement** (citation deployment audit added to `metabolic_foundations/Verification Methodology.md` Step 5). This is a methodology improvement, not a claim change.
+Two edits have been applied to `metabolic_foundations/` from the entire stress test so far. Both are methodology improvements, not claim changes:
+
+1. **CF-2.A.4** — citation deployment audit added to `metabolic_foundations/Verification Methodology.md` Step 5 (2026-04-10). Checks load-bearing citations on species / scenario / endpoint / proposed-mechanism match.
+2. **Causal independence audit** — added to `metabolic_foundations/Verification Methodology.md` Step 4 (2026-04-11). Four-check operational audit grounded in Pearl's screening-off test and MCA conservation relations. Classifies metabolites named as causal drivers into six categories (independent driver / parallel marker / gated driver / co-driver / indeterminate). Triangulated via two independent agents before integration; sAC verified against primary sources.
+
+Both methodology improvements emerged from a single sub-test (2.A) and apply to every future verification rather than to one claim — higher total leverage than individual claim refinements.
 
 ---
 
