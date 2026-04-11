@@ -10,52 +10,72 @@ If you are a new agent picking this up, read this file first, then follow the "W
 
 ## Where We Are Right Now
 
-**Mid stress test of `metabolic_foundations/`. Layer 2 in progress.**
+**Mid stress test of `metabolic_foundations/`. Layer 2 in progress — causal-independence audit tool now triangulated and rewritten.** The deeper implication of Sub-test 2.A's Loop 7 finding (CO₂ and ATP are stoichiometrically co-produced by OXPHOS) was promoted to an architecture-level principle, stress-tested via two independent agents, substantially refined, and re-grounded in existing formal machinery (Pearl's screening-off test + Palsson's conservation relations in MCA). The refined audit is now ready to run across all 13 loops.
 
 | Layer | Claim under attack | Status |
 |---|---|---|
 | Layer 0 — Bedrock | ATP requirement, ~18× difference, both pathways real | NOT TESTED (would mean overturning textbook biochemistry) |
 | Layer 1 — Ontological move | Health IS efficient oxidative metabolism of glucose to CO₂ | **COMPLETE — REFINEMENT (substantial)** |
-| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **IN PROGRESS** — Sub-test 2.A COMPLETE, Sub-test 2.B NOT STARTED |
-| Layer 3 — Attractor dynamics | 13 interlocking loops generate genuine bistability | NOT STARTED |
+| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **IN PROGRESS** — Sub-test 2.A COMPLETE; causal independence audit tool triangulated and ready; 13-loop audit pending; Sub-test 2.B deferred pending audit |
+| Layer 3 — Attractor dynamics | 13 interlocking loops generate genuine bistability | NOT STARTED (prerequisite: clean audited loop inventory from Layer 2 audit) |
 | Layer 4 — Cross-disease convergence | Every chronic disease shows the same metabolic signature | NOT STARTED |
 | Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
 | Layer 6 — Falsifiability meta-test | (subsumed into Verification Methodology Rules 1–3) | SUBSUMED |
 
-Three refinements have landed so far. All are documented as standalone refinement documents in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle.
+Four refinements have landed so far. All are documented as standalone refinement documents in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle.
 
 ---
 
 ## What Just Happened
 
-**Most recent substantive finding (2026-04-10):** Sub-test 2.A — Loop 7 mechanism refinement. The framework's stated mechanism (extracellular CO₂ → carbonic acid → granule pH → mediator release) is first-principles incompatible with V-ATPase biology. The refined mechanism is **ATP → V-ATPase activity → granule pH → V₁-V₀ sensor → mediator release**. CO₂ becomes a parallel marker of oxidative metabolism rather than the causal driver. Two independent agents converged on the *identical* rescue mechanism via matching first-principles reasoning — strongest triangulation signal so far.
+**Most recent substantive move (2026-04-11, afternoon):** The causal-independence audit tool has been triangulated via two independent agents, substantially refined, and rewritten. Current standalone document: **`Causal Independence in Feedback Loops.md`**. The earlier first-pass document (`Co-Production and Independence.md`) was superseded and deleted.
 
-**Structural consequence:** Loop 7 was the only formalized loop in the 13-loop architecture where CO₂ was the causal driver. After this refinement, **no formalized loop has CO₂ as causal variable.** The framework's "CO₂ is an active product" claim survives biologically (Bohr effect, carbamino, neuroprotection) but loses its sole formalized loop support.
+**The triangulation outcome:** Both agents independently classified the first-pass principle as **Refinement**. Both independently identified that the concept is a partial re-derivation of established work — specifically **conservation relations / left null space of the stoichiometric matrix in Metabolic Control Analysis** (Reder 1988; Heinrich & Schuster 1996; Palsson 2003) and **Pearl's do-calculus / screening-off test** from causal inference (Pearl 2000, 2009). Both independently identified **AMP/AMPK as a counterexample** (AMP is in the conserved adenylate pool with ATP but is a genuine causal participant because AMPK γ-subunit CBS domains are AMP-specific). Agent 1 additionally identified **soluble adenylyl cyclase (sAC) / bicarbonate / OXPHOS** as a counterexample specific to the CO₂/OXPHOS case (Acin-Perez 2009 *Cell Metabolism*; Valsecchi 2014 *BBA* PMC4257896; Kleinboelting 2014 crystal structures). The sAC counterexample was verified against primary sources via WebFetch — bicarbonate is confirmed as the specific allosteric activator via Arg176 with salt bridge disruption and active-site closure; ATP functions as substrate not allosteric activator; the pathway is carbonic-anhydrase-dependent and experimentally dissociable from ATP. Important caveat: Valsecchi 2014 frames the sAC-OXPHOS pathway as feedforward metabolic matching rather than closed positive feedback, which narrows the counterexample's directness but preserves its core structural point.
 
-**Most recent project action (2026-04-11, commit 6112d5b):** The `metabolic_refinements/` vault was created. Stress test findings now live here as a parallel knowledge layer. `Stress Test.md` and `Refinement Diff Catalog.md` were moved into this vault. Three standalone refinement documents were created. Workspace orientation files (root `CLAUDE.md`, `Overview.md`) were updated to describe the three-vault structure. **`metabolic_foundations/` was not modified.**
+**The rewrite addresses all three problems:** (1) grounded in existing frameworks with explicit citations; (2) the universal "only if" form replaced with a four-check operational audit (conservation, mechanism specificity, realizable intervention, quantitative dominance); (3) the three-category taxonomy expanded to six (adding gated driver, co-driver, and splitting independent driver into specific-mechanism vs quantitative-dominance). The refined audit correctly classifies Loop 7 original (parallel marker), Loop 7 refined (independent driver), Loop 9 lactate (independent driver, conditional on mechanism verification), and the sAC case (independent driver, but not a closed loop in the framework's current architecture).
+
+**The pre-specified CO₂/lactate asymmetry prediction survived triangulation.** CO₂ is stoichiometrically tied to OXPHOS; lactate is tied to the metabolic-fork failure mode. Both agents confirmed the structural asymmetry with matching reasoning.
+
+**Rationale for the pivot held up:** the stress test was right to triangulate the audit tool before methodologizing it. If the first-pass principle had been added to Verification Methodology directly, it would have introduced a universal rule that is falsified by known biology (sAC, AMPK) and that duplicates existing work without citing it. Triangulation caught this cleanly — exactly what the Independent Agent Research Protocol was designed to do.
+
+**Prior substantive finding (2026-04-10):** Sub-test 2.A — Loop 7 mechanism refinement. The framework's stated mechanism (extracellular CO₂ → carbonic acid → granule pH → mediator release) is first-principles incompatible with V-ATPase biology. The refined mechanism is **ATP → V-ATPase activity → granule pH → V₁-V₀ sensor → mediator release**. CO₂ becomes a parallel marker of oxidative metabolism rather than the causal driver. Two independent agents converged on the *identical* rescue mechanism via matching first-principles reasoning. Loop 7 was the only formalized loop in the 13-loop architecture where CO₂ was the causal driver; after this refinement, no formalized loop has CO₂ as causal variable.
+
+**Most recent project action (2026-04-11):** `Causal Independence in Feedback Loops.md` written; `Co-Production and Independence.md` deleted (superseded). `metabolic_foundations/` was not modified.
 
 ---
 
 ## What's Next
 
-### Immediate next move
+### The plan (current position: first-pass articulated, triangulated, rewritten; ready to methodologize)
 
-**Sub-test 2.B — Lactate-active claim / Loop 9 / histone lactylation causality.** Completes Layer 2.
+1. ✅ **Articulate the causal-independence audit tool as a standalone document.** DONE — first pass `Co-Production and Independence.md` written.
+2. ✅ **Triangulate the audit tool via two independent agents.** DONE — both classified as Refinement; counterexamples (sAC, AMPK) identified; existing-literature duplication caught; Pearl's screening-off + Palsson's null space confirmed as the right formal grounding.
+3. ✅ **Verify sAC counterexample against primary sources.** DONE — Valsecchi 2014 (PMC4257896) confirmed bicarbonate as specific allosteric activator with ATP as substrate; pathway framed as feedforward metabolic matching rather than closed positive feedback (narrowing the counterexample's directness but preserving its structural point).
+4. ✅ **Rewrite and rename the document.** DONE — `Causal Independence in Feedback Loops.md` replaces `Co-Production and Independence.md`. Grounded in existing frameworks, six-category taxonomy, four-check operational audit.
+5. **Integrate the refined audit into `metabolic_foundations/Verification Methodology.md` as a sub-practice under Step 4** (Identify what a resolution would depend on). The integration must cite MCA conservation relations (Reder 1988; Heinrich & Schuster 1996; Palsson 2003) and Pearl's screening-off test (Pearl 2009) as the formal machinery, not present the audit as a novel principle. This is the second methodology improvement produced by Sub-test 2.A (first was CF-2.A.4 citation deployment audit).
+6. **Run the causal-independence audit across all 13 formalized loops in `The System.md`** using the refined four-check operational audit. Produce a classified inventory.
+7. **Run the citation deployment audit (CF-2.A.4) across all 13 loops** in the same pass where possible.
+8. **Triangulate the audited loop inventory** via independent agents (Round 2 triangulation, separate from Round 1 which triangulated the audit tool itself).
+9. **Synthesize audit findings into a clean loop inventory.** Each loop classified per the six-category taxonomy. This becomes the prerequisite substrate for Layer 3's formal bistability test.
+10. **Decide Sub-test 2.B vs direct-to-Layer-3 based on audit outcome.** If Loop 9 (lactate self-amplification) resolved cleanly in the audit as independent driver with verified mechanism, 2.B may be reduced to confirmation or obviated. If Loop 9 surfaced new questions, run a focused 2.B. Otherwise proceed directly to Layer 3 with the clean loop inventory as substrate.
 
-The structural question mirrors Sub-test 2.A: is lactate an active driver of disease state, or a reliable marker of underlying metabolic failure? The histone lactylation literature (Zhang et al. 2019, *Nature*) is stronger than the CO₂-granule-pH literature was — so this may resolve asymmetrically. Possible outcomes:
+### Housekeeping pending
 
-- **PASS** — lactate's active driver role survives scrutiny; Layer 2 completes with one half PASS and one half REFINEMENT
-- **REFINEMENT** — like Sub-test 2.A, the directional claim survives but the specific mechanism gets corrected
-- **FAIL** — would be the largest finding so far; would force significant retreat in the framework's "active product" framing
+- `Research Brief - Co-Production Principle.md` should be deleted (one-shot artifact per Independent Agent Research Protocol) once the work is committed to durable form.
+- `agent_1_report.md` and `agent_2_report.md` should be deleted (one-shot artifacts) once the work is committed.
+- The git history will preserve all three for future reference.
 
-Triangulate via independent agents (matches the established pattern from 1.B and 2.A).
+### After the audit (Layer 3 and beyond, in rough order of leverage)
 
-### After Sub-test 2.B
+1. **Layer 3 — Attractor architecture as genuine dynamics.** The most consequential remaining layer and the reason the Layer 2 audit exists as a prerequisite. Tests whether the (now-audited) loop architecture is real dynamical-systems bistability or a precise metaphor for clinical bimodality. The loop-gain question CF-2.A.2 (do any of the directional couplings actually achieve loop gain > 1?) gets formally tested here, likely using MCA control coefficients as the tooling. **If Layer 3 fails, the "two attractors" framing collapses to metaphor — the largest possible finding of the stress test.**
+2. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim). Required before the broader Foundation.md / Metabolic Fork.md "CO₂ is an active product" reframing can proceed.
+3. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
+4. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
 
-In rough order of leverage:
+### After the audit (Layer 3 and beyond, in rough order of leverage)
 
-1. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim). This is a focused single-paper verification, not a full sub-test. Required before the broader Foundation.md / Metabolic Fork.md "CO₂ is an active product" reframing can proceed.
-2. **Layer 3 — Attractor architecture as genuine dynamics.** The most consequential remaining layer. Tests whether the 13-loop architecture is real dynamical-systems bistability or a precise metaphor for clinical bimodality. The loop-gain question CF-2.A.2 (do any of the directional couplings actually achieve loop gain > 1?) gets formally tested here. **If Layer 3 fails, the "two attractors" framing collapses to metaphor — the largest possible finding of the stress test.**
+1. **Layer 3 — Attractor architecture as genuine dynamics.** The most consequential remaining layer and the reason the Layer 2 audit exists as a prerequisite. Tests whether the (now-audited) loop architecture is real dynamical-systems bistability or a precise metaphor for clinical bimodality. The loop-gain question CF-2.A.2 (do any of the directional couplings actually achieve loop gain > 1?) gets formally tested here. **If Layer 3 fails, the "two attractors" framing collapses to metaphor — the largest possible finding of the stress test.**
+2. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim). Required before the broader Foundation.md / Metabolic Fork.md "CO₂ is an active product" reframing can proceed.
 3. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
 4. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
 
@@ -103,6 +123,7 @@ If you are picking this up and need to understand the full state, read in this o
 - `Convergence Point Reading.md` (this vault) — Sub-test 1.A
 - `Krebs-Cycle Invariance and Ketone Bodies.md` (this vault) — Sub-test 1.B (six findings consolidated)
 - `Loop 7 — Metabolism-Mediator Coupling.md` (this vault) — Sub-test 2.A
+- `Causal Independence in Feedback Loops.md` (this vault) — causal-independence audit tool derived from Sub-test 2.A, grounded in Pearl's screening-off + Palsson/MCA conservation relations. Supersedes the earlier first-pass `Co-Production and Independence.md` which was deleted after triangulation identified it as over-general and a re-derivation of existing work.
 
 ### 5. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
