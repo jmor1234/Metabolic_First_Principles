@@ -4,7 +4,7 @@
 
 This project is an attempt to understand what health and disease actually are at the most fundamental level biology currently allows — not as a list of conditions and treatments, but as a single system operating from first principles.
 
-It produced two Obsidian vaults. The first was the investigation. The second is the knowledge that investigation produced.
+It produced three Obsidian vaults. The first was the investigation. The second is the knowledge that investigation produced. The third is the refinements that emerged from stress testing the second.
 
 ---
 
@@ -119,13 +119,39 @@ Across both vaults, the investigation arrived at findings that transcend any sin
 
 ---
 
+## The Metabolic Refinements Vault
+
+**Location:** `metabolic_refinements/`
+
+**What it is:** The refinements layer. A standalone knowledge layer that captures refinements to the Metabolic Foundations framework discovered through stress testing and other independent triangulation. **Does not modify Metabolic Foundations** — the original integration stays intact, and the refinements sit beside it as a separate epistemic layer. A reader who wants the most current understanding reads both vaults.
+
+**Why it exists separately:** The Verification Methodology in Metabolic Foundations codifies an asymmetry — the cost of wrongly changing an integration that took rigorous work to build is higher than the cost of wrongly leaving it unchanged. Stress testing surfaces real refinements, but those refinements should not silently overwrite the original. They should sit beside it. This vault is that layer.
+
+**How it's organized:** Working files (audit trail) plus standalone refinement documents (knowledge artifacts).
+
+- **Working files** preserve *how* the refinements were derived: `Stress Test.md` (the live investigation log, layer-by-layer adversarial probes against the framework's load-bearing claims) and `Vault Edit Proposal.md` (the diff-form catalog of edits the stress test would apply if the original were overwritten — preserved here as the precise file/passage-level reference).
+- **Standalone refinement documents** present *what* each refinement is, in a form a reader can engage with without following the entire investigation chain. Each follows a six-section template: original claim → what was found → refined claim → structural consequences → open questions → audit trail.
+
+**Current contents (refinement documents so far):**
+- `Convergence Point Reading.md` — clarifies that the framework's ontological claim is "metabolism as universal convergence point," not "strong reduction." Adds Huntington's as a non-circular example. Source: stress test Sub-test 1.A.
+- `Krebs-Cycle Invariance and Ketone Bodies.md` — softens "of glucose" specificity toward "Krebs-cycle CO₂ production as the invariant"; introduces ketone bodies as a biochemically distinct third fuel category; distinguishes Randle pathology from adapted ketosis. Source: stress test Sub-test 1.B (six findings).
+- `Loop 7 — Metabolism-Mediator Coupling.md` — replaces direct CO₂→pH→granule mechanism with ATP→V-ATPase→granule pH→V₁-V₀ sensor coupling. Structural consequence: no formalized loop in the 13-loop architecture has CO₂ as causal driver after this refinement. Source: stress test Sub-test 2.A.
+
+**Where the stress test currently is:** Layer 1 complete (REFINEMENT substantial). Layer 2 in progress — Sub-test 2.A complete (REFINEMENT substantial mechanism-level), Sub-test 2.B not yet started. Layers 3, 4, 5 not started. Layer 6 subsumed into the protocol via Rules 1–3 of the Verification Methodology.
+
+**What it is for:** Anyone who wants to know "what does the stress test currently say about claim X" starts here. Anyone who wants the original integration as written starts in Metabolic Foundations. Both are canonical for their own role.
+
+---
+
 ## Where It Goes From Here
 
 The Metabolic Foundations vault is designed to expand. The methodology defines evidence standards, a document template, and a five-step process for adding new mechanism topics. Potential additions include cholesterol, dopamine/prolactin, NAD+ metabolism, altitude, pregnenolone/DHEA, the microbiome beyond endotoxin, and connective tissue.
 
+The Metabolic Refinements vault is designed to grow as the stress test progresses through Layers 2.B, 3, 4, and 5 — and as other independent triangulation produces refinements. Each completed sub-test produces working-file updates plus (where the classification is REFINEMENT or stronger) a new standalone refinement document.
+
 The Peat vault remains as the verification archive — the audit trail showing how the knowledge was produced and where the evidence led.
 
-Both vaults are living documents. The `last-verified` date on every document signals when its evidence was last checked. As new research emerges, documents are updated. Corrections are features, not failures. The project improves by finding where it's wrong, not by defending where it might be right.
+All three vaults are living documents. The `last-verified` date on every document in Metabolic Foundations signals when its evidence was last checked. The `status` field on Metabolic Refinements documents signals whether each refinement is `proposed` or `accepted` within that vault. As new research emerges, documents are updated. Corrections are features, not failures. The project improves by finding where it's wrong, not by defending where it might be right.
 
 ## A Note on How to Read This
 
