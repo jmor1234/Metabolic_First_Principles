@@ -150,15 +150,16 @@ Required reading before attempting any new sub-test or proposing any change:
 Most recent at top. Run `git log --oneline -20` for full history.
 
 ```
+7892aba  Add causal independence audit to Verification Methodology Step 4
+eb9f637  Add Causal Independence audit tool — triangulated refinement of Sub-test 2.A
+47e4be0  Remove drifting content-volume metadata from orientation files
+3e6d3dd  Correct stale word count in Methodology.md
+b2156b9  Correct stale word counts across orientation files
+08bd281  Remove reading-time estimates — not relevant or accurate
+8e17a4b  Rename Vault Edit Proposal.md → Refinement Diff Catalog.md
+db1dc19  Post-implementation review fixes — close orphan and discoverability gaps
+f48c04a  Add Current State.md as canonical live-state file for active work
 6112d5b  Create metabolic_refinements vault — refinements layer separate from the original integration
-7c1022c  moving the first principles der to a different vault for a clean separation of concerns
-7b32f9b  Add First Principles Derivation charter — independent bottom-up experiment
-fa1b58f  Expand Vault Edit Proposal with Layer 1 edits, rename to cover all layers
-9295d97  Sub-test 2.A: Loop 7 REFINEMENT — mechanism is ATP→V-ATPase, not CO₂→pH
-98e7c6d  Add Independent Agent Research Protocol for triangulation methodology
-1f68c4f  Add Carry-Forward Items section tracking deferred Layer 1 questions
-2e488d6  Complete Layer 1 stress test: 1.A PASS, 1.B substantial REFINEMENT
-14782da  Add Stress Test tracking doc for systematic vault verification
 ```
 
 ---
