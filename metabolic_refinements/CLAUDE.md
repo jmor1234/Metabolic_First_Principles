@@ -59,10 +59,18 @@ Each refinement document follows this template:
 
 ## Vault Contents
 
+### Live state (read first)
+
+- **`Current State.md`** — the single canonical source for what is being actively worked on right now, what just happened, what's next, and what's blocking. Small (under 5 min read), updated as work progresses. **A new agent picking this work up reads this file first.** It is also the entry point pointed to from the workspace root `CLAUDE.md`.
+
 ### Working files (audit trail)
 
 - **`Stress Test.md`** — the active investigation log. Layer-by-layer adversarial probes against metabolic_foundations' load-bearing claims. Includes sub-test results, classifications, carry-forward items. This is where the work happens.
 - **`Vault Edit Proposal.md`** — the diff-form catalog of edits the stress test would apply *if* the decision were to overwrite metabolic_foundations. **These edits are not going to be applied.** The proposal is preserved here as the precise reference for what each refinement consists of at the file/passage level. Useful for anyone who wants to see exactly which words would change in which file.
+
+### Methodology
+
+- **`Independent Agent Research Protocol.md`** — defines how to use independent agent research as a triangulation tool for complex stress test sub-tests. Specifies when to use it, how to construct briefings, how to assess outputs critically, how to handle convergence vs divergence. Required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology and converged via matching first-principles reasoning; Sub-test 2.B is expected to use it as well.
 
 ### Refinement documents (standalone knowledge)
 
@@ -76,10 +84,11 @@ Each refinement document follows this template:
 
 The discipline follows the metabolic_foundations Verification Methodology, adapted for this vault's role:
 
-1. **Stress test the load-bearing claim.** Document the probe and findings in `Stress Test.md`. Apply the six-step verification sequence, the three hypotheses (in order), and the three rules (acute/chronic, context-dependence, pass/refinement/fail).
+1. **Stress test the load-bearing claim.** Document the probe and findings in `Stress Test.md`. Apply the six-step verification sequence, the three hypotheses (in order), and the three rules (acute/chronic, context-dependence, pass/refinement/fail). If the sub-test uses independent agent triangulation, follow `Independent Agent Research Protocol.md`.
 2. **Draft proposed edits in diff form** in `Vault Edit Proposal.md`. This is the precise file/passage-level reference — preserved here regardless of whether anything is overwritten in metabolic_foundations.
 3. **Synthesize as a standalone refinement document** in this vault following the template above. The refinement document is the knowledge object — it presents the refined claim with full reasoning, readable without flipping back to the original.
 4. **Mark status `proposed`** until reviewed; promote to `accepted` once finalized.
+5. **Update `Current State.md`.** Move the completed sub-test out of the "What's Next" section and into "What Just Happened"; advance the immediate next move; update the layer status table; update the recent commits list. This is the single most important maintenance step — `Current State.md` is the only file guaranteed to reflect live work and is the entry point for any new agent picking up the project.
 
 The original metabolic_foundations vault is never modified. Its `last-verified` dates do not update from this vault's activity. The integration the methodology was built to protect stays as originally written.
 

@@ -97,6 +97,7 @@ If you are picking this up and need to understand the full state, read in this o
 ### 3. Active stress test state (~10–15 min)
 - `Stress Test.md` (this vault) — the live investigation log. Read in full for first-time pickup. Sections to focus on: Strategy, Protocol, Layer 1, Layer 2, Carry-Forward Items, Working Log
 - `Vault Edit Proposal.md` (this vault) — the diff-form catalog. Skim for understanding of the precise file/passage-level changes each refinement represents
+- `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
 ### 4. Substantive findings as standalone knowledge (~15–20 min)
 - `Convergence Point Reading.md` (this vault) — Sub-test 1.A
