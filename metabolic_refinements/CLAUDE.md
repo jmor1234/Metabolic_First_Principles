@@ -94,6 +94,6 @@ Both are needed. Neither replaces the other. The working files generate the refi
 
 ## Where the Stress Test Currently Is
 
-Layer 1 complete (REFINEMENT substantial). Layer 2 in progress — Sub-test 2.A complete (REFINEMENT substantial mechanism-level), Sub-test 2.B not yet started. Layers 3, 4, 5 not started. Layer 6 subsumed into the protocol via Rules 1–3.
+**For the live current state — what is being actively worked on right now, what just happened, what's next, what's blocking — read `Current State.md` in this vault.** It is the single canonical source and is updated as work progresses.
 
-See `Stress Test.md` for the live status of every layer and sub-test.
+`Stress Test.md` is the full investigation log (long); `Current State.md` is the small, fast-skim pointer to where you should start. They are not duplicates — `Current State.md` summarizes and directs, `Stress Test.md` records.

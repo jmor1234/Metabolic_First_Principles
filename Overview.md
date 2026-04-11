@@ -137,7 +137,7 @@ Across both vaults, the investigation arrived at findings that transcend any sin
 - `Krebs-Cycle Invariance and Ketone Bodies.md` — softens "of glucose" specificity toward "Krebs-cycle CO₂ production as the invariant"; introduces ketone bodies as a biochemically distinct third fuel category; distinguishes Randle pathology from adapted ketosis. Source: stress test Sub-test 1.B (six findings).
 - `Loop 7 — Metabolism-Mediator Coupling.md` — replaces direct CO₂→pH→granule mechanism with ATP→V-ATPase→granule pH→V₁-V₀ sensor coupling. Structural consequence: no formalized loop in the 13-loop architecture has CO₂ as causal driver after this refinement. Source: stress test Sub-test 2.A.
 
-**Where the stress test currently is:** Layer 1 complete (REFINEMENT substantial). Layer 2 in progress — Sub-test 2.A complete (REFINEMENT substantial mechanism-level), Sub-test 2.B not yet started. Layers 3, 4, 5 not started. Layer 6 subsumed into the protocol via Rules 1–3 of the Verification Methodology.
+**Where the stress test currently is:** For the live current state — what is being actively worked on right now, what just happened, what's next, and what's blocking — read `metabolic_refinements/Current State.md`. It is the single canonical source for active work and is updated as work progresses. (Headline: Layer 1 complete REFINEMENT substantial; Layer 2 in progress with Sub-test 2.A complete and Sub-test 2.B as the immediate next move; Layers 3–5 not started; Layer 6 subsumed into the protocol.)
 
 **What it is for:** Anyone who wants to know "what does the stress test currently say about claim X" starts here. Anyone who wants the original integration as written starts in Metabolic Foundations. Both are canonical for their own role.
 
