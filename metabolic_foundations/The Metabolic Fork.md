@@ -11,7 +11,7 @@ tags:
   - framework/metabolic
 role: mechanism
 confidence: high
-last-verified: 2026-04-10
+last-verified: 2026-04-12
 scope: mechanistic
 connections:
   - "[[Foundation]]"
@@ -94,7 +94,7 @@ Lactate does not merely indicate metabolic failure. It drives it deeper. The mec
 
 **Wound healing reveals the acute/chronic distinction.** Acute lactate [stimulates collagen synthesis through lactylation](https://www.sciencedirect.com/science/article/abs/pii/S0022202X25022456) -- adaptive for tissue closure after injury. But when the acute healing signal becomes chronic -- when the metabolic state continuously overproduces lactate -- the same lactylation-driven collagen production converts the healing response into pathological fibrosis. [Hypertrophic scars](https://www.nature.com/articles/s41467-026-69388-y), organ fibrosis, and tumor stroma all involve the same mechanism operating on the wrong timescale. This is the acute/chronic distinction made visible in a single tissue process.
 
-**Clinical evidence: lactated Ringer's in shock.** Even the choice of resuscitation fluid reflects the fork. [Ringer's lactate potentiates neutrophil activation and pulmonary inflammation](https://pubmed.ncbi.nlm.nih.gov/17414340/) in severe hemorrhagic shock resuscitation. However, [in moderate hemorrhagic shock, Ringer's lactate may be beneficial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4057456/). The dose and severity context determines whether adding lactate to an already-stressed system helps or harms -- the same molecule, the same patient population, opposite outcomes depending on how far the metabolic state has shifted.
+**Clinical evidence: lactated Ringer's in shock.** Even the choice of resuscitation fluid reflects the fork. Ringer's lactate [potentiates neutrophil degranulation and pulmonary inflammation](https://pubmed.ncbi.nlm.nih.gov/17215740/) in severe hemorrhagic shock resuscitation. However, [in moderate hemorrhagic shock, Ringer's lactate may be beneficial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4057456/). The dose and severity context determines whether adding lactate to an already-stressed system helps or harms -- the same molecule, the same patient population, opposite outcomes depending on how far the metabolic state has shifted.
 
 **Convergence: every pathway terminates here.** Every major mechanism in this vault feeds into the lactate side of the fork. PUFA damages mitochondrial membranes through cardiolipin peroxidation, reducing respiratory capacity ([[Membrane Damage and Defense]]). Thyroid insufficiency reduces respiratory enzyme expression ([[The Master Throttle]]). Estrogen reprograms cells toward glycolysis through AKT signaling. Serotonin directly activates the rate-limiting glycolytic enzyme and inhibits mitochondrial respiration ([[Conservation Signaling]]). Cortisol mobilizes free fatty acids, triggering the Randle cycle. Endotoxin directly suppresses mitochondria ([[The Gut-Liver Axis]]). Thiamine deficiency blocks PDH -- pyruvate cannot enter the Krebs cycle regardless of substrate availability. Every upstream impairment produces the same downstream output: more lactate, less CO2.
 
