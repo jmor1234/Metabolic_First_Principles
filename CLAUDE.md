@@ -4,15 +4,11 @@ This workspace contains three independent Obsidian vaults. Each has its own CLAU
 
 **For the full project narrative** — what the project is, why it was built this way, what it found, and how the three vaults relate — read `Overview.md` in this directory.
 
-## ⚡ Current Work — Read This First
+## ⚡ Start Here
 
-The project is currently mid stress test of `metabolic_foundations/`. The single canonical file for what is being actively worked on, what just happened, what's next, and what's blocking is:
+**For the current best understanding of what health and disease are:** read `The Integrated Framework.md` in this directory. It is a single standalone synthesis incorporating everything learned across verification, extraction, and stress testing. It points back to all three vaults for traceability.
 
-**→ `metabolic_refinements/Current State.md`**
-
-Read it before doing anything else. It is small by design, it points to the right files for picking up the work, and it is the only file in the project guaranteed to reflect the current active state.
-
-The three sub-vault CLAUDE.mds and `Overview.md` describe the project's *structure and history*. `Current State.md` describes the *active work*. Both kinds of orientation are needed — but if you only have time for one before acting, read `Current State.md`.
+**For the stress test status and active work:** read `metabolic_refinements/Current State.md`. The stress test of `metabolic_foundations/` is complete — all three core layers tested, all classified REFINEMENT. See `metabolic_refinements/Stress Test Summary.md` for the precise before/after accounting.
 
 ## Metabolic Foundations (`metabolic_foundations/`)
 

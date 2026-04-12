@@ -4,7 +4,7 @@
 
 This project is an attempt to understand what health and disease actually are at the most fundamental level biology currently allows — not as a list of conditions and treatments, but as a single system operating from first principles.
 
-It produced three Obsidian vaults. The first was the investigation. The second is the knowledge that investigation produced. The third is the refinements that emerged from stress testing the second.
+It produced three Obsidian vaults. The first was the investigation. The second is the knowledge that investigation produced. The third is the refinements that emerged from stress testing the second. A single synthesis document — `The Integrated Framework.md` in this directory — presents the complete current understanding, incorporating everything learned across all three phases.
 
 ---
 
