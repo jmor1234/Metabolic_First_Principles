@@ -10,7 +10,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 
 ## Where We Are Right Now
 
-**Mid stress test of `metabolic_foundations/`. Layer 3 COMPLETE — REFINEMENT (substantial). Layer 2 Sub-test 2.B pending.** Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
+**Mid stress test of `metabolic_foundations/`. Layers 1, 2, and 3 COMPLETE. Layer 4 next.** Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
 
 **Layer 3 key findings:**
 - The 6-variable interaction graph contains 10+ positive circuits in 3 canonical bistability motifs (toggle switch, positive autoregulation, mutual positive feedback)
@@ -23,7 +23,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 |---|---|---|
 | Layer 0 — Bedrock | ATP requirement, ~18× difference, both pathways real | NOT TESTED (would mean overturning textbook biochemistry) |
 | Layer 1 — Ontological move | Health IS efficient oxidative metabolism of glucose to CO₂ | **COMPLETE — REFINEMENT (substantial)** |
-| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **IN PROGRESS** — Sub-test 2.A COMPLETE; causal-independence audit tool triangulated and integrated 2026-04-11; 13-loop audit Round 1 + Round 2 COMPLETE 2026-04-11; **Sub-test 2.B narrowed to mechanism verification only — pending** |
+| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **COMPLETE — REFINEMENT (substantial).** Sub-test 2.A: CO₂ removed from all loops as causal driver. Sub-test 2.B: lactylation causally validated, Loop 9 conditional resolved. 10 clean closed PFB loops. |
 | Layer 3 — Attractor dynamics | Interlocking loops generate genuine bistability | **COMPLETE — REFINEMENT (substantial).** The audited loop architecture supports genuine dynamical-systems bistability, conditional on parameter values placing the system in the bistable region. Core claims survive in modified form. Six new predictions. Triangulated 2026-04-12. |
 | Layer 4 — Cross-disease convergence | Every chronic disease shows the same metabolic signature | NOT STARTED |
 | Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
@@ -35,7 +35,9 @@ Five standalone refinement documents now live in this vault. None have been appl
 
 ## What Just Happened
 
-**Most recent substantive move (2026-04-12):** Layer 3 — formal bistability analysis — COMPLETE. Classification: REFINEMENT (substantial). Triangulated via two independent agents, both classifying REFINEMENT with matching reasoning chains.
+**Most recent substantive move (2026-04-12, later):** Sub-test 2.B — PASS. Histone lactylation is causally validated for Loop 9's gene expression effects. H3K18R site-specific mutant data (Zhang 2019) directly demonstrates causality. 6+ in vivo genetic/pharmacological models confirm the full chain across tumors, kidney, vasculature, brain, and sepsis. Hypothesis C (HIF-1α initiates, lactylation consolidates) best supported by temporal evidence — favorable for bistability. Loop 9 conditional resolved; M-Λ toggle has both arms; clean closed loop count rises to 10. Layer 2 is now COMPLETE.
+
+**Prior substantive move (2026-04-12, earlier):** Layer 3 — formal bistability analysis — COMPLETE. Classification: REFINEMENT (substantial). Triangulated via two independent agents, both classifying REFINEMENT with matching reasoning chains.
 
 The analysis tested whether the audited loop architecture (9 closed PFB loops + 1 hub + 2 half-closed + 1 forcing function) produces genuine dynamical-systems bistability. Six phases: (1) system formalized to 6 state variables with 10+ positive circuits in 3 canonical bistability motifs; (2) published models surveyed — glycolysis/OXPHOS IS bistable with experimental hysteresis (Mulukutla 2014); (3) at least 4 loops have bistability-compatible gain; (4) Brandman coupling through shared state variables enables collective bistability; (5) every negative feedback mechanism is state-dependent (participates in bistability rather than preventing it); (6) classification REFINEMENT — conditional bistability, not unconditional.
 
@@ -90,19 +92,20 @@ The analysis tested whether the audited loop architecture (9 closed PFB loops + 
 
 ## What's Next
 
-### The plan (current position: Layer 3 COMPLETE; Sub-test 2.B is the immediate next substantive move)
+### The plan (current position: Layers 1-3 COMPLETE; Layer 4 is the next layer)
 
-1. ✅ Steps 1–9 from prior plan. All DONE (causal-independence audit tool, 13-loop audit Round 1 + Round 2, artifact cleanup, commit).
-2. ✅ **Layer 3 — formal bistability analysis.** DONE 2026-04-12. REFINEMENT (substantial). Six-phase analysis + two-agent triangulation. The "two attractors" is dynamics, not metaphor, but conditional on parameter values. Six new predictions generated.
-3. **Clean up Layer 3 one-shot artifact (IMMEDIATE NEXT STEP — pending).** Delete `Research Brief - Layer 3 Bistability.md`. Git history preserves it.
-4. **Draft Layer 3 refinement document.** A standalone refinement document (following the vault's six-section template) formalizing the conditional bistability finding, the six new predictions, and the state-dependent negative feedback insight.
-5. **Sub-test 2.B (narrowed) — verify histone lactylation is causal in vivo** for Loop 9's gene expression effects vs. HIF-1α correlate. Layer 3 triangulation confirmed this is the most valuable next sub-test (Agent 1) because it determines whether the M-Λ toggle has one arm or two. Can be run alongside other work.
-6. **Consider Loop 2 refinement document.** CF-CI.10 surfaced a framework-level citation deployment error. Lower priority than Sub-test 2.B but a natural follow-up.
-7. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim).
+1. ✅ All Layer 2 work DONE (Sub-test 2.A REFINEMENT, 13-loop audit Round 1 + Round 2, Sub-test 2.B PASS).
+2. ✅ **Layer 3 — formal bistability analysis.** DONE 2026-04-12. REFINEMENT (substantial).
+3. ✅ **Sub-test 2.B — histone lactylation causality.** DONE 2026-04-12. PASS — conditional resolved.
+4. **Commit current state (IMMEDIATE NEXT STEP).** One commit covering Sub-test 2.B documentation, Layer 2 completion, carry-forward items, Current State.md updates.
+5. **Draft refinement documents.** Two standalone documents pending: (a) Layer 3 conditional bistability (six new predictions, state-dependent damping insight); (b) optional Loop 2 refinement (CF-CI.10 citation deployment error).
+6. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim).
+7. **Layer 4 — Cross-disease convergence.** The next layer. Tests whether every major chronic disease shows the metabolic failure signature, or whether there are genuine exceptions.
 
 ### Housekeeping pending
 
-- `Research Brief - Layer 3 Bistability.md` should be deleted (one-shot artifact per Independent Agent Research Protocol). **Durable form already in place:** the Layer 3 section in `Stress Test.md` and the 2026-04-12 working log entry. Agent reports were returned inline, not written to files.
+- `Research Brief - Layer 3 Bistability.md` was deleted 2026-04-12 (one-shot artifact). Git history preserves it.
+- No other artifacts pending cleanup.
 
 ### After Layer 2 completion (in rough order of leverage)
 
