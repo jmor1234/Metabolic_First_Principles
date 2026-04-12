@@ -10,7 +10,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 
 ## Where We Are Right Now
 
-**Mid stress test of `metabolic_foundations/`. Layers 1, 2, and 3 COMPLETE. Layer 4 next.** Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
+**Stress test of `metabolic_foundations/` is COMPLETE.** Layers 1, 2, and 3 — the three layers mapping to the framework's pre-specified Core Claims — are all tested. All three produced REFINEMENT. The framework's core claims survive, sharper and more predictive than before. See `Stress Test Summary.md` for the precise before/after accounting. Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
 
 **Layer 3 key findings:**
 - The 6-variable interaction graph contains 10+ positive circuits in 3 canonical bistability motifs (toggle switch, positive autoregulation, mutual positive feedback)
@@ -29,7 +29,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 | Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
 | Layer 6 — Falsifiability meta-test | (subsumed into Verification Methodology Rules 1–3) | SUBSUMED |
 
-Six standalone refinement documents now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. The newest is `Conditional Bistability and Attractor Dynamics.md`, formalizing the Layer 3 finding.
+Six standalone refinement documents plus a summary now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. `Stress Test Summary.md` is the capstone — the precise before/after accounting of what the framework got right, wrong, and what was missing.
 
 ---
 
@@ -163,6 +163,7 @@ If you are picking this up and need to understand the full state, read in this o
 - `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
 ### 4. Substantive findings as standalone knowledge
+- **`Stress Test Summary.md`** (this vault) — **start here for findings.** Precise before/after accounting of what the framework got right, wrong, and what was missing. The capstone.
 - `Convergence Point Reading.md` (this vault) — Sub-test 1.A
 - `Krebs-Cycle Invariance and Ketone Bodies.md` (this vault) — Sub-test 1.B (six findings consolidated)
 - `Loop 7 — Metabolism-Mediator Coupling.md` (this vault) — Sub-test 2.A
