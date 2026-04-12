@@ -29,7 +29,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 | Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
 | Layer 6 — Falsifiability meta-test | (subsumed into Verification Methodology Rules 1–3) | SUBSUMED |
 
-Five standalone refinement documents now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. A Layer 3 refinement document (formalizing the conditional bistability finding and new predictions) is pending.
+Six standalone refinement documents now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. The newest is `Conditional Bistability and Attractor Dynamics.md`, formalizing the Layer 3 finding.
 
 ---
 
@@ -97,8 +97,9 @@ The analysis tested whether the audited loop architecture (9 closed PFB loops + 
 1. ✅ All Layer 2 work DONE (Sub-test 2.A REFINEMENT, 13-loop audit Round 1 + Round 2, Sub-test 2.B PASS).
 2. ✅ **Layer 3 — formal bistability analysis.** DONE 2026-04-12. REFINEMENT (substantial).
 3. ✅ **Sub-test 2.B — histone lactylation causality.** DONE 2026-04-12. PASS — conditional resolved.
-4. **Commit current state (IMMEDIATE NEXT STEP).** One commit covering Sub-test 2.B documentation, Layer 2 completion, carry-forward items, Current State.md updates.
-5. **Draft refinement documents.** Two standalone documents pending: (a) Layer 3 conditional bistability (six new predictions, state-dependent damping insight); (b) optional Loop 2 refinement (CF-CI.10 citation deployment error).
+4. ✅ **Sub-test 2.B documented and committed.** DONE 2026-04-12.
+5. ✅ **Layer 3 refinement document drafted.** DONE 2026-04-12 — `Conditional Bistability and Attractor Dynamics.md`.
+6. **Commit refinement document (IMMEDIATE NEXT STEP).**
 6. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim).
 7. **Layer 4 — Cross-disease convergence.** The next layer. Tests whether every major chronic disease shows the metabolic failure signature, or whether there are genuine exceptions.
 
@@ -167,7 +168,7 @@ If you are picking this up and need to understand the full state, read in this o
 - `Loop 7 — Metabolism-Mediator Coupling.md` (this vault) — Sub-test 2.A
 - `Causal Independence in Feedback Loops.md` (this vault) — the causal-independence audit *tool* derived from Sub-test 2.A, grounded in Pearl's screening-off + Palsson/MCA conservation relations. Supersedes the earlier first-pass `Co-Production and Independence.md` which was deleted after triangulation identified it as over-general and a re-derivation of existing work.
 - **`13-Loop Causal Independence Audit.md`** (this vault) — the Round 1 + Round 2 application of the audit tool to all 13 formalized positive feedback loops in `The System.md`. Includes per-loop sections, top-level inventory table, cross-loop findings, citation deployment summary, carry-forward items, and architectural impact summary. This was the prerequisite substrate for Layer 3.
-- **Layer 3 analysis** (in `Stress Test.md` § Layer 3) — formal bistability analysis of the audited loop architecture. Six-phase analysis + two-agent triangulation. Classification: REFINEMENT. Conditional bistability, six new predictions, state-dependent negative feedback insight. A standalone refinement document is pending.
+- **`Conditional Bistability and Attractor Dynamics.md`** (this vault) — Layer 3. The framework's "two attractors" is genuine dynamics, not metaphor, but conditional on parameter values. State-dependent negative feedback, Brandman coupling, six new testable predictions. Source: Stress Test Layer 3.
 
 ### 5. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
