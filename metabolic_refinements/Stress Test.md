@@ -187,8 +187,8 @@ The vault's core ontological commitment — that health is efficient oxidative m
 
 4. **Are there counter-mechanisms (negative feedback) the vault under-weights that would prevent positive-feedback runaway?** Bicarbonate buffering, HIF-1α degradation, lactate clearance pathways — is the vault cherry-picking positive-feedback components and under-counting the damping?
 
-**Status:** IN PROGRESS — Sub-test 2.A COMPLETE (REFINEMENT substantial); causal-independence audit tool triangulated and integrated into Verification Methodology Step 4 (2026-04-11); **13-loop causal-independence audit Round 1 COMPLETE (2026-04-11)** — see `13-Loop Causal Independence Audit.md`; Round 2 triangulation pending; Sub-test 2.B narrowed (mechanism-verification only) pending Round 2.
-**Findings:** See Sub-test 2.A below. See the 2026-04-11 working log entries for (a) the causal-independence audit tool refinement, (b) the 13-loop audit Round 1 application of that tool. The 13-loop audit promoted CF-CI.1 to CONFIRMED, surfaced three new carry-forward items (CF-CI.7, CF-CI.8, CF-CI.9), and contracted the framework's formal loop arm count from "13 loops" to "12 closed positive feedback loops + 1 periodic forcing function (Loop 13) + Loop 6 with 3 internal sub-arms instead of 4-5."
+**Status:** IN PROGRESS — Sub-test 2.A COMPLETE (REFINEMENT substantial); causal-independence audit tool triangulated and integrated into Verification Methodology Step 4 (2026-04-11); **13-loop causal-independence audit Round 1 + Round 2 COMPLETE (2026-04-11)** — see `13-Loop Causal Independence Audit.md`; Sub-test 2.B narrowed (mechanism-verification only), not yet started.
+**Findings:** See Sub-test 2.A below. See the 2026-04-11 working log entries for the causal-independence audit tool refinement, the 13-loop audit Round 1 application, and the Round 2 triangulation. The 13-loop audit promoted CF-CI.1 to CONFIRMED, surfaced five new carry-forward items (CF-CI.7, CF-CI.8, CF-CI.9, CF-CI.10, CF-CI.11), and contracted the architecture to 9 clean closed PFB loops + 1 multi-armed hub (Loop 6) + 2 half-closed loops + 1 periodic forcing function.
 
 ### Sub-test 2.A — Loop 7 (CO₂-Serotonin Loop) Mechanism
 
@@ -270,8 +270,139 @@ The CO₂-active side of Layer 2's claim has been tested and survives only in re
 
 5. **Does breaking one loop actually propagate the way the architecture predicts?** Interventions that target single loops — is the "plateau after initial improvement" pattern actually observed, and does it match the model's quantitative predictions?
 
-**Status:** NOT STARTED
-**Findings:** —
+**Status:** COMPLETE — REFINEMENT (substantial)
+**Findings:** See below and the 2026-04-12 working log entry.
+
+### Layer 3 Analysis — Formal Bistability
+
+**Executed:** 2026-04-12
+**Classification:** REFINEMENT (substantial)
+**Triangulation:** own-research + two independent agents (Round 2 per `Independent Agent Research Protocol.md`)
+
+The framework's "two attractors" claim represents genuine dynamical-systems bistability, not metaphor — but the claim needs modification from unconditional fact to conditional property, constrained to parameter values that place the system in the bistable region of its parameter space.
+
+#### Phase 1 — System Formalization
+
+The 15 components reduce to 6 essential state variables based on dynamical independence and timescale:
+
+| Variable | Symbol | Timescale |
+|---|---|---|
+| Mitochondrial function (oxidative capacity) | M | Days–weeks |
+| Active thyroid hormone | T | Hours |
+| Free estrogen (tissue-level) | E | Hours–days |
+| PUFA tissue content | P | Weeks–months |
+| Endotoxin load | L | Hours |
+| Chronic lactate | Λ | Hours–days |
+
+The 9 audited loops map onto signed interactions between these variables. The interaction graph contains **at least 10 independent positive circuits** instantiating **3 canonical bistability motifs**:
+
+- **Mutual inhibition (toggle switches):** T ⊣ E ⊣ T (Loop 6c), T ⊣ L ⊣ T (Loop 12), M ⊣ Λ ⊣ M (Loop 9)
+- **Positive autoregulation:** E → E (Loops 4+5), Λ → Λ (Loop 9), L → L (Loop 10), M → M (Loop 7)
+- **Mutual positive feedback:** P ↔ E (Loop 3), L ↔ E (Loop 11), T ↔ M
+
+**Thomas's necessary condition** for bistability (at least one positive circuit in the interaction graph) is satisfied with extreme redundancy. The two candidate fixed points (healthy: M↑ T↑ E↓ P↓ L↓ Λ↓; disease: M↓ T↓ E↑ P↑ L↑ Λ↑) are structurally self-consistent.
+
+#### Phase 2 — Published Bistability Models
+
+**Demonstrated sub-system bistability:**
+
+1. **Glycolysis/OXPHOS switch — Mulukutla et al. 2014, *PLOS ONE* (PMC4049617).** 12-metabolite ODE system with experimentally measured kinetic parameters. Two stable steady states with **experimentally validated hysteresis** in HeLa cells — forward and reverse transition thresholds differ. Key requirement: PKM2 (not PKM1). This IS the framework's metabolic fork operating as a real bistable switch.
+
+2. **ROS-induced ROS release — Zorov et al. (2000, 2006).** Formally bistable positive feedback where ROS from one mitochondrion trigger permeability transition in neighbors. Maps onto Loop 1.
+
+3. **Macrophage M1/M2 polarization — Smith et al.** Experimental hysteresis: M1 pretreatment potentiates M2 response, but M2 pretreatment blocks M1. Bistable at the signaling level.
+
+**Critical distinction:** HIF-1α oxygen sensing is ultrasensitive (steep dose-response) but NOT bistable — one steady state per O₂ level, no hysteresis (Qutub & Popel 2006-7). This matters for Loop 9.
+
+**Collective bistability principle:** Brandman et al. 2005 (*Science*) demonstrated that coupled positive feedback loops with individually insufficient nonlinearity produce bistability collectively. Effective Hill coefficient of coupled loops ≈ product of individual ultrasensitivities for serial cascades; additive for convergent inputs. The framework's shared state variables (E across 4 loops, ATP across 3 loops, PUFA across 3 loops, LPS across 3 loops) provide exactly the coupling the Brandman principle requires.
+
+**Gaps:** No published bistability models exist for estrogen-aromatase, lactate-lactylation, or thyroid-estrogen mutual inhibition. No integrated multi-variable model of the full system has been constructed.
+
+#### Phase 3 — Quantitative Loop Gain Estimation
+
+| Loop | Type | Gain evidence | Bistability-compatible? |
+|---|---|---|---|
+| L1 (PUFA-Perox) | Chain reaction | Chain length 3-10 in depleted membranes; gain < 1 with adequate vitamin E, > 1 when depleted | Yes (state-dependent, vitamin E as bifurcation parameter) |
+| L4+5 (E autoregulation) | Positive autoregulation | 10-50× tissue amplification; promoter switch (binary, not graded); CYP19A1 gene amplification under AI pressure | Strongly yes |
+| L6c (T ⊣ E ⊣ T) | Toggle switch | Glucuronidation 80% drop without glycogen (threshold); TBG near-saturation binding | Yes |
+| L9 (Lactate) | Positive autoregulation | 28 lactylation sites; PKM2 connection to glycolysis bistability | Conditional (Sub-test 2.B) |
+| L10 (LPS-Barrier) | Cascaded ultrasensitivity | NF-κB switch (n_eff 3-5) × ATP threshold (n_eff 2-3) = composite >> 2 | Strongly yes |
+| L12 (Gut-Thyroid) | Toggle switch | 54%/5% SIBO prevalence (Lauritano 2007); levothyroxine reversal | Yes |
+
+At least 4 loops (L1, L4+5, L10, L12) have strong quantitative evidence for bistability-compatible gain, plus L6c with plausible cooperativity.
+
+#### Phase 4 — Multi-Loop Coupling
+
+The Brandman multiplicative principle (serial cascades) and additive principle (convergent inputs) together mean the composite system exceeds the bistability threshold more easily than any individual loop needs to. The Jacobian sign structure is consistent with two stable fixed points flanking an unstable threshold.
+
+**Timescale separation** between fast variables (T, L, Λ — hours) and slow variables (M, E, P — days to months) creates **slow-fast bistability with hysteresis** — fast variables equilibrate to quasi-steady states determined by slow variables, and slow variables drift in the direction dictated by the fast system's state. This produces hysteresis on the slow timescale, matching the framework's description of progressive disease onset followed by sudden-appearing transition.
+
+#### Phase 5 — Negative Feedback Inventory
+
+Every damping mechanism identified is **state-dependent** — strong in the healthy attractor, weak in the disease attractor:
+
+| Mechanism | Healthy state | Disease state |
+|---|---|---|
+| HPT axis | Strong | Set point shifted down (NTIS) |
+| HPA axis | Strong | Weakened (estrogen impairs GR feedback) |
+| HIF-1α degradation (PHDs) | Strong (O₂ adequate) | Weakened (chronic hypoxia) |
+| Lactate clearance | Dominates production | Production exceeds clearance |
+| Antioxidant defenses (GSH, SOD, GPx) | Maintains ROS homeostasis | Depleted (ATP-dependent synthesis) |
+| Mitochondrial biogenesis (PGC-1α) | Replaces damaged mitochondria | Suppressed (NF-κB inhibits PGC-1α) |
+| Autophagy / mitophagy | PINK1/Parkin quality control active | Impaired under energy deficit |
+| Immune resolution (SPMs) | Resolves inflammation | PUFA diverted to peroxidation |
+
+**Deepest structural finding:** The negative feedback is not an opponent of bistability — it *participates* in bistability. The positive feedback loops operate BY weakening the negative feedback. The damping mechanisms are themselves energy-dependent: when M is low, the organism lacks the ATP to run its damping systems. This creates multiplicative (not additive) gain dynamics — exactly the nonlinear gain function that produces bistability.
+
+#### Phase 6 — Classification
+
+**REFINEMENT (substantial)**
+
+**Why not Pass:** The framework states "the metabolic system has two stable states" as unconditional fact. The evidence supports this as *conditional* — dependent on parameter values (PUFA burden, iron load, chronic stress, endotoxin exposure) falling within the bistable region of parameter space. An organism with very low PUFA, excellent thyroid function, and robust damping may be monostable. The modification from unconditional to conditional is genuine.
+
+**Why not Fail:** Three independent evidence lines converge on genuine dynamics: (1) demonstrated sub-system bistability (Mulukutla, Smith, Zorov) in exactly the sub-systems the framework identifies as central; (2) Brandman coupling through shared state variables makes collective bistability quantitatively plausible; (3) state-dependent negative feedback creates the nonlinear gain structure bistability requires. None of the four pre-specified falsification criteria were met.
+
+**Core claims survive in modified form:**
+- Core Claim 2: "The system *can exhibit* two self-reinforcing stable states when parameter conditions create a disease basin" (conditional on parameter values)
+- Core Claim 3: "Positive feedback loops make each state self-maintaining" — survives intact
+- Loop count updated to audited inventory (9 closed + hub + 2 half-closed + forcing function)
+
+#### Triangulation outcome
+
+Two independent agents dispatched per `Independent Agent Research Protocol.md`, each given `Research Brief - Layer 3 Bistability.md` with no access to the context-holder's classification.
+
+**Both agents independently classified as REFINEMENT** via matching reasoning chains. Strong convergence on:
+- Thomas's condition abundantly satisfied (structural)
+- Mulukutla 2014 as the strongest single finding (quantitative)
+- Brandman coupling as the key answer to "no single loop has measured gain > 1" (theoretical)
+- State-dependent negative feedback as genuine, not artifact (mechanistic)
+- The framework's unconditional "has two states" needs constraint to conditional "can have two states" (epistemic)
+- The monostable-excitable alternative as the strongest counter-argument (honest)
+
+**Agent additions the context-holder missed:**
+- **Critical slowing down** as a testable prediction (Agent 2): recovery time from standardized stressors should increase as an organism approaches the separatrix. Universal early warning signal for bifurcation transitions. Most directly testable prediction of the entire analysis.
+- **Timescale-induced hysteresis** as a complementary mechanism (Agent 1): slow variables (P, M) create apparent hysteresis even if fast-variable dynamics aren't independently bistable. Mechanistically distinct from intrinsic bistability but clinically indistinguishable. Both may operate simultaneously.
+- **PKM2 conditionality** (both agents): glycolysis/OXPHOS bistability requires PKM2. PKM2 is re-expressed under metabolic stress (HIF-1α, NF-κB), so the bistable switch becomes available precisely when the system is transitioning toward disease. A specific, falsifiable constraint.
+- **Brandman serial vs convergent distinction** (Agent 2): multiplicative ultrasensitivity applies to serial cascades; additive to convergent inputs at shared nodes. The context-holder's Phase 4 overclaimed by applying multiplicative uniformly. Corrected.
+- **Autophagy/mitophagy** (both agents): an additional state-dependent damping mechanism the Phase 5 inventory missed. PINK1/Parkin pathway, ATP-dependent, impaired under energy deficit.
+
+**Agent factual corrections:**
+- The "10.8×" SIBO risk ratio is correctly calculated as 54%/5% from Lauritano 2007 (Agent 2 verified), but should be attributed precisely.
+- The Brandman numerical example (1.3 × 1.3 × 1.3 ≈ 2.2) is illustrative from the paper's specific model, not a general result. Flagged as such.
+- Peroxidation index: Holman 1954 is the original framework; Cosgrove 1987 is experimental validation. Both should be cited.
+
+#### New predictions generated
+
+1. **Hysteresis:** Forward (health→disease) and reverse (disease→health) transition thresholds differ. Recovery requires greater correction than disease induction. Testable via bifurcation parameter sweep (e.g., T₃ titration in both directions with metabolic markers).
+2. **PKM2 conditionality:** Glycolysis/OXPHOS bistability requires PKM2. PKM1-dominant tissues should show more reversible metabolic shifts.
+3. **Critical slowing down:** Recovery time from standardized stressors (glucose tolerance, temperature recovery) increases near the separatrix. Universal early warning signal for bistability transitions.
+4. **Multi-input threshold nonlinearity:** Addressing 1 loop → modest improvement; 3+ simultaneously → disproportionate improvement (system crosses separatrix).
+5. **Slow-variable intervention durability:** Interventions resetting slow variables (PUFA displacement, weeks-months) should show more durable recovery than fast-variable-only interventions (T₃ supplementation alone).
+6. **Bimodality in history-matched cohorts:** Same current inputs, different histories → bimodal metabolic state distribution in the previously-exposed group.
+
+#### The strongest counter-argument
+
+**Monostable-excitable dynamics:** The system has one attractor (health) and disease is a sustained-input-driven excursion. Clinically indistinguishable from bistability for individual patients. Its weakest point: fails to explain why recovery requires multi-input simultaneous intervention (a monostable system should return to health when inputs are removed). But timescale-induced hysteresis from slow variables could produce the appearance of needing multi-input intervention in a monostable system. The definitive distinguishing test: whole-organism hysteresis measurement — sweep a bifurcation parameter in both directions and check whether forward and reverse thresholds differ.
 
 ---
 
@@ -376,13 +507,44 @@ Open questions and unresolved angles from completed layers that have been deferr
 
 **CF-CI.10 — Loop 2 closure arm mechanism reframing (framework-level citation deployment error).** Newly surfaced in the 2026-04-11 Round 2 triangulation. The framework's `metabolic_foundations/Membrane Damage and Defense.md` cites PMC6624793 for the claim that "PUFA mobilization displaces tryptophan, increases brain serotonin, which [promotes lipolysis] releasing more PUFA." Direct WebFetch verification of PMC6624793 (2026-04-11) confirms the paper reports the opposite: peripheral 5-HT via HTR2A *suppresses* isoprenaline-induced lipolysis; HTR2B modestly reduces basal lipolysis. The paper's conclusion: peripheral serotonin promotes "an energy storage phenotype" by suppressing lipolysis. Loop 2's closure arm as written does not close via peripheral 5-HT → HTR2A → lipolysis. **Possible salvage:** central 5-HT → sympathetic activation → HSL-mediated adipose FFA release (older literature in stress physiology and monoamine research) — this is a different mechanism than the cited peripheral pathway and would require a new citation and a reframed mechanism statement. Until the closure arm is reframed, Loop 2 is structurally a half-closed loop: forward arm clean (PUFA → tryptophan displacement → brain 5-HT synthesis is mechanism-specific), closure arm contradicted. **Pattern observation:** This is the second framework-text citation deployment error found by the stress test (first was Pollard 1977 / Freed 2001 for Loop 7 in Sub-test 2.A). Both involve loops where the mechanism is named at the bulk-effect / non-molecular level. The CF-2.A.4 citation deployment audit is validating its predicted failure-mode pattern. **Address as a focused Loop 2 refinement document** (would mirror the `Loop 7 — Metabolism-Mediator Coupling.md` structure) that documents the finding, proposes the central-5-HT salvage mechanism if the supporting literature exists, and updates the Refinement Diff Catalog. Framework text is preserved per the asymmetry principle.
 
-**CF-CI.11 — Loop 4 structural classification (single-variable autoregulatory production loop).** Newly surfaced in the 2026-04-11 Round 2 triangulation. Loop 4 (Estrogen-Aromatase) is structurally a single-variable autoregulatory production loop where estrogen drives its own producer enzyme (CYP19A1) rather than a two-variable interlocked closed loop like most of the other loops in the architecture. The audit classification is unchanged (still independent driver — specific mechanism, ER → CYP19A1 promoter activity), but the structural label matters for Layer 3 loop gain formulation because single-variable autoregulation has different bistability conditions than two-variable interlocked loops. **Address in Layer 3** — the loop gain calculation for Loop 4 should use the single-variable autoregulation form, not be bundled with the two-variable loops.
+**CF-CI.11 — Loop 4 structural classification (single-variable autoregulatory production loop).** Newly surfaced in the 2026-04-11 Round 2 triangulation. Loop 4 (Estrogen-Aromatase) is structurally a single-variable autoregulatory production loop where estrogen drives its own producer enzyme (CYP19A1) rather than a two-variable interlocked closed loop like most of the other loops in the architecture. The audit classification is unchanged (still independent driver — specific mechanism, ER → CYP19A1 promoter activity), but the structural label matters for Layer 3 loop gain formulation because single-variable autoregulation has different bistability conditions than two-variable interlocked loops. **Addressed in Layer 3** — Loop 4 was analyzed as positive autoregulation (n ≥ 2 condition) separately from the toggle switches. The promoter switch mechanism (I.4 → I.3/PII) provides the binary nonlinearity.
+
+### From Layer 3
+
+**CF-L3.1 — Whole-organism hysteresis measurement.** The definitive test distinguishing genuine bistability from monostable-excitable dynamics. Protocol sketch: sweep a bifurcation parameter (e.g., T₃ level) in both directions while measuring metabolic markers (V'CO₂, lactate, RQ, temperature, RMR). If bistable, forward (health→disease) and reverse (disease→health) transition thresholds differ. If monostable, they coincide. Analogous to Mulukutla 2014's cellular-level protocol. **No human whole-organism hysteresis study exists.** The most valuable single experiment for resolving the bistability question — flag rather than chase.
+
+**CF-L3.2 — PKM2 conditionality for glycolysis/OXPHOS bistability.** Mulukutla 2014 shows the bistable switch requires PKM2 (not PKM1). PKM2 is the embryonic/cancer isoform, re-expressed under metabolic stress via HIF-1α and NF-κB. Testable prediction: PKM1-dominant tissues should show more reversible metabolic shifts. The bistable switch is conditionally available — it emerges when the system is transitioning toward disease. **Address when:** clinical data on PKM isoform expression across the health-disease spectrum becomes available, or in Layer 4 (cross-disease convergence, where PKM2 expression is a known feature of cancer metabolism).
+
+**CF-L3.3 — Critical slowing down as early warning signal.** Surfaced by Agent 2 in Layer 3 triangulation. A universal prediction of bistable systems: recovery time from standardized stressors (glucose tolerance test recovery kinetics, temperature recovery after cold exposure) should increase as an organism approaches the separatrix. Measurable across the health-disease spectrum. **The most directly testable prediction of the Layer 3 analysis.** Address as a testable prediction in the refinement document, and potentially in Practice (monitoring framework).
+
+**CF-L3.4 — Integrated 6-variable ODE model with bifurcation diagram.** Both agents noted that the honest gap in the bistability analysis is the absence of a computed bifurcation diagram for the coupled system. The kinetic data to parameterize the model exist scattered across the sub-system literature (Mulukutla kinetics for M-Λ, TBG binding constants for T-E, NF-κB kinetics for L, published aromatase kinetics for E). A minimal 3-variable model (M-T-E core) would be the tractable first step. **This is a computational project, not an experimental one.** Address if a quantitative modeling phase is undertaken.
+
+**CF-L3.5 — Conditional bistability: parameter-region dependence.** Both agents converged on this: the framework's unconditional "has two stable states" should be constrained to "can exhibit two stable states when parameter conditions (PUFA burden, iron load, chronic stress, endotoxin exposure) create a disease basin." An organism with very low PUFA, excellent thyroid function, and robust damping may be monostable (healthy state as the only attractor). This is the core of the Layer 3 REFINEMENT — the modification from unconditional to conditional bistability. **Address in the Layer 3 refinement document** (to be drafted).
 
 ---
 
 ## Working Log
 
 *Dated entries as we progress. Most recent at top.*
+
+### 2026-04-12 — Layer 3 formal bistability analysis COMPLETE (REFINEMENT substantial)
+
+Layer 3 tested Core Claims 2 and 3: whether the audited loop architecture produces genuine dynamical-systems bistability or is a precise metaphor for clinical bimodality. The analysis proceeded in 6 phases: system formalization (6 state variables, interaction graph, Thomas's condition), published bistability model survey, quantitative loop gain estimation, multi-loop coupling analysis, negative feedback inventory, and classification. Triangulated via two independent agents per `Independent Agent Research Protocol.md`.
+
+- **Phase 1 outcome:** The 6-variable interaction graph (M, T, E, P, L, Λ) contains 10+ independent positive circuits in 3 canonical bistability motifs (toggle switch, positive autoregulation, mutual positive feedback). Thomas's necessary condition satisfied with extreme redundancy.
+- **Phase 2 outcome:** Glycolysis/OXPHOS switch IS bistable with experimental hysteresis (Mulukutla 2014). M1/M2 macrophage polarization shows experimental hysteresis (Smith). ROS-induced ROS release is formally bistable (Zorov). HIF-1α is ultrasensitive but NOT bistable (Qutub & Popel) — important distinction for Loop 9. Brandman et al. 2005 (*Science*) shows coupled positive loops multiply their ultrasensitivities, enabling collective bistability.
+- **Phase 3 outcome:** At least 4 loops (L1, L4+5, L10, L12) have strong quantitative evidence for bistability-compatible gain. L6c has plausible cooperativity. L9 is conditional on Sub-test 2.B.
+- **Phase 4 outcome:** Brandman coupling through shared state variables (estrogen across 4 loops, ATP across 3, PUFA across 3, LPS across 3) makes collective bistability quantitatively plausible. Timescale separation (fast T/L/Λ, slow M/E/P) creates slow-fast bistability with hysteresis.
+- **Phase 5 outcome:** Every damping mechanism is state-dependent — strong in the healthy attractor, weak in the disease attractor — because the damping mechanisms are themselves energy-dependent. Deepest finding: negative feedback participates in the bistability rather than preventing it.
+- **Phase 6 outcome:** REFINEMENT. Framework's unconditional "has two states" needs constraint to conditional "can have two states when parameter conditions create a disease basin." Core claims survive. Six new predictions generated.
+
+**Triangulation:** Two independent agents both classified as REFINEMENT via matching reasoning. Strong convergence on all structural findings. Agents added: critical slowing down as the most testable prediction (Agent 2); timescale-induced hysteresis as complementary mechanism (Agent 1); PKM2 conditionality (both); Brandman serial vs convergent distinction (Agent 2); autophagy/mitophagy as missed damping mechanism (both).
+
+**Research brief and agent reports:** `Research Brief - Layer 3 Bistability.md` is a one-shot artifact (per Protocol Phase 5, to be deleted after commit). Agent reports were returned inline (not written to files).
+
+**New carry-forward items:** CF-L3.1 through CF-L3.5 (whole-organism hysteresis, PKM2 conditionality, critical slowing down, integrated ODE model, conditional bistability refinement document).
+
+**Layer status update:** Layer 3 is COMPLETE. Layer 2 Sub-test 2.B (histone lactylation mechanism verification) remains as the next substantive move. Layer 4 (cross-disease convergence) is the next layer after remaining Layer 2 work.
 
 ### 2026-04-11 — 13-loop audit Round 2 triangulation complete (evening)
 

@@ -1,6 +1,6 @@
 # Current State
 
-**Last updated:** 2026-04-11
+**Last updated:** 2026-04-12
 
 This is the single canonical source for what is being actively worked on in this project right now. It is small by design and updated as work progresses. Other files (`Stress Test.md`, the refinement documents, `Refinement Diff Catalog.md`) are the substance; this file is the pointer.
 
@@ -10,31 +10,38 @@ If you are a new agent picking this up, read this file first, then follow the "W
 
 ## Where We Are Right Now
 
-**Mid stress test of `metabolic_foundations/`. Layer 2 in progress — 13-loop causal-independence audit Round 1 AND Round 2 COMPLETE.** The audit tool has been applied across all 13 loops by the context-holder (Round 1) and then triangulated via two independent general-purpose agents (Round 2) working from a self-contained research brief with no access to Round 1 classifications. Both Round 2 agents independently confirmed the predicted architectural findings and caught several findings Round 1 missed, including one framework-level citation deployment error. The contracted loop inventory is now ready as the prerequisite substrate for Layer 3.
+**Mid stress test of `metabolic_foundations/`. Layer 3 COMPLETE — REFINEMENT (substantial). Layer 2 Sub-test 2.B pending.** Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
 
-**Net post-Round-2 architectural count:**
-- **9 unambiguously clean closed PFB loops:** L1, L3, L4 (with single-variable structural note), L5, L7-refined, L9 (conditional on Sub-test 2.B), L10, L11, L12
-- **1 multi-armed hub (Loop 6)** contracted to 1 clean arm (6c estrogen), 1 gated arm (6d progesterone via estrogen opposition), 1 indeterminate arm (6b serotonin); 2 arms removed (6a parallel marker, 6e not-a-closed-arm)
-- **2 structurally half-closed loops** with contradicted or unnamed closure arms: L2 (CF-CI.10, closure direction-reversed by cited source), L8 (CF-CI.8, closure mechanism unnamed)
-- **1 periodic external forcing function** (L13, CF-CI.9)
+**Layer 3 key findings:**
+- The 6-variable interaction graph contains 10+ positive circuits in 3 canonical bistability motifs (toggle switch, positive autoregulation, mutual positive feedback)
+- At least one sub-system (glycolysis/OXPHOS) IS demonstrably bistable with experimental hysteresis (Mulukutla 2014)
+- Brandman coupling through shared state variables enables collective bistability even when individual loops are sub-threshold
+- Every negative feedback mechanism is state-dependent (strong in health, weak in disease) — participates in bistability rather than preventing it
+- Six new testable predictions generated (hysteresis, PKM2 conditionality, critical slowing down, multi-input nonlinearity, slow-variable durability, history-dependent bimodality)
 
 | Layer | Claim under attack | Status |
 |---|---|---|
 | Layer 0 — Bedrock | ATP requirement, ~18× difference, both pathways real | NOT TESTED (would mean overturning textbook biochemistry) |
 | Layer 1 — Ontological move | Health IS efficient oxidative metabolism of glucose to CO₂ | **COMPLETE — REFINEMENT (substantial)** |
-| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **IN PROGRESS** — Sub-test 2.A COMPLETE; causal-independence audit tool triangulated and integrated 2026-04-11; **13-loop audit Round 1 + Round 2 COMPLETE 2026-04-11**; Sub-test 2.B narrowed to mechanism verification only |
-| Layer 3 — Attractor dynamics | 13 interlocking loops generate genuine bistability | **READY TO BEGIN.** Audited substrate in place: 9 closed PFB loops + Loop 6 hub (1 clean + 1 gated + 1 indeterminate) + 2 half-closed loops + 1 forcing function. Shared state variables identified (free estrogen, cellular ATP, PUFA, LPS, lactate). Will use MCA loop gain calculations with conservation relations / control coefficients as the quantitative tooling. |
+| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **IN PROGRESS** — Sub-test 2.A COMPLETE; causal-independence audit tool triangulated and integrated 2026-04-11; 13-loop audit Round 1 + Round 2 COMPLETE 2026-04-11; **Sub-test 2.B narrowed to mechanism verification only — pending** |
+| Layer 3 — Attractor dynamics | Interlocking loops generate genuine bistability | **COMPLETE — REFINEMENT (substantial).** The audited loop architecture supports genuine dynamical-systems bistability, conditional on parameter values placing the system in the bistable region. Core claims survive in modified form. Six new predictions. Triangulated 2026-04-12. |
 | Layer 4 — Cross-disease convergence | Every chronic disease shows the same metabolic signature | NOT STARTED |
 | Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
 | Layer 6 — Falsifiability meta-test | (subsumed into Verification Methodology Rules 1–3) | SUBSUMED |
 
-Five standalone refinement documents now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. The newest is `13-Loop Causal Independence Audit.md`, which is the Round 1 application of the causal-independence audit tool to the framework's full loop architecture.
+Five standalone refinement documents now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. A Layer 3 refinement document (formalizing the conditional bistability finding and new predictions) is pending.
 
 ---
 
 ## What Just Happened
 
-**Most recent substantive move (2026-04-11, late evening):** The 13-loop causal-independence audit Round 2 triangulation has been completed. Two independent general-purpose agents were dispatched in parallel per `Independent Agent Research Protocol.md`, each given the same self-contained research brief (`Research Brief - 13 Loop Causal Independence Audit.md`) without access to Round 1 classifications. Both reports were then critically assessed against first principles, with load-bearing corrections verified directly against primary sources (WebFetch). The synthesis has been transcribed into `13-Loop Causal Independence Audit.md` as a new "Round 2 Triangulation Synthesis" section, and the one-shot artifacts (brief, agent reports) are being deleted per the Protocol's housekeeping rules.
+**Most recent substantive move (2026-04-12):** Layer 3 — formal bistability analysis — COMPLETE. Classification: REFINEMENT (substantial). Triangulated via two independent agents, both classifying REFINEMENT with matching reasoning chains.
+
+The analysis tested whether the audited loop architecture (9 closed PFB loops + 1 hub + 2 half-closed + 1 forcing function) produces genuine dynamical-systems bistability. Six phases: (1) system formalized to 6 state variables with 10+ positive circuits in 3 canonical bistability motifs; (2) published models surveyed — glycolysis/OXPHOS IS bistable with experimental hysteresis (Mulukutla 2014); (3) at least 4 loops have bistability-compatible gain; (4) Brandman coupling through shared state variables enables collective bistability; (5) every negative feedback mechanism is state-dependent (participates in bistability rather than preventing it); (6) classification REFINEMENT — conditional bistability, not unconditional.
+
+**Core outcome:** The "two attractors" framing is dynamics, not metaphor. But the framework states it as unconditional fact. The evidence supports conditional bistability — dependent on parameter values (PUFA burden, iron load, stress, endotoxin exposure) falling within the bistable region. An organism with low PUFA, excellent thyroid function, and robust damping may be monostable. Six new testable predictions generated: hysteresis in forward/reverse thresholds, PKM2 conditionality, critical slowing down near the separatrix, multi-input nonlinearity, slow-variable intervention durability, history-dependent bimodality.
+
+**Prior substantive move (2026-04-11, late evening):** The 13-loop causal-independence audit Round 2 triangulation was completed. Two independent general-purpose agents were dispatched in parallel per `Independent Agent Research Protocol.md`, each given the same self-contained research brief (`Research Brief - 13 Loop Causal Independence Audit.md`) without access to Round 1 classifications. Both reports were then critically assessed against first principles, with load-bearing corrections verified directly against primary sources (WebFetch). The synthesis has been transcribed into `13-Loop Causal Independence Audit.md` as a new "Round 2 Triangulation Synthesis" section, and the one-shot artifacts (brief, agent reports) were deleted per the Protocol's housekeeping rules.
 
 **Round 2 outcome — strong convergence on predicted findings, plus meaningful additions:**
 
@@ -83,43 +90,24 @@ Five standalone refinement documents now live in this vault. None have been appl
 
 ## What's Next
 
-### The plan (current position: 13-loop audit Round 1 complete; Round 2 triangulation is the immediate next move)
+### The plan (current position: Layer 3 COMPLETE; Sub-test 2.B is the immediate next substantive move)
 
-1. ✅ **Articulate the causal-independence audit tool as a standalone document.** DONE.
-2. ✅ **Triangulate the audit tool via two independent agents.** DONE.
-3. ✅ **Verify sAC counterexample against primary sources.** DONE.
-4. ✅ **Rewrite and rename the document.** DONE — `Causal Independence in Feedback Loops.md`.
-5. ✅ **Integrate the refined audit into `metabolic_foundations/Verification Methodology.md` Step 4.** DONE 2026-04-11. Second methodology improvement from Sub-test 2.A (first was CF-2.A.4).
-6. ✅ **Run the causal-independence audit across all 13 formalized loops in `The System.md`** using the refined four-check operational audit. DONE 2026-04-11 — `13-Loop Causal Independence Audit.md`. Produced a classified inventory with one section per loop, top-level inventory table, cross-loop findings, and architectural impact summary.
-7. ✅ **Run the citation deployment audit (CF-2.A.4) across all 13 loops** in the same pass. DONE 2026-04-11 — included in `13-Loop Causal Independence Audit.md`. No new mis-deployments at the load-bearing level beyond what was already documented in Sub-test 2.A and existing warning callouts.
-8. ✅ **Triangulate the audited loop inventory** via independent agents (Round 2 triangulation). DONE 2026-04-11. Two independent general-purpose agents dispatched in parallel per `Independent Agent Research Protocol.md`, each given `Research Brief - 13 Loop Causal Independence Audit.md` with no access to Round 1 classifications. Both reports critically assessed against first principles; load-bearing corrections verified against primary sources via WebFetch. Synthesis transcribed into `13-Loop Causal Independence Audit.md`'s new "Round 2 Triangulation Synthesis" section.
-9. ✅ **Synthesize Round 2 findings.** DONE 2026-04-11. Strong convergence on predicted findings; meaningful additions from Round 2 (cross-loop convergence nodes, Loop 6d downgrade, Loop 4 structural note, Loop 2 closure direction-reversal via CF-CI.10, Loop 4 single-variable structural note via CF-CI.11, and four brief-level factual corrections). `13-Loop Causal Independence Audit.md` updated with updated top-level inventory table, consolidated Round 2 synthesis section, new carry-forward items, updated architectural impact summary. Stress Test.md working log and carry-forward items updated. Current State.md updated.
-10. **Clean up one-shot artifacts (IMMEDIATE NEXT STEP — pending).** Per `Independent Agent Research Protocol.md` Phase 5: delete `Research Brief - 13 Loop Causal Independence Audit.md`, `agent_1_round2_report.md`, `agent_2_round2_report.md`. Git history preserves them. The durable form is the Round 2 Synthesis section in the audit document and the working log entry in Stress Test.md.
-11. **Commit the Round 1 + Round 2 audit state.** Pending. One commit covering the audit document (Round 1 + Round 2 consolidated), Stress Test.md working log + carry-forward items, Current State.md updates, and the artifact cleanup.
-12. **Sub-test 2.B (narrowed) — verify histone lactylation is causal in vivo** for Loop 9's gene expression effects vs. an HIF-1α correlate. The audit resolved the structural causal-independence question; what remains is mechanism verification only. Can be run before, alongside, or after Layer 3.
-13. **Layer 3 — formal bistability via MCA loop gain calculations** on the Round-2-finalized inventory (9 closed PFB + hub + 2 half-closed + forcing function). The audit's classified inventory is the prerequisite substrate and is now in place. Layer 3 is the most consequential remaining layer. Must handle: closed PFB loops with standard loop gain; the multi-armed Loop 6 hub; the 2 half-closed loops (L2 direction-reversed closure, L8 unnamed closure) whose closure-step loop gain cannot be computed until CF-CI.10 and CF-CI.8 resolve; the Loop 13 forcing function modeled as external drive not as a closed loop; and the shared state variables (free estrogen, ATP, PUFA, LPS, lactate) where contributions are additive without double-counting.
-14. **Consider Loop 2 refinement document.** CF-CI.10 surfaced a framework-level citation deployment error analogous to Sub-test 2.A's Loop 7 finding. A Loop 2 refinement document mirroring `Loop 7 — Metabolism-Mediator Coupling.md`'s structure is the natural next output — documents the finding, proposes the central-5-HT salvage mechanism if supporting literature exists, updates the Refinement Diff Catalog. Lower priority than Layer 3 but a natural follow-up if the framework text needs an explicit companion refinement.
+1. ✅ Steps 1–9 from prior plan. All DONE (causal-independence audit tool, 13-loop audit Round 1 + Round 2, artifact cleanup, commit).
+2. ✅ **Layer 3 — formal bistability analysis.** DONE 2026-04-12. REFINEMENT (substantial). Six-phase analysis + two-agent triangulation. The "two attractors" is dynamics, not metaphor, but conditional on parameter values. Six new predictions generated.
+3. **Clean up Layer 3 one-shot artifact (IMMEDIATE NEXT STEP — pending).** Delete `Research Brief - Layer 3 Bistability.md`. Git history preserves it.
+4. **Draft Layer 3 refinement document.** A standalone refinement document (following the vault's six-section template) formalizing the conditional bistability finding, the six new predictions, and the state-dependent negative feedback insight.
+5. **Sub-test 2.B (narrowed) — verify histone lactylation is causal in vivo** for Loop 9's gene expression effects vs. HIF-1α correlate. Layer 3 triangulation confirmed this is the most valuable next sub-test (Agent 1) because it determines whether the M-Λ toggle has one arm or two. Can be run alongside other work.
+6. **Consider Loop 2 refinement document.** CF-CI.10 surfaced a framework-level citation deployment error. Lower priority than Sub-test 2.B but a natural follow-up.
+7. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim).
 
 ### Housekeeping pending
 
-- `Research Brief - 13 Loop Causal Independence Audit.md` should be deleted (one-shot artifact per Independent Agent Research Protocol) once the Round 2 synthesis is committed to durable form. **Durable form already in place:** the Round 2 Synthesis section in `13-Loop Causal Independence Audit.md` and the 2026-04-11 Round 2 working log entry in `Stress Test.md`.
-- `agent_1_round2_report.md` and `agent_2_round2_report.md` should be deleted once the Round 2 synthesis is committed.
-- (The prior `Research Brief - Co-Production Principle.md`, `agent_1_report.md`, `agent_2_report.md` from the Round 1 audit-tool triangulation were already deleted after that round's completion.)
-- Git history will preserve all Round 2 artifacts for future reference.
+- `Research Brief - Layer 3 Bistability.md` should be deleted (one-shot artifact per Independent Agent Research Protocol). **Durable form already in place:** the Layer 3 section in `Stress Test.md` and the 2026-04-12 working log entry. Agent reports were returned inline, not written to files.
 
-### After the audit (Layer 3 and beyond, in rough order of leverage)
+### After Layer 2 completion (in rough order of leverage)
 
-1. **Layer 3 — Attractor architecture as genuine dynamics.** The most consequential remaining layer and the reason the Layer 2 audit exists as a prerequisite. Tests whether the (now-audited) loop architecture is real dynamical-systems bistability or a precise metaphor for clinical bimodality. The loop-gain question CF-2.A.2 (do any of the directional couplings actually achieve loop gain > 1?) gets formally tested here, likely using MCA control coefficients as the tooling. **If Layer 3 fails, the "two attractors" framing collapses to metaphor — the largest possible finding of the stress test.**
-2. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim). Required before the broader Foundation.md / Metabolic Fork.md "CO₂ is an active product" reframing can proceed.
-3. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
-4. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
-
-### After the audit (Layer 3 and beyond, in rough order of leverage)
-
-1. **Layer 3 — Attractor architecture as genuine dynamics.** The most consequential remaining layer and the reason the Layer 2 audit exists as a prerequisite. Tests whether the (now-audited) loop architecture is real dynamical-systems bistability or a precise metaphor for clinical bimodality. The loop-gain question CF-2.A.2 (do any of the directional couplings actually achieve loop gain > 1?) gets formally tested here. **If Layer 3 fails, the "two attractors" framing collapses to metaphor — the largest possible finding of the stress test.**
-2. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim). Required before the broader Foundation.md / Metabolic Fork.md "CO₂ is an active product" reframing can proceed.
-3. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
-4. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
+1. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
+2. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
 
 ---
 
@@ -139,7 +127,9 @@ See `Stress Test.md` → "Carry-Forward Items" for full list.
 
 ## Active Decisions Pending Review
 
-**One pending decision: whether the architectural recommendations from the 13-loop audit (CF-CI.1 confirmed; sub-arms 6a and 6e removed; Loop 13 reclassified as periodic forcing function) should be acted on at the `The System.md` level.** Per the asymmetry principle and this vault's role, the framework's text in `metabolic_foundations/` is preserved as-is; the audit findings live in `13-Loop Causal Independence Audit.md` as parallel knowledge. No edit to `The System.md` is being proposed. The Round 2 triangulation will inform whether the architectural findings should also be reflected in any way that crosses the vault boundary.
+**One pending decision: whether to draft a Layer 3 refinement document** as a standalone knowledge artifact (following the vault's six-section template). The Layer 3 REFINEMENT finding — conditional bistability, six new predictions, state-dependent negative feedback insight — is currently documented in `Stress Test.md` only. A refinement document would make this accessible as standalone knowledge, like the existing Loop 7 and Krebs-Cycle documents. No edits to `metabolic_foundations/` are proposed.
+
+**Resolved decision:** the architectural recommendations from the 13-loop audit (CF-CI.1 confirmed; sub-arms 6a and 6e removed; Loop 13 reclassified) are documented in `13-Loop Causal Independence Audit.md` as parallel knowledge per the asymmetry principle. The framework's text in `metabolic_foundations/` is preserved as-is.
 
 The Refinement Diff Catalog exists in this vault as the precise file/passage-level reference for what each refinement consists of, but it is **not going to be applied** to `metabolic_foundations/` — that decision has been made (the refinements live in this vault as parallel knowledge instead).
 
@@ -173,7 +163,8 @@ If you are picking this up and need to understand the full state, read in this o
 - `Krebs-Cycle Invariance and Ketone Bodies.md` (this vault) — Sub-test 1.B (six findings consolidated)
 - `Loop 7 — Metabolism-Mediator Coupling.md` (this vault) — Sub-test 2.A
 - `Causal Independence in Feedback Loops.md` (this vault) — the causal-independence audit *tool* derived from Sub-test 2.A, grounded in Pearl's screening-off + Palsson/MCA conservation relations. Supersedes the earlier first-pass `Co-Production and Independence.md` which was deleted after triangulation identified it as over-general and a re-derivation of existing work.
-- **`13-Loop Causal Independence Audit.md`** (this vault) — the Round 1 *application* of the audit tool to all 13 formalized positive feedback loops in `The System.md`. Includes per-loop sections, top-level inventory table, cross-loop findings, citation deployment summary, new carry-forward items (CF-CI.7, 8, 9), and architectural impact summary. This is the prerequisite substrate for Layer 3's formal bistability test.
+- **`13-Loop Causal Independence Audit.md`** (this vault) — the Round 1 + Round 2 application of the audit tool to all 13 formalized positive feedback loops in `The System.md`. Includes per-loop sections, top-level inventory table, cross-loop findings, citation deployment summary, carry-forward items, and architectural impact summary. This was the prerequisite substrate for Layer 3.
+- **Layer 3 analysis** (in `Stress Test.md` § Layer 3) — formal bistability analysis of the audited loop architecture. Six-phase analysis + two-agent triangulation. Classification: REFINEMENT. Conditional bistability, six new predictions, state-dependent negative feedback insight. A standalone refinement document is pending.
 
 ### 5. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
@@ -195,16 +186,12 @@ Required reading before attempting any new sub-test or proposing any change:
 Most recent at top. Run `git log --oneline -20` for full history.
 
 ```
+641c481  Stop tracking .obsidian/ config files — local editor state, not project content
+ab372d2  Complete 13-loop causal independence audit — Round 1 + Round 2 triangulation
+9fc7484  Documentation maintenance — close cold-start gaps after audit tool work
 7892aba  Add causal independence audit to Verification Methodology Step 4
 eb9f637  Add Causal Independence audit tool — triangulated refinement of Sub-test 2.A
 47e4be0  Remove drifting content-volume metadata from orientation files
-3e6d3dd  Correct stale word count in Methodology.md
-b2156b9  Correct stale word counts across orientation files
-08bd281  Remove reading-time estimates — not relevant or accurate
-8e17a4b  Rename Vault Edit Proposal.md → Refinement Diff Catalog.md
-db1dc19  Post-implementation review fixes — close orphan and discoverability gaps
-f48c04a  Add Current State.md as canonical live-state file for active work
-6112d5b  Create metabolic_refinements vault — refinements layer separate from the original integration
 ```
 
 ---
