@@ -16,7 +16,7 @@ connections:
   - "[[Practice]]"
 ---
 
-Health is efficient oxidative metabolism of glucose to CO2. Disease is its progressive failure. This document establishes why that is not a simplification but a definition — one that modern biochemistry, pharmacology, and cell biology are converging on from independent directions.
+Health is efficient oxidative metabolism — primarily of glucose — to CO2. Disease is its progressive failure. This document establishes why that is not a simplification but a definition — one that modern biochemistry, pharmacology, and cell biology are converging on from independent directions.
 
 ---
 
@@ -26,14 +26,14 @@ Every specific condition — cancer, diabetes, heart failure, neurodegeneration,
 
 This convergence is not coincidental. It is definitional.
 
-Health is the state where cells efficiently oxidize glucose to CO2 through mitochondrial oxidative phosphorylation, producing abundant ATP — the energy currency that funds every cellular function. Disease is the progressive failure of that process: cells produce less ATP, generate more lactate, and lose the capacity to maintain themselves.
+Health is the state where cells efficiently oxidize Krebs-cycle substrates — primarily glucose, with ketone bodies as a biochemically equivalent alternative — to CO2 through mitochondrial oxidative phosphorylation, producing abundant ATP — the energy currency that funds every cellular function. Disease is the progressive failure of that process: cells produce less ATP, generate more lactate, and lose the capacity to maintain themselves.
 
 This is not "metabolism is one factor among many in health." Metabolism IS health, at the cellular level. Every function a cell performs — maintaining its membrane, repairing its DNA, mounting an immune response, producing a hormone, transmitting a signal — requires ATP. When ATP production is adequate, these functions work. When it fails, they don't. What we call "disease" is what cellular energy failure looks like from different angles, in different tissues, at different stages of progression.
 
 The two endpoints of this metabolic fork — CO₂ and lactate — are not passive byproducts. CO₂ and its co-produced cytosolic ATP together sustain the conditions for more oxidation: CO₂ delivers oxygen to tissues (Bohr effect) and protects proteins from damage (carbamino bonds), while abundant cytosolic ATP — produced alongside CO₂ by oxidative phosphorylation in fixed stoichiometric coupling — powers V-ATPase-mediated maintenance of acidic granule pH, keeping inflammatory mediators sequestered. Lactate actively deepens the conditions for more metabolic failure: it reprograms gene expression, suppresses immune function, and drives tissue fibrosis. Each state reinforces itself. Health maintains health. Disease produces more disease. The specific mechanisms — and the evidence for each — are detailed in the section below.
 
 > [!abstract] Core Claim
-> At the deepest resolution currently available, health is efficient oxidative metabolism of glucose to CO2, and disease is its progressive failure. Everything else — hormones, mediators, organ functions, symptoms — is mechanism operating within this single system.
+> At the deepest resolution currently available, health is efficient oxidative metabolism of Krebs-cycle substrates to CO2 — with glucose as the preferred substrate under normal conditions — and disease is its progressive failure. Everything else — hormones, mediators, organ functions, symptoms — is mechanism operating within this single system.
 
 ---
 
@@ -64,7 +64,7 @@ The difference is not marginal. It is **18-fold**. A cell running on glycolysis 
 1. **Enters the mitochondria** → is oxidized through the Krebs cycle and electron transport chain → produces CO₂ + abundant ATP
 2. **Stays in the cytoplasm** → is reduced to lactate → produces minimal ATP
 
-This is the metabolic fork. It is the fork that defines health versus disease at the cellular level.
+This is the metabolic fork. It is the fork that defines health versus disease at the cellular level. Ketone bodies (β-hydroxybutyrate, acetoacetate), when present, enter the same Krebs cycle and produce CO₂-per-ATP ratios matching glucose — they are a biochemically distinct third fuel category, not equivalent to raw fatty acid β-oxidation. See [[The Preferred Substrate]] for the full substrate hierarchy.
 
 When the fork goes right — toward CO₂ — the product and its co-produced cytosolic ATP together actively sustain the conditions for more oxidation. CO₂ delivers oxygen to tissues (the Bohr effect shifts the hemoglobin dissociation curve rightward, releasing O₂ where CO₂ is high — which is where metabolism is active and oxygen is needed). CO₂ forms carbamates on protein amine groups that [may compete with reactive aldehyde cross-linking](https://www.nature.com/articles/s41467-018-05475-z), though the protective magnitude has not been directly measured. Abundant cytosolic ATP — produced alongside CO₂ by oxidative phosphorylation in fixed stoichiometric coupling — powers V-ATPase-mediated maintenance of acidic granule pH in mast cells and platelets, keeping serotonin and histamine sequestered until stimulated release is needed. The output of successful metabolism creates the conditions for more successful metabolism.
 
@@ -80,7 +80,7 @@ This is the second law of thermodynamics applied to biology. A living organism i
 
 This is not reductionism — it is identification of the common denominator. Other levels of analysis are real, but they operate *through* metabolic capacity:
 
-- **Genetics** determine enzyme expression levels, membrane composition susceptibility, and conversion efficiency — all metabolic variables. A polymorphism in the DIO2 gene (present in 12-30% of the population) impairs conversion of thyroid prohormone to active hormone, reducing the master metabolic throttle at the genetic level.
+- **Genetics** determine enzyme expression levels, membrane composition susceptibility, and conversion efficiency — all metabolic variables. Even genes whose primary function is non-metabolic operate *through* metabolism when they produce disease: in Huntington's disease, the [mutant huntingtin protein (mHTT) carries a mitochondrial targeting sequence in its first 17 amino acids](https://pubmed.ncbi.nlm.nih.gov/21945326/), directly disrupts the TIM23 mitochondrial protein import complex, and produces early mitochondrial dysfunction proximal to the genetic lesion — despite HTT being a scaffolding protein with no primary metabolic function. The DIO2 polymorphism (present in 12-30% of the population) is a more direct example at the master-throttle level: it impairs conversion of thyroid prohormone to active hormone, reducing the metabolic throttle by genetic inheritance.
 - **Immune function** depends directly on metabolic state — the macrophage M1/M2 switch described above is now a major research field. A cell's metabolic program determines whether it fights infection or tolerates it.
 - **Hormones** regulate and are regulated by metabolic capacity. Thyroid hormone (T3) controls respiratory enzyme expression at both the nuclear and mitochondrial genome levels. Estrogen reprograms cells toward glycolysis via PI3K/AKT signaling. Progesterone supports mitochondrial respiration. These are not independent variables — they are the regulatory layer of the metabolic system.
 - **Psychological stress** operates through metabolic intermediates. Chronic stress activates the HPA axis, which suppresses gonadal function (depleting progesterone), inhibits T4-to-T3 conversion, mobilizes fatty acids from storage, and shifts metabolism toward fat oxidation — reducing CO₂ production and moving the system toward the disease attractor.
