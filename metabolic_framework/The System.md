@@ -22,7 +22,7 @@ connections:
 
 ## The Two Attractors
 
-The metabolic system has two stable states. Each maintains itself through its own outputs. Once sufficiently established, each state persists — not because of a single cause, but because every output reinforces every other.
+The metabolic system can exhibit two self-reinforcing stable states when parameter conditions — PUFA tissue burden, iron load, chronic stress, endotoxin exposure — place the organism in the bistable region. Each state, once sufficiently established, persists through self-reinforcement. An organism with low damage burden, excellent thyroid function, and robust energy-dependent negative feedback may be monostable — the healthy state is the only attractor and perturbations return to health.
 
 ### The CO₂-Dominant Attractor (Health)
 
@@ -64,9 +64,9 @@ ATP falls in intestinal enterocytes → **gut barrier fails** → endotoxin ente
 
 ### Why These Are Stable States
 
-These cycles are not descriptions of what *might* happen. They are descriptions of what *does* happen when the system is sufficiently established in either state. The key property is **stability through self-reinforcement**: small perturbations within either attractor are absorbed. A healthy person who has a stressful week doesn't immediately collapse into the disease state — the healthy attractor's reinforcing loops compensate. A sick person who takes one supplement doesn't immediately recover — the disease attractor's reinforcing loops resist the perturbation.
+These cycles describe what happens when the system is established in either state — and both states can exist when the organism's parameter conditions (PUFA burden, iron load, chronic stress, endotoxin exposure) place it in the bistable region of parameter space. The key property is **stability through self-reinforcement**: small perturbations within either attractor are absorbed. A healthy person who has a stressful week doesn't immediately collapse into the disease state — the healthy attractor's reinforcing loops compensate. A sick person who takes one supplement doesn't immediately recover — the disease attractor's reinforcing loops resist the perturbation.
 
-Crossing from one attractor to the other requires **sufficient perturbation across multiple loops simultaneously** to overcome the reinforcement. This is why disease onset often follows a confluence of insults (prolonged stress + dietary change + hormonal shift + infection), and why recovery requires addressing multiple inputs at once. Neither single causes nor single solutions exist in a system with thirteen interlocking feedback loops.
+Crossing from one attractor to the other requires **sufficient perturbation across multiple loops simultaneously** to overcome the reinforcement. This is why disease onset often follows a confluence of insults (prolonged stress + dietary change + hormonal shift + infection), and why recovery requires addressing multiple inputs at once. Neither single causes nor single solutions exist in a system with multiple interlocking feedback loops.
 
 ---
 
@@ -98,7 +98,7 @@ The liver deserves special emphasis. Every other component describes a node in t
 
 ## The Feedback Loops
 
-The self-reinforcing nature of each attractor comes from positive feedback loops that interlock. No single loop dominates — they compound. This section describes thirteen loops organized by their architectural role: what kind of reinforcement they provide and at what level of the system they operate.
+The self-reinforcing nature of each attractor comes from positive feedback loops that interlock. No single loop dominates — they compound. This section describes the feedback architecture organized by architectural role: what kind of reinforcement each component provides and at what level of the system it operates. The architecture comprises 10 clean closed positive feedback loops, a multi-armed thyroid hub with one clean arm and two under investigation, two half-closed loops whose return arms need resolution, and a periodic forcing function. The substance of each is described below.
 
 ### Hardware Damage
 
@@ -108,7 +108,7 @@ The self-reinforcing nature of each attractor comes from positive feedback loops
 
 These four loops describe how damage signals get amplified through hormonal and molecular cross-talk. Each takes a local perturbation and makes it systemic.
 
-**The PUFA-Serotonin Loop.** PUFA displaces tryptophan from its carrier protein (albumin) in the bloodstream. Free tryptophan crosses the blood-brain barrier more readily, increasing brain serotonin synthesis. Serotonin promotes the release of more PUFA from adipose tissue. More free PUFA displaces more tryptophan. The damage substrate amplifies the conservation signal.
+**The PUFA-Serotonin Loop (half-closed).** PUFA displaces tryptophan from its carrier protein (albumin) in the bloodstream. Free tryptophan crosses the blood-brain barrier more readily, increasing brain serotonin synthesis. The return arm — serotonin promoting PUFA release from adipose tissue — is contradicted by [the cited source (PMC6624793)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6624793/), which reports peripheral serotonin via HTR2A *suppresses* isoprenaline-induced lipolysis and promotes an energy storage phenotype. The forward arm (PUFA → tryptophan displacement → brain serotonin) is well-established; the closure requires a different return mechanism or revision. The damage substrate amplifies the conservation signal.
 
 **The PUFA-Estrogen Loop.** PUFA displaces estrogen from sex hormone-binding globulin (SHBG), increasing free (biologically active) estrogen. Estrogen promotes PUFA retention and synthesis by upregulating desaturase enzymes. More PUFA displaces more estrogen. The damage substrate amplifies the metabolic amplifier.
 
@@ -124,7 +124,7 @@ These four loops operate at the level of the whole organism, affecting the maste
 
 **The Metabolism-Mediator Coupling.** Mast cell and platelet secretory granules maintain acidic interior pH (~5.3–5.5) via [V-ATPase](https://pubmed.ncbi.nlm.nih.gov/24165939/) — an ATP-dependent proton pump that holds a ~1.9-unit gradient against cytosol and simultaneously acts as the granule pH sensor through V₁-V₀ dissociation. When oxidative metabolism falls, cytosolic ATP drops and V-ATPase pumping slows; granule interior pH rises and the V₁-V₀ sensor dissociates, signaling release readiness and triggering [mediator leak](https://www.nature.com/articles/cddis2017206). Released serotonin suppresses oxidative metabolism (directly inhibiting mitochondria, promoting vasoconstriction, lowering body temperature); released histamine drives inflammation and vascular dysregulation. Reduced oxidative metabolism further depletes ATP, creating a directional coupling from metabolic state back to mediator release. The active driving variable in the coupling is **ATP availability**; CO₂ production tracks in parallel as a reliable marker of the oxidative state, not as the causal participant.
 
-**The Stress-Progesterone Loop.** Chronic stress elevates cortisol and CRH, which suppress the GnRH/LH pulse generator — the hypothalamic signal that drives gonadal progesterone production. Progesterone falls. Without progesterone's opposition, estrogen shifts cells toward glycolysis. The glycolytic shift reduces CO₂ production, increases lactate, and produces more metabolic stress — which elevates cortisol further. Note: the mechanism is HPA axis suppression of gonadal function, not substrate competition ("pregnenolone steal") — the clinical outcome is the same but the pathway is regulatory, not biosynthetic.
+**The Stress-Progesterone Loop.** Chronic stress elevates cortisol and CRH, which suppress the GnRH/LH pulse generator — the hypothalamic signal that drives gonadal progesterone production. Progesterone falls. Without progesterone's opposition, estrogen shifts cells toward glycolysis. The glycolytic shift reduces CO₂ production, increases lactate, and produces more metabolic stress — which elevates cortisol further. Note: the mechanism is HPA axis suppression of gonadal function, not substrate competition ("pregnenolone steal") — the clinical outcome is the same but the pathway is regulatory, not biosynthetic. The closure arm — the mechanism by which the resulting metabolic stress feeds back to elevate cortisol beyond the original stressor — is plausible but not specifically characterized.
 
 **The Lactate Self-Amplification Loop.** Chronic lactate elevation modifies gene expression through histone lactylation, shifting the epigenetic program toward glycolytic enzyme expression and away from oxidative enzyme expression. Lactate also stabilizes HIF-1α, shifting macrophages from the pathogen-fighting M1 phenotype to the immunosuppressive M2 phenotype. Lactylation drives tissue fibrosis, which impairs perfusion, which worsens metabolic failure, which produces more lactate. The convergence marker becomes an active disease driver through the epigenetic mechanism discovered in 2019.
 
@@ -138,9 +138,9 @@ These three loops describe how the external environment — specifically the gut
 
 **The Gut-Thyroid-Motility Loop.** Hypothyroidism slows gut motility. Slow motility allows bacterial overgrowth in the small intestine. Overgrown bacteria produce endotoxin. Endotoxin damages the liver, which is the primary site of T4-to-T3 conversion (approximately 80% of circulating T3 comes from peripheral conversion). Impaired conversion deepens hypothyroidism. Confirmed: hypothyroidism produces [2.2-2.7x the risk of small intestinal bacterial overgrowth](https://pmc.ncbi.nlm.nih.gov/articles/PMC4056127/); [levothyroxine treatment reduces that risk](https://www.endocrine.org/news-and-advocacy/news-room/endo-annual-meeting/endo-2025-press-releases/mathur-press-release).
 
-### Temporal Oscillation
+### Periodic Forcing Function
 
-**The Darkness-Conservation Loop.** Darkness activates the serotonin-to-melatonin conversion in the pineal gland via the retina-SCN-pineal pathway. Melatonin suppresses thyroid function, suppresses progesterone, mobilizes free fatty acids from adipose stores, and leaves estrogen and prolactin unopposed. Metabolic rate falls. With reduced metabolic capacity, the organism has less energy to resist the conservation program, allowing it to deepen. Light breaks this loop every morning through two independent pathways: **circadian entrainment** (blue light → melanopsin receptors → SCN → pineal melatonin suppression) and **mitochondrial activation** (red/near-infrared light → cytochrome c oxidase → ATP production). Natural sunlight provides both simultaneously. Insufficient light — winter, high latitude, shift work, indoor living — allows the loop to deepen beyond the normal daily oscillation. See [[#The Temporal Architecture]] below.
+**The Darkness-Conservation Cycle (periodic forcing function, not a closed loop).** Darkness activates the serotonin-to-melatonin conversion in the pineal gland via the retina-SCN-pineal pathway. Melatonin suppresses thyroid function, suppresses progesterone, mobilizes free fatty acids from adipose stores, and leaves estrogen and prolactin unopposed. Metabolic rate falls. With reduced metabolic capacity, the organism has less energy to resist the conservation program, allowing it to deepen. Light breaks this loop every morning through two independent pathways: **circadian entrainment** (blue light → melanopsin receptors → SCN → pineal melatonin suppression) and **mitochondrial activation** (red/near-infrared light → cytochrome c oxidase → ATP production). Natural sunlight provides both simultaneously. Insufficient light — winter, high latitude, shift work, indoor living — allows the loop to deepen beyond the normal daily oscillation. See [[#The Temporal Architecture]] below.
 
 ---
 
@@ -150,7 +150,7 @@ The properties below are not separate observations. They are deducible consequen
 
 > [!abstract] Five Structural Predictions
 > 1. Disease is progressive — positive feedback deepens the current state
-> 2. Single interventions often fail — breaking one loop leaves twelve others compensating
+> 2. Single interventions often fail — breaking one loop leaves the remaining loops compensating
 > 3. The same intervention helps some and harms others — context-dependence is an attractor property
 > 4. Recovery requires multiple simultaneous changes — the threshold must be crossed, not nudged
 > 5. Tipping appears sudden — the system absorbs damage until it can't, then shifts rapidly
@@ -161,7 +161,7 @@ Positive feedback. Once the system crosses into the disease attractor, each outp
 
 ### Why single interventions often fail
 
-Thirteen interlocking loops maintain the current attractor state. Addressing one — taking thyroid hormone, or removing PUFA from the diet, or reducing stress — may weaken one or two loops, but the remaining loops continue reinforcing the disease state. The temporary improvement often observed with a single intervention, followed by a plateau or regression, is the predictable result of partial loop interruption in a multi-loop system. The [[Practice|practical framework]] addresses multiple inputs simultaneously because the architecture requires it.
+The interlocking feedback loops maintain the current attractor state. Addressing one — taking thyroid hormone, or removing PUFA from the diet, or reducing stress — may weaken one or two loops, but the remaining loops continue reinforcing the disease state. The temporary improvement often observed with a single intervention, followed by a plateau or regression, is the predictable result of partial loop interruption in a multi-loop system. The [[Practice|practical framework]] addresses multiple inputs simultaneously because the architecture requires it.
 
 ### Why the same intervention helps some people and harms others
 
@@ -176,6 +176,32 @@ Crossing from the disease attractor back to the healthy attractor requires break
 ### Threshold dynamics — what tipping looks like
 
 The transition between attractors is not gradual. The system absorbs perturbations within its current state — accumulating PUFA in membranes, tolerating mild thyroid suppression, compensating for rising estrogen — until the combined weight crosses a threshold where the disease attractor's reinforcing loops become self-sustaining. Clinically, this often appears as a sudden decline after years of gradual deterioration: a health crisis, a hormonal shift (menopause, andropause), a period of severe stress, a surgery, or an infection from which the system cannot fully recover. The architecture explains the apparent suddenness: the system was absorbing damage within the healthy attractor until it could no longer compensate.
+
+### State-dependent negative feedback
+
+The framework emphasizes positive feedback loops, but stability depends equally on the negative feedback that opposes them. Every negative feedback mechanism in the organism — the HPT axis (thyroid homeostasis), the HPA axis (cortisol regulation), antioxidant defenses (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy and mitophagy (PINK1/Parkin), immune resolution (specialized pro-resolving mediators), hepatic regeneration, and lactate clearance — is **energy-dependent**. These systems require ATP to function. When mitochondrial function is high, the damping systems are strong and perturbations are absorbed. When mitochondrial function is low, the damping systems fail.
+
+This means the positive feedback loops do not defeat the negative feedback through brute force. They operate **by weakening it**. As the system drifts toward the disease state, ATP production falls, and the very mechanisms that should restore health become progressively impaired. This creates multiplicative, not additive, gain dynamics — the effective gain of the positive feedback increases as the negative feedback it degrades falls away.
+
+This is precisely the nonlinear gain function that produces bistability: strong damping at the healthy fixed point (stable), weak damping at the disease fixed point (also stable, because the positive feedback is now uncontested), and a threshold in between where the organism runs out of energy to run its own repair systems.
+
+The clinical implication is structural: interventions that restore metabolic capacity (improving mitochondrial function, reducing ATP drain from chronic inflammation) are not one option among many — they are the prerequisite for the organism's own negative feedback to re-engage. Without adequate energy supply, damping mechanisms that should oppose the disease state cannot function regardless of what else is addressed.
+
+### Testable predictions
+
+The conditional bistability analysis generates six predictions, two of which are already observed in existing clinical data.
+
+1. **Hysteresis (OBSERVED).** Recovery from the disease state requires greater metabolic correction than what originally caused the transition — different forward and reverse thresholds. Bariatric surgery remission data confirms: diabetes remission depends on disease duration, with equivalent metabolic improvement producing different outcomes based on how long the slow variables have been in the disease basin. C-peptide (beta-cell function) is the strongest predictor — the slow variable that determines whether the reverse transition is possible.
+
+2. **PKM2 conditionality (OPEN).** The glycolysis/OXPHOS bistable switch requires the PKM2 isoform (not PKM1). PKM2 is re-expressed under metabolic stress, making the bistable switch conditionally available. PKM1-dominant tissues should show more reversible metabolic shifts.
+
+3. **Critical slowing down (OBSERVED).** Recovery from metabolic perturbation slows as the system approaches the threshold between attractors. Tabak et al. (2009, *Lancet*, Whitehall II cohort, replicated across 5 independent cohorts) documented ~10-15-fold acceleration in fasting glucose rise rate in the final ~3 years before diabetes diagnosis, specific to progressors — the longitudinal fingerprint of a system approaching a tipping point.
+
+4. **Multi-input threshold nonlinearity (OPEN).** Addressing 1 feedback loop should produce modest improvement; addressing 3+ simultaneously should produce disproportionate improvement as the system crosses the separatrix between attractors.
+
+5. **Slow-variable intervention durability (OPEN).** Interventions that reset the slow variables (PUFA tissue displacement over months, mitochondrial biogenesis via sustained exercise) should produce more durable recovery than interventions that reset only the fast variables (T3 supplementation alone).
+
+6. **History-dependent bimodality (OPEN).** Populations with identical current metabolic inputs but different metabolic histories should show bimodal metabolic state distributions in the previously-stressed group — the hallmark of a system with memory.
 
 ---
 
@@ -215,7 +241,7 @@ This is why light exposure, bedtime nutrition (suppressing the nocturnal hypogly
 ## What Follows
 
 > [!tip] Where to Go From Here
-> This document described the architecture — two attractors, fifteen components, thirteen feedback loops, emergent properties, and the daily oscillation between states. The mechanism documents and [[Practice]] translate this architecture into biology and action.
+> This document described the architecture — two attractors (conditional on parameters), fifteen components, the feedback architecture (10 clean loops + hub + 2 half-closed + forcing function), emergent properties, and the daily oscillation between states. The mechanism documents and [[Practice]] translate this architecture into biology and action.
 
 **Mechanism documents** provide the detailed biology for each component listed above. Each explains: what the mechanism is, how it works, what the evidence shows, where it is uncertain, and how it connects to every other mechanism in the system.
 
