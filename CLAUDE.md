@@ -8,7 +8,9 @@ This workspace contains three independent Obsidian vaults. Each has its own CLAU
 
 **For the current best understanding of what health and disease are:** read `The Integrated Framework.md` in this directory. Single standalone synthesis of everything learned across verification, extraction, and stress testing.
 
-**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase (stress test + mechanism citation audit + corrections) is COMPLETE. The next phase is building the application layers: assessment protocol, updated intervention framework, and agent protocol. See Current State.md for the full plan.
+**For the assessment protocol — "where is THIS person in the system?":** read `The Assessment Protocol.md` in this directory. Maps a person onto the framework's 6 state variables, estimates metabolic regime (monostable vs bistable), and outputs targeted intervention priorities. Built on the stress-tested architecture, incorporating conditional bistability, state-dependent damping, and the timescale-separation diagnostic.
+
+**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase is COMPLETE. The first application layer (assessment protocol) is COMPLETE. Remaining: updated intervention framework and agent protocol. See Current State.md for the full plan.
 
 **For what the stress test found:** `metabolic_refinements/Stress Test Summary.md` — precise before/after accounting. `metabolic_refinements/Mechanism Citation Audit.md` — citation audit results across all 9 mechanism documents.
 

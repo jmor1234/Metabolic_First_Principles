@@ -216,4 +216,6 @@ The integration itself is the contribution. The evidence was always there. The s
 
 **For the original Peat verification:** `peat_claims_verified/` — the claim-by-claim audit trail showing how the knowledge was derived from its starting point.
 
-**For practical application:** `metabolic_foundations/Practice.md` — interventions, monitoring framework, implementation sequence. Note: not yet updated with the conditional bistability finding (the implication that intervention strategy should assess which regime — monostable vs bistable — the organism occupies).
+**For assessment — "where is THIS person in the system?":** `The Assessment Protocol.md` (this directory) — maps a person onto the 6 state variables, estimates metabolic regime (monostable vs bistable), and outputs targeted intervention priorities. The bridge from this document to Practice.md.
+
+**For practical application:** `metabolic_foundations/Practice.md` — interventions, monitoring framework, implementation sequence. Note: not yet updated with the conditional bistability finding. The Assessment Protocol incorporates these findings and provides the regime-dependent strategy that Practice.md lacks.

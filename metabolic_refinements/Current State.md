@@ -1,6 +1,6 @@
 # Current State
 
-**Last updated:** 2026-04-12 (end of session)
+**Last updated:** 2026-04-12
 
 This is the single canonical source for what is being actively worked on in this project right now. It is small by design and updated as work progresses. Other files (`Stress Test.md`, the refinement documents, `Refinement Diff Catalog.md`) are the substance; this file is the pointer.
 
@@ -22,7 +22,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 | Mechanism documents (9 docs) | Detailed biochemistry of each component | **Citation-audited (221 citations). 4 confirmed errors corrected in vault. 73% clean, 11% flagged.** |
 | Synthesis | The complete current understanding | **`The Integrated Framework.md` written. Single standalone read.** |
 | Traceability | How we got here | **3 source vaults + Stress Test Summary + Mechanism Citation Audit + refinement documents. Full chain preserved.** |
-| Assessment protocol | "Where is THIS person in the system?" | **NOT DONE — this is the next build.** |
+| Assessment protocol | "Where is THIS person in the system?" | **DONE.** `The Assessment Protocol.md` at workspace root. Iterative 3-pass design, regime estimation, variable-to-intervention mapping. Stress-tested via 3 independent agent critiques before writing. |
 | Intervention framework | "What does THIS person do?" | **PARTIALLY DONE.** Practice.md exists but is pre-stress-test. Needs conditional bistability, slow/fast variable prioritization, state-dependent damping. |
 | Agent protocol | "How does a human-AI pair use this?" | **NOT DONE.** |
 
@@ -32,7 +32,11 @@ Seven standalone documents in this vault: 6 refinement documents + Stress Test S
 
 ## What Just Happened
 
-**2026-04-12 session completed the entire truth-seeking phase:**
+**2026-04-12 (later session) — first application layer built:**
+
+9. **The Assessment Protocol** — `The Assessment Protocol.md` at workspace root. Three-pass iterative design incorporating all stress test findings (conditional bistability, state-dependent damping, timescale separation, CO₂ reclassification). Design stress-tested via 3 independent agent critiques (structural/dynamical-systems, practical usability, epistemic/methodology) — critiques reshaped the architecture before writing: dropped linear single-pass for iterative passes, made regime estimation honestly retrospective, added timescale-separation mismatch as first-class diagnostic, replaced loop identification with direct variable-to-intervention mapping, added pre-specified thresholds per Rule 2, added conflict-resolution decision trees, defaulted to conservative (assume bistable when uncertain).
+
+**2026-04-12 (earlier session) completed the entire truth-seeking phase:**
 
 1. **Layer 3 formal bistability analysis** — REFINEMENT (substantial), triangulated. The "two attractors" is genuine dynamics, conditional on parameter values. Six new predictions, two already observed in clinical data (hysteresis via bariatric surgery, CSD via Tabák longitudinal cohorts).
 2. **Sub-test 2.B** — PASS. Lactylation causally validated. Loop 9 conditional resolved. M-Λ toggle confirmed.
@@ -98,11 +102,11 @@ Seven standalone documents in this vault: 6 refinement documents + Stress Test S
 
 **What's next — the application layers, in order:**
 
-1. **Assessment protocol (IMMEDIATE NEXT BUILD).** A structured protocol that maps a person's context (symptoms, labs, history, lifestyle) onto the framework's 6 state variables (M, T, E, P, L, Λ). Determines: which loops are engaged, whether the person is monostable (perturbations return to health) or bistable (trapped in disease basin), and what their slow variables (PUFA burden, mitochondrial function) vs fast variables (T₃, LPS, lactate) look like. Uses critical slowing down metrics (recovery dynamics from standardized stressors) as regime assessment. **Must be built before interventions can be properly recommended.**
+1. ~~**Assessment protocol.**~~ **DONE.** `The Assessment Protocol.md` at workspace root. Three-pass iterative design (history/slow variables → measurement/mismatch → dynamic assessment), regime estimation (honestly retrospective, default conservative), timescale-separation mismatch as a first-class diagnostic, variable-to-intervention mapping (no loop identification step — directly maps impaired variables to Practice.md interventions), state-dependent damping as the universal priority (restore M → re-enable all damping), pre-specified thresholds, conflict-resolution decision trees, self-correcting via predicted response patterns. Design stress-tested via 3 independent agent critiques (structural/dynamical-systems, practical usability, epistemic/methodology) before writing.
 
-2. **Updated intervention framework.** Practice.md exists in `metabolic_foundations/` but needs updating with: conditional bistability (different strategy for monostable vs bistable regime), slow-variable vs fast-variable prioritization (slow resets are more durable), state-dependent damping as highest leverage (restore the self-correcting machinery), CO₂ reclassification (readout to monitor, not mechanism to target), and critical slowing down as a monitoring metric.
+2. **Updated intervention framework (NEXT BUILD).** Practice.md exists in `metabolic_foundations/` but needs updating with: conditional bistability (different strategy for monostable vs bistable regime), slow-variable vs fast-variable prioritization (slow resets are more durable), state-dependent damping as highest leverage (restore the self-correcting machinery), CO₂ reclassification (readout to monitor, not mechanism to target), and critical slowing down as a monitoring metric. The Assessment Protocol already contains the variable-to-intervention mapping; Practice.md needs to incorporate the regime-dependent strategy and the stress test findings.
 
-3. **Agent protocol.** A structured decision process an AI agent follows when working with a specific person: take context → assess regime → map onto state variables → identify engaged loops → recommend interventions in leverage order → monitor with framework metrics → refine based on response. Not a chatbot script — a decision protocol with traceability back to the evidence chain. Designed so that errors in mechanism documents surface through use and get corrected via the Verification Methodology.
+3. **Agent protocol.** A structured decision process an AI agent follows when working with a specific person: take context → run assessment protocol → estimate regime → map onto state variables → recommend interventions via the targeted intervention map → monitor with framework metrics → refine based on response. Not a chatbot script — a decision protocol with traceability back to the evidence chain. Designed so that errors in mechanism documents surface through use and get corrected via the Verification Methodology.
 
 **Lower priority (can be done during or after application layer build):**
 - Resolve CF-2.A.5 (Bolevich & Kogan independent verification)
@@ -148,14 +152,17 @@ If you are picking this up and need to understand the full state, read in this o
 ### 2. This vault's structure
 - `metabolic_refinements/CLAUDE.md` — vault purpose, conventions, refinement document template, status semantics
 
-### 3. What was found
+### 3. Application layers
+- `The Assessment Protocol.md` (workspace root) — maps a person onto the 6 state variables, estimates regime, outputs targeted intervention priorities. The bridge from truth to action.
+
+### 4. What was found
 - `Stress Test Summary.md` (this vault) — **start here for findings.** Precise before/after accounting.
 - `Mechanism Citation Audit.md` (this vault) — citation audit results across all 9 mechanism documents.
 - `Stress Test.md` (this vault) — the full investigation log. Layer-by-layer detail, carry-forward items, working log.
 - `Refinement Diff Catalog.md` (this vault) — the diff-form catalog of precise file/passage-level changes.
 - `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
-### 4. Substantive findings as standalone knowledge
+### 5. Substantive findings as standalone knowledge
 - **`Stress Test Summary.md`** (this vault) — **start here for findings.** Precise before/after accounting of what the framework got right, wrong, and what was missing. The capstone.
 - `Convergence Point Reading.md` (this vault) — Sub-test 1.A
 - `Krebs-Cycle Invariance and Ketone Bodies.md` (this vault) — Sub-test 1.B (six findings consolidated)
@@ -164,17 +171,17 @@ If you are picking this up and need to understand the full state, read in this o
 - **`13-Loop Causal Independence Audit.md`** (this vault) — the Round 1 + Round 2 application of the audit tool to all 13 formalized positive feedback loops in `The System.md`. Includes per-loop sections, top-level inventory table, cross-loop findings, citation deployment summary, carry-forward items, and architectural impact summary. This was the prerequisite substrate for Layer 3.
 - **`Conditional Bistability and Attractor Dynamics.md`** (this vault) — Layer 3. The framework's "two attractors" is genuine dynamics, not metaphor, but conditional on parameter values. State-dependent negative feedback, Brandman coupling, six new testable predictions. Source: Stress Test Layer 3.
 
-### 5. Framework context
+### 6. Framework context
 Only read if not already familiar with the metabolic_foundations framework being attacked:
 - `metabolic_foundations/CLAUDE.md` — vault structure, navigation strategy
 - `metabolic_foundations/Foundation.md` — the thesis and first-principles argument
 - `metabolic_foundations/The System.md` — the architecture, two attractors, 13 feedback loops
 
-### 6. Methodology
+### 7. Methodology
 Required reading before attempting any new sub-test or proposing any change:
 - `metabolic_foundations/Verification Methodology.md` — the discipline. Three Hypotheses, Six-Step Verification Sequence, Three Rules, Default Position, citation deployment audit (CF-2.A.4 addition).
 
-### 7. Per-vault navigation (as needed)
+### 8. Per-vault navigation (as needed)
 - `peat_claims_verified/CLAUDE.md` — only if you need to trace something back to the original Peat verification audit trail.
 
 ---
