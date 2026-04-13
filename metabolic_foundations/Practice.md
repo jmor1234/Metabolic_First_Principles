@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: practice
 confidence: high
-last-verified: 2026-04-10
+last-verified: 2026-04-12
 scope: practical
 connections:
   - "[[Foundation]]"
@@ -25,23 +25,49 @@ connections:
   - "[[The Temporal Dimension]]"
 ---
 
-The vault documents one metabolic system from eleven angles. This document translates that architecture into action. The interventions below are not a menu of independent options. They address different loops of the same system — the self-reinforcing feedback architecture described in [[The System]]. Because the loops interlock, addressing one while twelve others compensate produces temporary improvement followed by plateau. The architecture requires addressing multiple inputs simultaneously. What follows is what to change, how to monitor it, and in what sequence.
+The vault documents one metabolic system from eleven angles. This document translates that architecture into action. The interventions below are not a menu of independent options. They address different components of the same system — the self-reinforcing feedback architecture described in [[The System]]. Whether the architecture requires multiple simultaneous inputs or simpler intervention depends on the person's metabolic regime — see the section below. What follows is what to change, how to monitor it, and in what sequence.
 
 ---
 
-## Why Multiple Inputs
+## Why Multiple Inputs — When and Why
 
-[[The System]] documents 13 feedback loops that maintain the current metabolic attractor state. Each loop reinforces the others. This has a practical consequence that explains the most common experience with health interventions: initial improvement followed by stall.
+[[The System]] documents interlocking positive feedback loops that maintain the current metabolic attractor state. Each loop reinforces the others. This explains the most common experience with health interventions: initial improvement followed by stall. But the multi-input requirement is not universal — it depends on the person's metabolic regime.
+
+### Two regimes, two strategies
+
+The system can exhibit two self-reinforcing stable states — but only when parameter conditions (PUFA tissue burden, iron load, chronic stress, endotoxin exposure) create a disease basin. Not every person is trapped in one.
+
+**Monostable regime** — the healthy attractor is the only stable state. Perturbations return to health. This is typically someone young, with short symptom duration, low PUFA history, and a clear precipitating event. Simpler interventions — addressing 2-3 variables — can be sufficient because the system returns to its only attractor once the perturbation is removed.
+
+**Bistable regime** — a disease basin exists and the person is in it. Feedback loops maintain the disease state independent of the original cause. This is typically someone with long symptom duration, progressive worsening despite removing known causes, failed single interventions, and high PUFA tissue burden. Multiple simultaneous inputs are required to cross the threshold back to health.
+
+The difference is consequential: the same intervention that resolves the problem in a monostable person may barely register in a bistable one — not because the intervention is wrong, but because the remaining loops compensate.
+
+### State-dependent damping: why restoring M is the universal priority
+
+Every self-correcting mechanism the body has — antioxidant defense (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy/mitophagy (PINK1/Parkin), immune resolution, hormonal homeostasis (HPT, HPA axes), lactate clearance — requires ATP to function. When mitochondrial function (M) is low, ALL damping fails. The positive feedback loops that maintain disease operate by weakening the negative feedback that would oppose them.
+
+This means restoring M is not one priority among eight. It is the priority that enables every other. The body does not need every feedback loop manually opposed. It needs enough metabolic capacity to run its own correction systems. Restoring ATP production re-enables ALL self-correction simultaneously.
+
+### The multi-input principle — for the bistable regime
 
 **Single interventions fail because the system compensates.** Remove seed oils but remain hypothyroid, and the thyroid bottleneck limits how much oxidative capacity you recover. Support thyroid function but keep PUFA-laden membranes, and the respiratory chain still underperforms because cardiolipin is damaged. Fix both but ignore chronic stress, and cortisol continues suppressing T4-to-T3 conversion and depleting progesterone. Each loop you leave intact pulls the system back toward its current state.
 
-**Crossing the threshold requires breaking enough loops simultaneously.** The two attractors described in [[The System]] — the healthy state (high CO2, low lactate, adequate ATP) and the disease state (low CO2, high lactate, declining ATP) — are stable because their outputs reinforce their inputs. Moving from one to the other is not linear. It requires enough simultaneous changes to overwhelm the compensatory loops and allow the system to settle into the new attractor. This is not "do everything at once." It is "understand which loops you are addressing and ensure you are covering enough of them."
+**Crossing the threshold requires breaking enough loops simultaneously.** The two attractors described in [[The System]] — the healthy state (adequate ATP, low lactate) and the disease state (declining ATP, high lactate) — are stable because their outputs reinforce their inputs. Moving from one to the other requires enough simultaneous changes to overwhelm the compensatory loops and allow the system to settle into the new attractor. This is not "do everything at once." It is "understand which variables are impaired and ensure you are covering enough of them."
 
-**Early intervention has disproportionate leverage.** The positive feedback architecture means that the deeper into the disease attractor the system has settled, the more loops are active and the harder it is to reverse. Conversely, early intervention — before multiple loops have engaged — requires less force. A 25-year-old with subclinical hypothyroidism and a high-PUFA diet needs fewer interventions than a 60-year-old with established metabolic syndrome, chronic inflammation, and a decade of compensatory hormonal shifts. The same principles apply to both, but the required intensity differs. This is the temporal dimension of the architecture ([[The Temporal Dimension]]) — each year of accumulation adds another active loop, and each active loop makes the next harder to break.
+### Slow variables determine durability
 
-**Not "do everything" — but cover enough.** This is not a demand for perfection. Some people will shift attractors by addressing three or four inputs. Others, deeper in, may need all eight plus pharmacological support. The point is to understand the architecture well enough to recognize when you are leaving a critical loop unaddressed. If you have been diligent about diet and supplements for six months and nothing has moved, the question is not "which supplement am I missing?" but "which loop is still active?" — usually thyroid, stress, or gut integrity.
+The system's six state variables span different timescales. Two are slow: PUFA tissue content (P, weeks-months to change) and mitochondrial function (M, days-weeks to rebuild). The fast variables — thyroid (T), estrogen (E), endotoxin (L), lactate (Lambda) — snap to equilibria determined by the slow variables. This separation has a practical consequence: interventions that reset the slow variables produce durable recovery because they change the landscape. Interventions that reset only fast variables (T3 supplementation without addressing what suppresses T3, anti-inflammatories without addressing what drives inflammation) produce improvement that relapses because the landscape hasn't changed.
 
-**The interventions below are ordered by leverage** — how many loops each one breaks and how upstream it sits. Implementation sequence differs from leverage order (see [[#Sequence What to Address First|Sequence]] below). Some high-leverage interventions require prerequisites before they work fully.
+### Early intervention has disproportionate leverage
+
+The deeper into the disease attractor the system has settled, the more loops are active, the more the slow variables have degraded, and the harder it is to reverse. Conversely, early intervention — before multiple loops have engaged, before PUFA tissue burden has accumulated over decades, before mitochondrial hardware has degraded — requires less force. A 25-year-old with subclinical hypothyroidism and a high-PUFA diet needs fewer interventions than a 60-year-old with established metabolic syndrome, chronic inflammation, and a decade of compensatory hormonal shifts.
+
+### Not "do everything" — but cover enough
+
+Some people will recover by addressing two or three inputs. Others, deeper in, may need all eight plus pharmacological support. The point is to understand where you are in the system — which variables are impaired, which regime you occupy — and ensure you are addressing the right ones. If you have been diligent about diet and supplements for six months and nothing has moved, the question is not "which supplement am I missing?" but "which variable is still impaired?" — usually thyroid, stress, or gut integrity.
+
+**The interventions below are ordered by leverage** — how many system components each one addresses and how upstream it sits. Implementation sequence differs from leverage order (see [[#Sequence What to Address First|Sequence]] below). Some high-leverage interventions require prerequisites before they work fully.
 
 ---
 
@@ -73,7 +99,7 @@ The vault documents one metabolic system from eleven angles. This document trans
 
 ### 4. Favor Glucose Oxidation
 
-**Why it matters.** Glucose oxidation produces the most CO2 per oxygen consumed (RQ 1.0 vs 0.7 for fat). CO2 is not a waste product — it is a regulator that sustains the conditions for more oxidative metabolism ([[The Metabolic Fork]], [[The Preferred Substrate]], [[The Cellular Readout]]). The shift from glucose to fat oxidation, driven by PUFA, stress hormones, and hypothyroidism, directly reduces CO2 production and everything downstream of it. The Randle cycle means PUFA reduction is architecturally upstream of glucose oxidation — the two interventions are sequential, not parallel.
+**Why it matters.** Glucose oxidation produces ~18 times more ATP per molecule than glycolysis — the energy difference that determines whether a cell can maintain itself or must triage ([[The Metabolic Fork]], [[The Preferred Substrate]]). Glucose also produces the most CO2 per oxygen consumed (RQ 1.0 vs 0.7 for fat); rising CO2 is the readout confirming the metabolic fork is going right, and CO2 has functional roles in oxygen delivery (Bohr effect) and protein protection (carbamino bonds) ([[The Cellular Readout]]). The shift from glucose to fat oxidation, driven by PUFA, stress hormones, and hypothyroidism, directly reduces ATP production. The Randle cycle means PUFA reduction is architecturally upstream of glucose oxidation — the two interventions are sequential, not parallel.
 
 **What to do.** Adequate carbohydrate from fruit, sugar, milk, honey. Avoid chronic low-carb and ketogenic approaches that force sustained fat oxidation. Ensure PDH cofactors simultaneously: **thiamine (B1)** as [thiamine pyrophosphate](https://pmc.ncbi.nlm.nih.gov/articles/PMC10731935/), **magnesium** for [PDH phosphatase activation](https://pmc.ncbi.nlm.nih.gov/articles/PMC5786912/) ([~50% of Americans consume below the EAR](https://pmc.ncbi.nlm.nih.gov/articles/PMC5786912/)), and **niacinamide** (NAD+ precursor — the electron carrier feeding Complex I). B1 also serves alpha-ketoglutarate dehydrogenase and transketolase.
 
@@ -217,7 +243,11 @@ The CO2/lactate ratio is the master readout ([[The Cellular Readout]]). These ar
 
 The leverage order above reflects architectural importance. Implementation order reflects prerequisites — what must be in place before later interventions work.
 
-The architectural logic: hardware (membranes) first, because damaged membranes limit everything downstream. Then rate-setter (thyroid), because T3 controls the expression of every respiratory enzyme. Then environment (light), because it is the primary input determining which attractor the circadian system reinforces. Then substrate (glucose), because without cofactors and PUFA reduction, more carbs produce lactate not CO2. Then gateway (gut), because endotoxin activates every conservation signal simultaneously. Then regulatory (hormonal), because progesterone supplementation without upstream corrections fights the current. Then contextual (stress, amino acids), because metabolic improvements from the other interventions reduce stress load automatically.
+Two principles govern the sequence:
+
+**Slow variables before fast variables.** PUFA tissue burden (P) and mitochondrial function (M) are the slow variables — they operate on weeks-to-months timescales and determine the landscape the fast variables operate on. Interventions that reset slow variables (PUFA reduction, sustained M restoration through cofactors + thyroid + light) produce durable recovery. Interventions addressing only fast variables (T3 supplementation alone, acute anti-inflammatories) produce improvement that relapses if the slow variables haven't shifted. Start the slow-variable interventions immediately, even though their effects take months to fully manifest — the earlier the slow clock starts, the sooner the landscape changes.
+
+**Prerequisites before dependents.** Hardware (membranes) first, because damaged membranes limit everything downstream. Then rate-setter (thyroid), because T3 controls the expression of every respiratory enzyme. Then environment (light), because it is the primary input determining which attractor the circadian system reinforces. Then substrate (glucose), because without cofactors and PUFA reduction, more carbs produce lactate not CO2. Then gateway (gut), because endotoxin activates every conservation signal simultaneously. Then regulatory (hormonal), because progesterone supplementation without upstream corrections fights the current. Then contextual (stress, amino acids), because metabolic improvements from the other interventions reduce stress load automatically.
 
 ### Implementation Timeline
 
@@ -228,7 +258,7 @@ The architectural logic: hardware (membranes) first, because damaged membranes l
 - Morning sunlight, 30-60 minutes (even overcast; outside, not through a window)
 - Stop buying and cooking with seed oils; begin reading ingredient labels
 - Bedtime milk + honey + salt (suppresses nocturnal stress cascade — the nocturnal cortisol rise drives PUFA mobilization, progesterone depletion, and waking with high stress hormones)
-- Breathing awareness — nasal breathing, slower exhale (CO2 retention; mouth breathing chronically lowers ETCO2)
+- Breathing awareness — nasal breathing, slower exhale (retains CO2, improving oxygen delivery to tissues via the Bohr effect; mouth breathing chronically depletes CO2 and worsens tissue oxygenation)
 
 **Week 1-2:**
 - PDH cofactors in place: thiamine (B1), magnesium, niacinamide — these unlock the metabolic fork before increasing carbohydrate load
@@ -254,4 +284,4 @@ The architectural logic: hardware (membranes) first, because damaged membranes l
 **What "working" looks like over time:** The early changes are subjective — better sleep, warmer hands and feet, better mood stability, reduced afternoon crashes. The mid-range changes are measurable — temperature consistently approaching 98.6F, resting pulse in the mid-70s to mid-80s, meal test showing consistent rises. The long-range changes are structural — reduced inflammation markers, improved hormonal ratios, falling lactate, rising ETCO2 if measured. The timescale is months to years, not days to weeks. The system took years to settle into its current attractor. It does not reverse overnight.
 
 > [!abstract] The Core Principle
-> These interventions are not eight independent treatments. They are eight points of entry into the single self-reinforcing system described in [[Foundation]] and [[The System]]. The architecture explains why single interventions plateau, why cofactors must be present before substrates increase, why upstream changes (PUFA, thyroid) make downstream changes (progesterone, gut) more effective, and why the system, once it starts shifting, accelerates its own improvement. The biology is one system. The practice addresses it as one system.
+> These interventions are not eight independent treatments. They are eight points of entry into the single self-reinforcing system described in [[Foundation]] and [[The System]]. Restoring mitochondrial function (M) is the universal priority because it re-enables every self-correcting mechanism the body has. How many of the eight interventions a person needs — and how simultaneously they must be applied — depends on their metabolic regime. The architecture explains why single interventions plateau in the bistable regime, why cofactors must be present before substrates increase, why slow-variable resets (PUFA, mitochondrial hardware) produce more durable recovery than fast-variable-only interventions, and why the system, once it starts shifting, accelerates its own improvement. The biology is one system. The practice addresses it as one system.

@@ -12,7 +12,7 @@ This workspace contains three independent Obsidian vaults. Each has its own CLAU
 
 **For the agent protocol — "how does a human-AI pair use this?":** read `The Agent Protocol.md` in this directory. Structured decision process for an AI agent working with a specific person: session types, assessment flow, communication principles, boundaries, and how use refines the framework. Assessment records live in `assessments/`.
 
-**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase is COMPLETE. The application layers (assessment protocol + agent protocol) are COMPLETE. Remaining: updated intervention framework (Practice.md incorporating stress test findings). See Current State.md for the full plan.
+**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase is COMPLETE. All application layers are COMPLETE: assessment protocol, agent protocol, and updated intervention framework. See Current State.md for the full state.
 
 **For what the stress test found:** `metabolic_refinements/Stress Test Summary.md` — precise before/after accounting. `metabolic_refinements/Mechanism Citation Audit.md` — citation audit results across all 9 mechanism documents.
 
