@@ -218,4 +218,6 @@ The integration itself is the contribution. The evidence was always there. The s
 
 **For assessment — "where is THIS person in the system?":** `The Assessment Protocol.md` (this directory) — maps a person onto the 6 state variables, estimates metabolic regime (monostable vs bistable), and outputs targeted intervention priorities. The bridge from this document to Practice.md.
 
+**For the human-AI workflow:** `The Agent Protocol.md` (this directory) — structured decision process for an AI agent working with a specific person. Session types, assessment flow, communication principles, boundaries, and the feedback loop by which use refines the framework. Assessment records in `assessments/`.
+
 **For practical application:** `metabolic_foundations/Practice.md` — interventions, monitoring framework, implementation sequence. Note: not yet updated with the conditional bistability finding. The Assessment Protocol incorporates these findings and provides the regime-dependent strategy that Practice.md lacks.

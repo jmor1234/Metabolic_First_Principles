@@ -10,7 +10,9 @@ This workspace contains three independent Obsidian vaults. Each has its own CLAU
 
 **For the assessment protocol — "where is THIS person in the system?":** read `The Assessment Protocol.md` in this directory. Maps a person onto the framework's 6 state variables, estimates metabolic regime (monostable vs bistable), and outputs targeted intervention priorities. Built on the stress-tested architecture, incorporating conditional bistability, state-dependent damping, and the timescale-separation diagnostic.
 
-**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase is COMPLETE. The first application layer (assessment protocol) is COMPLETE. Remaining: updated intervention framework and agent protocol. See Current State.md for the full plan.
+**For the agent protocol — "how does a human-AI pair use this?":** read `The Agent Protocol.md` in this directory. Structured decision process for an AI agent working with a specific person: session types, assessment flow, communication principles, boundaries, and how use refines the framework. Assessment records live in `assessments/`.
+
+**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase is COMPLETE. The application layers (assessment protocol + agent protocol) are COMPLETE. Remaining: updated intervention framework (Practice.md incorporating stress test findings). See Current State.md for the full plan.
 
 **For what the stress test found:** `metabolic_refinements/Stress Test Summary.md` — precise before/after accounting. `metabolic_refinements/Mechanism Citation Audit.md` — citation audit results across all 9 mechanism documents.
 

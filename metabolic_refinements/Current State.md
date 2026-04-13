@@ -24,7 +24,7 @@ If you are a new agent picking this up, read this file first, then follow the "W
 | Traceability | How we got here | **3 source vaults + Stress Test Summary + Mechanism Citation Audit + refinement documents. Full chain preserved.** |
 | Assessment protocol | "Where is THIS person in the system?" | **DONE.** `The Assessment Protocol.md` at workspace root. Iterative 3-pass design, regime estimation, variable-to-intervention mapping. Stress-tested via 3 independent agent critiques before writing. |
 | Intervention framework | "What does THIS person do?" | **PARTIALLY DONE.** Practice.md exists but is pre-stress-test. Needs conditional bistability, slow/fast variable prioritization, state-dependent damping. |
-| Agent protocol | "How does a human-AI pair use this?" | **NOT DONE.** |
+| Agent protocol | "How does a human-AI pair use this?" | **DONE.** `The Agent Protocol.md` at workspace root. Session types, decision procedures, communication principles, boundaries, feedback loop. Assessment records in `assessments/`. |
 
 Seven standalone documents in this vault: 6 refinement documents + Stress Test Summary + Mechanism Citation Audit. Five corrections have been applied directly to `metabolic_foundations/`: 2 methodology improvements (citation deployment audit, causal-independence audit) and 3 claim corrections (rT3 mechanism, Ringer's citation, Ca+VitD mixed evidence, PTH dose qualifier, LPS/D2 nuance).
 
@@ -32,9 +32,10 @@ Seven standalone documents in this vault: 6 refinement documents + Stress Test S
 
 ## What Just Happened
 
-**2026-04-12 (later session) — first application layer built:**
+**2026-04-12 (later session) — application layers built:**
 
 9. **The Assessment Protocol** — `The Assessment Protocol.md` at workspace root. Three-pass iterative design incorporating all stress test findings (conditional bistability, state-dependent damping, timescale separation, CO₂ reclassification). Design stress-tested via 3 independent agent critiques (structural/dynamical-systems, practical usability, epistemic/methodology) — critiques reshaped the architecture before writing: dropped linear single-pass for iterative passes, made regime estimation honestly retrospective, added timescale-separation mismatch as first-class diagnostic, replaced loop identification with direct variable-to-intervention mapping, added pre-specified thresholds per Rule 2, added conflict-resolution decision trees, defaulted to conservative (assume bistable when uncertain).
+10. **The Agent Protocol** — `The Agent Protocol.md` at workspace root. Structured decision process for human-AI pair: five session types with decision procedures, communication principles, boundaries, persistent assessment records in `assessments/`, and the feedback loop by which use refines the framework.
 
 **2026-04-12 (earlier session) completed the entire truth-seeking phase:**
 
@@ -106,7 +107,7 @@ Seven standalone documents in this vault: 6 refinement documents + Stress Test S
 
 2. **Updated intervention framework (NEXT BUILD).** Practice.md exists in `metabolic_foundations/` but needs updating with: conditional bistability (different strategy for monostable vs bistable regime), slow-variable vs fast-variable prioritization (slow resets are more durable), state-dependent damping as highest leverage (restore the self-correcting machinery), CO₂ reclassification (readout to monitor, not mechanism to target), and critical slowing down as a monitoring metric. The Assessment Protocol already contains the variable-to-intervention mapping; Practice.md needs to incorporate the regime-dependent strategy and the stress test findings.
 
-3. **Agent protocol.** A structured decision process an AI agent follows when working with a specific person: take context → run assessment protocol → estimate regime → map onto state variables → recommend interventions via the targeted intervention map → monitor with framework metrics → refine based on response. Not a chatbot script — a decision protocol with traceability back to the evidence chain. Designed so that errors in mechanism documents surface through use and get corrected via the Verification Methodology.
+3. ~~**Agent protocol.**~~ **DONE.** `The Agent Protocol.md` at workspace root. Five session types (initial assessment sessions 1 and 2, follow-up, reassessment, question/education), structured decision procedures for each, communication principles (calibrated language, one thing at a time, validate experience), explicit boundaries (no diagnosing, no dosing, recommend clinical evaluation when indicated), and the feedback loop (framework-testing observations in assessment records, pattern accumulation across cases, Verification Methodology integration). Assessment records persist in `assessments/` directory.
 
 **Lower priority (can be done during or after application layer build):**
 - Resolve CF-2.A.5 (Bolevich & Kogan independent verification)
@@ -154,6 +155,7 @@ If you are picking this up and need to understand the full state, read in this o
 
 ### 3. Application layers
 - `The Assessment Protocol.md` (workspace root) — maps a person onto the 6 state variables, estimates regime, outputs targeted intervention priorities. The bridge from truth to action.
+- `The Agent Protocol.md` (workspace root) — structured decision process for human-AI pair. Session types, procedures, communication, boundaries, feedback loop. Assessment records in `assessments/`.
 
 ### 4. What was found
 - `Stress Test Summary.md` (this vault) — **start here for findings.** Precise before/after accounting.
