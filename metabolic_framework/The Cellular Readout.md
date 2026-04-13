@@ -73,7 +73,7 @@ The connection between CO2 and calcium regulation is demonstrated most directly 
 
 The relationship extends beyond acute crisis. [Hypocapnia constricts and hypercapnia relaxes airway smooth muscle](https://cdnsciencepub.com/doi/10.1139/y11-052) through pH- and Ca²⁺-mediated mechanisms. CO2/bicarbonate promotes renal phosphate excretion — the [BASE pilot trial (2024)](https://pubmed.ncbi.nlm.nih.gov/38170601/) found sodium bicarbonate treatment increased serum alpha-Klotho in CKD patients, and Klotho's primary function is promoting phosphate excretion (see below). [Alkaline supplement interventions significantly reduce urinary calcium excretion, decrease bone resorption markers, and increase BMD at femoral neck, lumbar spine, and total hip](https://pubmed.ncbi.nlm.nih.gov/33684217/).
 
-The logic connects directly to [[The Master Throttle]]: thyroid hormone drives oxidative metabolism, oxidative metabolism produces CO2, CO2 maintains the pH conditions that keep calcium properly distributed. Hypothyroidism → less CO2 → alkaline shift → calcium dysregulation → soft tissue calcification and bone loss. The CO2-calcium axis is one more pathway through which the metabolic rate set by thyroid function determines tissue health.
+The logic connects directly to [[The Master Throttle]]: thyroid hormone drives oxidative metabolism, oxidative metabolism produces CO2, and CO2/bicarbonate maintains the blood pH conditions that keep calcium properly distributed — a genuine CO2 physiological role distinct from the intracellular V-ATPase mechanism (this operates through blood-pH/albumin-binding, as demonstrated by hyperventilation tetany). Hypothyroidism → less CO2 → alkaline shift → calcium dysregulation → soft tissue calcification and bone loss. The CO2-calcium axis is one more pathway through which the metabolic rate set by thyroid function determines tissue health.
 
 ### Phosphate as Aging Accelerator
 
@@ -115,7 +115,7 @@ However, PTH is not the sole driver. When [calcium infusion suppressed both dayt
 |---|---|
 | [[Foundation]] | The 10,000:1 calcium gradient is the most energy-expensive ion gradient a cell maintains — its collapse IS the cellular definition of energy failure |
 | [[The System]] | Calcium entry activates phospholipases, calpains, and NOS, engaging multiple feedback loops simultaneously — it is the molecular trigger for attractor transition |
-| [[The Master Throttle]] | T3 drives CO2 production; CO2 maintains pH conditions for calcium exclusion; T3 is 50-fold more potent than T4 for bone formation; hypothyroidism → calcium dysregulation |
+| [[The Master Throttle]] | T3 drives CO2 production; CO2/bicarbonate maintains blood pH conditions for calcium distribution (a genuine non-loop CO2 role via the blood-pH/albumin-binding pathway); T3 is 50-fold more potent than T4 for bone formation; hypothyroidism → calcium dysregulation |
 | [[The Metabolic Fork]] | Mitochondrial calcium overload forces glycolytic ATP production to fuel PMCA — the cell burns glucose to lactate just to survive, driving the fork toward disease |
 | [[Membrane Damage and Defense]] | PUFA peroxidation damages the mitochondria that produce ATP for calcium pumps; calcium activates phospholipases that liberate arachidonic acid — a self-amplifying loop |
 | [[The Hormonal Axis]] | Estrogen increases intracellular calcium, PTH, serotonin, prolactin; progesterone opposes calcium entry, supports CO2 production, builds bone directly |

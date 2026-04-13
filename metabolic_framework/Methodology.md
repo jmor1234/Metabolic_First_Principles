@@ -78,7 +78,7 @@ Two scales operate at different levels.
 
 - **Textbook** — Standard biochemistry. Taught in courses, not seriously contested. The Fenton reaction, the Bohr effect, the Randle cycle mechanism.
 - **Strong** — Confirmed by multiple independent research groups with consistent results. Ferroptosis, lactylation, resmetirom mechanism, PUFA-cardiolipin remodeling.
-- **Probable** — Mechanistically sound with supporting evidence, not yet definitive. The CO2-serotonin pH axis as an integrated system, MCAS as downstream metabolic output.
+- **Probable** — Mechanistically sound with supporting evidence, not yet definitive. The metabolism-serotonin axis (ATP/V-ATPase-mediated mediator sequestration) as an integrated system, MCAS as downstream metabolic output.
 - **Plausible** — Logical from first principles, limited direct evidence. The carbamino aldehyde protection hypothesis.
 - **Speculative** — Interesting hypothesis, insufficient data. CO2 methylation/epigenetics.
 - **Contested** — Genuine scientific disagreement with evidence on both sides. Estrogen fracture reduction versus confirmed estrogen damage mechanisms.
