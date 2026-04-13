@@ -3,10 +3,9 @@
 **What this document is:** A first-principles assessment of Ray Peat's accuracy as a biological thinker, based on the systematic verification, extraction, and stress testing documented across this project's three vaults. Not a biography or tribute — an honest accounting of what he got right, what he got wrong, and the consistent pattern that explains both.
 
 **Traceability:** Every assessment here traces to specific project work:
-- `peat_claims_verified/` — the claim-by-claim verification against peer-reviewed research (16 topic documents)
-- `metabolic_foundations/` — the extracted standalone biology (14 documents, 221 citations audited)
-- `metabolic_refinements/` — the stress test findings (3 layers tested, 6 refinement documents)
-- `The Integrated Framework.md` — the complete current understanding incorporating all phases
+- `project_history/peat_claims_verified/` — the claim-by-claim verification against peer-reviewed research (16 topic documents)
+- `metabolic_framework/` — the unified vault: extracted standalone biology with all stress test refinements incorporated (14 documents, 221 citations audited)
+- `project_history/metabolic_refinements/` — the stress test audit trail (3 layers tested, 6 refinement documents)
 
 ---
 

@@ -26,7 +26,7 @@ connections:
 
 Every process described in this vault runs at a rate. That rate is set by triiodothyronine — T3.
 
-[[Foundation]] established that health is efficient oxidative metabolism of glucose to CO2, and that every cellular function requires ATP. [[The System]] documented how the components that produce and consume ATP form self-reinforcing loops. But neither document names the variable that determines how fast the entire system runs. T3 is that variable. It controls the expression of the respiratory enzymes that produce ATP — and it does so through a mechanism no other hormone uses: simultaneous regulation of both the nuclear and mitochondrial genomes. The nuclear genome encodes most of the ~100 subunits of the electron transport chain. The mitochondrial genome encodes 13 essential subunits. T3 controls both. No other signaling molecule coordinates transcription across both genomes.
+[[Foundation]] established that health is efficient oxidative metabolism — primarily of glucose — to CO2, and that every cellular function requires ATP. [[The System]] documented how the components that produce and consume ATP form self-reinforcing loops. But neither document names the variable that determines how fast the entire system runs. T3 is that variable. It controls the expression of the respiratory enzymes that produce ATP — and it does so through a mechanism no other hormone uses: simultaneous regulation of both the nuclear and mitochondrial genomes. The nuclear genome encodes most of the ~100 subunits of the electron transport chain. The mitochondrial genome encodes 13 essential subunits. T3 controls both. No other signaling molecule coordinates transcription across both genomes.
 
 This makes T3 the master throttle. When it is adequate, mitochondria are assembled, respiratory capacity is high, and the downstream cascade — steroid hormone synthesis, estrogen clearance, CO2 production, gut motility, neurotransmitter balance — operates. When it is inadequate, every one of those processes slows, and the system drifts toward the lactate-dominant attractor described in [[The System]]. Many chronic problems that appear to have independent causes — high cholesterol, estrogen dominance, serotonin excess, gut stagnation, progesterone deficiency — are downstream consequences of insufficient T3. Address the throttle, and many of them self-correct. Attempt to address them individually without restoring the throttle, and you are fighting the current of a system that cannot run at the speed required for self-maintenance.
 
@@ -120,7 +120,7 @@ The diagnostic system measures a pituitary signal (TSH) and a prohormone (T4) wh
 
 | Connected Document | Relationship |
 |---|---|
-| [[Foundation]] | T3 determines the rate of the core process: oxidative metabolism of glucose to CO2 |
+| [[Foundation]] | T3 determines the rate of the core process: oxidative metabolism of Krebs-cycle substrates (primarily glucose) to CO2 |
 | [[The System]] | T3 is the throttle variable in both attractor states; its adequacy or suppression determines which attractor the system occupies |
 | [[The Preferred Substrate]] | T3 drives the glucose oxidation machinery; hypothyroidism forces substrate diversion toward lactate |
 | [[The Metabolic Fork]] | T3 determines whether pyruvate enters the mitochondria (full oxidation) or stays in the cytoplasm (lactate); the throttle position sets the fork position |

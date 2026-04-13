@@ -1,6 +1,6 @@
-# Metabolic Foundations Vault
+# Metabolic Framework
 
-A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, organized around biology itself. 14 documents organized in four tiers.
+A first-principles understanding of what health and disease are at the metabolic level, verified against peer-reviewed research, stress-tested for accuracy, organized around biology itself. 14 documents organized in four tiers. This is the unified vault — all stress test refinements are incorporated.
 
 ## Read This Vault as an Integration, Not a Database
 
@@ -18,7 +18,7 @@ The discipline for doing this rigorously is documented in `Verification Methodol
 
 ## Core Principle
 
-Health is efficient oxidative metabolism of glucose to CO2. Disease is its progressive failure. Every document examines one aspect of that single system. The documents are not independent — they form an interconnected network of 333 wikilinks where every mechanism feeds into and receives from every other.
+Health is efficient oxidative metabolism — primarily of glucose — to CO2. Disease is its progressive failure. Every document examines one aspect of that single system. The documents are not independent — they form an interconnected network where every mechanism feeds into and receives from every other.
 
 ## Vault Architecture (4 Tiers)
 
@@ -49,7 +49,7 @@ Health is efficient oxidative metabolism of glucose to CO2. Disease is its progr
 
 1. **`Foundation.md`** — The thesis, the first-principles argument, the evidence, the challenges, why the integration doesn't exist in mainstream medicine. **Always start here.**
 
-2. **`The System.md`** — The two attractors, 15 components by role, 13 feedback loops in 5 architectural layers, emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), and the temporal oscillation.
+2. **`The System.md`** — The two attractors (conditional on parameters), 15 components by role, the feedback architecture (10 clean loops + hub + 2 half-closed + forcing function), emergent properties (why disease is progressive, why single interventions fail, context-dependence, threshold dynamics), state-dependent damping, testable predictions, and the temporal oscillation.
 
 These two documents alone provide the complete conceptual architecture.
 
@@ -75,7 +75,9 @@ For a specific mechanism, go directly to its canonical location:
 |---|---|
 | **System architecture** | `The System.md` |
 | **Two attractors** | `The System.md#The Two Attractors` |
-| **13 feedback loops** | `The System.md#The Feedback Loops` |
+| **Feedback architecture** | `The System.md#The Feedback Loops` |
+| **State-dependent damping** | `The System.md#State-dependent negative feedback` |
+| **Testable predictions** | `The System.md#Testable predictions` |
 | **Emergent properties** | `The System.md#Emergent Properties` |
 | **Temporal oscillation** | `The System.md#The Temporal Architecture` |
 | **Interventions** | `Practice.md#The Core Interventions` |
@@ -107,7 +109,7 @@ For a specific mechanism, go directly to its canonical location:
 | **SSRI / allopregnanolone** | `Conservation Signaling.md#Serotonin` |
 | **Histamine / mast cells** | `Conservation Signaling.md#Histamine` |
 | **MCAS as metabolic failure** | `Conservation Signaling.md#MCAS as Metabolic Failure` |
-| **Shared triggers (pH, estrogen)** | `Conservation Signaling.md#Shared Triggers` |
+| **Shared triggers (ATP/V-ATPase, estrogen)** | `Conservation Signaling.md#Shared Triggers` |
 | **Gut barrier energy-dependence** | `The Gut-Liver Axis.md#The Gut Barrier` |
 | **Endotoxin gateway stressor** | `The Gut-Liver Axis.md#Endotoxin as the Gateway Stressor` |
 | **Liver as metabolic hub** | `The Gut-Liver Axis.md#The Liver as Metabolic Hub` |
@@ -138,7 +140,7 @@ For a specific mechanism, go directly to its canonical location:
 
 All honest calibration uses `[!warning]` callouts:
 ```
-Grep for "[!warning]" across metabolic_foundations/*.md
+Grep for "[!warning]" across metabolic_framework/*.md
 ```
 
 Key corrections and additions an agent should know exist:
@@ -194,4 +196,4 @@ Grouped mechanism docs have aliases. These all resolve correctly:
 
 ## Relationship to Peat Verification Vault
 
-This vault was produced from a separate verification project (`peat_claims_verified/`). That vault verified claims against research. This vault extracts the verified findings as standalone knowledge. The two are independent — this vault contains no references to the verification project, no claim numbers, and no person-specific framing. When working in this vault, do not reference or link to `peat_claims_verified/` documents.
+This vault was produced from a verification project archived at `project_history/peat_claims_verified/`. That vault verified claims against research. This vault extracts the verified findings as standalone knowledge, with stress test refinements incorporated. The two are independent — this vault contains no references to the verification project, no claim numbers, and no person-specific framing.
