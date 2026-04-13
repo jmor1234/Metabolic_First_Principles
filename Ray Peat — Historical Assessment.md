@@ -1,6 +1,6 @@
 # Ray Peat — Historical Assessment
 
-**What this document is:** A first-principles assessment of Ray Peat's accuracy as a biological thinker, based on the systematic verification, extraction, and stress testing documented across this project's three vaults. Not a biography or tribute — an honest accounting of what he got right, what he got wrong, and the consistent pattern that explains both.
+**What this document is:** A first-principles assessment of Ray Peat's accuracy as a biological thinker, based on the systematic verification, extraction, and stress testing documented in this project. Not a biography or tribute — an honest accounting of what he got right, what he got wrong, and the consistent pattern that explains both.
 
 **Traceability:** Every assessment here traces to specific project work:
 - `project_history/peat_claims_verified/` — the claim-by-claim verification against peer-reviewed research (16 topic documents)
@@ -32,7 +32,7 @@ This identification — confirmed at structural, mathematical, cellular, and who
 
 ### The system architecture
 
-The metabolic system has two self-reinforcing stable states maintained by interlocking positive feedback loops. Health maintains health through its own outputs. Disease produces more disease through its own outputs. Crossing from one state to the other requires addressing multiple inputs simultaneously because the loops compensate for single interventions.
+The metabolic system can exhibit two self-reinforcing stable states — maintained by interlocking positive feedback loops — when parameter conditions (PUFA burden, iron load, chronic stress, endotoxin exposure) create a disease basin. Health maintains health through its own outputs. Disease produces more disease through its own outputs. Crossing from one state to the other requires addressing multiple inputs simultaneously because the loops compensate for single interventions. Peat overclaimed this as unconditional (see "What He Got Wrong" below), but the architecture itself is confirmed.
 
 This is confirmed as genuine dynamical-systems bistability — not metaphor. The stress test validated it at four independent levels: structurally (10+ positive circuits satisfying Thomas's necessary condition), mathematically (Topp et al. saddle-node bifurcation), cellularly (Mulukutla et al. glycolysis/OXPHOS bistability with experimental hysteresis), and at the whole-organism level (bariatric surgery duration-dependent remission as hysteresis, Tabak et al. longitudinal critical slowing down).
 
@@ -89,7 +89,9 @@ This pattern recurs across nearly every topic:
 | Lactate drives disease | Correct (chronic) | Lactate as metabolic waste | Histone lactylation as epigenetic reprogramming |
 | Serotonin suppresses metabolism | Correct | Direct mitochondrial inhibition | Conservation signaling program |
 
-The pattern makes sense historically. Peat was working with biochemistry available through the 1990s-2000s. The molecular tools that revealed the actual mechanisms — Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models, mass spectrometry proteomics — didn't exist when he formulated most of his positions. He identified the correct functional outcomes and attributed them to the most direct mechanism available to him.
+The pattern makes sense at two levels. Historically, Peat was working with biochemistry available through the 1990s-2000s. The molecular tools that revealed the actual mechanisms — Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models, mass spectrometry proteomics — didn't exist when he formulated most of his positions.
+
+But the deeper reason is structural: Peat was reasoning backward from correct system-level observations to mechanisms. When you see the right outcome and ask "what mechanism could produce this?", you naturally pick the most parsimonious explanation — the most direct causal chain available. CO₂ → carbonic acid → granule pH is more parsimonious than ATP → V-ATPase → granule pH → V₁-V₀ sensor. Pregnenolone steal (substrate competition) is more parsimonious than HPA axis suppression of GnRH/LH. The more direct explanation was consistently wrong, but the reasoning strategy — working backward from correct observations — is what *produced* the consistent "right destination, wrong route" pattern. The strategy validates itself even as the specific attributions need correction: if the destinations are reliably right, the observer is seeing something real about the system.
 
 ### Unconditional claims that are actually conditional
 
@@ -128,6 +130,10 @@ Every time. The functional picture he describes is real — metabolic output sus
 
 Lactate is harmful → chronic lactate. Serotonin is harmful → as a tonically elevated conservation signal. Melatonin is harmful → as a driver of the nightly conservation dip. Estrogen is harmful → when the system is in the disease attractor. His descriptions are accurate for the chronic disease state. They overclaim when applied universally or to controlled biological deployments.
 
+### When he talks about the system having two states — add parameter conditions
+
+Peat described two attractors as an unconditional fact about the metabolic system. The stress test confirmed the bistability is real but conditional — it depends on parameter values (PUFA tissue burden, iron load, chronic stress, endotoxin exposure) falling within the bistable region. An organism with low damage burden and robust energy-dependent negative feedback may be monostable — the healthy state is the only attractor. When Peat describes the two-attractor architecture, the dynamics are correct for organisms whose parameters have created a disease basin. They are not universal.
+
 ### When he says something is universally true — add regime
 
 He didn't have the bistability framework formalized with its conditional structure. Not everyone needs the full multi-loop intervention approach. Context-dependence and metabolic regime matter. His recommendations are strongest as descriptions of what the bistable disease state requires, not as universal biochemical truths applicable to every organism in every state.
@@ -162,4 +168,6 @@ His work was never published in peer-reviewed journals and exists primarily as a
 
 **Was missing entirely:** State-dependent damping — the deepest mechanism producing bistability. The formal bistability analysis with its six testable predictions. The causal-independence audit methodology. The regime assessment that determines intervention strategy.
 
-The framework built from Peat's starting point is now more precise, more predictive, more falsifiable, and more honest than his original work. Every correction made it stronger. That is exactly what he would have wanted — the work was never meant to be a monument. It was meant to be a starting point for understanding what's most true.
+The framework built from Peat's starting point is now more precise, more predictive, more falsifiable, and more honest than his original work. The distance traveled is significant: Peat saw two states; the project proved bistability with four independent confirmations and identified the conditions under which it emerges. Peat saw interconnection; the project mapped 10 clean feedback loops with a formal causal-independence audit grounded in Pearl's screening-off test and metabolic control analysis. Peat saw that disease maintains itself; the project identified state-dependent damping as the mechanism — the deepest structural insight, which Peat never articulated. Peat described the system; the project generated six testable predictions from it, two already observed in existing clinical data.
+
+The project went from intuition to formalism, from integration to dynamics, from "this is how it works" to "here is what it predicts and here is what would falsify it." Every correction made the framework stronger. That is exactly what the work was meant to do — not build a monument but find what's most true.
