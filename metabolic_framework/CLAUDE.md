@@ -18,7 +18,7 @@ The discipline for doing this rigorously is documented in `Verification Methodol
 
 ## Core Principle
 
-Health is efficient oxidative metabolism — primarily of glucose — to CO2. Disease is its progressive failure. Every document examines one aspect of that single system. The documents are not independent — they form an interconnected network where every mechanism feeds into and receives from every other.
+Health is efficient oxidative metabolism of Krebs-cycle substrates — primarily glucose, with ketone bodies as a biochemically equivalent alternative — to CO2. Disease is its progressive failure. Every document examines one aspect of that single system. The documents are not independent — they form an interconnected network where every mechanism feeds into and receives from every other.
 
 ## Vault Architecture (4 Tiers)
 
@@ -34,7 +34,7 @@ Health is efficient oxidative metabolism — primarily of glucose — to CO2. Di
 | Document | Components | Role |
 |---|---|---|
 | `The Master Throttle.md` | Thyroid, T3 | Rate-setter for oxidative metabolism |
-| `The Preferred Substrate.md` | Glucose, Randle cycle | Preferred fuel and what blocks it |
+| `The Preferred Substrate.md` | Glucose, Ketone Bodies, Randle cycle | Preferred fuels, their biochemistry, and what blocks glucose oxidation |
 | `The Metabolic Fork.md` | CO2, Lactate | Two active outputs of the pyruvate decision point |
 | `Membrane Damage and Defense.md` | PUFA, Iron, Vitamin E, Ferroptosis | The peroxidation chain: substrate, catalyst, defense |
 | `The Hormonal Axis.md` | Estrogen, Progesterone | Single metabolic axis: glycolysis vs oxidation |
@@ -88,9 +88,10 @@ For a specific mechanism, go directly to its canonical location:
 | **Downstream cascade (T3)** | `The Master Throttle.md#The Downstream Cascade` |
 | **TSH diagnostic problem** | `The Master Throttle.md#The Diagnostic Problem` |
 | **DIO2 polymorphism** | `The Master Throttle.md#The Conversion Problem` |
+| **Ketone bodies biochemistry** | `The Preferred Substrate.md#Ketone Bodies: The Third Fuel Category` |
 | **Randle cycle mechanism** | `The Preferred Substrate.md#The Randle Cycle: The Fork Blockade` |
 | **PDH cofactors (B1, Mg, NAD+)** | `The Preferred Substrate.md#The PDH Checkpoint` |
-| **Fructose dual nature** | `The Preferred Substrate.md#Fructose: Protective Metabolite and Industrial Toxin` |
+| **Fructose dual nature** | `The Preferred Substrate.md#Fructose: The Randle Bypass` |
 | **Sugar consumption paradox** | `The Preferred Substrate.md#The Sugar Consumption Paradox` |
 | **CO2 as active protector** | `The Metabolic Fork.md#CO2 as Active Protector` |
 | **Lactate as disease driver** | `The Metabolic Fork.md#Lactate as Active Disease Driver` |
@@ -136,26 +137,31 @@ For a specific mechanism, go directly to its canonical location:
 | **Three rules (acute/chronic, context, pass/fail)** | `Verification Methodology.md#The Three Rules` |
 | **Research standards** | `Verification Methodology.md#Research Standards` |
 
-### Finding Corrections and Challenges
+### Honest Calibration and Challenges
 
-All honest calibration uses `[!warning]` callouts:
+All honest calibration uses `[!warning]` callouts throughout the vault:
 ```
 Grep for "[!warning]" across metabolic_framework/*.md
 ```
 
-Key corrections and additions an agent should know exist:
-- **M1/M2 macrophages:** M1 (pathogen-killing) are glycolytic; M2 (tissue repair) use OXPHOS — corrected in Foundation.md. Acute glycolytic burst serves immune defense (controlled deployment).
-- **Iron→ERα degradation:** Iron accumulation at menopause degrades estrogen receptor alpha via Mdm2-mediated proteolysis (Xiao et al., eLife 2023) — explains HRT timing hypothesis. Added to Membrane Damage and Defense and The Hormonal Axis.
-- **Lactate:** Excitotoxicity contradicted — acute lactate is neuroprotective
-- **Estrogen:** Glycolytic shift via PI3K/AKT, not direct Complex IV blockade
-- **Progesterone:** Pregnenolone steal wrong — HPA axis suppression, not substrate competition
-- **Aspirin:** ASPREE increased cancer mortality in elderly (HR 1.14); AMPK increases fatty acid oxidation (opposite of "shifts to glucose")
-- **Calcium:** Membrane pump rejection NOT supported — SERCA/PMCA confirmed; carbonate-first bone sequence overstated
-- **Melatonin:** Anti-estrogenic at tissue level (contradicts "stimulates estrogen"); rejuvenates thymus (contradicts "immunosuppressive")
-- **Sugar:** Glucolipotoxicity complicates beta cell claim; SSB dose-response cannot be dismissed
-- **Iron:** CVD sex difference plausible but not proven over hormonal explanation
-- **Vitamin E:** Tocotrienol caution NOT supported; anti-estrogenic identity is isoform-dependent
-- **ETCO2:** Distinct from V'CO2 (CO2 production rate measured by indirect calorimetry, the gold standard). ETCO2 reflects production AND ventilation, not just production. Ansarin 2011 (the vault's only direct ETCO2-in-hypothyroidism citation) authors interpret lower ETCO2 as hyperventilation, not reduced production — vault now reflects both interpretations and the unresolved mechanism. Broader claim that hypothyroidism reduces CO2 production is independently established by ~40% BMR reduction and Hahn & Brody 2021 indirect calorimetry case finding (REE 39% below predicted). Corrected in Foundation, The Master Throttle, The Metabolic Fork, Practice.
+Key things an agent should know about what this vault contains:
+
+**Stress test refinements (now integrated into the text):**
+- **CO2 is a parallel marker, not a causal driver** in any feedback loop. ATP/V-ATPase is the actual mechanism for mediator sequestration. CO2's non-loop roles (Bohr effect, carbamino bonds, calcium/pH buffering) are real and preserved. See The System.md (Loop 7), The Metabolic Fork.md, Conservation Signaling.md.
+- **Bistability is conditional** on parameter values (PUFA burden, iron load, chronic stress, endotoxin). Some organisms are monostable. See The System.md, Foundation.md.
+- **State-dependent damping** — every negative feedback mechanism is energy-dependent. This is the mechanism that produces bistability. See The System.md.
+- **Ketone bodies** are a biochemically distinct third fuel category (CO2/ATP matching glucose, not equivalent to raw fatty acid β-oxidation). Randle pathology ≠ adapted ketosis. See The Preferred Substrate.md.
+- **Loop architecture** is 10 clean closed loops + 1 multi-armed hub + 2 half-closed + 1 periodic forcing function (not 13 loops). See The System.md.
+- **Six testable predictions** from the formal bistability analysis, two already observed. See The System.md.
+
+**Mechanism corrections (integrated into the text with `[!warning]` callouts):**
+- Estrogen glycolytic shift via PI3K/AKT, not direct Complex IV blockade (The Hormonal Axis)
+- Pregnenolone steal wrong — HPA axis suppression, not substrate competition (The Hormonal Axis)
+- Acute lactate is neuroprotective; chronic lactate drives epigenetic reprogramming (The Metabolic Fork)
+- ASPREE showed aspirin increasing cancer mortality in elderly (Practice)
+- ETCO2 is distinct from V'CO2 — reflects production AND ventilation (The Metabolic Fork, Foundation)
+- Melatonin has genuine anti-estrogenic and thymus-rejuvenating effects (The Temporal Dimension)
+- M1/M2 macrophage glycolytic burst is controlled deployment, not pathology (Foundation)
 
 **Critical instruction for agents:** Before proposing any change to the vault, read `Verification Methodology.md`. The vault is an integration — apparent contradictions frequently dissolve when the vault is deeply understood rather than read at face value. The default position is that the vault is correct until proven otherwise with verified, replicated evidence that directly measures the variables the vault's claims operate on. See the Three Hypotheses and the Bar for Changing the Vault.
 

@@ -109,7 +109,7 @@ A vault change is NOT warranted when:
 
 These are the framework's core structural claims. They are pre-specified so that any testing has a clear definition of what constitutes a core change versus a peripheral modification.
 
-1. **Health is efficient oxidative metabolism of Krebs-cycle substrates to CO2 (glucose preferred); disease is its progressive failure.** The metabolic fork is the foundational definition.
+1. **Health is efficient oxidative metabolism of Krebs-cycle substrates to CO2 — glucose preferred, ketone bodies biochemically equivalent at the Krebs cycle, raw fatty acid β-oxidation inferior; disease is its progressive failure.** The metabolic fork is the foundational definition.
 2. **The system can exhibit two self-reinforcing stable states when parameter conditions create a disease basin.** The attractor structure — not a spectrum but two basins maintained by their own outputs, conditional on PUFA burden, iron load, chronic stress, and endotoxin exposure.
 3. **Positive feedback loops make each state self-maintaining.** Bistability arises from interlocking reinforcement, not from a single cause.
 4. **Recovery requires addressing multiple loops simultaneously.** Threshold dynamics — single interventions are insufficient because remaining loops compensate.
