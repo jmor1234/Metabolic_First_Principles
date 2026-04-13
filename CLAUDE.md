@@ -6,9 +6,11 @@ This workspace contains three independent Obsidian vaults. Each has its own CLAU
 
 ## ⚡ Start Here
 
-**For the current best understanding of what health and disease are:** read `The Integrated Framework.md` in this directory. It is a single standalone synthesis incorporating everything learned across verification, extraction, and stress testing. It points back to all three vaults for traceability.
+**For the current best understanding of what health and disease are:** read `The Integrated Framework.md` in this directory. Single standalone synthesis of everything learned across verification, extraction, and stress testing.
 
-**For the stress test status and active work:** read `metabolic_refinements/Current State.md`. The stress test of `metabolic_foundations/` is complete — all three core layers tested, all classified REFINEMENT. See `metabolic_refinements/Stress Test Summary.md` for the precise before/after accounting.
+**For project status and what's next:** read `metabolic_refinements/Current State.md`. The truth-seeking phase (stress test + mechanism citation audit + corrections) is COMPLETE. The next phase is building the application layers: assessment protocol, updated intervention framework, and agent protocol. See Current State.md for the full plan.
+
+**For what the stress test found:** `metabolic_refinements/Stress Test Summary.md` — precise before/after accounting. `metabolic_refinements/Mechanism Citation Audit.md` — citation audit results across all 9 mechanism documents.
 
 ## Metabolic Foundations (`metabolic_foundations/`)
 

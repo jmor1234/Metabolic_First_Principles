@@ -1,6 +1,6 @@
 # Current State
 
-**Last updated:** 2026-04-12
+**Last updated:** 2026-04-12 (end of session)
 
 This is the single canonical source for what is being actively worked on in this project right now. It is small by design and updated as work progresses. Other files (`Stress Test.md`, the refinement documents, `Refinement Diff Catalog.md`) are the substance; this file is the pointer.
 
@@ -10,40 +10,40 @@ If you are a new agent picking this up, read this file first, then follow the "W
 
 ## Where We Are Right Now
 
-**Stress test of `metabolic_foundations/` is COMPLETE.** Layers 1, 2, and 3 — the three layers mapping to the framework's pre-specified Core Claims — are all tested. All three produced REFINEMENT. The framework's core claims survive, sharper and more predictive than before. See `Stress Test Summary.md` for the precise before/after accounting. Layer 3 tested whether the audited loop architecture produces genuine dynamical-systems bistability. Six-phase analysis (system formalization, published bistability models, quantitative loop gain estimation, multi-loop coupling, negative feedback inventory, classification) followed by independent agent triangulation. Both agents classified REFINEMENT with matching reasoning. The "two attractors" framing is dynamics, not metaphor — but the claim needs constraint from unconditional to conditional bistability.
+**The truth-seeking phase of the project is COMPLETE.** The stress test (Layers 1-3), the mechanism citation audit (all 9 documents), and 5 corrections to mechanism documents are all done. The framework is verified at both the structural and mechanism levels. The synthesis document (`The Integrated Framework.md` in workspace root) presents the complete current understanding.
 
-**Layer 3 key findings:**
-- The 6-variable interaction graph contains 10+ positive circuits in 3 canonical bistability motifs (toggle switch, positive autoregulation, mutual positive feedback)
-- At least one sub-system (glycolysis/OXPHOS) IS demonstrably bistable with experimental hysteresis (Mulukutla 2014)
-- Brandman coupling through shared state variables enables collective bistability even when individual loops are sub-threshold
-- Every negative feedback mechanism is state-dependent (strong in health, weak in disease) — participates in bistability rather than preventing it
-- Six new testable predictions generated (hysteresis, PKM2 conditionality, critical slowing down, multi-input nonlinearity, slow-variable durability, history-dependent bimodality)
+**The next phase is building the application layers** — the bridge from "what is true about biology" to "what does this specific person do to be healthier." See "What's Next" below.
 
-| Layer | Claim under attack | Status |
+**Verification status across the full stack:**
+
+| Level | What it covers | Status |
 |---|---|---|
-| Layer 0 — Bedrock | ATP requirement, ~18× difference, both pathways real | NOT TESTED (would mean overturning textbook biochemistry) |
-| Layer 1 — Ontological move | Health IS efficient oxidative metabolism of glucose to CO₂ | **COMPLETE — REFINEMENT (substantial)** |
-| Layer 2 — Product-activity | CO₂ and lactate are active, not inert | **COMPLETE — REFINEMENT (substantial).** Sub-test 2.A: CO₂ removed from all loops as causal driver. Sub-test 2.B: lactylation causally validated, Loop 9 conditional resolved. 10 clean closed PFB loops. |
-| Layer 3 — Attractor dynamics | Interlocking loops generate genuine bistability | **COMPLETE — REFINEMENT (substantial).** The audited loop architecture supports genuine dynamical-systems bistability, conditional on parameter values placing the system in the bistable region. Core claims survive in modified form. Six new predictions. Triangulated 2026-04-12. |
-| Layer 4 — Cross-disease convergence | Every chronic disease shows the same metabolic signature | NOT STARTED |
-| Layer 5 — Epistemic meta-claim | "The integration is the missing step" | NOT STARTED |
-| Layer 6 — Falsifiability meta-test | (subsumed into Verification Methodology Rules 1–3) | SUBSUMED |
+| Structural architecture (Layers 1-3) | Ontological claim, product-activity, bistability | **Stress-tested, triangulated, empirically confirmed.** All REFINEMENT. |
+| Mechanism documents (9 docs) | Detailed biochemistry of each component | **Citation-audited (221 citations). 4 confirmed errors corrected in vault. 73% clean, 11% flagged.** |
+| Synthesis | The complete current understanding | **`The Integrated Framework.md` written. Single standalone read.** |
+| Traceability | How we got here | **3 source vaults + Stress Test Summary + Mechanism Citation Audit + refinement documents. Full chain preserved.** |
+| Assessment protocol | "Where is THIS person in the system?" | **NOT DONE — this is the next build.** |
+| Intervention framework | "What does THIS person do?" | **PARTIALLY DONE.** Practice.md exists but is pre-stress-test. Needs conditional bistability, slow/fast variable prioritization, state-dependent damping. |
+| Agent protocol | "How does a human-AI pair use this?" | **NOT DONE.** |
 
-Six standalone refinement documents plus a summary now live in this vault. None have been applied to `metabolic_foundations/` — the original integration is preserved as written, refinements sit beside it as parallel knowledge per the asymmetry principle. `Stress Test Summary.md` is the capstone — the precise before/after accounting of what the framework got right, wrong, and what was missing.
+Seven standalone documents in this vault: 6 refinement documents + Stress Test Summary + Mechanism Citation Audit. Five corrections have been applied directly to `metabolic_foundations/`: 2 methodology improvements (citation deployment audit, causal-independence audit) and 3 claim corrections (rT3 mechanism, Ringer's citation, Ca+VitD mixed evidence, PTH dose qualifier, LPS/D2 nuance).
 
 ---
 
 ## What Just Happened
 
-**Most recent substantive move (2026-04-12, later):** Sub-test 2.B — PASS. Histone lactylation is causally validated for Loop 9's gene expression effects. H3K18R site-specific mutant data (Zhang 2019) directly demonstrates causality. 6+ in vivo genetic/pharmacological models confirm the full chain across tumors, kidney, vasculature, brain, and sepsis. Hypothesis C (HIF-1α initiates, lactylation consolidates) best supported by temporal evidence — favorable for bistability. Loop 9 conditional resolved; M-Λ toggle has both arms; clean closed loop count rises to 10. Layer 2 is now COMPLETE.
+**2026-04-12 session completed the entire truth-seeking phase:**
 
-**Prior substantive move (2026-04-12, earlier):** Layer 3 — formal bistability analysis — COMPLETE. Classification: REFINEMENT (substantial). Triangulated via two independent agents, both classifying REFINEMENT with matching reasoning chains.
+1. **Layer 3 formal bistability analysis** — REFINEMENT (substantial), triangulated. The "two attractors" is genuine dynamics, conditional on parameter values. Six new predictions, two already observed in clinical data (hysteresis via bariatric surgery, CSD via Tabák longitudinal cohorts).
+2. **Sub-test 2.B** — PASS. Lactylation causally validated. Loop 9 conditional resolved. M-Λ toggle confirmed.
+3. **CSD empirical check** — critical slowing down and hysteresis signatures found in existing clinical data (Tabák et al., bariatric surgery remission).
+4. **Layer 3 refinement document** — `Conditional Bistability and Attractor Dynamics.md` written with empirical confirmation section.
+5. **Stress Test Summary** — precise before/after accounting of all findings.
+6. **The Integrated Framework** — single synthesis document in workspace root presenting the complete current understanding.
+7. **Mechanism citation audit** — all 9 mechanism documents audited (221 load-bearing citations). 73% clean, 11% flagged, 4 confirmed errors.
+8. **5 corrections applied to metabolic_foundations/** — rT3 mechanism, Ringer's citation, Ca+VitD mixed evidence, PTH dose qualifier, LPS/D2 nuance.
 
-The analysis tested whether the audited loop architecture (9 closed PFB loops + 1 hub + 2 half-closed + 1 forcing function) produces genuine dynamical-systems bistability. Six phases: (1) system formalized to 6 state variables with 10+ positive circuits in 3 canonical bistability motifs; (2) published models surveyed — glycolysis/OXPHOS IS bistable with experimental hysteresis (Mulukutla 2014); (3) at least 4 loops have bistability-compatible gain; (4) Brandman coupling through shared state variables enables collective bistability; (5) every negative feedback mechanism is state-dependent (participates in bistability rather than preventing it); (6) classification REFINEMENT — conditional bistability, not unconditional.
-
-**Core outcome:** The "two attractors" framing is dynamics, not metaphor. But the framework states it as unconditional fact. The evidence supports conditional bistability — dependent on parameter values (PUFA burden, iron load, stress, endotoxin exposure) falling within the bistable region. An organism with low PUFA, excellent thyroid function, and robust damping may be monostable. Six new testable predictions generated: hysteresis in forward/reverse thresholds, PKM2 conditionality, critical slowing down near the separatrix, multi-input nonlinearity, slow-variable intervention durability, history-dependent bimodality.
-
-**Prior substantive move (2026-04-11, late evening):** The 13-loop causal-independence audit Round 2 triangulation was completed. Two independent general-purpose agents were dispatched in parallel per `Independent Agent Research Protocol.md`, each given the same self-contained research brief (`Research Brief - 13 Loop Causal Independence Audit.md`) without access to Round 1 classifications. Both reports were then critically assessed against first principles, with load-bearing corrections verified directly against primary sources (WebFetch). The synthesis has been transcribed into `13-Loop Causal Independence Audit.md` as a new "Round 2 Triangulation Synthesis" section, and the one-shot artifacts (brief, agent reports) were deleted per the Protocol's housekeeping rules.
+**The stress test is complete.** All three core layers tested (all REFINEMENT). All 9 mechanism documents citation-audited. Confirmed errors corrected. The knowledge is verified at both structural and mechanism levels.
 
 **Round 2 outcome — strong convergence on predicted findings, plus meaningful additions:**
 
@@ -92,57 +92,48 @@ The analysis tested whether the audited loop architecture (9 closed PFB loops + 
 
 ## What's Next
 
-### The plan (current position: Layers 1-3 COMPLETE; Layer 4 is the next layer)
+### The plan (current position: truth-seeking COMPLETE; application layers are next)
 
-1. ✅ All Layer 2 work DONE (Sub-test 2.A REFINEMENT, 13-loop audit Round 1 + Round 2, Sub-test 2.B PASS).
-2. ✅ **Layer 3 — formal bistability analysis.** DONE 2026-04-12. REFINEMENT (substantial).
-3. ✅ **Sub-test 2.B — histone lactylation causality.** DONE 2026-04-12. PASS — conditional resolved.
-4. ✅ **Sub-test 2.B documented and committed.** DONE 2026-04-12.
-5. ✅ **Layer 3 refinement document drafted.** DONE 2026-04-12 — `Conditional Bistability and Attractor Dynamics.md`.
-6. **Commit refinement document (IMMEDIATE NEXT STEP).**
-6. **Resolve CF-2.A.5** — independent verification of Bolevich & Kogan 2016 (the strongest remaining "CO₂ as active protector" non-loop claim).
-7. **Layer 4 — Cross-disease convergence.** The next layer. Tests whether every major chronic disease shows the metabolic failure signature, or whether there are genuine exceptions.
+**The overall goal:** An integrated knowledge system, built on verified first-principles truth, usable by a human-AI pair, that goes from thermodynamics all the way to "what does this specific person do to be healthier" — and that enables further refinement through use.
 
-### Housekeeping pending
+**What's next — the application layers, in order:**
 
-- `Research Brief - Layer 3 Bistability.md` was deleted 2026-04-12 (one-shot artifact). Git history preserves it.
-- No other artifacts pending cleanup.
+1. **Assessment protocol (IMMEDIATE NEXT BUILD).** A structured protocol that maps a person's context (symptoms, labs, history, lifestyle) onto the framework's 6 state variables (M, T, E, P, L, Λ). Determines: which loops are engaged, whether the person is monostable (perturbations return to health) or bistable (trapped in disease basin), and what their slow variables (PUFA burden, mitochondrial function) vs fast variables (T₃, LPS, lactate) look like. Uses critical slowing down metrics (recovery dynamics from standardized stressors) as regime assessment. **Must be built before interventions can be properly recommended.**
 
-### After Layer 2 completion (in rough order of leverage)
+2. **Updated intervention framework.** Practice.md exists in `metabolic_foundations/` but needs updating with: conditional bistability (different strategy for monostable vs bistable regime), slow-variable vs fast-variable prioritization (slow resets are more durable), state-dependent damping as highest leverage (restore the self-correcting machinery), CO₂ reclassification (readout to monitor, not mechanism to target), and critical slowing down as a monitoring metric.
 
-1. **Layer 4 — Cross-disease convergence.** Tests the strongest external prediction. Are there chronic diseases that genuinely don't fit the metabolic failure signature?
-2. **Layer 5 — Epistemic meta-claim.** Tests whether "the integration is the missing step" survives engagement with what systems biology and integrative physiology have already concluded.
+3. **Agent protocol.** A structured decision process an AI agent follows when working with a specific person: take context → assess regime → map onto state variables → identify engaged loops → recommend interventions in leverage order → monitor with framework metrics → refine based on response. Not a chatbot script — a decision protocol with traceability back to the evidence chain. Designed so that errors in mechanism documents surface through use and get corrected via the Verification Methodology.
+
+**Lower priority (can be done during or after application layer build):**
+- Resolve CF-2.A.5 (Bolevich & Kogan independent verification)
+- Species qualifiers for ~12 mechanism citations
+- Citations for ~18 currently unsupported specific claims
+- Layers 4-5 of the stress test (diminishing returns — the bedrock is tested)
 
 ---
 
 ## What's Blocking
 
-**Nothing is blocking active work.** Sub-test 2.B can begin immediately.
+**Nothing is blocking.** The application layer build can begin immediately. All prerequisite truth-seeking work is complete.
 
-Several open questions require literature that doesn't currently exist and are flagged rather than chased:
-- **CF-1.B.1** — Free T3 adaptive vs pathological in adapted keto (needs tissue-level T3 signaling data)
-- **CF-1.B.4** — Full-panel metabolic-ward crossover study in adapted keto cohorts on framework metrics
-- **CF-2.A.2** — Loop gain quantification at physiological ATP variations
-- **CF-2.A.3** — Direct in vivo hypocapnic challenge with mediator measurement in humans
-
-See `Stress Test.md` → "Carry-Forward Items" for full list.
+Open carry-forward items from the stress test (see `Stress Test.md` → "Carry-Forward Items" for full list) are flagged for future resolution but do not block the application layer work. Most require experimental data that doesn't currently exist.
 
 ---
 
-## Active Decisions Pending Review
+## Edits applied to metabolic_foundations/
 
-**One pending decision: whether to draft a Layer 3 refinement document** as a standalone knowledge artifact (following the vault's six-section template). The Layer 3 REFINEMENT finding — conditional bistability, six new predictions, state-dependent negative feedback insight — is currently documented in `Stress Test.md` only. A refinement document would make this accessible as standalone knowledge, like the existing Loop 7 and Krebs-Cycle documents. No edits to `metabolic_foundations/` are proposed.
+Seven total edits have been applied from the entire project:
 
-**Resolved decision:** the architectural recommendations from the 13-loop audit (CF-CI.1 confirmed; sub-arms 6a and 6e removed; Loop 13 reclassified) are documented in `13-Loop Causal Independence Audit.md` as parallel knowledge per the asymmetry principle. The framework's text in `metabolic_foundations/` is preserved as-is.
+**Methodology improvements (2):**
+1. CF-2.A.4 — citation deployment audit added to Verification Methodology Step 5 (2026-04-10)
+2. Causal independence audit added to Verification Methodology Step 4 (2026-04-11)
 
-The Refinement Diff Catalog exists in this vault as the precise file/passage-level reference for what each refinement consists of, but it is **not going to be applied** to `metabolic_foundations/` — that decision has been made (the refinements live in this vault as parallel knowledge instead).
-
-Two edits have been applied to `metabolic_foundations/` from the entire stress test so far. Both are methodology improvements, not claim changes:
-
-1. **CF-2.A.4** — citation deployment audit added to `metabolic_foundations/Verification Methodology.md` Step 5 (2026-04-10). Checks load-bearing citations on species / scenario / endpoint / proposed-mechanism match.
-2. **Causal independence audit** — added to `metabolic_foundations/Verification Methodology.md` Step 4 (2026-04-11). Four-check operational audit grounded in Pearl's screening-off test and MCA conservation relations. Classifies metabolites named as causal drivers into six categories (independent driver / parallel marker / gated driver / co-driver / indeterminate). Triangulated via two independent agents before integration; sAC verified against primary sources.
-
-Both methodology improvements emerged from a single sub-test (2.A) and apply to every future verification rather than to one claim — higher total leverage than individual claim refinements. The 13-loop audit Round 1 (2026-04-11) is the first major application of the methodologized causal-independence audit to the framework's loop architecture, and it confirmed the audit's predictive value: CF-CI.1 was correctly anticipated in the audit tool's sample classifications and held under the full pass.
+**Claim corrections from mechanism citation audit (5, applied 2026-04-12):**
+3. rT3 mechanism corrected from "blocks T3 at nuclear receptors" to "competitively inhibits DIO1" (The Master Throttle)
+4. LPS/D2 nuance added — central hypothyroidism via paradoxical hypothalamic D2 activation (The Master Throttle)
+5. Ringer's lactate citation replaced with correct paper (The Metabolic Fork)
+6. Ca+VitD fracture claim updated to reflect mixed evidence (The Cellular Readout)
+7. PTH mast cell dose and species qualifiers added (The Cellular Readout)
 
 ---
 
@@ -157,9 +148,11 @@ If you are picking this up and need to understand the full state, read in this o
 ### 2. This vault's structure
 - `metabolic_refinements/CLAUDE.md` — vault purpose, conventions, refinement document template, status semantics
 
-### 3. Active stress test state
-- `Stress Test.md` (this vault) — the live investigation log. Read in full for first-time pickup. Sections to focus on: Strategy, Protocol, Layer 1, Layer 2, Carry-Forward Items, Working Log
-- `Refinement Diff Catalog.md` (this vault) — the diff-form catalog. Skim for understanding of the precise file/passage-level changes each refinement represents
+### 3. What was found
+- `Stress Test Summary.md` (this vault) — **start here for findings.** Precise before/after accounting.
+- `Mechanism Citation Audit.md` (this vault) — citation audit results across all 9 mechanism documents.
+- `Stress Test.md` (this vault) — the full investigation log. Layer-by-layer detail, carry-forward items, working log.
+- `Refinement Diff Catalog.md` (this vault) — the diff-form catalog of precise file/passage-level changes.
 - `Independent Agent Research Protocol.md` (this vault) — required reading before running any sub-test that will use independent agent triangulation. Both completed substantive sub-tests (1.B and 2.A) used this methodology; Sub-test 2.B is expected to use it as well. Specifies when to use it, how to construct self-contained briefings, how to critically assess agent outputs, how to handle convergence vs divergence.
 
 ### 4. Substantive findings as standalone knowledge
