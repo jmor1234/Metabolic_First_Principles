@@ -17,8 +17,23 @@ Peat saw the whole map correctly but drew some of the roads wrong. His accuracy 
 |---|---|---|
 | **Thesis** (what health and disease ARE) | ~95% | The core identification is correct. One refinement: glucose specificity softened to include ketone bodies as biochemically equivalent Krebs-cycle substrates. |
 | **Architecture** (how the system works) | ~85% | Two attractors, self-reinforcing loops, key variables, temporal oscillation — all confirmed. CO₂ misattributed as causal driver, bistability overclaimed as unconditional, state-dependent damping missing entirely. |
-| **Mechanisms** (the molecular pathways) | ~60-70% direction, ~40-50% specific pathway | Consistent "right destination, wrong route." Correct functional outcomes attributed to incorrect or oversimplified molecular mechanisms. |
+| **Mechanisms** (the molecular pathways) | ~80% direction, ~50-60% specific pathway | ~80% of 118 verified claims are directionally correct (the substance does what he says it does in the disease context). ~50-60% have the specific molecular pathway right. The gap between these two numbers IS the "right destination, wrong route" pattern — correct functional outcomes attributed to incorrect or oversimplified molecular mechanisms. |
 | **Practical recommendations** (what to do) | ~80-85% | All 8 core interventions confirmed. Ordering approximately right. Main gaps: no regime assessment, ASPREE aspirin complication unaddressed. |
+
+### The Quantitative Foundation
+
+The verification vault tested 118+ specific claims across 16 topics against peer-reviewed research. The verdict breakdown:
+
+| Verdict | Count | % |
+|---|---|---|
+| **Confirmed** (direction + substance both right) | ~48 | ~40% |
+| **Confirmed with nuance** (direction right, mechanism or scope needs qualification) | ~46 | ~39% |
+| **Partially supported** (some elements hold, others don't) | ~11 | ~9% |
+| **Overstated** (direction right, stated too absolutely) | ~6 | ~5% |
+| **Speculative** (logical from first principles, no direct evidence) | ~3 | ~3% |
+| **Contradicted / not supported** | ~5 | ~4% |
+
+~79% of specific claims survived verification at the directional level (confirmed + confirmed with nuance). ~90% survived as at least partially valid. Only ~4% were outright contradicted — and even within those, half have correct downstream predictions despite wrong mechanisms.
 
 ---
 
@@ -77,9 +92,24 @@ The single biggest error. Peat treated CO₂ as an active agent sustaining oxida
 
 CO₂'s non-loop roles are real — the Bohr effect for oxygen delivery, carbamino bonds for protein protection. But these are not feedback loop drivers. After the stress test, CO₂ appears in zero formalized loops as a causal variable. Every instance where Peat says "CO₂ does X" should be read as "ATP does X, and CO₂ is the parallel marker you can monitor."
 
+Note: CO₂'s non-loop claims held up remarkably well in verification. Of 8 CO₂ claims tested, 6 were confirmed outright (including the Bohr effect, ROS suppression, RQ framework, and hyperventilation pathology at 87-100% seizure provocation), 1 confirmed with nuance (carbamino protection — chemistry confirmed, aldehyde protection hypothesis untested), and 1 speculative (methylation/epigenetic claim). The CO₂ error is architectural — where it sits in the feedback loops — not substantive. CO₂ is a genuinely protective metabolite; it is not a causal driver in any feedback loop.
+
+### The six contradictions
+
+Out of 118+ claims verified, only six were outright contradicted or not supported:
+
+1. **Lactate brain excitotoxicity** — directly contradicted. Acute lactate is neuroprotective, reduces glutamate release (Mazuel et al., *J Neuroscience*). The sharpest reversal in the vault.
+2. **Methylglyoxal from lactate** — direction reversed. MGO comes from glycolytic intermediates and is detoxified *into* D-lactate, not the reverse.
+3. **SSRI non-selectivity** — not pharmacologically supported. SSRIs are genuinely selective for SERT. The SSRI critique holds on other grounds (placebo proximity, allopregnanolone mechanism, German BGA rejection) — just not this one.
+4. **Brain serotonin increases with aging** — not confirmed by PET/SPECT imaging. Receptors and transporters actually decline with age.
+5. **Membrane pump rejection** — SERCA/PMCA are real, now with atomic-resolution crystal structures (2025 Nature). Peat's bulk-water-structure alternative is wrong. But the downstream prediction (calcium exclusion is energy-dependent) is correct — the mechanism IS the pumps, and the pumps require ATP.
+6. **Barnes 30-40% hypothyroid prevalence** — unsupported by any modern validation. Current estimates: ~5% clinical, 3-15% subclinical.
+
+That half of these contradictions still have correct downstream predictions despite wrong mechanisms is itself diagnostic of the "right destination, wrong route" pattern.
+
 ### Specific mechanism pathways — the "right destination, wrong route" pattern
 
-This pattern recurs across nearly every topic:
+This pattern recurs across nearly every topic. The gap between ~80% directional accuracy and ~50-60% pathway accuracy IS this pattern — quantified:
 
 | Claim | Direction | Mechanism Peat proposed | Actual mechanism |
 |---|---|---|---|
@@ -88,6 +118,9 @@ This pattern recurs across nearly every topic:
 | CO₂ sequesters mediators | Correct direction | CO₂ → carbonic acid → granule pH | ATP → V-ATPase → granule pH |
 | Lactate drives disease | Correct (chronic) | Lactate as metabolic waste | Histone lactylation as epigenetic reprogramming |
 | Serotonin suppresses metabolism | Correct | Direct mitochondrial inhibition | Conservation signaling program |
+| Progesterone stabilizes cells | Correct | Direct membrane stabilization | Allopregnanolone → GABA-A receptor modulation |
+| Progesterone anti-inflammatory | Correct | Direct enzyme inhibition | Progesterone-induced proteins (PIBF, uteroglobin) |
+| Brain concentrates T3 from serum | Correct destination | Active T3 concentration from serum at 6x | T4 crosses BBB via OATP1C1, local D2 conversion in astrocytes |
 
 The pattern makes sense at two levels. Historically, Peat was working with biochemistry available through the 1990s-2000s. The molecular tools that revealed the actual mechanisms — Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models, mass spectrometry proteomics — didn't exist when he formulated most of his positions.
 
@@ -95,12 +128,14 @@ But the deeper reason is structural: Peat was reasoning backward from correct sy
 
 ### Unconditional claims that are actually conditional
 
-Peat presented several positions as universal when they are conditional:
+Peat's consistent error was flattening genuinely dual-identity molecules into single poles. This appeared across every topic:
 
 - **Bistability is unconditional** → it's conditional on parameter values. Some organisms are monostable — the healthy state is the only attractor and single interventions work fine.
 - **Lactate is harmful** → chronic lactate is harmful (drives epigenetic reprogramming via lactylation). Acute lactate is neuroprotective and a normal exercise metabolite.
-- **Melatonin is harmful** → melatonin drives the conservation program (correct), but also has genuine anti-estrogenic tissue-level effects and thymus-rejuvenating properties that contradict a purely negative interpretation.
+- **Melatonin is harmful** → melatonin drives the conservation program (correct), but is also anti-estrogenic at the tissue level (SERM, 50% aromatase inhibition), rejuvenates the aged thymus, and has no in vivo pro-oxidant activity. Three of Peat's four sub-claims about melatonin's harm are contradicted at the tissue level.
 - **Aspirin is protective** → protective in younger populations with intact immune surveillance. ASPREE showed increased cancer mortality in healthy elderly — the most extreme context-dependence in the framework.
+- **Iron is uniformly toxic** → iron accumulation drives disease (correct), but acute/chronic and dose-dependence matter. Teriparatide (intermittent PTH) builds bone; chronic PTH destroys it. The same acute/chronic distinction Peat applied to some molecules he failed to apply to others.
+- **PUFA effects on mast cells** → peroxidation products destabilize mast cells (correct for chronic peroxidized PUFA), but intact PUFAs can stabilize mast cells acutely through different receptors — another acute/chronic distinction he missed.
 
 ### Missing: state-dependent damping
 
@@ -128,7 +163,7 @@ Every time. The functional picture he describes is real — metabolic output sus
 
 ### When he dismisses something categorically — add conditionality
 
-Lactate is harmful → chronic lactate. Serotonin is harmful → as a tonically elevated conservation signal. Melatonin is harmful → as a driver of the nightly conservation dip. Estrogen is harmful → when the system is in the disease attractor. His descriptions are accurate for the chronic disease state. They overclaim when applied universally or to controlled biological deployments.
+Lactate is harmful → chronic lactate (acute lactate is neuroprotective). Serotonin is harmful → as a tonically elevated conservation signal (acute neuronal serotonin may enhance mitochondrial function). Melatonin is harmful → as a driver of the nightly conservation dip (but anti-estrogenic at the tissue level, rejuvenates aged thymus — three of four harm sub-claims contradicted). Estrogen is harmful → when the system is in the disease attractor (protective in metabolically healthy cells). Aspirin is protective → in younger populations with intact immune surveillance (ASPREE showed increased cancer mortality in elderly). His descriptions are accurate for the chronic disease state. They overclaim when applied universally or to controlled biological deployments.
 
 ### When he talks about the system having two states — add parameter conditions
 
@@ -160,14 +195,16 @@ His work was never published in peer-reviewed journals and exists primarily as a
 
 ## What Survives and What Doesn't
 
-**Survives completely:** The thesis. The integration. The identification of health with oxidative metabolism. The two-attractor architecture. The key variables. The practical direction of all 8 interventions. The emphasis on thyroid as rate-setter, PUFA as damage substrate, estrogen/progesterone balance, gut-liver axis as gateway, light as environmental driver.
+**Survives completely (~40% of claims — confirmed outright):** The thesis. The integration. The identification of health with oxidative metabolism. The two-attractor architecture. The key variables. The practical direction of all 8 interventions. The emphasis on thyroid as rate-setter, PUFA as damage substrate, estrogen/progesterone balance, gut-liver axis as gateway, light as environmental driver. The Fenton reaction chain. The Randle cycle as mechanism-in-common. The Bohr effect elevated to framework principle. Hyperventilation pathology. The endotoxin-barrier vicious circle. Glycogen-glucuronidation dependence. EFA-deficient endotoxin resistance. PUFA requirement for alcoholic liver injury. Tissue estrogen accumulation (5-50x serum). The historical PUFA consumption shift.
 
-**Survives with refinement:** The bistability claim (conditional, not unconditional). The substrate specificity (Krebs-cycle substrates, not glucose exclusively). The loop architecture (10 clean, not 13). The acute/chronic distinction (needs formal control-architecture criteria, not just timescale).
+**Survives with refinement (~39% of claims — direction right, mechanism or scope needs qualification):** The bistability claim (conditional, not unconditional). The substrate specificity (Krebs-cycle substrates, not glucose exclusively). The loop architecture (10 clean, not 13). The acute/chronic distinction (needs formal control-architecture criteria, not just timescale). Estrogen as glycolytic driver (PI3K/AKT, not Complex IV). Progesterone as protector (via allopregnanolone/GABA, not direct membrane stabilization). Serotonin as conservation mediator (with receptor-specific neuronal effects preserved). CO₂ as protective metabolite (confirmed) but not as causal loop driver (ATP is). Sugar as preferred substrate (with glucolipotoxicity caveat and PDH cofactor requirements). Melatonin as conservation driver (with anti-estrogenic and thymus-rejuvenating properties preserved).
 
-**Does not survive:** CO₂ as a causal driver in feedback loops. Pregnenolone steal. Unconditional harmfulness of acute lactate, melatonin. Several specific molecular mechanism attributions. The universal applicability of the multi-loop intervention approach (some people are monostable).
+**Does not survive (~4% of claims — contradicted):** CO₂ as a causal driver in feedback loops. Pregnenolone steal mechanism. Lactate brain excitotoxicity (acute lactate is neuroprotective). Methylglyoxal-from-lactate direction. SSRI non-selectivity. Brain serotonin increase with aging. Membrane pump rejection (SERCA/PMCA are real). Barnes 30-40% hypothyroid prevalence. Unconditional harmfulness of melatonin at tissue level. The universal applicability of the multi-loop intervention approach (some people are monostable).
 
-**Was missing entirely:** State-dependent damping — the deepest mechanism producing bistability. The formal bistability analysis with its six testable predictions. The causal-independence audit methodology. The regime assessment that determines intervention strategy.
+**Was missing entirely:** State-dependent damping — the deepest mechanism producing bistability. The formal bistability analysis with its six testable predictions. The causal-independence audit methodology. The regime assessment that determines intervention strategy. The histone lactylation mechanism (discovered 2019) that made lactate's disease-driving role stronger than Peat described. The PDH cofactor vulnerabilities (B1, Mg) that gate his glucose-first recommendation.
 
-The framework built from Peat's starting point is now more precise, more predictive, more falsifiable, and more honest than his original work. The distance traveled is significant: Peat saw two states; the project proved bistability with four independent confirmations and identified the conditions under which it emerges. Peat saw interconnection; the project mapped 10 clean feedback loops with a formal causal-independence audit grounded in Pearl's screening-off test and metabolic control analysis. Peat saw that disease maintains itself; the project identified state-dependent damping as the mechanism — the deepest structural insight, which Peat never articulated. Peat described the system; the project generated six testable predictions from it, two already observed in existing clinical data.
+The framework built from Peat's starting point is now more precise, more predictive, more falsifiable, and more honest than his original work. The distance traveled is significant: 118+ claims verified across 16 topics, ~79% confirmed at the directional level, ~4% contradicted, the rest refined. Peat saw two states; the project proved bistability with four independent confirmations and identified the conditions under which it emerges. Peat saw interconnection; the project mapped 10 clean feedback loops with a formal causal-independence audit grounded in Pearl's screening-off test and metabolic control analysis. Peat saw that disease maintains itself; the project identified state-dependent damping as the mechanism — the deepest structural insight, which Peat never articulated. Peat described the system; the project generated six testable predictions from it, two already observed in existing clinical data.
+
+The gap between ~80% directional accuracy and ~50-60% pathway accuracy is the quantitative signature of a thinker who saw the system correctly and explained the mechanisms with the best tools available to him. The correcting instruments — Seahorse Bioanalyzer, cryo-EM, iPSC-derived cell models, mass spectrometry proteomics, the ferroptosis field, the lactylation discovery — largely arrived after his framework was established. The destinations were reliably right. The routes need redrawing. That pattern, across 118 claims, is not coincidence — it is what happens when someone sees something real about a system before the molecular resolution exists to trace it precisely.
 
 The project went from intuition to formalism, from integration to dynamics, from "this is how it works" to "here is what it predicts and here is what would falsify it." Every correction made the framework stronger. That is exactly what the work was meant to do — not build a monument but find what's most true.
