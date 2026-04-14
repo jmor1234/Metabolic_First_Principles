@@ -139,4 +139,173 @@ My first-round synthesis claimed "the vault's 'parallel marker' framing needs ex
 - The palmitate/cardiolipin/COX claim (Bolon 1997 citation) — verify independently when we reach that section.
 - The "gene shifting" mitochondrial repair claim (Taivassalo 1999) — citation deployment audit needed.
 - The phytoestrogen/tofu/dementia claim in the DEFINITIONS — needs checking.
+
+---
+
+## Omega-3 Supplementation — First-Principles Analysis and Critique of Popular Health Consensus
+
+Cross-cutting analysis emerging from the cardiolipin/PUFA investigation. This section documents a set of findings that are not vault refinements but are critical for understanding how first-principles analysis diverges from popular health discourse on fish oil / omega-3 supplementation. The scale of the divergence is substantial and consequential.
+
+### Core chemistry — the per-molecule peroxidation math
+
+Peroxidation susceptibility scales with bis-allylic methylene site count (textbook organic chemistry; vault already has the ~8× DHA vs LA figure in Membrane Damage and Defense.md line 58):
+
+| Fatty acid | Double bonds | Bis-allylic sites | Relative peroxidation rate |
+|---|---|---|---|
+| Oleate (18:1) | 1 | 0 | ~0.025 |
+| Linoleate (18:2) | 2 | 1 | 1 (reference) |
+| Alpha-linolenate (18:3) | 3 | 2 | ~2 |
+| Arachidonate (20:4) | 4 | 3 | ~4 |
+| EPA (20:5) | 5 | 4 | ~6 |
+| DHA (22:6) | 6 | 5 | **~8** |
+
+**Critical dose translation for supplementation:** a 2g/day fish oil supplement (typically ~1g EPA + ~1g DHA) delivers approximately (1g × 6) + (1g × 8) = **14 linoleate-equivalents of peroxidation substrate.** The supplement dose label understates the peroxidation impact by 4-8× per gram.
+
+This matters because people reason about supplementation in terms of grams consumed, not peroxidation-equivalent substrate added. The chemistry makes "small dose" thinking misleading.
+
+### The supplementation-on-modern-diet scenario (the "millions doing this right now" case)
+
+**Setup:** person eating modern Western diet with 15-25g/day linoleate from seed oils, adds 1-2g/day fish oil supplement to "improve omega-6:omega-3 ratio."
+
+**What actually happens:**
+- Original peroxidation substrate: ~15 LA-equivalents (from seed oils)
+- Fish oil addition: ~14 LA-equivalents
+- New total: ~29 LA-equivalents
+- **Nearly doubles peroxidation substrate in molecular-damage-potential terms**
+
+**Why this is net-negative for metabolic health from first principles:**
+- Cardiolipin is shaped by dietary PUFA (Cole 2022, confirmed)
+- Adding DHA means it gets incorporated into cardiolipin — replacing linoleate with a fatty acid that has 3× more double bonds per chain
+- DHA-containing cardiolipin is more peroxidation-prone than linoleate-containing cardiolipin
+- The aging remodeling pattern (linoleate replaced by longer PUFAs) correlates with reduced mitochondrial function and heart failure — supplementation accelerates this pattern
+- Total peroxidation substrate increases; defense (vitamin E, selenium) is stoichiometrically saturable per Agent 3 analysis
+- Net: the hardware damage mechanism (cardiolipin peroxidation → Complex IV degradation) is amplified
+
+**The direct first-principles answer:** adding fish oil to a modern diet is adding the most peroxidation-prone substrate available to an already-overloaded system. Per unit consumed, fish oil is fundamentally more damaging to metabolic hardware than seed oil. The only reason seed oils cause more total damage in practice is that people consume vastly more of them.
+
+### The RCT evidence vs the supplementation recommendation
+
+Intervention RCTs on fish oil supplementation are largely null for hard outcomes:
+- **VITAL** (25,871 participants, 5.3 years, 1g/day): no reduction in primary cardiovascular outcome
+- **STRENGTH**: terminated early for futility
+- **Abdelhamid meta-analysis (86 RCTs)**: "little to no effect on all-cause mortality, cardiovascular mortality, or cardiovascular events"
+- **REDUCE-IT** (often cited as pro-omega-3): high-dose (4g) pure EPA (icosapent ethyl) in high-risk cardiac patients on statins with elevated triglycerides. Very specific population. Doesn't generalize to general-population supplementation.
+
+**Direct human RCT evidence for seed oil harm exists** — specifically contradicting claims that no such evidence exists:
+- **Ramsden 2013 BMJ (Sydney Diet Heart recovered data)**: safflower oil substitution for saturated fat (LA at ~15% of calories) produced HR 1.62 all-cause mortality, HR 1.70 CV mortality, HR 1.74 CHD mortality in men with prior CHD
+- **Ramsden 2016 BMJ (Minnesota Coronary Experiment recovered data)**: LA lowered cholesterol but did not reduce mortality; every 30 mg/dL cholesterol reduction was associated with 22% increased mortality in ≥65yo subset
+
+### The Patrick and Huberman positions (documented directly)
+
+**Rhonda Patrick on omega-3 supplementation:**
+- 2-4g/day fish oil (recently reduced from 4g to 2g based on omega-3 index testing)
+- Split EPA morning, DHA evening
+- Targets Omega-3 Index ≥8% (observational data shows 8%+ associated with 5-year increased life expectancy vs ≤4%)
+- Primary rationale: brain tissue composition, telomere attrition, inflammation, cardiovascular outcomes
+- Core claim: low omega-3 index is a modifiable mortality risk factor
+- Evidence: primarily observational cohort data (Harris et al., Framingham)
+
+**Rhonda Patrick on seed oils:**
+- Explicitly argues AGAINST painting seed oils as a "singular villain"
+- Her direct words: *"I don't think it's useful to paint seed oils unilaterally as a singular villain of modern diets"*
+- Cites observational studies: higher circulating LA associated with lower CVD risk
+- Cites meta-analyses showing replacing saturated fat with omega-6 oils produces null or favorable CVD outcomes
+- Acknowledges cooking/oxidation concerns for high-heat PUFA
+- Position: pro-moderate-linoleate, pushes back on anti-seed-oil narratives
+
+**Andrew Huberman on omega-3 supplementation:**
+- 1-3g/day EPA (targets 2-3g personally)
+- Emphasizes EPA over DHA for mental health benefits
+- Personal justification: "I rarely eat fish" — substitutes supplements
+- Core claims: EPA at 1-2g/day has antidepressant effects comparable to SSRIs; supports mood, cognition, inflammation, lipid profile
+- Evidence: EPA-depression meta-analyses, general fish oil CV literature
+
+**Andrew Huberman on seed oils:**
+- Explicit claim: *"There is currently no evidence in major peer-reviewed clinical trials that seed oils are as evil as many people are saying they are"*
+- Favors a calorie-density framing (attributed to Layne Norton) — problem is caloric excess, not composition
+- Personal preference: olive over canola, but not claim of harm
+- Position: fence-sitting; thinks strong anti-seed-oil claims are overstated
+
+### The first-principles assessment of Patrick and Huberman — the unsoftened version
+
+**Huberman's "no RCT evidence" claim is factually incorrect.** Ramsden 2013 and 2016 are peer-reviewed major-journal recovered-data analyses of RCT evidence showing direct mortality harm from high-LA substitution. The claim that no such evidence exists is false, not "differently weighted."
+
+**Their supplementation recommendation is not supported by their own stated epistemology.** Both position RCTs as the gold standard for intervention recommendations. The intervention RCTs on fish oil supplementation (VITAL, STRENGTH, Abdelhamid meta-analysis) are largely null. They use observational cohort data to recommend a supplementation intervention that RCTs do not validate. This is the same epidemiological error that produced the hormone replacement therapy catastrophe (observational data suggested benefit; Women's Health Initiative RCT showed harm and reversed the consensus).
+
+**Neither engages with the mechanism evidence:**
+- Per-molecule peroxidation chemistry (bis-allylic sites)
+- Cardiolipin peroxidation degrading Complex IV (atomic-resolution confirmed)
+- The 1,000-fold historical soybean oil consumption shift (1909 to 1999)
+- Adipose linoleate accumulation (136% increase over 50 years)
+- Ferroptosis field (Stockwell 2012+) confirming regulated cell death via PUFA peroxidation
+- The endpoint divergence principle
+
+**Conflicts of interest are genuine and worth naming:**
+- Patrick sells omega-3 supplements through FoundMyFitness-branded products
+- Huberman has had extensive supplement brand partnerships
+- Both financially benefit from the supplementation-is-beneficial framework
+- When RCT data contradicts their framework, neither adjusts the recommendations
+- This doesn't establish bad faith, but it's a genuine incentive structure affecting evidence weighting
+
+**Scale of the error:**
+- Huberman: ~6M+ YouTube subscribers plus podcast reach
+- Patrick: ~2M+ subscribers, high-credibility scientific audience
+- Combined reach: likely 20-50+ million people following their supplementation recommendations
+- The recommendations are adding peroxidation substrate to audiences while leaving the dominant peroxidation driver (seed oils) largely unchecked
+- From a first-principles cardiolipin-peroxidation standpoint, this is close to a worst-case strategy at population scale
+
+### The strategy-inversion pattern
+
+Their combined positions produce a strategy that is effectively inverted from what first principles and the full evidence base support:
+
+| Variable | Patrick/Huberman recommendation | First-principles implication |
+|---|---|---|
+| Omega-3 supplementation | Strongly yes (2-3g daily) | Counterproductive; adds worse peroxidation substrate; RCTs null |
+| Seed oils | Nuanced / probably not the problem | The primary driver of modern peroxidation burden; unprecedented consumption shift; direct RCT harm signal exists |
+| Primary lever | Increase omega-3 intake | Reduce omega-6 excess |
+| Whole food vs supplements | Supplements substitute fine | Whole food sources (fatty fish, grass-fed animal products) provide resolvin biology without supplement concerns |
+
+The net effect of following their combined advice: keep the main peroxidation driver largely unchanged while adding 4-8× more peroxidation-prone substrate concentrated in capsule form, often pre-oxidized.
+
+### What rises to vault-update candidates (minor enhancements, not refinements)
+
+Applied the Bar for Changing the Vault. Three minor enhancements are defensible:
+
+1. **Ramsden 2013 citation as direct RCT human mortality evidence** for high-LA substitution. The vault covers endpoint divergence with fish oil; Ramsden adds direct-RCT-with-mortality-endpoint data on seed oil substitution. Citation strengthening in Membrane Damage and Defense.md, not framing change.
+
+2. **The per-molecule peroxidation dose-translation** (1g DHA ≈ 8 LA-equivalents in peroxidation substrate) as an explicit clarifier. The underlying chemistry is already in the vault, but the practical "supplement dose labels understate peroxidation impact by 4-8×" framing could be made explicit. Could serve as a bridge between the mechanism section and practice recommendations.
+
+3. **An explicit caution about fish oil supplementation in Practice.md.** The vault currently addresses this by omission (no recommendation). An explicit "why not to supplement" section would strengthen the practical guidance given how common the practice is.
+
+None rise to refinement level. All are additive clarifications that strengthen existing positions.
+
+### Meta-lesson — popular health discourse vs first-principles analysis
+
+The Patrick/Huberman analysis reveals a pattern worth naming for future sessions:
+
+**Credentialed, thoughtful, well-intentioned experts with large audiences can still produce recommendations that are inverted from what first principles supports — when their framework selectively weights evidence in ways that exclude mechanism-level concerns and specific RCT findings that contradict their recommendations.**
+
+Features of the pattern:
+- Privileges observational cohort evidence supporting their preferred intervention
+- Either dismisses or doesn't engage with RCT evidence that contradicts their preferred intervention
+- Does not invoke mechanism-level concerns (chemistry, mitochondrial biology)
+- Cites specific subpopulation RCTs (REDUCE-IT) as general validation
+- Financial incentive structures align with the preferred framework
+- Scale of reach makes correction difficult
+- Their certainty that they are reasoning from first principles is part of what makes the pattern persistent
+
+The response to this from the reading protocol standpoint:
+- First-principles analysis means engaging with the FULL evidence base (chemistry + mechanism + mechanism-validated-at-atomic-resolution + RCT + observational + historical + population-scale)
+- Weighting evidence requires acknowledging when the recommendation hierarchy (RCT > observational) cuts against your preferred conclusion
+- Scale of influence creates additional responsibility to engage with contradictory evidence, not less
+
+This pattern is likely to recur across other topics. When encountering popular health recommendations that feel first-principles-grounded to their advocates, check:
+1. Does the intervention-level RCT data support the intervention recommendation?
+2. Is mechanism evidence being engaged or dismissed?
+3. Is observational data being used to justify interventions RCTs haven't validated?
+4. Does the framework engage with contradictory data or explain it away?
+5. Are there incentive structures affecting evidence weighting?
+6. What scale of harm is possible if the framework is wrong?
+
+The omega-3 supplementation case is the clearest example we've worked through, but the pattern generalizes.
 - The lactated Ringer's mortality comparison claims — specific study verification.
