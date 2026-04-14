@@ -38,22 +38,46 @@ Before we start, please:
 
 Then read the article itself.
 
-Working style for this session:
+Working style for this session — BIDIRECTIONAL STRESS TESTING:
 
-- Default position: the vault is correct until proven otherwise
-- When Peat says X, trace what the vault's reasoning chain predicts for that claim
-- If Peat and the vault agree, note it and move on
-- If they disagree, apply the Three Hypotheses in order:
+Both Peat AND the vault are under test. Neither gets the benefit of the doubt.
+The arbiter is primary literature, verified in real time when a claim is
+load-bearing.
+
+- When Peat and the vault agree on something substantive, stress-test the
+  agreement against primary literature via WebSearch/WebFetch. Convergence on
+  a wrong answer is still wrong.
+- When Peat and the vault disagree, apply the Three Hypotheses in order:
   (1) am I misunderstanding the vault? (2) does the research measure something
-  different? (3) is the vault actually wrong?
-- If you find something genuinely new — a connection the vault doesn't model, a
-  mechanism it doesn't address — flag it as a candidate refinement but do NOT
+  different? (3) is one of them actually wrong?
+- The vault has a default-correct presumption because it's been verified — but
+  that presumption is rebuttable by primary literature, as demonstrated by the
+  CO₂→ATP refinement this session produced.
+- When Peat makes a claim the vault doesn't address, don't just note it — test
+  it directly against current primary literature. Real-time WebSearch for the
+  specific mechanism. Fetch the actual papers. Peat may be surfacing something
+  the verification process missed, or making a claim modern evidence now
+  contradicts.
+- When the vault makes a claim that goes beyond Peat, same discipline — verify
+  it against primary sources. The vault's corrections are themselves claims
+  subject to verification.
+- If real-time literature verification produces a refinement candidate for
+  either the vault or the per-article notes, flag it clearly. Do NOT
   automatically update the vault. Candidate refinements get captured in the
-  per-article notes and reviewed separately.
+  per-article notes and reviewed separately against the bar in Verification
+  Methodology.
 - Be honest. Don't defend the vault if the evidence doesn't support it. Don't
-  defend Peat if his reasoning breaks down. Don't soften conclusions to be diplomatic.
-- Push back on me when I'm wrong. I'm learning the integration — I will say things
-  that don't fit the vault's logic. Catch it.
+  defend Peat if his reasoning breaks down. Don't soften conclusions to be
+  diplomatic. Convergent wrongness is still wrong.
+- Push back on me when I'm wrong. I'm learning the integration — I will say
+  things that don't fit the vault's logic or the evidence. Catch it.
+
+Real-time verification tools:
+- WebSearch for finding primary literature on specific claims
+- WebFetch for reading actual papers (prefer PMC full text over abstracts)
+- When a claim is load-bearing (a core mechanism, a causal chain, a specific
+  quantitative prediction), verify it directly rather than relying on the
+  vault's citations alone. The CO₂ stress test in this repo is the template.
 
 We'll work through the article section by section where the reasoning matters.
 Not every paragraph needs deep engagement — only the ones where he's making a
@@ -77,7 +101,7 @@ Ready when you are.
 
 **Then engage the agent with specific passages.** Not a blanket "what do you think?" Point to specific claims: "He says here that X causes Y through mechanism Z. What does the vault say? Does the evidence support Z specifically, or is it actually Z'?"
 
-**Watch for these patterns:**
+**Watch for these patterns (in Peat):**
 
 - **Right destination, wrong route.** Peat's most common error. Correct functional outcome, wrong molecular pathway. When the agent says "the direction is right but the mechanism is [X] not [Y]" — that's this pattern. Note the correction, note what it reveals about how modern tools changed the picture.
 
@@ -87,7 +111,45 @@ Ready when you are.
 
 - **Integration that holds.** Not every claim fails. Where he connects thyroid to PUFA to estrogen to liver in one chain and the vault's independent verification confirms it — that's where he was doing something nobody else was. Note these explicitly.
 
-**When in doubt, apply Verification Methodology.** The vault has a formal epistemic discipline for exactly this situation. Use it.
+**Watch for these patterns (in the vault):**
+
+- **Overcorrection.** The vault may have swung too far in correcting Peat. The CO₂ stress test found this — "parallel marker" was slightly too strong because CO₂ has genuine independent mechanisms at other targets. When the vault's correction feels absolute, check whether the actual literature supports that level of certainty.
+
+- **Citation deployment errors.** The vault cites papers for specific claims. The paper may be topically relevant but not actually test the scenario the vault is claiming. Verification Methodology's "citation deployment audit" catches this. Apply it when a vault claim feels surprisingly confident.
+
+- **Gaps in coverage.** Peat may raise a connection or mechanism the vault doesn't address at all. That's not necessarily a failure of the vault — it's a candidate for expansion. Flag it, test it against primary literature, then evaluate whether it belongs in the vault.
+
+- **Stale corrections.** The vault's last-verified date matters. A correction from 2024 may have been superseded by 2025-2026 evidence. When a correction is load-bearing, check whether more recent literature affects it.
+
+**When in doubt, apply Verification Methodology.** The vault has a formal epistemic discipline for exactly this situation. Use it bidirectionally — it applies to testing Peat's claims AND testing the vault's corrections.
+
+---
+
+## Bidirectional Stress Testing — How It Actually Works
+
+The core move is refusing to treat any source as authoritative on its own terms. Peat, the vault, and the verification documents are all TESTIMONY about what primary literature shows. The literature itself is the arbiter.
+
+**For any load-bearing claim in the article, the test has four positions:**
+
+1. **Peat says X. Vault agrees with X.** Still stress-test via real-time primary literature when X is load-bearing. Convergence doesn't prove correctness. This is how the CO₂ refinement surfaced — both Peat and the vault's non-loop framing were partly right, but primary literature revealed a more precise picture neither had fully captured.
+
+2. **Peat says X. Vault says Y (correction).** Stress-test BOTH via primary literature. Don't default to the vault; verify the correction is itself supported. The vault has been verified, but verification was done at a point in time — new evidence or missed evidence can update it.
+
+3. **Peat says X. Vault doesn't address X.** Stress-test X directly. If it holds, it's a candidate for vault expansion. If it doesn't, it's a Peat error the verification may have missed.
+
+4. **Vault says Y. Peat doesn't address Y.** The vault's corrections sometimes go beyond Peat — citing mechanisms he never discussed. Verify these too. The vault is not automatically right about things Peat didn't say.
+
+**The tooling loop for real-time verification:**
+
+1. Identify the load-bearing claim precisely. Not "estrogen is bad" — "estrogen shifts cells toward glycolysis via PI3K/AKT at physiological concentrations."
+2. WebSearch for primary literature on the specific claim. Prefer recent (2020+) reviews and primary research over older citations.
+3. WebFetch the actual papers. Prefer PMC full text over abstracts. Read what the paper actually tested, measured, and concluded.
+4. Apply the citation deployment audit (Verification Methodology Step 5): species match, scenario match, endpoint match, proposed-mechanism match.
+5. Form a verdict based on what the literature actually shows — not what the vault says or what Peat says. Either may turn out right, wrong, or partially right.
+
+**Budget:** Not every claim warrants real-time verification. Textbook claims (Krebs cycle, Bohr effect) don't. Claims where Peat and the vault agree and the agreement matches well-established biology don't. The trigger for verification is: **load-bearing + non-obvious + not already stress-tested** in prior project work.
+
+**Output:** Every real-time verification produces a note in the per-article document specifying what was verified, what the literature showed, and what the verdict is. This builds the evidence trail that either strengthens the existing vault, surfaces candidate refinements, or flags things worth deeper investigation later.
 
 ---
 
@@ -150,6 +212,22 @@ internalization — they're where you're learning something you didn't
 already hold.]
 
 - ...
+
+## Real-Time Verification Log
+
+[Every claim that triggered real-time primary literature verification during
+the session. One entry per verified claim. This is the evidence trail.]
+
+### [Claim 1, stated precisely]
+- **Peat's position:** [what he says]
+- **Vault's position:** [what the vault says, or "not addressed"]
+- **Literature searched:** [search terms, papers fetched]
+- **What the evidence shows:** [synthesis of what the primary literature actually demonstrates]
+- **Verdict:** [confirmed / corrected / contradicted / ambiguous — applies to Peat AND vault separately]
+- **Implications:** [does this change anything? vault refinement candidate? Peat error the vault already caught? new finding?]
+
+### [Claim 2, stated precisely]
+...
 
 ## Candidate Vault Refinements
 
