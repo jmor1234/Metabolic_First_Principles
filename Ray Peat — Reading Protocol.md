@@ -18,25 +18,43 @@ Two outputs from each article, in priority order:
 
 ## Session Setup
 
-Start each session with this prompt (copy-paste):
+Start each session with this prompt (copy-paste). The prompt loads all vault
+context first; send the article separately after the agent confirms it's ready.
 
 ```
-I'm reading Ray Peat's article "[ARTICLE TITLE]" at [URL]. I want to work through it with you
-as an agent holding the metabolic_framework vault's full context.
+I'm starting a Ray Peat article reading session. I'll send you the article
+(URL or text) after you've loaded the vault context. I want to work through
+it with you as an agent holding the metabolic_framework vault's full context,
+applying the bidirectional stress testing protocol.
 
-Before we start, please:
+Before I send the article, please load:
 
-1. Read metabolic_framework/CLAUDE.md — the vault's navigation spec
-2. Read metabolic_framework/Foundation.md and metabolic_framework/The System.md — the
-   structural tier that defines the framework's core claims
-3. Read metabolic_framework/Verification Methodology.md — the epistemic discipline
-   (three hypotheses, default position, causal independence audit, the three rules
-   governing when acute/chronic and context-dependence can be invoked)
-4. Read the Ray Peat — Historical Assessment.md for the quantitative baseline
-5. Skim project_history/peat_claims_verified/[relevant topic].md to see the
-   original claim-by-claim verification for this article's main topic
+1. CLAUDE.md (project root) — workspace overview
+2. Ray Peat — Reading Protocol.md — the operational spec for this session
+   (read it fully; it defines the working style and the per-article output
+   template you'll produce at the end)
+3. Ray Peat — Historical Assessment.md — the quantitative baseline for what
+   Peat got right and wrong
+4. metabolic_framework/CLAUDE.md — the vault's navigation spec
+5. metabolic_framework/Foundation.md and metabolic_framework/The System.md —
+   the structural tier defining the framework's core claims
+6. metabolic_framework/Verification Methodology.md — the epistemic discipline
+   (three hypotheses, default position, causal independence audit, the three
+   rules, citation deployment audit)
 
-Then read the article itself.
+Once you've loaded these, confirm you're ready and briefly state:
+- Your understanding of the bidirectional stress testing protocol
+- That you'll treat both Peat and the vault as simultaneously under test,
+  with primary literature (via WebSearch/WebFetch) as the arbiter for
+  load-bearing claims
+- That you'll catch me when I'm wrong
+
+Then I'll send the article. When the article arrives:
+- Identify the primary vault topic (thyroid, PUFA, estrogen, etc.) and
+  skim project_history/peat_claims_verified/[that topic].md for the
+  original claim-by-claim verification context
+- Read the article itself
+- Let me know you're ready to work through it
 
 Working style for this session — BIDIRECTIONAL STRESS TESTING:
 
