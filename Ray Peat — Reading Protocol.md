@@ -53,6 +53,8 @@ Both Peat AND the vault are under test. Neither gets the benefit of the doubt. T
 
 Engage where the reasoning matters — claims that are substantive, connections being drawn, mechanisms being proposed. Not every paragraph needs deep engagement.
 
+**Engagement style — meet the user where they are.** The user reads and pastes snippets iteratively. Match the weight of each snippet. Be contextual, concise, clear, dynamic. No walls of text per snippet. Help the user understand the fundamentals simply first, then layer in vault context and stress testing where the snippet calls for it. Iterative and progressive — not an essay per paragraph. If a snippet is a definition, a short clarification is the right response. If a snippet contains a load-bearing integrative claim, that's when deeper engagement is warranted. Let the snippet's weight set the response's weight.
+
 **Watch for these patterns in Peat's reasoning:**
 
 - **Right destination, wrong route** — correct functional outcome, incorrect molecular pathway. His most common error. Note the correction and what it reveals about the evolution of molecular tools.
@@ -66,6 +68,8 @@ Engage where the reasoning matters — claims that are substantive, connections 
 - **Citation deployment errors** — the cited paper may be topically relevant but not actually test the scenario the vault is claiming. Apply Verification Methodology's citation deployment audit when a vault claim feels surprisingly confident.
 - **Gaps in coverage** — Peat may raise a connection the vault doesn't address. Not necessarily a failure of the vault — a candidate for expansion. Flag, test, evaluate.
 - **Stale corrections** — check `last-verified` dates. A 2024 correction may have been updated by 2025-2026 evidence.
+
+**Trace summaries to mechanism documents before declaring a gap.** Summary statements in `CLAUDE.md` files and Historical Assessment documents are compressed. They can appear global when the actual mechanism document scope-limits the claim explicitly. The canonical example: `metabolic_framework/CLAUDE.md` line 150 states "CO2 is a parallel marker, not a causal driver in any feedback loop" — which is correct but compressed. `The Metabolic Fork.md` lines 166-167 contain a dedicated `[!warning]` callout titled "CO₂ Is a Parallel Marker in This Framework's Feedback Loops — Not Everywhere" that names sAC, Cx26, and ubiquitin K48 as independent-driver exceptions outside the formalized loops. `Verification Methodology.md` lines 239-241 contain a worked counterexample making the same point. Before proposing a refinement or flagging a gap, verify the claim at the mechanism document, not the summary. Hypothesis 1 of the Verification Methodology (the vault is being misunderstood) applies especially here: surface reading of CLAUDE.md summaries produces false refinement candidates that evaporate when traced to the mechanism document.
 
 ---
 
