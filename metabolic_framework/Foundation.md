@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: foundation
 confidence: high
-last-verified: 2026-04-10
+last-verified: 2026-04-15
 scope: foundational
 connections:
   - "[[The System]]"
@@ -72,7 +72,7 @@ When the fork goes wrong — toward lactate — the product actively worsens the
 
 **Self-reinforcing states.** High ATP maintains the structures needed to produce high ATP: membrane integrity (keeping ion gradients stable and calcium excluded), respiratory enzyme expression (maintaining the ~100+ subunits of the electron transport chain), and mitochondrial membrane composition (preserving the cardiolipin that Complex IV requires for function). Low ATP degrades every one of these structures — membranes lose integrity, respiratory complexes disassemble, calcium floods into the cytoplasm and poisons mitochondria directly — making ATP production even harder. The system falls further.
 
-These are not points on a spectrum. They are **attractors** — stable states that, when the organism's parameter conditions (PUFA burden, iron load, chronic stress, endotoxin exposure) create a disease basin, maintain themselves through their own outputs once sufficiently established. An organism with low damage burden and robust energy-dependent negative feedback may be monostable — the healthy state is the only attractor. The transition between attractors, when both exist, involves threshold dynamics where multiple reinforcing loops compound simultaneously. [[The System]] documents this architecture in full, including the state-dependent damping mechanism that produces the bistability.
+These are not points on a spectrum. They are **attractors** — stable states that, when the organism's parameter conditions (PUFA burden, iron load, chronic stress, endotoxin exposure) create a disease basin, maintain themselves through their own outputs once sufficiently established. An organism with low damage burden and robust energy-dependent negative feedback may be monostable — the healthy state is the only attractor. The transition between attractors, when both exist, involves threshold dynamics where multiple reinforcing loops compound simultaneously. [[The System]] documents this architecture in full, including state-dependent damping — the mechanism by which energy-dependent negative feedback weakens in the disease state and unifies feedback failure across otherwise independent systems.
 
 This is the second law of thermodynamics applied to biology. A living organism is an ordered system maintained against entropy. The order requires continuous energy input. When energy production falls below the maintenance threshold, the system doesn't merely slow down — it degrades. The degradation produces conditions that further impair energy production. Disease is what this self-reinforcing degradation looks like from the inside.
 

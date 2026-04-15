@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: practice
 confidence: high
-last-verified: 2026-04-12
+last-verified: 2026-04-15
 scope: practical
 connections:
   - "[[Foundation]]"
@@ -45,9 +45,9 @@ The difference is consequential: the same intervention that resolves the problem
 
 ### State-dependent damping: why restoring M is the universal priority
 
-Every self-correcting mechanism the body has — antioxidant defense (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy/mitophagy (PINK1/Parkin), immune resolution, hormonal homeostasis (HPT, HPA axes), lactate clearance — requires ATP to function. When mitochondrial function (M) is low, ALL damping fails. The positive feedback loops that maintain disease operate by weakening the negative feedback that would oppose them.
+Every self-correcting mechanism the body has — antioxidant defense (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy/mitophagy (PINK1/Parkin), immune resolution, hormonal homeostasis (HPT, HPA), lactate clearance — depends on ATP for the machinery that performs it, even when individual regulatory acts are thermodynamically free. When mitochondrial function (M) is sustained low, the damping machinery degrades and the feedback fails with it. The positive feedback loops of disease operate by weakening this negative feedback, not by outcompeting it.
 
-This means restoring M is not one priority among eight. It is the priority that enables every other. The body does not need every feedback loop manually opposed. It needs enough metabolic capacity to run its own correction systems. Restoring ATP production re-enables ALL self-correction simultaneously.
+Restoring M is therefore not one priority among eight. It is the priority that unlocks every other, because it is the shared currency the damping machinery runs on. The body does not need every feedback loop manually opposed — it needs enough metabolic capacity to run its own correction systems. Restoring ATP production re-enables self-correction across systems simultaneously, which is why interventions matched for other effects but without ATP restoration tend to underperform in the bistable regime.
 
 ### The multi-input principle — for the bistable regime
 

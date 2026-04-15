@@ -9,7 +9,7 @@ tags:
   - framework/metabolic
 role: system-architecture
 confidence: high
-last-verified: 2026-04-09
+last-verified: 2026-04-15
 scope: systemic
 connections:
   - "[[Foundation]]"
@@ -179,11 +179,11 @@ The transition between attractors is not gradual. The system absorbs perturbatio
 
 ### State-dependent negative feedback
 
-The framework emphasizes positive feedback loops, but stability depends equally on the negative feedback that opposes them. Every negative feedback mechanism in the organism — the HPT axis (thyroid homeostasis), the HPA axis (cortisol regulation), antioxidant defenses (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy and mitophagy (PINK1/Parkin), immune resolution (specialized pro-resolving mediators), hepatic regeneration, and lactate clearance — is **energy-dependent**. These systems require ATP to function. When mitochondrial function is high, the damping systems are strong and perturbations are absorbed. When mitochondrial function is low, the damping systems fail.
+The framework emphasizes positive feedback loops, but stability depends equally on the negative feedback that opposes them. Every negative feedback mechanism in the organism — the HPT axis, the HPA axis, antioxidant defenses (GSH, SOD, GPx), mitochondrial biogenesis (PGC-1alpha), autophagy and mitophagy (PINK1/Parkin), immune resolution (specialized pro-resolving mediators), hepatic regeneration, and lactate clearance — **depends on ATP**. Not always to perform the regulatory act itself — allosteric inhibition and product inhibition are thermodynamically free — but always to maintain the machinery that performs it: enzyme and receptor synthesis, folding, trafficking, and cofactor regeneration. Keep the machinery intact, regulation runs. Let it degrade, and regulation fails regardless of whether the act itself would have consumed ATP. When mitochondrial function is high, the damping machinery is maintained and perturbations are absorbed. When mitochondrial function is low, the damping machinery degrades and the feedback fails with it.
 
-This means the positive feedback loops do not defeat the negative feedback through brute force. They operate **by weakening it**. As the system drifts toward the disease state, ATP production falls, and the very mechanisms that should restore health become progressively impaired. This creates multiplicative, not additive, gain dynamics — the effective gain of the positive feedback increases as the negative feedback it degrades falls away.
+This means the positive feedback loops do not defeat the negative feedback through brute force. They operate **by weakening it**. As the system drifts toward the disease state, ATP production falls, and the mechanisms that would restore health degrade with it. The net effective gain rises not because the positive feedback grew stronger but because the opposition collapsed — as ATP falls, the damping term approaches zero, producing the nonlinear gain structure characteristic of bistable transitions.
 
-This is precisely the nonlinear gain function that produces bistability: strong damping at the healthy fixed point (stable), weak damping at the disease fixed point (also stable, because the positive feedback is now uncontested), and a threshold in between where the organism runs out of energy to run its own repair systems.
+State-dependent damping is one of several mechanisms generating bistability in this architecture, alongside ultrasensitivity, mutual inhibition, and saturation of positive feedback — all of which operate within specific subsystems. What makes it distinctive is cross-system unification: the damping across otherwise independent systems weakens together under a single coupling currency (ATP), rather than failing independently. The result is strong damping at the healthy fixed point (stable), weak damping at the disease fixed point (also stable, because the positive feedback is now uncontested), and a threshold in between where the organism runs out of energy to run its own repair systems.
 
 The clinical implication is structural: interventions that restore metabolic capacity (improving mitochondrial function, reducing ATP drain from chronic inflammation) are not one option among many — they are the prerequisite for the organism's own negative feedback to re-engage. Without adequate energy supply, damping mechanisms that should oppose the disease state cannot function regardless of what else is addressed.
 
