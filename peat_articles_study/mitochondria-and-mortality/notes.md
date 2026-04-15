@@ -110,6 +110,84 @@ Session in progress. This file accumulates as we work through the article paragr
 
 ---
 
+## Drafted Vault Edits
+
+> **Status (2026-04-15):** Edits 1 and 2 applied to the vault in this session by explicit user direction after the article reading was complete. Edits 3a and 3b (cross-references to Gut-Liver Axis and Cellular Readout) remain drafted-as-follow-up, not applied. The drafts below are the record of what went in.
+
+### Edit 1: `metabolic_framework/The Metabolic Fork.md` — expand the CO₂ parallel-marker callout to include Chang 2021 functional confirmation, Epac1 arm, Dobson/Linthwaite 2023 carbamylome extension, and fourth specific role (matrix carboxylases)
+
+**Location:** The existing `[!warning]` callout beginning "CO₂ Is a Parallel Marker in This Framework's Feedback Loops — Not Everywhere" (currently lines 166–167).
+
+**Rationale:** Adds three citation extensions to the existing sAC / Cx26 / Ub-K48 inventory of specific non-loop CO₂ roles (without changing the vault's classification of CO₂ as parallel marker at the formalized loops), and introduces a fourth specific mechanism (bicarbonate as direct substrate at matrix carboxylases via CA VA) that is currently absent from the vault.
+
+**old_string:**
+
+```
+> [!warning] CO₂ Is a Parallel Marker in This Framework's Feedback Loops — Not Everywhere
+> This document classifies CO₂ as a parallel marker of ATP in the metabolism-mediator coupling loop, which is correct — V-ATPase is ATP-specific and CO₂ has no demonstrated mechanism at granule membranes. But CO₂ has genuine independent causal roles at other molecular targets through specific carbamylation chemistry and allosteric binding, none of which map onto this framework's feedback loops: (1) [soluble adenylyl cyclase (sAC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3956179/) — bicarbonate binds a structurally characterized allosteric site (Lys95/Arg176) distinct from the ATP substrate site, coupling Krebs cycle CO₂ production to electron transport chain activity via cAMP/PKA; (2) [connexin 26](https://pmc.ncbi.nlm.nih.gov/articles/PMC3821526/) — CO₂ carbamylates K125, mechanically gating hemichannels in a pH-independent, mutant-confirmed mechanism that drives respiratory chemosensation; (3) [ubiquitin K48](https://pmc.ncbi.nlm.nih.gov/articles/PMC8920986/) — CO₂ carbamylation suppresses NF-κB-dependent transcription, causally confirmed by K48R mutants. The "parallel marker" classification applies to CO₂'s role in the specific feedback loops documented in [[The System]] — not to CO₂'s biology as a whole. See [[Verification Methodology]] for the causal independence audit that produced this distinction.
+```
+
+**new_string:**
+
+```
+> [!warning] CO₂ Is a Parallel Marker in This Framework's Feedback Loops — Not Everywhere
+> This document classifies CO₂ as a parallel marker of ATP in the metabolism-mediator coupling loop, which is correct — V-ATPase is ATP-specific and CO₂ has no demonstrated mechanism at granule membranes. But CO₂ has genuine independent causal roles at other molecular targets through specific carbamylation chemistry, allosteric binding, and direct substrate roles — none of which map onto this framework's feedback loops:
+>
+> **(1) Soluble adenylyl cyclase (sAC).** Bicarbonate binds [a structurally characterized allosteric site](https://pmc.ncbi.nlm.nih.gov/articles/PMC3956179/) (Lys95/Arg176) distinct from the ATP substrate site, coupling Krebs cycle CO₂ production to electron transport chain activity via matrix cAMP. Two distinct downstream arms extend the reach: [PKA phosphorylates Complex IV (cytochrome c oxidase) subunits I and IV](https://pmc.ncbi.nlm.nih.gov/articles/PMC3956179/), and [Epac1 — not PKA — regulates Complex I activity and cytosolic NADH/NAD⁺ redox state](https://pubmed.ncbi.nlm.nih.gov/33412125/) (Chang 2021). [Chang 2021 additionally provides functional confirmation of the bioenergetic-switch prediction](https://pubmed.ncbi.nlm.nih.gov/33412125/): pharmacological and genetic sAC suppression in multiple cell lines and primary cultures increases lactate secretion, decreases pyruvate secretion, elevates cytosolic NADH/NAD⁺ ratio, and shifts cells toward aerobic glycolysis — characterized by the authors as sAC acting "effectively [as] a bioenergetic switch between aerobic glycolysis and oxidative phosphorylation at the post-translational level."
+>
+> **(2) Connexin 26.** CO₂ [carbamylates K125](https://pmc.ncbi.nlm.nih.gov/articles/PMC3821526/), mechanically gating hemichannels in a pH-independent, mutant-confirmed mechanism that drives respiratory chemosensation.
+>
+> **(3) Ubiquitin K48.** CO₂ [carbamylation suppresses NF-κB-dependent transcription](https://pmc.ncbi.nlm.nih.gov/articles/PMC8920986/), causally confirmed by K48R mutants. The [2023 follow-up chemoproteomic mapping](https://pubmed.ncbi.nlm.nih.gov/37723562/) identified 8,923 carbamylated peptides across the macrophage carbamylome and demonstrated that carbamylation of linear di-ubiquitin blocks OTULIN — extending the CO₂-inflammation axis into primary immune cells with a specific NF-κB connection.
+>
+> **(4) Matrix carboxylases via CA VA.** Mitochondrial [carbonic anhydrase VA](https://pmc.ncbi.nlm.nih.gov/articles/PMC10107955/) (liver-dominant, also brain/testis/skeletal muscle) concentrates matrix HCO₃⁻ for four bicarbonate-dependent carboxylases: **carbamoyl phosphate synthetase I** (urea cycle entry — NH₃ + HCO₃⁻ + 2 ATP → carbamoyl phosphate), **pyruvate carboxylase** (pyruvate + HCO₃⁻ + ATP → oxaloacetate — the major anaplerotic refilling of TCA intermediates and entry to gluconeogenesis and lipogenesis), **propionyl-CoA carboxylase** (BCAA and odd-chain fatty acid metabolism), and **acetyl-CoA carboxylase** (de novo lipogenesis). Bicarbonate is a direct substrate, not an allosteric modifier or covalent tag. Matrix bicarbonate supply is rate-limiting in vivo: CA VA genetic deficiency produces early-onset hyperammonemia and life-threatening metabolic crisis with elevated plasma glutamine/alanine/proline and depressed citrulline/arginine, and [pharmacological CA inhibition in cultured astrocytes suppresses pyruvate-carboxylase-mediated TCA anaplerosis](https://pubmed.ncbi.nlm.nih.gov/9097031/) by limiting matrix HCO₃⁻ (Gamberino 1997). Caveat: direct evidence for substrate-limitation comes from genetic deficiency (complete loss) and pharmacological inhibition (also complete loss of catalytic activity); whether physiological-range hypocapnia (sustained hyperventilation, or the reduced CO₂ production of hypothyroidism) in otherwise-healthy humans is large enough to produce measurable CPS-I or PC suppression has not been directly tested. The mechanism is correctly directional; the quantitative sensitivity in the physiological range is under-characterized.
+>
+> The "parallel marker" classification applies to CO₂'s role in the specific feedback loops documented in [[The System]] — not to CO₂'s biology as a whole. See [[Verification Methodology]] for the causal independence audit that produced this distinction.
+```
+
+### Edit 2: `metabolic_framework/Membrane Damage and Defense.md` — add Ramsden 2013 / 2016 as direct RCT human mortality evidence for LA substitution harm
+
+**Location:** The end of the "**The historical shift.**" paragraph at line 76. This paragraph currently establishes the 1,000-fold soybean oil consumption increase and 136% adipose LA accumulation — descriptive data. Adding the RCT mortality evidence completes the chain from exposure-level to endpoint-level consequence.
+
+**Rationale:** Vault currently discusses endpoint divergence primarily with fish oil examples. Ramsden 2013 (Sydney Diet Heart recovered data, BMJ) and Ramsden 2016 (Minnesota Coronary Experiment recovered data, BMJ) provide direct human RCT data with hard mortality endpoints showing LA substitution for saturated fat produces increased mortality. This is the strongest available evidence for the seed-oil-substitution harm signal and is currently absent from the vault's citation base.
+
+**old_string:**
+
+```
+**The historical shift.** [Per capita soybean oil consumption rose from 0.009 kg/year in 1909 to 11.64 kg/year in 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC3076650/) -- a 1,000-fold increase. [Adipose tissue linoleic acid increased 136% over the last half century](https://pubmed.ncbi.nlm.nih.gov/26567191/), directly confirming that the dietary change has altered human tissue composition at the population level. By 2005, 86% of added fats in the American diet came from seed oils, compared to 1% in 1909. The modern PUFA tissue burden is unprecedented in human history.
+```
+
+**new_string:**
+
+```
+**The historical shift.** [Per capita soybean oil consumption rose from 0.009 kg/year in 1909 to 11.64 kg/year in 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC3076650/) -- a 1,000-fold increase. [Adipose tissue linoleic acid increased 136% over the last half century](https://pubmed.ncbi.nlm.nih.gov/26567191/), directly confirming that the dietary change has altered human tissue composition at the population level. By 2005, 86% of added fats in the American diet came from seed oils, compared to 1% in 1909. The modern PUFA tissue burden is unprecedented in human history. Direct RCT mortality evidence supports the predicted harm signal: [Ramsden 2013](https://pubmed.ncbi.nlm.nih.gov/23386268/) recovered data from the Sydney Diet Heart Study (men with recent CHD, 458 intervention/458 control, ~15% calories as LA from safflower oil replacing saturated fat) showed HR 1.62 all-cause mortality, HR 1.70 cardiovascular mortality, HR 1.74 CHD mortality in the intervention group. [Ramsden 2016](https://pubmed.ncbi.nlm.nih.gov/27071971/) recovered Minnesota Coronary Experiment data (9,423 participants) showed LA lowered serum cholesterol without reducing mortality — and in the subgroup ≥65 years old, every 30 mg/dL reduction in cholesterol was associated with 22% increased mortality. The recovered-RCT endpoint data directly validates the peroxidation-chain → disease prediction at the mortality endpoint, not just at the biomarker endpoint.
+```
+
+### Edit 3 (smaller cross-references, lower priority)
+
+Two additional cross-references would strengthen integration but are not required for the core additions:
+
+- **`metabolic_framework/The Gut-Liver Axis.md`** — a sentence tying hepatic ureagenesis capacity to liver CO₂ production via CA VA → CPS-I, would connect the Metabolic Fork callout's new item (4) to the liver-as-hub thesis. Requires checking the Gut-Liver Axis document first to find the right insertion point (currently not drafted here; would need a preparatory read).
+- **`metabolic_framework/The Cellular Readout.md`** — the existing CO₂/Bicarbonate/Calcium Regulator section at line 70 could reference the matrix-substrate pathway as a second CO₂ → calcium pathway (via CA VA → PC anaplerosis → TCA flux → Δψ → MCU/NCLX balance), complementing the existing blood-pH/albumin-binding pathway. Not drafted here; would need to confirm exact phrasing against the current section structure to avoid redundancy.
+
+These two cross-refs are defensible additions but lower-priority than Edits 1 and 2. Recommend doing them in a follow-up pass after Edits 1 and 2 are reviewed and applied.
+
+### Summary of the drafted changes
+
+| Edit | File | Change Type | Priority |
+|---|---|---|---|
+| 1 | The Metabolic Fork.md | Expand callout: add Chang 2021 functional confirmation + Epac1 arm, Dobson/Linthwaite 2023 extension, new item (4) matrix carboxylases | High — load-bearing |
+| 2 | Membrane Damage and Defense.md | Extend historical shift paragraph with Ramsden 2013 + 2016 direct RCT mortality data | High — strengthens endpoint-divergence evidence base |
+| 3a | The Gut-Liver Axis.md | Cross-ref from hepatic ureagenesis to CA VA → CPS-I | Low — follow-up |
+| 3b | The Cellular Readout.md | Cross-ref adding matrix-substrate pathway alongside blood-pH/albumin pathway | Low — follow-up |
+
+All changes survive the Bar for Changing the Vault:
+- Precise statement of current vs proposed text (above)
+- Verified evidence surviving Three Hypotheses (verification logs in preceding sections)
+- Makes vault MORE specific, not more vague (Rule 3: Refinement category — adds specific named mechanisms, generates testable predictions about bicarbonate substrate limitation and sAC suppression → glycolysis shift)
+- Core 5 claims survive intact (no changes to the thesis, attractors, feedback loops, multi-loop intervention principle, or temporal oscillation)
+
+---
+
 ## Cardiolipin / PUFA Investigation — Honest Assessment
 
 Multi-round investigation (three independent agents + primary literature verification) on the cardiolipin-composition / linoleate-requirement / mead-acid question provoked by Peat's "palmitate is a major component of cardiolipin" claim in the article.
