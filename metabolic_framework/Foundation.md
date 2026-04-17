@@ -87,6 +87,26 @@ This is not reductionism — it is identification of the common denominator. Oth
 
 The metabolic level does not deny these other levels. It explains *how* they affect health — through their effect on oxidative metabolism. It is the level at which all other levels converge.
 
+**Mechanistic specificity is required** for each claim of "operating through metabolic capacity." The framework does not treat any cellular dysfunction as metabolic by default. For each factor's influence on chronic disease, a specific mechanistic pathway must be traceable from the factor's upstream action through identifiable metabolic mechanisms to downstream disease manifestation. In atherosclerosis, for example, dyslipidemia and insulin resistance produce specific metabolic danger signals — mROS, oxidized cardiolipin, AGEs, oxidized LDL, cholesterol crystals, ceramides, calcium dysregulation — that activate the NLRP3 inflammasome → IL-1β → chronic vascular inflammation → plaque destabilization. The pathway is traceable at each step. Where no mechanistic trace connects a proposed upstream factor to metabolic capacity, the framework does not claim convergence through metabolism for that case. This discipline distinguishes substantive mechanistic claims from unfalsifiable hand-waving.
+
+**Scope of the convergence claim.** The framework applies to chronic disease through two primary modes, and is genuinely peripheral only to a narrow third category.
+
+*Primary driver mode* — metabolism is both the upstream cause and the central pathway. Covers the bulk of chronic disease: metabolic syndrome, T2D, NASH, cardiovascular disease, sarcopenia, aging-associated neurodegeneration, most cancers with metabolic reprogramming. Increasingly supported: functional psychiatric illness (schizophrenia, bipolar, major depression), where pre-treatment insulin resistance, post-mortem mitochondrial dysfunction in cortex and hippocampus, bipolar genetic signal in mitochondrial-related genes, and remarkable ketogenic-diet clinical responses in treatment-resistant cases all point to metabolism as central rather than downstream of circuit-level pathology.
+
+*Central-pathway mode* — the initiating lesion is not metabolic, but the pathogenic cascade routes primarily through metabolism. In these, the metabolic architecture is the central axis for clinical trigger, severity, maintenance, and therapy — not secondary or supportive:
+- **Autoimmune disease** (T1D, MS, RA, lupus) — HLA/TCR-mediated antigen-specificity failure is genetic + stochastic. Necessary but not sufficient: most carriers never develop clinical disease. The *clinical trigger* converting latent susceptibility to disease is typically metabolic — gut barrier failure → endotoxin → Th17; β-cell ER stress exposing neo-antigens; thyroid compromise → thymic involution → tolerance failure. Metabolism is the clinical trigger and the disease-maintenance axis.
+- **Huntington's disease** — mHTT aggregation is the primary lesion, but the pathogenic cascade routes through mHTT disrupting the TIM23 mitochondrial protein import complex → OXPHOS failure. The damage mechanism is metabolic.
+- **Hemoglobinopathies** (sickle cell, thalassemias) — HbS polymerization is biophysical, but the tissue damage mechanism is ischemic energy failure. Metabolism is the damage axis.
+- **Channelopathies** — ion channel mutation is primary, but metabolic state is a major severity determinant. Ketogenic diet is the gold-standard treatment for Dravet syndrome (SCN1A); metabolic state determines ion gradients that make channel function possible.
+- **Chronic neuropathic pain from structural nerve injury** — injury is primary, but chronification (central sensitization, maintenance of altered firing) depends on the metabolic state of affected neurons.
+
+*Genuinely peripheral* — metabolism is neither upstream nor the central pathway. Narrow category:
+- Cystic fibrosis (CFTR mutation → mucus/infection cascade; metabolism is downstream modulator, not central pathway)
+- Fibrillin-1 / Marfan syndrome (mechanical connective tissue weakness primary; aortic root dilation is structural)
+- Clearly syndromic genetic neurodevelopmental conditions (Rett = MECP2, Fragile X = FMR1, tuberous sclerosis; primary defect is in circuit development via non-metabolic proteins)
+
+Only in this narrow peripheral category is the framework genuinely secondary. Across the rest of chronic disease — both primary-driver and central-pathway modes — the metabolic architecture is the central axis even where the initiating lesion is non-metabolic. The critical distinction to hold: *non-metabolic initiating lesion does not mean non-metabolic disease*. Most chronic disease with a genetic or structural initiating lesion still routes its pathogenic cascade through metabolism and responds to metabolic intervention.
+
 ---
 
 ## The Evidence

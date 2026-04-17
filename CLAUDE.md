@@ -26,7 +26,7 @@ A first-principles understanding of what health and disease are at the metabolic
 Archived audit trails — not actively maintained, but navigable for traceability.
 
 - **`project_history/peat_claims_verified/`** — The original investigation. Systematic claim-by-claim verification of Ray Peat's biochemistry. 16 topic documents with three-phase methodology. This vault produced the knowledge that the framework extracts.
-- **`project_history/metabolic_refinements/`** — The stress test audit trail. How each refinement was derived: stress test logs, independent agent triangulation, refinement diff catalog, 6 standalone refinement documents. This is where the evidence chain for the corrections lives.
+- **`project_history/metabolic_refinements/`** — The stress test audit trail across multiple campaigns. How each refinement was derived: stress test logs, independent agent triangulation, refinement diff catalog, standalone refinement documents, campaign methodology (Stress Test Plan with 8 guardrails), per-priority audit trails (P1 convergence/causation, P3 state-dependent damping multi-currency, P4 bistability outside diabetes). This is where the evidence chain for the corrections lives.
 - **`project_history/metabolic_foundations_snapshot/`** — The pre-merge snapshot of the framework before stress test refinements were incorporated. Git history also preserves this.
 - Archived application documents: The Integrated Framework.md, The Assessment Protocol.md, The Agent Protocol.md, Overview.md
 
