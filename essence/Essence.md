@@ -48,6 +48,14 @@ This fork defines what health and disease mean at the cellular level. Ketone bod
 
 ---
 
+## The Circular Dependency
+
+Principles 1 and 2 combine into a single logical fact: **the machinery that produces energy is itself maintained by energy**. Energy production creates the conditions for its own continuation or degradation.
+
+This circular dependency at the foundation of biology is why self-reinforcement is structural to life rather than coincidental — and why every principle below (active outputs, conditional bistability, state-dependent damping, multi-loop recovery, dual lock-in) follows as a direct consequence rather than an independent architectural feature.
+
+---
+
 ## Layer 2 — What Health and Disease ARE
 
 ### 3. Health IS efficient oxidative metabolism; disease IS its progressive failure.
