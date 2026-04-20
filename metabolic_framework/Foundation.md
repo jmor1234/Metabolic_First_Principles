@@ -16,6 +16,12 @@ connections:
   - "[[Practice]]"
 ---
 
+> [!abstract] Essence
+> Health is efficient oxidative metabolism of Krebs-cycle substrates — primarily glucose, with ketone bodies as a biochemically equivalent alternative — to CO₂ and abundant ATP; disease is its progressive failure.
+> Every chronic condition converges on the same metabolic signature (cells shifting from oxidation to glycolysis, mitochondria declining, ATP falling), which is why the convergence is definitional rather than coincidental — metabolism IS health at the cellular level, not one factor among many.
+> The framework applies through two modes — primary driver (metabolic syndrome, T2D, NASH, CVD, most cancers, increasingly functional psychiatric illness) and central pathway (autoimmune, Huntington's, hemoglobinopathies, channelopathies, chronic neuropathic pain, where non-metabolic initiating lesions still route their pathogenic cascade through metabolism) — with only a narrow peripheral category (cystic fibrosis, Marfan, clearly syndromic genetic neurodevelopmental conditions) where metabolism is genuinely secondary; non-metabolic initiating lesion does not mean non-metabolic disease.
+> Two disciplines keep the framework honest: mechanistic specificity (every claim of "operating through metabolism" must be traceable as a specific pathway at each step, not hand-waved) and the acute/chronic distinction (the same molecule at the same receptor can produce opposite effects at different timescales — acute lactate as neuroprotective fuel vs. chronic lactate as epigenetic disease driver).
+
 Health is efficient oxidative metabolism — primarily of glucose — to CO2. Disease is its progressive failure. This document establishes why that is not a simplification but a definition — one that modern biochemistry, pharmacology, and cell biology are converging on from independent directions.
 
 ---

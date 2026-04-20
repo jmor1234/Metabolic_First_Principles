@@ -53,6 +53,20 @@ Health is efficient oxidative metabolism of Krebs-cycle substrates — primarily
 
 These two documents alone provide the complete conceptual architecture.
 
+### Essence-Only Reading Pattern (~3,500 tokens, full framework skeleton)
+
+Every canonical doc (structural, mechanism, application, and meta) opens with an `[!abstract] Essence` callout — a 4-5 sentence prose distillation including load-bearing refinements (mechanism corrections, acute/chronic distinctions, tissue-specific qualifiers) that prevent surface-reading false conclusions.
+
+For framework-level orientation without deep reading, read just the essence callouts across all canonical docs. This gives the full skeleton at ~2% of the vault's token weight. Drill into doc bodies when specifics are needed — the essence is orientation, not replacement.
+
+```
+Grep for "^> \[!abstract\] Essence" across metabolic_framework/*.md to locate all 14 essences (Foundation + The System + 9 mechanism docs + Practice + Methodology + Verification Methodology). Essence.md at `essence/Essence.md` and CLAUDE.md itself do not carry the callout.
+```
+
+The essences are derived from the canonical doc bodies; if conflict, the body wins. See `Methodology.md#On the Essence Callouts` for the subordination clause and audit discipline.
+
+**Principles-level complement — `essence/Essence.md`** (at `..\essence\Essence.md`, one directory up from this vault). The per-doc essences in this vault distill *mechanisms*; `Essence.md` distills the framework's 13 first principles across 6 layers (what life is → what health and disease ARE → how the system behaves architecturally → temporal dynamics → scope → interpretive discipline). The two layers answer different questions and complement rather than duplicate each other. Read `Essence.md` (~2,500 tokens) to hold the first-principles skeleton; read the 14 per-doc essences (~4,500 tokens) to hold the mechanism skeleton. Together (~7k tokens, ~5% of the vault's weight) they give orientation at both the conceptual and mechanistic layers.
+
 ### Going Deeper
 
 Each mechanism doc has high-value sections cheaper than a full read:
@@ -69,7 +83,7 @@ Read the opening paragraphs + System Connections table
 
 ### Targeted Lookup
 
-For a specific mechanism, go directly to its canonical location:
+For a specific section or mechanism, go directly to its canonical location below. **If you just need the 4-5 sentence distillation of a whole doc** (not a specific sub-section), read the `[!abstract] Essence` callout at the top of the doc — see the Essence-Only Reading Pattern subsection above. Use this table for the deeper section-level drill-downs the essence doesn't cover.
 
 | Mechanism | Canonical Location |
 |---|---|
@@ -180,7 +194,7 @@ Grouped mechanism docs have aliases. These all resolve correctly:
 - `[[Circadian]]`, `[[Light]]`, `[[Melatonin]]`, `[[PBM]]` → `The Temporal Dimension.md`
 
 ### Callout Types (only these four)
-- `[!abstract]` — Section summaries, key takeaways
+- `[!abstract]` — Section summaries, key takeaways. **When placed at the top of a file (above the opening paragraphs) and titled "Essence," this callout carries the specific distillation role defined in `Methodology.md#On the Essence Callouts` — 4-5 sentence prose, derived from the body, body wins if conflict.**
 - `[!example]` — Concrete evidence with citation
 - `[!warning]` — Honest calibration: challenges, limitations, uncertainty
 - `[!tip]` — Practical implications, navigation

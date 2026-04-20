@@ -17,6 +17,13 @@ connections:
   - "[[Practice]]"
 ---
 
+> [!abstract] Essence
+> This is one of two meta-layer documents that make the vault trustworthy rather than merely interesting: it governs how the knowledge was produced, what standards regulate it, how to navigate it, and how it grows (the companion [[Verification Methodology]] governs how the vault is tested, verified, and changed).
+> Five evidence standards control what enters the vault: (1) evidence sourced, not remembered — every specific factual claim has a verifiable source (PubMed, DOI, institutional URL); training data and general knowledge do not count; (2) honest calibration over advocacy — forcing every finding into "confirmed" is as dishonest as dismissing every finding as "unproven," and the "Where the Evidence Is Complex" section in every doc flags genuine challenges; (3) mechanism over authority — evidence determines confidence, not source; (4) integration must be honest — overstating connections destroys the integration; (5) corrections are features, not failures — a vault that cannot be corrected is ideology, not knowledge.
+> Two confidence scales operate at different levels: document-level (frontmatter `confidence` field: high / moderate / emerging / theoretical) applies to the doc as a whole, and claim-level (inline `[!warning]` callouts: textbook / strong / probable / plausible / speculative / contested) flags specific sub-claims — a document with "high" confidence may contain individual claims at "probable" or "speculative" because no biological topic is uniformly established at every level of detail.
+> The mechanism-doc template is structurally identical across the vault (frontmatter → opening → How It Works → System Connections → Where the Evidence Is Complex → Research Context → Practical Implications), uses only four approved callouts (`[!abstract]`, `[!example]`, `[!warning]`, `[!tip]`), and the five-step expansion process (search existing references → verify against current research in real-time → write using the template → connect to the existing network → update structural docs if needed) is how new topics are added.
+> The vault is evidence synthesis, not clinical guidance; it can be wrong, and the confidence calibration system exists because no synthesis of this scope is perfectly accurate — the integration (seeing how findings from endocrinology, hepatology, oncology, neurology, cell biology, and immunology describe the same underlying system) is the contribution, not the findings themselves, which belong to the researchers who produced them.
+
 Every other document in this vault answers questions about biology. This document answers questions about the vault itself: how the knowledge was produced, what standards govern it, how to navigate it, how to evaluate its claims, and how it grows. It is one of two meta-layer documents — the one covering evidence standards, navigation, and the expansion process. Its companion [[Verification Methodology]] governs how the vault is tested, verified, and changed. Together they make the vault trustworthy rather than merely interesting.
 
 ---
@@ -202,3 +209,21 @@ The vault currently covers nine mechanism groupings. It can grow. The process:
 **The vault can be wrong.** The confidence calibration system exists because no synthesis of this scope is perfectly accurate. Some claims rated "probable" will turn out to be wrong. Some corrections documented today will themselves be corrected by future research. The vault improves through correction, not through defense of its current state. If you find an error, the response is to update the document, not to explain why the document was right all along.
 
 **Integration is the contribution, not the findings.** The individual findings in this vault are published in peer-reviewed journals. Most are not controversial within their home disciplines. What the vault adds is integration — seeing how findings from endocrinology, hepatology, oncology, neurology, cell biology, and immunology describe the same underlying system. The integration is the intellectual work. The evidence belongs to the researchers who produced it.
+
+---
+
+## On the Essence Callouts
+
+Every canonical doc in this vault (structural, mechanism, application, and meta tiers) opens with an `[!abstract] Essence` callout — a 4-5 sentence prose distillation that includes what the component IS, its core mechanism, load-bearing refinements (mechanism corrections, acute/chronic distinctions, tissue-specific qualifiers), and its architectural connection. The essence exists to give agents and humans a low-cost path to framework-level orientation without reading the whole body. Reading just the essence callouts across the vault (~3,500 tokens total) gives the full framework skeleton.
+
+**Subordination clause.** The essence is derived from the canonical doc body. If the essence and body conflict, **the body is authoritative**. Re-verify the essence when the body changes substantively.
+
+**Shared `last-verified`.** The essence does not carry its own verification date — it shares the doc's `last-verified` frontmatter field. If the doc is re-verified, the essence is re-verified with it. A separate date would double the maintenance burden without reducing drift risk.
+
+**Writing rules.** Prose form, not bullets — bullets fragment interconnection back into a list and destroy the integration the essence is meant to preserve. 5-sentence hard cap, because any longer drifts back into exposition. Write the essence last, after the body is stable; writing it first produces aspirational summaries that the body fails to deliver.
+
+**Relationship to `Essence.md`.** The per-doc essences do not duplicate the framework-level [[Essence]] document. `Essence.md` distills the vault's 13 first principles across six layers (what life is, what health and disease ARE, how the system behaves architecturally, temporal dynamics, scope, interpretive discipline). Per-doc essences distill one component's mechanism. They answer different questions and should complement, not mirror.
+
+**Audit.** Periodically (quarterly, or before major releases), an agent should read each essence, then read its doc body, and flag any mismatch. The audit cost is small (~3,500 tokens per pass) and prevents the drift problem that asymmetric maintenance would otherwise produce.
+
+**Why this exists.** The vault's primary cost for agents and humans seeking framework-level understanding is reading time. The CLAUDE.md navigation guide does most of the orientation work, but opener quality across the docs was historically inconsistent — some crystallized the essence immediately, most delayed it behind exposition. The `[!abstract] Essence` callout enforces consistency: same location, same length, same content requirements, across every canonical doc. Framework-level orientation costs ~2% of the vault's token weight instead of 100%.
