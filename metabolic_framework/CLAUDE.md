@@ -130,7 +130,7 @@ For a specific section or mechanism, go directly to its canonical location below
 | **Liver as metabolic hub** | `The Gut-Liver Axis.md#The Liver as Metabolic Hub` |
 | **Three interface loops** | `The Gut-Liver Axis.md#The Three Interface Loops` |
 | **Glucuronidation + glycogen** | `The Gut-Liver Axis.md#The Liver as Metabolic Hub` |
-| **Resmetirom validation** | `The Gut-Liver Axis.md#Fibrosis and Recovery` |
+| **Resmetirom + Wegovy dual validation** | `The Gut-Liver Axis.md#Fibrosis and Recovery` |
 | **Calcium energy-dependent exclusion** | `The Cellular Readout.md#Energy-Dependent Calcium Exclusion` |
 | **The calcium paradox** | `The Cellular Readout.md#The Calcium Paradox` |
 | **PTH as disease mediator** | `The Cellular Readout.md#PTH as Systemic Disease Mediator` |
