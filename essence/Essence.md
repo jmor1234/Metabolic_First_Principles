@@ -143,7 +143,7 @@ The framework applies through two primary modes, and is genuinely peripheral onl
 
 **Primary driver mode** — metabolism is both upstream cause and central pathway. The bulk of chronic disease: metabolic syndrome, T2D, NASH, cardiovascular disease, sarcopenia, aging-associated neurodegeneration, most cancers with metabolic reprogramming. Increasingly supported: functional psychiatric illness (schizophrenia, bipolar, major depression).
 
-**Central-pathway mode** — the initiating lesion is non-metabolic, but the pathogenic cascade routes primarily through metabolism. Metabolism remains the axis of clinical trigger, severity, maintenance, and therapy:
+**Central-pathway mode** — the initiating lesion is non-metabolic, but metabolism functions as a major axis in the pathogenic cascade alongside other mechanisms. Metabolic state is a central and clinically tractable determinant of clinical trigger, severity, maintenance, and therapy — not the sole operative pathway, but consistently a major one and the one most therapeutically accessible:
 - Autoimmune (HLA/TCR susceptibility + metabolic clinical trigger)
 - Huntington's (mHTT → TIM23 → OXPHOS cascade)
 - Hemoglobinopathies (ischemic energy-failure damage mechanism)
@@ -152,7 +152,7 @@ The framework applies through two primary modes, and is genuinely peripheral onl
 
 **Genuinely peripheral** — narrow category: cystic fibrosis, fibrillin-1/Marfan, clearly syndromic genetic neurodevelopmental conditions (Rett, Fragile X, tuberous sclerosis).
 
-Most chronic disease with a genetic or structural initiating lesion still routes its pathogenic cascade through metabolism and responds to metabolic intervention.
+Most chronic disease with a genetic or structural initiating lesion engages metabolism as a major axis of severity, maintenance, and therapeutic response alongside other pathogenic mechanisms, making metabolic intervention clinically tractable even where it is not the sole operative pathway.
 
 → Unfolded in [[metabolic_framework/Foundation|Foundation]] (*Scope of the convergence claim*) and [[metabolic_framework/Verification Methodology|Verification Methodology]] (Core Claim 1 scope note).
 
