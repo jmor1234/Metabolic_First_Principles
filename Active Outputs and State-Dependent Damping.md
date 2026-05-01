@@ -60,6 +60,26 @@ The remainder of the argument addresses this question with specific evidence.
 
 ---
 
+## What This Argument Does Not Claim
+
+Before presenting the evidence, six clarifications about scope. Each preempts a misreading the framework's structure does not actually contain.
+
+**Not that ALL metabolic outputs are active.** Heat, water, ammonia (in fish), urea (in mammals), and most catabolic intermediates are or can be passive byproducts depending on context. The claim is restricted to the load-bearing outputs at the pyruvate fork: ATP, CO₂, and lactate.
+
+**Not that active outputs are the only regulators of metabolism.** Hormonal regulators (T3, insulin, glucagon, cortisol, estrogen, progesterone), neural regulators (sympathetic/parasympathetic), substrate regulators (glucose, fatty acids, amino acids), and genetic regulators all exist and matter. The claim is that they operate *through* metabolic capacity for chronic disease, not that they don't exist.
+
+**Not that every chronic disease reduces to this dynamic alone.** The universal-architecture layer is bounded to primary-driver and central-pathway modes. The peripheral category (cystic fibrosis, fibrillin-1/Marfan, syndromic genetic neurodevelopmental conditions like Rett and Fragile X) is explicitly out-of-scope. *Non-metabolic initiating lesion does not mean non-metabolic disease* — but some diseases have neither initiating nor cascading metabolic involvement, and per-disease verification remains the appropriate empirical work.
+
+**Not that mitochondrial restoration is a specific intervention modality.** M restoration is the *state that must be produced* for downstream regulation to recover. The lever can be input-side (reducing substrate overload), output-side (directly restoring oxidative capacity), substrate-side (reducing damage substrates like tissue PUFA), rate-side (T3 optimization), or load-side (chronic stress reduction). The principle is that this outcome must occur, not that any specific intervention class comes first.
+
+**Not that lactate is bad, PUFA is bad, estrogen is bad, or any categorical claim about specific molecules.** Control architecture and timescale determine direction. Acute exercise-induced lactylation is reparative; chronic uncontrolled-drift lactylation is pathogenic — same molecular biology, opposite outcomes. Acute PUFA replacement of saturated fat can improve blood lipid profiles short-term; chronic PUFA tissue accumulation damages mitochondrial cardiolipin over decades — different timescales, different endpoints. Estrogen protects metabolically intact cells and damages metabolically compromised cells — same molecule, opposite effects determined by attractor state.
+
+**Not that functional metabolic markers replace standard diagnostics.** They complement standard hormone testing by capturing tissue-level metabolic state that serum hormone levels can miss. They are additive diagnostic information, not a replacement diagnostic framework.
+
+These clarifications are constraints, not hedges. Each narrows what the argument can be invoked to claim, making it easier to falsify rather than harder.
+
+---
+
 ## The Mechanistic Evidence
 
 Seven specific molecular mechanisms, each independently characterized in the peer-reviewed literature, none built toward this framework.
@@ -198,11 +218,15 @@ State-dependent damping yields the framework's most actionable clinical principl
 
 You cannot fix HPT dysfunction, HPA dysregulation, antioxidant insufficiency, autophagy failure, immune dysregulation, or impaired lactate clearance as independent problems because each of them requires the synthesis/folding/trafficking/cofactor machinery that depends on the same OXPHOS-coupled currencies that are themselves failing. Try to fix them in parallel without restoring M, and you are running regulation through machinery that is itself degrading.
 
+**The lever varies; the produced state is invariant.** M restoration is the *state that must occur* for downstream regulation to recover — not a specific intervention modality. Multiple levers produce it: input-side reduction (semaglutide reducing hepatic substrate overload), output-side restoration (resmetirom directly restoring oxidative capacity in a failing organ), substrate removal (PUFA reduction allowing existing cardiolipin to peroxidize less), rate restoration (T3 optimization upregulating respiratory enzyme expression), or load reduction (chronic stress management). All of these produce M restoration as outcome. The principle is that this outcome must be produced for everything else to recover, not that any specific intervention class must come first. The clinical question is which lever the patient's specific architecture responds to most.
+
 This reorders intervention priority. The leverage points that actually move M:
 
 **Reduce hardware damage substrate.** Polyunsaturated fatty acids accumulate in mitochondrial cardiolipin and peroxidize via iron-catalyzed Fenton chemistry, damaging Complex IV of the electron transport chain. Peroxidation chains are terminated by vitamin E. Reducing PUFA tissue burden, managing iron load, and ensuring adequate vitamin E status reduces ongoing hardware damage. The timescale is months to years — PUFA tissue half-life is on the order of years in adipose and ~600 days in cell membranes.
 
-**Restore the metabolic rate-setter.** T3 controls respiratory enzyme expression at both the nuclear and mitochondrial genome levels. Resmetirom's clinical reversal of MASH through liver-selective THR-β agonism is the cleanest demonstration that restoring thyroid signaling restores oxidative capacity in a failing organ. Standard TSH-based diagnosis can miss tissue hypothyroid states; functional metabolic markers (basal metabolic rate, ETCO₂, body temperature, pulse) detect what hormone tests miss.
+Note the variable and timescale specificity. The framework's claim operates at the level of chronic tissue accumulation (years-to-decades), mitochondrial cardiolipin composition, and peroxidation rate — not at the level of short-term dietary-fat-replacement studies measuring CVD events or blood lipid markers. Saturated-fat-to-PUFA replacement studies optimized for cardiovascular endpoints can show benefit on those endpoints (LDL reduction, CHD event reduction) while being neutral or harmful for tissue PUFA burden and mitochondrial integrity over decades. Endpoint divergence is the rule, not the exception. The recommendation here operates at the level the mechanism operates at: tissue burden, mitochondrial cardiolipin composition, peroxidation rate. It does not directly address the dietary-fat-replacement debate, which has its own evidence base on its own endpoints and operates on shorter timescales than the tissue-accumulation claim.
+
+**Restore the metabolic rate-setter.** T3 controls respiratory enzyme expression at both the nuclear and mitochondrial genome levels. Resmetirom's clinical reversal of MASH through liver-selective THR-β agonism is the cleanest demonstration that restoring thyroid signaling restores oxidative capacity in a failing organ. Standard TSH-based diagnosis can miss tissue-level hypothyroid states because tissue thyroid signaling is locally regulated by deiodinases that can shift independent of serum hormone concentrations. Functional metabolic markers (basal metabolic rate, ETCO₂, body temperature, pulse) complement standard hormone testing rather than replacing it — they capture tissue-level metabolic state that TSH-based diagnosis can miss. The 2021 indirect-calorimetry case is illustrative: measured resting energy expenditure 39% below predicted triggered thyroid evaluation that confirmed undiagnosed hypothyroidism. Functional and standard markers are additive diagnostic information, not competing diagnostic frameworks.
 
 **Support glucose oxidation through the pyruvate fork.** Pyruvate dehydrogenase requires B1, magnesium, and NAD+ as cofactors; deficiency in any blocks the metabolic fork at exactly the point where it forks. The Randle cycle (1963, confirmed in *Nat Rev Endocrinol* 2025): elevated free fatty acids block glucose oxidation at PDH. Reducing FFA mobilization (managing chronic stress, supporting bedtime nutrition to suppress nocturnal lipolysis) and ensuring PDH cofactor sufficiency unblock the fork.
 
@@ -258,7 +282,7 @@ Until then, the most foundational answer available to the question of what healt
 
 **Health is efficient oxidative metabolism, sustained by active outputs that maintain their own producing state and the regulatory machinery that supports them. Disease is its progressive failure, sustained by active outputs that maintain the failure state and degrade the regulatory machinery that should oppose it.**
 
-Everything practical we know about how to enable health and prevent or reverse impaired health follows from this.
+A large fraction of what we know about enabling health and preventing or reversing chronic disease in primary-driver and central-pathway modes follows from this. The peripheral category (cystic fibrosis, Marfan, syndromic neurodevelopmental conditions) requires different first principles, and per-disease verification remains the appropriate empirical work for extending the universal-architecture claim into new domains.
 
 ---
 
